@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/blas-ext-base",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Standard library extended basic linear algebra subroutines (BLAS).",
   "license": "Apache-2.0",
   "author": {
