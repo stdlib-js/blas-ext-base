@@ -1,0 +1,42 @@
+{
+  "name": "@stdlib/blas-ext-base",
+  "version": "0.0.0",
+  "description": "Extended base (i.e., lower-level) basic linear algebra subroutines (BLAS).",
+  "license": "Apache-2.0",
+  "type": "module",
+  "main": "./mod.js",
+  "homepage": "https://stdlib.io",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/stdlib-js/blas-ext-base.git"
+  },
+  "bugs": {
+    "url": "https://github.com/stdlib-js/stdlib/issues"
+  },
+  "keywords": [
+    "stdlib",
+    "stdmath",
+    "standard",
+    "library",
+    "std",
+    "lib",
+    "blas",
+    "mathematics",
+    "math",
+    "basic",
+    "linear",
+    "algebra",
+    "routines",
+    "subprograms",
+    "ndarray",
+    "vector",
+    "array",
+    "base",
+    "extended",
+    "ext"
+  ],
+  "funding": {
+    "type": "patreon",
+    "url": "https://www.patreon.com/athan"
+  }
+}
