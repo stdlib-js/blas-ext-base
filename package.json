@@ -150,7 +150,8 @@
     "@stdlib/blas-ext-base-ssumkbn2": "^0.0.9",
     "@stdlib/blas-ext-base-ssumors": "^0.0.9",
     "@stdlib/blas-ext-base-ssumpw": "^0.0.9",
-    "@stdlib/utils-define-read-only-property": "^0.0.8"
+    "@stdlib/utils-define-read-only-property": "^0.0.8",
+    "@stdlib/error-tools-fmtprodmsg": "^0.0.2"
   },
   "devDependencies": {
     "@stdlib/array-base-arraylike2object": "^0.0.2",
