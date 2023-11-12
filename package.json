@@ -160,7 +160,7 @@
     "@stdlib/array-float64": "^0.1.1",
     "@stdlib/assert-is-browser": "^0.1.1",
     "@stdlib/assert-is-error": "^0.1.1",
-    "@stdlib/bench": "^0.1.0",
+    "@stdlib/bench": "^0.2.0",
     "@stdlib/blas-base-dcopy": "^0.1.1",
     "@stdlib/blas-base-scopy": "^0.1.1",
     "@stdlib/complex-float64": "^0.1.1",
