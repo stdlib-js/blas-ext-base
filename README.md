@@ -42,13 +42,13 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import extblas from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base@deno/mod.js';
+import extblas from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base@v0.2.1-deno/mod.js';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { dapx, dapxsum, dapxsumkbn, dapxsumkbn2, dapxsumors, dapxsumpw, dasumpw, dcusum, dcusumkbn, dcusumkbn2, dcusumors, dcusumpw, dfill, dnanasum, dnanasumors, dnannsum, dnannsumkbn, dnannsumkbn2, dnannsumors, dnannsumpw, dnansum, dnansumkbn, dnansumkbn2, dnansumors, dnansumpw, drev, dsapxsum, dsapxsumpw, dsnannsumors, dsnansum, dsnansumors, dsnansumpw, dsort2hp, dsort2ins, dsort2sh, dsorthp, dsortins, dsortsh, dssum, dssumors, dssumpw, dsum, dsumkbn, dsumkbn2, dsumors, dsumpw, gapx, gapxsum, gapxsumkbn, gapxsumkbn2, gapxsumors, gapxsumpw, gasumpw, gcusum, gcusumkbn, gcusumkbn2, gcusumors, gcusumpw, gfill, gfillBy, gnannsumkbn, gnansum, gnansumkbn, gnansumkbn2, gnansumors, gnansumpw, grev, gsort2hp, gsort2ins, gsort2sh, gsorthp, gsortins, gsortsh, gsum, gsumkbn, gsumkbn2, gsumors, gsumpw, sapx, sapxsum, sapxsumkbn, sapxsumkbn2, sapxsumors, sapxsumpw, sasumpw, scusum, scusumkbn, scusumkbn2, scusumors, scusumpw, sdsapxsum, sdsapxsumpw, sdsnansum, sdsnansumpw, sdssum, sdssumpw, sfill, snansum, snansumkbn, snansumkbn2, snansumors, snansumpw, srev, ssort2hp, ssort2ins, ssort2sh, ssorthp, ssortins, ssortsh, ssum, ssumkbn, ssumkbn2, ssumors, ssumpw } from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base@deno/mod.js';
+import { dapx, dapxsum, dapxsumkbn, dapxsumkbn2, dapxsumors, dapxsumpw, dasumpw, dcusum, dcusumkbn, dcusumkbn2, dcusumors, dcusumpw, dfill, dnanasum, dnanasumors, dnannsum, dnannsumkbn, dnannsumkbn2, dnannsumors, dnannsumpw, dnansum, dnansumkbn, dnansumkbn2, dnansumors, dnansumpw, drev, dsapxsum, dsapxsumpw, dsnannsumors, dsnansum, dsnansumors, dsnansumpw, dsort2hp, dsort2ins, dsort2sh, dsorthp, dsortins, dsortsh, dssum, dssumors, dssumpw, dsum, dsumkbn, dsumkbn2, dsumors, dsumpw, gapx, gapxsum, gapxsumkbn, gapxsumkbn2, gapxsumors, gapxsumpw, gasumpw, gcusum, gcusumkbn, gcusumkbn2, gcusumors, gcusumpw, gfill, gfillBy, gnannsumkbn, gnansum, gnansumkbn, gnansumkbn2, gnansumors, gnansumpw, grev, gsort2hp, gsort2ins, gsort2sh, gsorthp, gsortins, gsortsh, gsum, gsumkbn, gsumkbn2, gsumors, gsumpw, sapx, sapxsum, sapxsumkbn, sapxsumkbn2, sapxsumors, sapxsumpw, sasumpw, scusum, scusumkbn, scusumkbn2, scusumors, scusumpw, sdsapxsum, sdsapxsumpw, sdsnansum, sdsnansumpw, sdssum, sdssumpw, sfill, snansum, snansumkbn, snansumkbn2, snansumors, snansumpw, srev, ssort2hp, ssort2ins, ssort2sh, ssorthp, ssortins, ssortsh, ssum, ssumkbn, ssumkbn2, ssumors, ssumpw } from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base@v0.2.1-deno/mod.js';
 ```
 
 #### extblas
@@ -205,7 +205,7 @@ var ns = extblas;
 
 ```javascript
 import objectKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-keys@deno/mod.js';
-import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base@deno/mod.js';
+import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base@v0.2.1-deno/mod.js';
 
 console.log( objectKeys( ns ) );
 ```
