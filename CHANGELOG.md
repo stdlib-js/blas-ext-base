@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-11-25)
+## Unreleased (2024-11-27)
 
 <section class="packages">
 
@@ -941,6 +941,7 @@ This release closes the following issue:
 
 ##### Bug Fixes
 
+-   [`4458c49`](https://github.com/stdlib-js/stdlib/commit/4458c49e9901bdd83048c773b8cacc6361b8729b) - extract the scalar constant as a float in `blas/ext/base/dsapxsum` [(#3254)](https://github.com/stdlib-js/stdlib/pull/3254)
 -   [`e4de24f`](https://github.com/stdlib-js/stdlib/commit/e4de24f1e086063876214e73f1f6b659dc624eb1) - resolve bugs in addon.c files
 
 </section>
@@ -968,6 +969,16 @@ This release closes the following issue:
 </section>
 
 <!-- /.features -->
+
+<section class="bug-fixes">
+
+##### Bug Fixes
+
+-   [`bff0533`](https://github.com/stdlib-js/stdlib/commit/bff0533b91d79f305e1918e0faa597ca3c98f2ca) - extract the scalar constant as a float in `blas/ext/base/dsapxsumpw` [(#3255)](https://github.com/stdlib-js/stdlib/pull/3255)
+
+</section>
+
+<!-- /.bug-fixes -->
 
 </details>
 
@@ -1018,6 +1029,28 @@ This release closes the following issue:
 ##### Features
 
 -   [`7809a85`](https://github.com/stdlib-js/stdlib/commit/7809a85b47556362c61182b4f08563014dcb598a) - add C `ndarray` API and refactor `blas/ext/base/dsnansumors` [(#3246)](https://github.com/stdlib-js/stdlib/pull/3246)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="blas-ext-base-dsnansumpw-unreleased">
+
+#### [@stdlib/blas/ext/base/dsnansumpw](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/ext/base/dsnansumpw)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`de75f04`](https://github.com/stdlib-js/stdlib/commit/de75f0465fdaa762112195f16f6334b121204664) - add C `ndarray` API and refactor `blas/ext/base/dsnansumpw` [(#3262)](https://github.com/stdlib-js/stdlib/pull/3262)
 
 </section>
 
@@ -1830,6 +1863,13 @@ A total of 37 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`153d5f4`](https://github.com/stdlib-js/stdlib/commit/153d5f41f8402b84cd2929dc4cffc7b35c614d21) - **docs:** update namespace table of contents [(#3277)](https://github.com/stdlib-js/stdlib/pull/3277) _(by stdlib-bot, Philipp Burckhardt)_
+-   [`3b3d051`](https://github.com/stdlib-js/stdlib/commit/3b3d051f432384bf94048076bc62355cd00745ef) - **docs:** fix incorrect punctuation in function description for `blas/ext/base/dsnansumpw` [(#3273)](https://github.com/stdlib-js/stdlib/pull/3273) _(by Muhammad Haris)_
+-   [`de75f04`](https://github.com/stdlib-js/stdlib/commit/de75f0465fdaa762112195f16f6334b121204664) - **feat:** add C `ndarray` API and refactor `blas/ext/base/dsnansumpw` [(#3262)](https://github.com/stdlib-js/stdlib/pull/3262) _(by Muhammad Haris, Philipp Burckhardt)_
+-   [`755b053`](https://github.com/stdlib-js/stdlib/commit/755b053d5b7d5cbd675c060afc1ee049e431fdde) - **docs:** add missing header in `blas/ext/base/dsnannsumors` [(#3263)](https://github.com/stdlib-js/stdlib/pull/3263) _(by Muhammad Haris)_
+-   [`a39d0f3`](https://github.com/stdlib-js/stdlib/commit/a39d0f372c70df837af84d321fa0b9b3d61f453b) - **refactor:** update `offset` handling and function documentation for `blas/ext/base/dnannsumors` [(#3252)](https://github.com/stdlib-js/stdlib/pull/3252) _(by Muhammad Haris)_
+-   [`4458c49`](https://github.com/stdlib-js/stdlib/commit/4458c49e9901bdd83048c773b8cacc6361b8729b) - **fix:** extract the scalar constant as a float in `blas/ext/base/dsapxsum` [(#3254)](https://github.com/stdlib-js/stdlib/pull/3254) _(by Muhammad Haris)_
+-   [`bff0533`](https://github.com/stdlib-js/stdlib/commit/bff0533b91d79f305e1918e0faa597ca3c98f2ca) - **fix:** extract the scalar constant as a float in `blas/ext/base/dsapxsumpw` [(#3255)](https://github.com/stdlib-js/stdlib/pull/3255) _(by Muhammad Haris)_
 -   [`5ac82aa`](https://github.com/stdlib-js/stdlib/commit/5ac82aa10cd4472fac182be8f6a9954e8d1263f4) - **docs:** update namespace table of contents [(#3261)](https://github.com/stdlib-js/stdlib/pull/3261) _(by stdlib-bot, Philipp Burckhardt)_
 -   [`7809a85`](https://github.com/stdlib-js/stdlib/commit/7809a85b47556362c61182b4f08563014dcb598a) - **feat:** add C `ndarray` API and refactor `blas/ext/base/dsnansumors` [(#3246)](https://github.com/stdlib-js/stdlib/pull/3246) _(by Muhammad Haris)_
 -   [`1ea5a78`](https://github.com/stdlib-js/stdlib/commit/1ea5a786066c959ee3560a58ca884ffe1fa6a4de) - **docs:** remove stray character in `blas/ext/base/dapx` documentation [(#3250)](https://github.com/stdlib-js/stdlib/pull/3250) _(by Muhammad Haris)_
