@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-11-27)
+## Unreleased (2024-11-28)
 
 <section class="packages">
 
@@ -683,6 +683,18 @@ This release closes the following issue:
 
 <!-- /.bug-fixes -->
 
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#3253](https://github.com/stdlib-js/stdlib/issues/3253)
+
+</section>
+
+<!-- /.issues -->
+
 </details>
 
 </section>
@@ -1011,6 +1023,28 @@ This release closes the following issue:
 </section>
 
 <!-- /.bug-fixes -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="blas-ext-base-dsnansum-unreleased">
+
+#### [@stdlib/blas/ext/base/dsnansum](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/ext/base/dsnansum)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`5c40302`](https://github.com/stdlib-js/stdlib/commit/5c4030282872bb10818edea642da92bad5f6dfdc) - add C `ndarray` API and refactor `blas/ext/base/dsnansum` [(#3268)](https://github.com/stdlib-js/stdlib/pull/3268)
+
+</section>
+
+<!-- /.features -->
 
 </details>
 
@@ -1801,9 +1835,9 @@ This release closes the following issue:
 
 ### Closed Issues
 
-A total of 27 issues were closed in this release:
+A total of 28 issues were closed in this release:
 
-[#1434](https://github.com/stdlib-js/stdlib/issues/1434), [#1464](https://github.com/stdlib-js/stdlib/issues/1464), [#1471](https://github.com/stdlib-js/stdlib/issues/1471), [#1475](https://github.com/stdlib-js/stdlib/issues/1475), [#1488](https://github.com/stdlib-js/stdlib/issues/1488), [#1496](https://github.com/stdlib-js/stdlib/issues/1496), [#1504](https://github.com/stdlib-js/stdlib/issues/1504), [#1506](https://github.com/stdlib-js/stdlib/issues/1506), [#1509](https://github.com/stdlib-js/stdlib/issues/1509), [#1510](https://github.com/stdlib-js/stdlib/issues/1510), [#1511](https://github.com/stdlib-js/stdlib/issues/1511), [#1514](https://github.com/stdlib-js/stdlib/issues/1514), [#1516](https://github.com/stdlib-js/stdlib/issues/1516), [#1517](https://github.com/stdlib-js/stdlib/issues/1517), [#1530](https://github.com/stdlib-js/stdlib/issues/1530), [#1533](https://github.com/stdlib-js/stdlib/issues/1533), [#1534](https://github.com/stdlib-js/stdlib/issues/1534), [#1536](https://github.com/stdlib-js/stdlib/issues/1536), [#1541](https://github.com/stdlib-js/stdlib/issues/1541), [#1542](https://github.com/stdlib-js/stdlib/issues/1542), [#1544](https://github.com/stdlib-js/stdlib/issues/1544), [#3046](https://github.com/stdlib-js/stdlib/issues/3046), [#3073](https://github.com/stdlib-js/stdlib/issues/3073), [#3074](https://github.com/stdlib-js/stdlib/issues/3074), [#3075](https://github.com/stdlib-js/stdlib/issues/3075), [#3186](https://github.com/stdlib-js/stdlib/issues/3186), [#3201](https://github.com/stdlib-js/stdlib/issues/3201)
+[#1434](https://github.com/stdlib-js/stdlib/issues/1434), [#1464](https://github.com/stdlib-js/stdlib/issues/1464), [#1471](https://github.com/stdlib-js/stdlib/issues/1471), [#1475](https://github.com/stdlib-js/stdlib/issues/1475), [#1488](https://github.com/stdlib-js/stdlib/issues/1488), [#1496](https://github.com/stdlib-js/stdlib/issues/1496), [#1504](https://github.com/stdlib-js/stdlib/issues/1504), [#1506](https://github.com/stdlib-js/stdlib/issues/1506), [#1509](https://github.com/stdlib-js/stdlib/issues/1509), [#1510](https://github.com/stdlib-js/stdlib/issues/1510), [#1511](https://github.com/stdlib-js/stdlib/issues/1511), [#1514](https://github.com/stdlib-js/stdlib/issues/1514), [#1516](https://github.com/stdlib-js/stdlib/issues/1516), [#1517](https://github.com/stdlib-js/stdlib/issues/1517), [#1530](https://github.com/stdlib-js/stdlib/issues/1530), [#1533](https://github.com/stdlib-js/stdlib/issues/1533), [#1534](https://github.com/stdlib-js/stdlib/issues/1534), [#1536](https://github.com/stdlib-js/stdlib/issues/1536), [#1541](https://github.com/stdlib-js/stdlib/issues/1541), [#1542](https://github.com/stdlib-js/stdlib/issues/1542), [#1544](https://github.com/stdlib-js/stdlib/issues/1544), [#3046](https://github.com/stdlib-js/stdlib/issues/3046), [#3073](https://github.com/stdlib-js/stdlib/issues/3073), [#3074](https://github.com/stdlib-js/stdlib/issues/3074), [#3075](https://github.com/stdlib-js/stdlib/issues/3075), [#3186](https://github.com/stdlib-js/stdlib/issues/3186), [#3201](https://github.com/stdlib-js/stdlib/issues/3201), [#3253](https://github.com/stdlib-js/stdlib/issues/3253)
 
 </section>
 
@@ -1863,6 +1897,9 @@ A total of 37 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`2bbeaab`](https://github.com/stdlib-js/stdlib/commit/2bbeaab8c9acb98f125e05ee49d8413d76dadf5e) - **docs:** update namespace table of contents [(#3290)](https://github.com/stdlib-js/stdlib/pull/3290) _(by stdlib-bot, Philipp Burckhardt)_
+-   [`5c40302`](https://github.com/stdlib-js/stdlib/commit/5c4030282872bb10818edea642da92bad5f6dfdc) - **feat:** add C `ndarray` API and refactor `blas/ext/base/dsnansum` [(#3268)](https://github.com/stdlib-js/stdlib/pull/3268) _(by Muhammad Haris)_
+-   [`9d47d0e`](https://github.com/stdlib-js/stdlib/commit/9d47d0e141eaa5705b242eb84a2c34a94d61e462) - **test:** add tests to `blas/ext/base/dnannsumors` [(#3266)](https://github.com/stdlib-js/stdlib/pull/3266) _(by Saurabh Singh, Athan Reines)_
 -   [`153d5f4`](https://github.com/stdlib-js/stdlib/commit/153d5f41f8402b84cd2929dc4cffc7b35c614d21) - **docs:** update namespace table of contents [(#3277)](https://github.com/stdlib-js/stdlib/pull/3277) _(by stdlib-bot, Philipp Burckhardt)_
 -   [`3b3d051`](https://github.com/stdlib-js/stdlib/commit/3b3d051f432384bf94048076bc62355cd00745ef) - **docs:** fix incorrect punctuation in function description for `blas/ext/base/dsnansumpw` [(#3273)](https://github.com/stdlib-js/stdlib/pull/3273) _(by Muhammad Haris)_
 -   [`de75f04`](https://github.com/stdlib-js/stdlib/commit/de75f0465fdaa762112195f16f6334b121204664) - **feat:** add C `ndarray` API and refactor `blas/ext/base/dsnansumpw` [(#3262)](https://github.com/stdlib-js/stdlib/pull/3262) _(by Muhammad Haris, Philipp Burckhardt)_
