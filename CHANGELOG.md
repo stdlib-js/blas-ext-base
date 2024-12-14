@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-12-08)
+## Unreleased (2024-12-14)
 
 <section class="packages">
 
@@ -1146,6 +1146,50 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="blas-ext-base-dssumors-unreleased">
+
+#### [@stdlib/blas/ext/base/dssumors](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/ext/base/dssumors)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`5a3d324`](https://github.com/stdlib-js/stdlib/commit/5a3d324e7e80752fad34d120df3e6c85636f20c5) - add C `ndarray` API and refactor `blas/ext/base/dssumors` [(#3396)](https://github.com/stdlib-js/stdlib/pull/3396)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="blas-ext-base-dssumpw-unreleased">
+
+#### [@stdlib/blas/ext/base/dssumpw](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/ext/base/dssumpw)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`a04a9e3`](https://github.com/stdlib-js/stdlib/commit/a04a9e31780bfb285f51dba041da0c07b905a30d) - add C `ndarray` API and refactor `blas/ext/base/dssumpw` [(#3528)](https://github.com/stdlib-js/stdlib/pull/3528)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="blas-ext-base-dsum-unreleased">
 
 #### [@stdlib/blas/ext/base/dsum](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/ext/base/dsum)
@@ -1763,6 +1807,16 @@ This release closes the following issue:
 
 <details>
 
+<section class="features">
+
+##### Features
+
+-   [`1f596cb`](https://github.com/stdlib-js/stdlib/commit/1f596cb9bd3a26c2a7a82ab578d460f88df8dea5) - add C `ndarray` API and refactor `blas/ext/base/ssumors` [(#3891)](https://github.com/stdlib-js/stdlib/pull/3891)
+
+</section>
+
+<!-- /.features -->
+
 <section class="bug-fixes">
 
 ##### Bug Fixes
@@ -1932,6 +1986,15 @@ A total of 37 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`1c2b313`](https://github.com/stdlib-js/stdlib/commit/1c2b3137c2a54cf42deb3c8d0a1b50afc41f99ac) - **docs:** update namespace TypeScript declarations [(#3900)](https://github.com/stdlib-js/stdlib/pull/3900) _(by stdlib-bot, Philipp Burckhardt)_
+-   [`2825b42`](https://github.com/stdlib-js/stdlib/commit/2825b42e8cd7483d15dfed1c6b389bfcb86d7ca0) - **docs:** update related packages sections [(#3898)](https://github.com/stdlib-js/stdlib/pull/3898) _(by stdlib-bot)_
+-   [`1f596cb`](https://github.com/stdlib-js/stdlib/commit/1f596cb9bd3a26c2a7a82ab578d460f88df8dea5) - **feat:** add C `ndarray` API and refactor `blas/ext/base/ssumors` [(#3891)](https://github.com/stdlib-js/stdlib/pull/3891) _(by Snehil Shah)_
+-   [`5cb36ef`](https://github.com/stdlib-js/stdlib/commit/5cb36ef4c6f8158585ac88867a8dec21ed3fa372) - **docs:** update related packages sections [(#3890)](https://github.com/stdlib-js/stdlib/pull/3890) _(by stdlib-bot)_
+-   [`a04a9e3`](https://github.com/stdlib-js/stdlib/commit/a04a9e31780bfb285f51dba041da0c07b905a30d) - **feat:** add C `ndarray` API and refactor `blas/ext/base/dssumpw` [(#3528)](https://github.com/stdlib-js/stdlib/pull/3528) _(by Muhammad Haris, Athan Reines)_
+-   [`5a3d324`](https://github.com/stdlib-js/stdlib/commit/5a3d324e7e80752fad34d120df3e6c85636f20c5) - **feat:** add C `ndarray` API and refactor `blas/ext/base/dssumors` [(#3396)](https://github.com/stdlib-js/stdlib/pull/3396) _(by Muhammad Haris, Athan Reines)_
+-   [`cf7d38a`](https://github.com/stdlib-js/stdlib/commit/cf7d38ae3e7bce92cf47778f7b1c3da731121d77) - **docs:** update related packages sections [(#3527)](https://github.com/stdlib-js/stdlib/pull/3527) _(by stdlib-bot)_
+-   [`bf5643f`](https://github.com/stdlib-js/stdlib/commit/bf5643fb1a3f32a60903d8e210f71571e609119f) - **docs:** update related packages sections [(#3404)](https://github.com/stdlib-js/stdlib/pull/3404) _(by stdlib-bot)_
+-   [`ac06419`](https://github.com/stdlib-js/stdlib/commit/ac06419c2a8358dfd80818823f571077eb58958e) - **docs:** update related packages sections [(#3387)](https://github.com/stdlib-js/stdlib/pull/3387) _(by stdlib-bot)_
 -   [`1aae203`](https://github.com/stdlib-js/stdlib/commit/1aae2038eda97d6d0cc6460b96c56d797d2ccbc8) - **docs:** update namespace table of contents [(#3373)](https://github.com/stdlib-js/stdlib/pull/3373) _(by stdlib-bot, Philipp Burckhardt)_
 -   [`a64ea86`](https://github.com/stdlib-js/stdlib/commit/a64ea86886d159e09b37e8591fc53d9944618204) - **feat:** update namespace TypeScript declarations [(#3371)](https://github.com/stdlib-js/stdlib/pull/3371) _(by stdlib-bot, Philipp Burckhardt)_
 -   [`7e8187a`](https://github.com/stdlib-js/stdlib/commit/7e8187a766886c2fb9cdc356cf781f0a1802172c) - **docs:** update related packages sections [(#3368)](https://github.com/stdlib-js/stdlib/pull/3368) _(by stdlib-bot)_
