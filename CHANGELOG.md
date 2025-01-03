@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-01-02)
+## Unreleased (2025-01-03)
 
 <section class="packages">
 
@@ -20,6 +20,7 @@
 
 ##### Features
 
+-   [`133c539`](https://github.com/stdlib-js/stdlib/commit/133c5394889b68952968cd6f4ff192f9692deb9f) - update namespace TypeScript declarations [(#4487)](https://github.com/stdlib-js/stdlib/pull/4487)
 -   [`1a202e3`](https://github.com/stdlib-js/stdlib/commit/1a202e3605b10cd01bf9654f8356c72c5c8a8186) - update namespace TypeScript declarations [(#3916)](https://github.com/stdlib-js/stdlib/pull/3916)
 -   [`a64ea86`](https://github.com/stdlib-js/stdlib/commit/a64ea86886d159e09b37e8591fc53d9944618204) - update namespace TypeScript declarations [(#3371)](https://github.com/stdlib-js/stdlib/pull/3371)
 -   [`9818fa6`](https://github.com/stdlib-js/stdlib/commit/9818fa6dd8c90e045a147bfd1ba83cb1f693d17b) - update namespace TypeScript declarations [(#3259)](https://github.com/stdlib-js/stdlib/pull/3259)
@@ -1263,6 +1264,16 @@ This release closes the following issue:
 
 <details>
 
+<section class="features">
+
+##### Features
+
+-   [`94c28dd`](https://github.com/stdlib-js/stdlib/commit/94c28dd762780658f66507d0912e35bdcbcff573) - add C `ndarray` API and refactor `blas/ext/base/dsumkbn2` [(#4316)](https://github.com/stdlib-js/stdlib/pull/4316)
+
+</section>
+
+<!-- /.features -->
+
 <section class="issues">
 
 ##### Closed Issues
@@ -2053,6 +2064,11 @@ A total of 37 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`133c539`](https://github.com/stdlib-js/stdlib/commit/133c5394889b68952968cd6f4ff192f9692deb9f) - **feat:** update namespace TypeScript declarations [(#4487)](https://github.com/stdlib-js/stdlib/pull/4487) _(by stdlib-bot, Philipp Burckhardt)_
+-   [`d0c4941`](https://github.com/stdlib-js/stdlib/commit/d0c49411dbdee17017f411ca1c2d1acd0e4ccca9) - **refactor:** update `blas/ext/base/gapxsumkbn` to follow current project conventions [(#4358)](https://github.com/stdlib-js/stdlib/pull/4358) _(by Muhammad Haris, Athan Reines)_
+-   [`464e2cc`](https://github.com/stdlib-js/stdlib/commit/464e2cc9a3bb6430d7397db2e70c62b0ca275f09) - **refactor:** update `blas/ext/base/gcusumkbn` to follow current project conventions [(#4412)](https://github.com/stdlib-js/stdlib/pull/4412) _(by Muhammad Haris, Athan Reines)_
+-   [`090e47b`](https://github.com/stdlib-js/stdlib/commit/090e47b8d61456a35d74abcb39467e107d34ebe5) - **style:** remove decimals _(by Athan Reines)_
+-   [`94c28dd`](https://github.com/stdlib-js/stdlib/commit/94c28dd762780658f66507d0912e35bdcbcff573) - **feat:** add C `ndarray` API and refactor `blas/ext/base/dsumkbn2` [(#4316)](https://github.com/stdlib-js/stdlib/pull/4316) _(by Muhammad Haris, Athan Reines)_
 -   [`b6ba484`](https://github.com/stdlib-js/stdlib/commit/b6ba4845ebbddc5d2b76fb24e4ac036e2ef35102) - **docs:** update namespace table of contents [(#4448)](https://github.com/stdlib-js/stdlib/pull/4448) _(by stdlib-bot)_
 -   [`c7ef80e`](https://github.com/stdlib-js/stdlib/commit/c7ef80ec0563a02728f398d31ccd05bc91055cdc) - **docs:** update namespace TypeScript declarations [(#4446)](https://github.com/stdlib-js/stdlib/pull/4446) _(by stdlib-bot)_
 -   [`e373bc9`](https://github.com/stdlib-js/stdlib/commit/e373bc91929cd46d5ed9a520cef9bfd5dcbb04c9) - **feat:** add C `ndarray` API and refactor `blas/ext/base/dsum` [(#4312)](https://github.com/stdlib-js/stdlib/pull/4312) _(by Muhammad Haris, Athan Reines, stdlib-bot)_
