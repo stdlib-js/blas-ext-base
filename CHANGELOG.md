@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-01-13)
+## Unreleased (2025-01-15)
 
 <section class="packages">
 
@@ -176,6 +176,7 @@ This release closes the following issue:
 
 ##### Bug Fixes
 
+-   [`3d9c97f`](https://github.com/stdlib-js/stdlib/commit/3d9c97f44999496954f47fac902e4d67aed03425) - add `math/base/speical/abs` in manifest.json of `blas/ext/base/dapxsumkbn` [(#4732)](https://github.com/stdlib-js/stdlib/pull/4732)
 -   [`e3bf989`](https://github.com/stdlib-js/stdlib/commit/e3bf9895394d9a4c3db621a8c0491fc18a0fd1ba) - update build configurations and add missing include
 
 </section>
@@ -1472,6 +1473,16 @@ This release closes the following issue:
 
 <details>
 
+<section class="features">
+
+##### Features
+
+-   [`a393090`](https://github.com/stdlib-js/stdlib/commit/a3930905a569573b8861d59e2a0b09e3f80a9831) - add C `ndarray` API and refactor `blas/ext/base/sapxsumors` [(#4746)](https://github.com/stdlib-js/stdlib/pull/4746)
+
+</section>
+
+<!-- /.features -->
+
 <section class="bug-fixes">
 
 ##### Bug Fixes
@@ -2109,6 +2120,10 @@ A total of 37 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`6028758`](https://github.com/stdlib-js/stdlib/commit/6028758df442105f1ac0d4240450c96cf3ad4032) - **docs:** update namespace TypeScript declaration comments [(#4758)](https://github.com/stdlib-js/stdlib/pull/4758) _(by stdlib-bot, Philipp Burckhardt)_
+-   [`a393090`](https://github.com/stdlib-js/stdlib/commit/a3930905a569573b8861d59e2a0b09e3f80a9831) - **feat:** add C `ndarray` API and refactor `blas/ext/base/sapxsumors` [(#4746)](https://github.com/stdlib-js/stdlib/pull/4746) _(by Muhammad Haris, Athan Reines)_
+-   [`02cbff3`](https://github.com/stdlib-js/stdlib/commit/02cbff35d876dcea7efd41794f414c7df5eddca4) - **refactor:** update `blas/ext/base/dapx` to follow current project conventions [(#4737)](https://github.com/stdlib-js/stdlib/pull/4737) _(by Muhammad Haris)_
+-   [`3d9c97f`](https://github.com/stdlib-js/stdlib/commit/3d9c97f44999496954f47fac902e4d67aed03425) - **fix:** add `math/base/speical/abs` in manifest.json of `blas/ext/base/dapxsumkbn` [(#4732)](https://github.com/stdlib-js/stdlib/pull/4732) _(by Aayush Khanna)_
 -   [`e661213`](https://github.com/stdlib-js/stdlib/commit/e66121352ef767cdb87d19e938b1eccf7970fa3a) - **feat:** update namespace TypeScript declarations [(#4706)](https://github.com/stdlib-js/stdlib/pull/4706) _(by stdlib-bot)_
 -   [`cff470f`](https://github.com/stdlib-js/stdlib/commit/cff470f9608165100c8c122fce70c40b1af864ec) - **docs:** update namespace table of contents (#4708) _(by stdlib-bot, Planeshifter)_
 -   [`ea9e425`](https://github.com/stdlib-js/stdlib/commit/ea9e42538dd6342bf5c02c2d7c68aa1eae3b15d6) - **refactor:** update `blas/ext/base/grev` to follow current project conventions [(#4659)](https://github.com/stdlib-js/stdlib/pull/4659) _(by Muhammad Haris)_
