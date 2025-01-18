@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-01-15)
+## Unreleased (2025-01-18)
 
 <section class="packages">
 
@@ -1450,6 +1450,16 @@ This release closes the following issue:
 
 <details>
 
+<section class="features">
+
+##### Features
+
+-   [`04950f3`](https://github.com/stdlib-js/stdlib/commit/04950f32082d53f9dc2fa114c3885a69c02e3246) - add C `ndarray` API and refactor `blas/ext/base/sapxsumkbn2` [(#4730)](https://github.com/stdlib-js/stdlib/pull/4730)
+
+</section>
+
+<!-- /.features -->
+
 <section class="bug-fixes">
 
 ##### Bug Fixes
@@ -1506,6 +1516,16 @@ This release closes the following issue:
 
 <details>
 
+<section class="features">
+
+##### Features
+
+-   [`7aa7851`](https://github.com/stdlib-js/stdlib/commit/7aa785142a77891dfa757fb0981966345a3b65f9) - add C `ndarray` API and refactor `blas/ext/base/sapxsumpw` [(#4747)](https://github.com/stdlib-js/stdlib/pull/4747)
+
+</section>
+
+<!-- /.features -->
+
 <section class="issues">
 
 ##### Closed Issues
@@ -1517,6 +1537,28 @@ This release closes the following issue:
 </section>
 
 <!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="blas-ext-base-sasumpw-unreleased">
+
+#### [@stdlib/blas/ext/base/sasumpw](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/ext/base/sasumpw)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`8582e3f`](https://github.com/stdlib-js/stdlib/commit/8582e3f3ab1f6bb233df00cafe362954fefe24de) - add C `ndarray` API and refactor `blas/ext/base/sasumpw` [(#4764)](https://github.com/stdlib-js/stdlib/pull/4764)
+
+</section>
+
+<!-- /.features -->
 
 </details>
 
@@ -1565,6 +1607,16 @@ This release closes the following issue:
 
 <details>
 
+<section class="features">
+
+##### Features
+
+-   [`aca04f8`](https://github.com/stdlib-js/stdlib/commit/aca04f8b4bd9c850d9b66a253647bac5b84c63fb) - add C `ndarray` API and refactor `blas/ext/base/scusumkbn` [(#4782)](https://github.com/stdlib-js/stdlib/pull/4782)
+
+</section>
+
+<!-- /.features -->
+
 <section class="issues">
 
 ##### Closed Issues
@@ -1576,6 +1628,28 @@ This release closes the following issue:
 </section>
 
 <!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="blas-ext-base-scusumkbn2-unreleased">
+
+#### [@stdlib/blas/ext/base/scusumkbn2](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/ext/base/scusumkbn2)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`3ca8ed8`](https://github.com/stdlib-js/stdlib/commit/3ca8ed8f2fb388fcf6890322f6f880c30fd6094e) - add C `ndarray` API and refactor `blas/ext/base/scusumkbn2` [(#4788)](https://github.com/stdlib-js/stdlib/pull/4788)
+
+</section>
+
+<!-- /.features -->
 
 </details>
 
@@ -2120,6 +2194,19 @@ A total of 37 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`fb901fb`](https://github.com/stdlib-js/stdlib/commit/fb901fb3b51f47c79c0fae95afe75be9cb198b2a) - **docs:** update namespace table of contents [(#4796)](https://github.com/stdlib-js/stdlib/pull/4796) _(by stdlib-bot)_
+-   [`22a3dcf`](https://github.com/stdlib-js/stdlib/commit/22a3dcfe916b7f5c979d6ee93045d37add5d685d) - **docs:** update namespace TypeScript declaration comments [(#4794)](https://github.com/stdlib-js/stdlib/pull/4794) _(by stdlib-bot, Philipp Burckhardt)_
+-   [`7aa7851`](https://github.com/stdlib-js/stdlib/commit/7aa785142a77891dfa757fb0981966345a3b65f9) - **feat:** add C `ndarray` API and refactor `blas/ext/base/sapxsumpw` [(#4747)](https://github.com/stdlib-js/stdlib/pull/4747) _(by Muhammad Haris, Athan Reines)_
+-   [`04950f3`](https://github.com/stdlib-js/stdlib/commit/04950f32082d53f9dc2fa114c3885a69c02e3246) - **feat:** add C `ndarray` API and refactor `blas/ext/base/sapxsumkbn2` [(#4730)](https://github.com/stdlib-js/stdlib/pull/4730) _(by Muhammad Haris, Athan Reines)_
+-   [`aca04f8`](https://github.com/stdlib-js/stdlib/commit/aca04f8b4bd9c850d9b66a253647bac5b84c63fb) - **feat:** add C `ndarray` API and refactor `blas/ext/base/scusumkbn` [(#4782)](https://github.com/stdlib-js/stdlib/pull/4782) _(by Muhammad Haris)_
+-   [`8582e3f`](https://github.com/stdlib-js/stdlib/commit/8582e3f3ab1f6bb233df00cafe362954fefe24de) - **feat:** add C `ndarray` API and refactor `blas/ext/base/sasumpw` [(#4764)](https://github.com/stdlib-js/stdlib/pull/4764) _(by Muhammad Haris, Athan Reines)_
+-   [`3ca8ed8`](https://github.com/stdlib-js/stdlib/commit/3ca8ed8f2fb388fcf6890322f6f880c30fd6094e) - **feat:** add C `ndarray` API and refactor `blas/ext/base/scusumkbn2` [(#4788)](https://github.com/stdlib-js/stdlib/pull/4788) _(by Muhammad Haris, Athan Reines)_
+-   [`318ba82`](https://github.com/stdlib-js/stdlib/commit/318ba8201aedcc62f9717c216666964414be0864) - **docs:** update related packages sections [(#4784)](https://github.com/stdlib-js/stdlib/pull/4784) _(by stdlib-bot)_
+-   [`efadfe5`](https://github.com/stdlib-js/stdlib/commit/efadfe575cea2d97f30b2994691c5a7c43e8d838) - **bench:** refactor array generation _(by Athan Reines)_
+-   [`3d97ce8`](https://github.com/stdlib-js/stdlib/commit/3d97ce8fc13ec47c60a4698ba2668e6330c125ea) - **bench:** measure performance on generic arrays _(by Athan Reines)_
+-   [`88696eb`](https://github.com/stdlib-js/stdlib/commit/88696ebda08b52c7a5e2a64680c75e3c5b113792) - **docs:** update require path _(by Athan Reines)_
+-   [`46e3e8c`](https://github.com/stdlib-js/stdlib/commit/46e3e8c0bfaae55d9bf70763c6af5bff7094076b) - **docs:** update require path _(by Athan Reines)_
+-   [`22cd928`](https://github.com/stdlib-js/stdlib/commit/22cd9281bd0197a555ad3c577665bbb15696119e) - **docs:** update require path _(by Athan Reines)_
 -   [`dfb4d35`](https://github.com/stdlib-js/stdlib/commit/dfb4d358b0ff1905f34f0a1552feeac26e9f88ba) - **docs:** update namespace table of contents [(#4760)](https://github.com/stdlib-js/stdlib/pull/4760) _(by stdlib-bot)_
 -   [`5ef1f55`](https://github.com/stdlib-js/stdlib/commit/5ef1f55b06a5ba1c096eb0ad6b07287344266bec) - **docs:** update related packages sections [(#4757)](https://github.com/stdlib-js/stdlib/pull/4757) _(by stdlib-bot)_
 -   [`6028758`](https://github.com/stdlib-js/stdlib/commit/6028758df442105f1ac0d4240450c96cf3ad4032) - **docs:** update namespace TypeScript declaration comments [(#4758)](https://github.com/stdlib-js/stdlib/pull/4758) _(by stdlib-bot, Philipp Burckhardt)_
