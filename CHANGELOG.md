@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-01-20)
+## Unreleased (2025-01-23)
 
 <section class="packages">
 
@@ -1918,6 +1918,16 @@ This release closes the following issue:
 
 <details>
 
+<section class="features">
+
+##### Features
+
+-   [`8bef034`](https://github.com/stdlib-js/stdlib/commit/8bef0343d2b8fc61121bafa7224320804b9e5932) - add C `ndarray` API and refactor `blas/ext/base/snansumkbn2` [(#4846)](https://github.com/stdlib-js/stdlib/pull/4846)
+
+</section>
+
+<!-- /.features -->
+
 <section class="issues">
 
 ##### Closed Issues
@@ -1986,6 +1996,16 @@ This release closes the following issue:
 
 <details>
 
+<section class="features">
+
+##### Features
+
+-   [`54148e1`](https://github.com/stdlib-js/stdlib/commit/54148e18d543531ecfa547d752eb4f252d8e51f5) - add C `ndarray` API and refactor `blas/ext/base/srev` [(#4848)](https://github.com/stdlib-js/stdlib/pull/4848)
+
+</section>
+
+<!-- /.features -->
+
 <section class="bug-fixes">
 
 ##### Bug Fixes
@@ -1995,6 +2015,18 @@ This release closes the following issue:
 </section>
 
 <!-- /.bug-fixes -->
+
+<section class="breaking-changes">
+
+##### BREAKING CHANGES
+
+-   [`54148e1`](https://github.com/stdlib-js/stdlib/commit/54148e18d543531ecfa547d752eb4f252d8e51f5): rename `c_srev`
+
+    -   To migrate, users should replace usage of `c_srev` with `stdlib_strided_srev`. The API signatures remain the same.
+
+</section>
+
+<!-- /.breaking-changes -->
 
 <section class="issues">
 
@@ -2253,6 +2285,10 @@ This release closes the following issue:
 
 ### BREAKING CHANGES
 
+-   [`54148e1`](https://github.com/stdlib-js/stdlib/commit/54148e18d543531ecfa547d752eb4f252d8e51f5): rename `c_srev`
+
+    -   To migrate, users should replace usage of `c_srev` with `stdlib_strided_srev`. The API signatures remain the same.
+
 -   [`2ea4452`](https://github.com/stdlib-js/stdlib/commit/2ea4452fa0f63499be526f392fa7fdd647d1a9b5): rename `c_sapx` to `stdlib_strided_sapx`
 
     -   To migrate, users should replace all instances of `c_sapx` with `stdlib_strided_sapx`.
@@ -2340,6 +2376,11 @@ A total of 37 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`15204d7`](https://github.com/stdlib-js/stdlib/commit/15204d79d9a8dfeb4c520e6948813f29972e0aa2) - **docs:** update namespace table of contents [(#4858)](https://github.com/stdlib-js/stdlib/pull/4858) _(by stdlib-bot)_
+-   [`8bef034`](https://github.com/stdlib-js/stdlib/commit/8bef0343d2b8fc61121bafa7224320804b9e5932) - **feat:** add C `ndarray` API and refactor `blas/ext/base/snansumkbn2` [(#4846)](https://github.com/stdlib-js/stdlib/pull/4846) _(by Muhammad Haris)_
+-   [`54148e1`](https://github.com/stdlib-js/stdlib/commit/54148e18d543531ecfa547d752eb4f252d8e51f5) - **feat:** add C `ndarray` API and refactor `blas/ext/base/srev` [(#4848)](https://github.com/stdlib-js/stdlib/pull/4848) _(by Muhammad Haris, Athan Reines)_
+-   [`63bb1c5`](https://github.com/stdlib-js/stdlib/commit/63bb1c5e4287293c7a7fcbcb5e1539b9d2891895) - **docs:** update related packages sections [(#4842)](https://github.com/stdlib-js/stdlib/pull/4842) _(by stdlib-bot, Athan Reines)_
+-   [`902977d`](https://github.com/stdlib-js/stdlib/commit/902977d7e637a7dfb1704fc4caa8fc3913d3246d) - **docs:** update related packages sections [(#4825)](https://github.com/stdlib-js/stdlib/pull/4825) _(by stdlib-bot)_
 -   [`c33e77a`](https://github.com/stdlib-js/stdlib/commit/c33e77afcecf3ff1290791f4e521ad240b0500b7) - **docs:** update namespace table of contents [(#4819)](https://github.com/stdlib-js/stdlib/pull/4819) _(by stdlib-bot)_
 -   [`20b9402`](https://github.com/stdlib-js/stdlib/commit/20b940262ef8f8f01a640a481636808f5213e039) - **docs:** update namespace TypeScript declaration comments [(#4817)](https://github.com/stdlib-js/stdlib/pull/4817) _(by stdlib-bot)_
 -   [`6560077`](https://github.com/stdlib-js/stdlib/commit/6560077508ae3c79fbe9ba1e2f90ec6f5e610db8) - **feat:** add C `ndarray` API and refactor `blas/ext/base/scusumpw` [(#4814)](https://github.com/stdlib-js/stdlib/pull/4814) _(by Muhammad Haris, Athan Reines)_
