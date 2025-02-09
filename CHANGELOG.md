@@ -20,6 +20,7 @@
 
 ##### Features
 
+-   [`d66db3f`](https://github.com/stdlib-js/stdlib/commit/d66db3fd4b220adcc318a5993a97fe79e5b7445a) - update namespace TypeScript declarations [(#5130)](https://github.com/stdlib-js/stdlib/pull/5130)
 -   [`14f3f1a`](https://github.com/stdlib-js/stdlib/commit/14f3f1af0988577680efc92522bb9a45a2cbd46b) - update namespace TypeScript declarations
 -   [`8409bd1`](https://github.com/stdlib-js/stdlib/commit/8409bd17639c21c94be23d8498789fca5352892b) - update namespace TypeScript declarations [(#4856)](https://github.com/stdlib-js/stdlib/pull/4856)
 -   [`0eac1eb`](https://github.com/stdlib-js/stdlib/commit/0eac1ebde891ba75b8c4939119a6c4b7c88ceed8) - update namespace TypeScript declarations [(#4809)](https://github.com/stdlib-js/stdlib/pull/4809)
@@ -38,6 +39,10 @@
 <section class="breaking-changes">
 
 ##### BREAKING CHANGES
+
+-   [`d66db3f`](https://github.com/stdlib-js/stdlib/commit/d66db3fd4b220adcc318a5993a97fe79e5b7445a): remove `add`, `add3`, and `add4`
+
+    -   To migrate, users should access those symbols in the `number/float64/base` namespace.
 
 -   [`14f3f1a`](https://github.com/stdlib-js/stdlib/commit/14f3f1af0988577680efc92522bb9a45a2cbd46b): remove `dcuminabs`
 
@@ -1967,6 +1972,50 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="blas-ext-base-gsortsh-unreleased">
+
+#### [@stdlib/blas/ext/base/gsortsh](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/ext/base/gsortsh)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`ece4002`](https://github.com/stdlib-js/stdlib/commit/ece40025e9afce7032cd1072c1d1a8b856726564) - add accessor arrays support and refactor `blas/ext/base/gsortsh` [(#5122)](https://github.com/stdlib-js/stdlib/pull/5122)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="blas-ext-base-gsum-unreleased">
+
+#### [@stdlib/blas/ext/base/gsum](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/ext/base/gsum)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`152dfd2`](https://github.com/stdlib-js/stdlib/commit/152dfd2a9f6f420dee659694435c9e44f3095601) - add accessor arrays support to `blas/ext/base/gsum` [(#5134)](https://github.com/stdlib-js/stdlib/pull/5134)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="blas-ext-base-gsumkbn-unreleased">
 
 #### [@stdlib/blas/ext/base/gsumkbn](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/ext/base/gsumkbn)
@@ -3113,6 +3162,10 @@ This release closes the following issue:
 
 ### BREAKING CHANGES
 
+-   [`d66db3f`](https://github.com/stdlib-js/stdlib/commit/d66db3fd4b220adcc318a5993a97fe79e5b7445a): remove `add`, `add3`, and `add4`
+
+    -   To migrate, users should access those symbols in the `number/float64/base` namespace.
+
 -   [`14f3f1a`](https://github.com/stdlib-js/stdlib/commit/14f3f1af0988577680efc92522bb9a45a2cbd46b): remove `dcuminabs`
 
     -   To migrate, users should access `dcuminabs` in the `stats/strided/*` namespace.
@@ -3210,6 +3263,9 @@ A total of 39 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`d66db3f`](https://github.com/stdlib-js/stdlib/commit/d66db3fd4b220adcc318a5993a97fe79e5b7445a) - **feat:** update namespace TypeScript declarations [(#5130)](https://github.com/stdlib-js/stdlib/pull/5130) _(by stdlib-bot)_
+-   [`152dfd2`](https://github.com/stdlib-js/stdlib/commit/152dfd2a9f6f420dee659694435c9e44f3095601) - **feat:** add accessor arrays support to `blas/ext/base/gsum` [(#5134)](https://github.com/stdlib-js/stdlib/pull/5134) _(by Muhammad Haris)_
+-   [`ece4002`](https://github.com/stdlib-js/stdlib/commit/ece40025e9afce7032cd1072c1d1a8b856726564) - **feat:** add accessor arrays support and refactor `blas/ext/base/gsortsh` [(#5122)](https://github.com/stdlib-js/stdlib/pull/5122) _(by Muhammad Haris)_
 -   [`9ae04b5`](https://github.com/stdlib-js/stdlib/commit/9ae04b5c7607e49078a9ad3cdbb27e3addfaebd2) - **docs:** update namespace table of contents [(#5132)](https://github.com/stdlib-js/stdlib/pull/5132) _(by stdlib-bot, Philipp Burckhardt)_
 -   [`22212ac`](https://github.com/stdlib-js/stdlib/commit/22212ac4eed8f336d9798ea7c70daf0ff0f1906a) - **docs:** update related packages sections [(#5129)](https://github.com/stdlib-js/stdlib/pull/5129) _(by stdlib-bot)_
 -   [`112b7ef`](https://github.com/stdlib-js/stdlib/commit/112b7ef36a44bc8b27ad757cc3099d2595aa8aaa) - **feat:** add accessor arrays support and refactor `blas/ext/base/gsorthp` [(#5117)](https://github.com/stdlib-js/stdlib/pull/5117) _(by Muhammad Haris)_
