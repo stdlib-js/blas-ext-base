@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-02-10)
+## Unreleased (2025-02-15)
 
 <section class="packages">
 
@@ -20,6 +20,7 @@
 
 ##### Features
 
+-   [`5dde14b`](https://github.com/stdlib-js/stdlib/commit/5dde14b31ea6a661b88b7ba637e0e7a2fce272a4) - update namespace TypeScript declarations [(#5182)](https://github.com/stdlib-js/stdlib/pull/5182)
 -   [`d66db3f`](https://github.com/stdlib-js/stdlib/commit/d66db3fd4b220adcc318a5993a97fe79e5b7445a) - update namespace TypeScript declarations [(#5130)](https://github.com/stdlib-js/stdlib/pull/5130)
 -   [`14f3f1a`](https://github.com/stdlib-js/stdlib/commit/14f3f1af0988577680efc92522bb9a45a2cbd46b) - update namespace TypeScript declarations
 -   [`8409bd1`](https://github.com/stdlib-js/stdlib/commit/8409bd17639c21c94be23d8498789fca5352892b) - update namespace TypeScript declarations [(#4856)](https://github.com/stdlib-js/stdlib/pull/4856)
@@ -2933,6 +2934,16 @@ This release closes the following issue:
 
 <details>
 
+<section class="features">
+
+##### Features
+
+-   [`8357863`](https://github.com/stdlib-js/stdlib/commit/8357863b87da1554b4e249fb03e712dec8a58ee0) - add C ndarray API and refactor `blas/ext/base/ssort2ins` [(#5114)](https://github.com/stdlib-js/stdlib/pull/5114)
+
+</section>
+
+<!-- /.features -->
+
 <section class="bug-fixes">
 
 ##### Bug Fixes
@@ -3285,6 +3296,15 @@ A total of 39 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`5dde14b`](https://github.com/stdlib-js/stdlib/commit/5dde14b31ea6a661b88b7ba637e0e7a2fce272a4) - **feat:** update namespace TypeScript declarations [(#5182)](https://github.com/stdlib-js/stdlib/pull/5182) _(by stdlib-bot)_
+-   [`36768b4`](https://github.com/stdlib-js/stdlib/commit/36768b4fb7c5b0c7934fc8c9f1ab7f8ffe67b3e9) - **docs:** update related packages sections [(#5181)](https://github.com/stdlib-js/stdlib/pull/5181) _(by stdlib-bot)_
+-   [`d9c08b0`](https://github.com/stdlib-js/stdlib/commit/d9c08b0a4028175c0a95f5fa93617609ae65108a) - **docs:** update `blas/ext/base/dcusumkbn2` to follow current project conventions [(#5168)](https://github.com/stdlib-js/stdlib/pull/5168) _(by Muhammad Haris)_
+-   [`8357863`](https://github.com/stdlib-js/stdlib/commit/8357863b87da1554b4e249fb03e712dec8a58ee0) - **feat:** add C ndarray API and refactor `blas/ext/base/ssort2ins` [(#5114)](https://github.com/stdlib-js/stdlib/pull/5114) _(by Prashant Kumar Yadav, Muhammad Haris)_
+-   [`7a04093`](https://github.com/stdlib-js/stdlib/commit/7a040939ecb95a686cf2b66d7a912fcc39e5aa3d) - **docs:** update `blas/ext/base/dcusum` to follow current project conventions [(#5166)](https://github.com/stdlib-js/stdlib/pull/5166) _(by Muhammad Haris)_
+-   [`4bc7b8c`](https://github.com/stdlib-js/stdlib/commit/4bc7b8cf8b26105f6a02decbe7030022024070df) - **docs:** update `blas/ext/base/dcusumpw` to follow current project conventions [(#5170)](https://github.com/stdlib-js/stdlib/pull/5170) _(by Muhammad Haris)_
+-   [`0feb415`](https://github.com/stdlib-js/stdlib/commit/0feb415ee92e1d3851665ac6729b6ea819f926ff) - **docs:** update `blas/ext/base/dnanasum` to follow current project conventions [(#5172)](https://github.com/stdlib-js/stdlib/pull/5172) _(by Muhammad Haris)_
+-   [`9d447dc`](https://github.com/stdlib-js/stdlib/commit/9d447dc24e6c56353c1dceae3bbfd88d11ce2066) - **docs:** update related packages sections [(#5151)](https://github.com/stdlib-js/stdlib/pull/5151) _(by stdlib-bot, Athan Reines)_
+-   [`347e559`](https://github.com/stdlib-js/stdlib/commit/347e5590cf124d86a7bbe1b7f734bb620bdeb5ba) - **docs:** fix incorrect structure in READMEs of `blas/ext/base/*` [(#5163)](https://github.com/stdlib-js/stdlib/pull/5163) _(by Aayush Khanna, Athan Reines)_
 -   [`d6e1030`](https://github.com/stdlib-js/stdlib/commit/d6e103056ea873a0cc9fa63fa60b56ff61d9a041) - **docs:** update namespace TypeScript declarations [(#5152)](https://github.com/stdlib-js/stdlib/pull/5152) _(by stdlib-bot)_
 -   [`9a0d2cb`](https://github.com/stdlib-js/stdlib/commit/9a0d2cb8183bc4f1a13eb2ff212d0d0570b60a68) - **docs:** update namespace table of contents [(#5154)](https://github.com/stdlib-js/stdlib/pull/5154) _(by stdlib-bot)_
 -   [`d226d10`](https://github.com/stdlib-js/stdlib/commit/d226d10e5119e4480721039ce892da8ae874e468) - **feat:** add accessor arrays support and refactor `blas/ext/base/gsortins` [(#5120)](https://github.com/stdlib-js/stdlib/pull/5120) _(by Muhammad Haris, Athan Reines)_
