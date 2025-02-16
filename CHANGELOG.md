@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-02-15)
+## Unreleased (2025-02-16)
 
 <section class="packages">
 
@@ -20,6 +20,7 @@
 
 ##### Features
 
+-   [`76cf95f`](https://github.com/stdlib-js/stdlib/commit/76cf95f336fc29cb4e83184fe6f215c23a723e95) - update namespace TypeScript declarations [(#5243)](https://github.com/stdlib-js/stdlib/pull/5243)
 -   [`5dde14b`](https://github.com/stdlib-js/stdlib/commit/5dde14b31ea6a661b88b7ba637e0e7a2fce272a4) - update namespace TypeScript declarations [(#5182)](https://github.com/stdlib-js/stdlib/pull/5182)
 -   [`d66db3f`](https://github.com/stdlib-js/stdlib/commit/d66db3fd4b220adcc318a5993a97fe79e5b7445a) - update namespace TypeScript declarations [(#5130)](https://github.com/stdlib-js/stdlib/pull/5130)
 -   [`14f3f1a`](https://github.com/stdlib-js/stdlib/commit/14f3f1af0988577680efc92522bb9a45a2cbd46b) - update namespace TypeScript declarations
@@ -40,6 +41,10 @@
 <section class="breaking-changes">
 
 ##### BREAKING CHANGES
+
+-   [`76cf95f`](https://github.com/stdlib-js/stdlib/commit/76cf95f336fc29cb4e83184fe6f215c23a723e95): remove `add5`
+
+    -   To migrate, users should access the `add5` symbol via the `number/float64/base` namespace.
 
 -   [`d66db3f`](https://github.com/stdlib-js/stdlib/commit/d66db3fd4b220adcc318a5993a97fe79e5b7445a): remove `add`, `add3`, and `add4`
 
@@ -3195,6 +3200,10 @@ This release closes the following issue:
 
 ### BREAKING CHANGES
 
+-   [`76cf95f`](https://github.com/stdlib-js/stdlib/commit/76cf95f336fc29cb4e83184fe6f215c23a723e95): remove `add5`
+
+    -   To migrate, users should access the `add5` symbol via the `number/float64/base` namespace.
+
 -   [`d66db3f`](https://github.com/stdlib-js/stdlib/commit/d66db3fd4b220adcc318a5993a97fe79e5b7445a): remove `add`, `add3`, and `add4`
 
     -   To migrate, users should access those symbols in the `number/float64/base` namespace.
@@ -3296,6 +3305,17 @@ A total of 39 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`76cf95f`](https://github.com/stdlib-js/stdlib/commit/76cf95f336fc29cb4e83184fe6f215c23a723e95) - **feat:** update namespace TypeScript declarations [(#5243)](https://github.com/stdlib-js/stdlib/pull/5243) _(by stdlib-bot)_
+-   [`158bfde`](https://github.com/stdlib-js/stdlib/commit/158bfde6560ed70c956b17f29acd00d81e2bc3b7) - **docs:** update related packages sections [(#5242)](https://github.com/stdlib-js/stdlib/pull/5242) _(by stdlib-bot)_
+-   [`2981d28`](https://github.com/stdlib-js/stdlib/commit/2981d283200482a49ced3e27416ec106eef3fd77) - **docs:** update `blas/ext/base/dfill` to follow current project conventions [(#5171)](https://github.com/stdlib-js/stdlib/pull/5171) _(by Muhammad Haris)_
+-   [`189249b`](https://github.com/stdlib-js/stdlib/commit/189249b59813ed32ab40c4bafb5a827859fb7032) - **docs:** update `blas/ext/base/dcusumkbn` to follow current project conventions [(#5167)](https://github.com/stdlib-js/stdlib/pull/5167) _(by Muhammad Haris)_
+-   [`76db518`](https://github.com/stdlib-js/stdlib/commit/76db5189912e676a421d5f79dc69cb4b5722c0bc) - **docs:** update `blas/ext/base/dcusumors` to follow current project conventions [(#5169)](https://github.com/stdlib-js/stdlib/pull/5169) _(by Muhammad Haris)_
+-   [`8e5b82c`](https://github.com/stdlib-js/stdlib/commit/8e5b82caeae6b84d4a888397c6087b0ea8666acf) - **docs:** update `blas/ext/base/dnannsumors` to follow current project conventions [(#5189)](https://github.com/stdlib-js/stdlib/pull/5189) _(by Muhammad Haris)_
+-   [`6f8225e`](https://github.com/stdlib-js/stdlib/commit/6f8225ed9afb8f2e65c672c4798253b6d8234393) - **docs:** update `blas/ext/base/dnanasumors` to follow current project conventions [(#5185)](https://github.com/stdlib-js/stdlib/pull/5185) _(by Muhammad Haris)_
+-   [`e62caf3`](https://github.com/stdlib-js/stdlib/commit/e62caf3e3c27d418a7f364c5c0dd7590e4a081bd) - **docs:** update `blas/ext/base/dnannsum`  to follow current project conventions [(#5186)](https://github.com/stdlib-js/stdlib/pull/5186) _(by Muhammad Haris)_
+-   [`b5cca80`](https://github.com/stdlib-js/stdlib/commit/b5cca80877dfd53f4a40e3e4c4e0ae09e326f8cd) - **docs:** update `blas/ext/base/dnannsumkbn` to follow current project conventions [(#5187)](https://github.com/stdlib-js/stdlib/pull/5187) _(by Muhammad Haris)_
+-   [`d81ba51`](https://github.com/stdlib-js/stdlib/commit/d81ba51451a7b35e5b9fd259fe57cee796f3e81b) - **docs:** update `blas/ext/base/dnannsumkbn2` to follow current project conventions [(#5188)](https://github.com/stdlib-js/stdlib/pull/5188) _(by Muhammad Haris)_
+-   [`858ab0a`](https://github.com/stdlib-js/stdlib/commit/858ab0aa1a1b377c1feea02dacfc387d2671e1f3) - **docs:** update `blas/ext/base/dnannsumpw` to follow current project conventions [(#5190)](https://github.com/stdlib-js/stdlib/pull/5190) _(by Muhammad Haris)_
 -   [`5dde14b`](https://github.com/stdlib-js/stdlib/commit/5dde14b31ea6a661b88b7ba637e0e7a2fce272a4) - **feat:** update namespace TypeScript declarations [(#5182)](https://github.com/stdlib-js/stdlib/pull/5182) _(by stdlib-bot)_
 -   [`36768b4`](https://github.com/stdlib-js/stdlib/commit/36768b4fb7c5b0c7934fc8c9f1ab7f8ffe67b3e9) - **docs:** update related packages sections [(#5181)](https://github.com/stdlib-js/stdlib/pull/5181) _(by stdlib-bot)_
 -   [`d9c08b0`](https://github.com/stdlib-js/stdlib/commit/d9c08b0a4028175c0a95f5fa93617609ae65108a) - **docs:** update `blas/ext/base/dcusumkbn2` to follow current project conventions [(#5168)](https://github.com/stdlib-js/stdlib/pull/5168) _(by Muhammad Haris)_
