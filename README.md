@@ -60,15 +60,15 @@ To view installation and usage instructions specific to each branch build, be su
 ## Usage
 
 ```javascript
-var extblas = require( '@stdlib/blas-ext-base' );
+var ns = require( '@stdlib/blas-ext-base' );
 ```
 
-#### extblas
+#### ns
 
 Namespace for "base" (i.e., lower-level) extensions to basic linear algebra subprograms (BLAS).
 
 ```javascript
-var ns = extblas;
+var o = ns;
 // returns {...}
 ```
 
@@ -190,6 +190,7 @@ var ns = extblas;
 -   <span class="signature">[`ssumkbn2( N, x, strideX )`][@stdlib/blas/ext/base/ssumkbn2]</span><span class="delimiter">: </span><span class="description">calculate the sum of single-precision floating-point strided array elements using a second-order iterative Kahan–Babuška algorithm.</span>
 -   <span class="signature">[`ssumors( N, x, strideX )`][@stdlib/blas/ext/base/ssumors]</span><span class="delimiter">: </span><span class="description">calculate the sum of single-precision floating-point strided array elements using ordinary recursive summation.</span>
 -   <span class="signature">[`ssumpw( N, x, strideX )`][@stdlib/blas/ext/base/ssumpw]</span><span class="delimiter">: </span><span class="description">calculate the sum of single-precision floating-point strided array elements using pairwise summation.</span>
+-   <span class="signature">[`wasm`][@stdlib/blas/ext/base/wasm]</span><span class="delimiter">: </span><span class="description">extensions to basic linear algebra subprograms (BLAS) compiled to WebAssembly.</span>
 
 </div>
 
@@ -535,6 +536,8 @@ Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 [@stdlib/blas/ext/base/ssumors]: https://github.com/stdlib-js/blas-ext-base-ssumors
 
 [@stdlib/blas/ext/base/ssumpw]: https://github.com/stdlib-js/blas-ext-base-ssumpw
+
+[@stdlib/blas/ext/base/wasm]: https://github.com/stdlib-js/blas-ext-base-wasm
 
 <!-- </toc-links> -->
 

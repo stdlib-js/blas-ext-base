@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-02-16)
+## Unreleased (2025-02-22)
 
 <section class="packages">
 
@@ -20,6 +20,8 @@
 
 ##### Features
 
+-   [`9789396`](https://github.com/stdlib-js/stdlib/commit/9789396bd5111e963f4662c57c6b4159d4166946) - update namespace TypeScript declarations [(#5364)](https://github.com/stdlib-js/stdlib/pull/5364)
+-   [`40f5bae`](https://github.com/stdlib-js/stdlib/commit/40f5bae95d708401dbea4c37b2c220381638c4a0) - add `wasm` to namespace
 -   [`76cf95f`](https://github.com/stdlib-js/stdlib/commit/76cf95f336fc29cb4e83184fe6f215c23a723e95) - update namespace TypeScript declarations [(#5243)](https://github.com/stdlib-js/stdlib/pull/5243)
 -   [`5dde14b`](https://github.com/stdlib-js/stdlib/commit/5dde14b31ea6a661b88b7ba637e0e7a2fce272a4) - update namespace TypeScript declarations [(#5182)](https://github.com/stdlib-js/stdlib/pull/5182)
 -   [`d66db3f`](https://github.com/stdlib-js/stdlib/commit/d66db3fd4b220adcc318a5993a97fe79e5b7445a) - update namespace TypeScript declarations [(#5130)](https://github.com/stdlib-js/stdlib/pull/5130)
@@ -238,6 +240,93 @@ This release closes the following issue:
 </section>
 
 <!-- /.features -->
+
+<section class="breaking-changes">
+
+##### BREAKING CHANGES
+
+-   [`0864071`](https://github.com/stdlib-js/stdlib/commit/086407175aec71e2874727a7d3bad97d26289323): remove `@stdlib/blas-ext/base/dapxsumkbn-wasm`
+
+    -   To migrate, users should update their import paths to use
+        `@stdlib/blas-ext/base/wasm/dapxsumkbn`.
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: na
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: na
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
+        ---
+        type: pre_push_report
+        description: Results of running various checks prior to pushing changes.
+        report:
+          - task: run_javascript_examples
+            status: passed
+          - task: run_c_examples
+            status: na
+          - task: run_cpp_examples
+            status: na
+          - task: run_javascript_readme_examples
+            status: passed
+          - task: run_c_benchmarks
+            status: na
+          - task: run_cpp_benchmarks
+            status: na
+          - task: run_fortran_benchmarks
+            status: na
+          - task: run_javascript_benchmarks
+            status: passed
+          - task: run_julia_benchmarks
+            status: na
+          - task: run_python_benchmarks
+            status: na
+          - task: run_r_benchmarks
+            status: na
+          - task: run_javascript_tests
+            status: passed
+        ---
+
+</section>
+
+<!-- /.breaking-changes -->
 
 </details>
 
@@ -2959,6 +3048,18 @@ This release closes the following issue:
 
 <!-- /.bug-fixes -->
 
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#5237](https://github.com/stdlib-js/stdlib/issues/5237)
+
+</section>
+
+<!-- /.issues -->
+
 </details>
 
 </section>
@@ -3169,6 +3270,51 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="blas-ext-base-wasm-unreleased">
+
+#### [@stdlib/blas/ext/base/wasm](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/ext/base/wasm)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`9789396`](https://github.com/stdlib-js/stdlib/commit/9789396bd5111e963f4662c57c6b4159d4166946) - update namespace TypeScript declarations [(#5364)](https://github.com/stdlib-js/stdlib/pull/5364)
+-   [`a8b94d7`](https://github.com/stdlib-js/stdlib/commit/a8b94d7ea281eb5ac4477eaca40fdb38195ab2b3) - add `blas/ext/base/wasm` namespace
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="blas-ext-base-wasm-dapxsumkbn-unreleased">
+
+#### [@stdlib/blas/ext/base/wasm/dapxsumkbn](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/ext/base/wasm/dapxsumkbn)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`46b98f4`](https://github.com/stdlib-js/stdlib/commit/46b98f4f6cc171d07810b3f756ff7c36e60ac8ed) - add `blas/ext/base/wasm/dapxsumkbn`
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="blas-ext-base-zfill-unreleased">
 
 #### [@stdlib/blas/ext/base/zfill](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/ext/base/zfill)
@@ -3199,6 +3345,85 @@ This release closes the following issue:
 <section class="breaking-changes">
 
 ### BREAKING CHANGES
+
+-   [`0864071`](https://github.com/stdlib-js/stdlib/commit/086407175aec71e2874727a7d3bad97d26289323): remove `@stdlib/blas-ext/base/dapxsumkbn-wasm`
+
+    -   To migrate, users should update their import paths to use
+        `@stdlib/blas-ext/base/wasm/dapxsumkbn`.
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: na
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: na
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
+        ---
+        type: pre_push_report
+        description: Results of running various checks prior to pushing changes.
+        report:
+          - task: run_javascript_examples
+            status: passed
+          - task: run_c_examples
+            status: na
+          - task: run_cpp_examples
+            status: na
+          - task: run_javascript_readme_examples
+            status: passed
+          - task: run_c_benchmarks
+            status: na
+          - task: run_cpp_benchmarks
+            status: na
+          - task: run_fortran_benchmarks
+            status: na
+          - task: run_javascript_benchmarks
+            status: passed
+          - task: run_julia_benchmarks
+            status: na
+          - task: run_python_benchmarks
+            status: na
+          - task: run_r_benchmarks
+            status: na
+          - task: run_javascript_tests
+            status: passed
+        ---
 
 -   [`76cf95f`](https://github.com/stdlib-js/stdlib/commit/76cf95f336fc29cb4e83184fe6f215c23a723e95): remove `add5`
 
@@ -3241,9 +3466,9 @@ This release closes the following issue:
 
 ### Closed Issues
 
-A total of 30 issues were closed in this release:
+A total of 31 issues were closed in this release:
 
-[#1434](https://github.com/stdlib-js/stdlib/issues/1434), [#1464](https://github.com/stdlib-js/stdlib/issues/1464), [#1471](https://github.com/stdlib-js/stdlib/issues/1471), [#1475](https://github.com/stdlib-js/stdlib/issues/1475), [#1488](https://github.com/stdlib-js/stdlib/issues/1488), [#1496](https://github.com/stdlib-js/stdlib/issues/1496), [#1504](https://github.com/stdlib-js/stdlib/issues/1504), [#1506](https://github.com/stdlib-js/stdlib/issues/1506), [#1509](https://github.com/stdlib-js/stdlib/issues/1509), [#1510](https://github.com/stdlib-js/stdlib/issues/1510), [#1511](https://github.com/stdlib-js/stdlib/issues/1511), [#1514](https://github.com/stdlib-js/stdlib/issues/1514), [#1516](https://github.com/stdlib-js/stdlib/issues/1516), [#1517](https://github.com/stdlib-js/stdlib/issues/1517), [#1530](https://github.com/stdlib-js/stdlib/issues/1530), [#1533](https://github.com/stdlib-js/stdlib/issues/1533), [#1534](https://github.com/stdlib-js/stdlib/issues/1534), [#1536](https://github.com/stdlib-js/stdlib/issues/1536), [#1541](https://github.com/stdlib-js/stdlib/issues/1541), [#1542](https://github.com/stdlib-js/stdlib/issues/1542), [#1544](https://github.com/stdlib-js/stdlib/issues/1544), [#3046](https://github.com/stdlib-js/stdlib/issues/3046), [#3073](https://github.com/stdlib-js/stdlib/issues/3073), [#3074](https://github.com/stdlib-js/stdlib/issues/3074), [#3075](https://github.com/stdlib-js/stdlib/issues/3075), [#3186](https://github.com/stdlib-js/stdlib/issues/3186), [#3201](https://github.com/stdlib-js/stdlib/issues/3201), [#3253](https://github.com/stdlib-js/stdlib/issues/3253), [#5072](https://github.com/stdlib-js/stdlib/issues/5072), [#5073](https://github.com/stdlib-js/stdlib/issues/5073)
+[#1434](https://github.com/stdlib-js/stdlib/issues/1434), [#1464](https://github.com/stdlib-js/stdlib/issues/1464), [#1471](https://github.com/stdlib-js/stdlib/issues/1471), [#1475](https://github.com/stdlib-js/stdlib/issues/1475), [#1488](https://github.com/stdlib-js/stdlib/issues/1488), [#1496](https://github.com/stdlib-js/stdlib/issues/1496), [#1504](https://github.com/stdlib-js/stdlib/issues/1504), [#1506](https://github.com/stdlib-js/stdlib/issues/1506), [#1509](https://github.com/stdlib-js/stdlib/issues/1509), [#1510](https://github.com/stdlib-js/stdlib/issues/1510), [#1511](https://github.com/stdlib-js/stdlib/issues/1511), [#1514](https://github.com/stdlib-js/stdlib/issues/1514), [#1516](https://github.com/stdlib-js/stdlib/issues/1516), [#1517](https://github.com/stdlib-js/stdlib/issues/1517), [#1530](https://github.com/stdlib-js/stdlib/issues/1530), [#1533](https://github.com/stdlib-js/stdlib/issues/1533), [#1534](https://github.com/stdlib-js/stdlib/issues/1534), [#1536](https://github.com/stdlib-js/stdlib/issues/1536), [#1541](https://github.com/stdlib-js/stdlib/issues/1541), [#1542](https://github.com/stdlib-js/stdlib/issues/1542), [#1544](https://github.com/stdlib-js/stdlib/issues/1544), [#3046](https://github.com/stdlib-js/stdlib/issues/3046), [#3073](https://github.com/stdlib-js/stdlib/issues/3073), [#3074](https://github.com/stdlib-js/stdlib/issues/3074), [#3075](https://github.com/stdlib-js/stdlib/issues/3075), [#3186](https://github.com/stdlib-js/stdlib/issues/3186), [#3201](https://github.com/stdlib-js/stdlib/issues/3201), [#3253](https://github.com/stdlib-js/stdlib/issues/3253), [#5072](https://github.com/stdlib-js/stdlib/issues/5072), [#5073](https://github.com/stdlib-js/stdlib/issues/5073), [#5237](https://github.com/stdlib-js/stdlib/issues/5237)
 
 </section>
 
@@ -3253,7 +3478,7 @@ A total of 30 issues were closed in this release:
 
 ### Contributors
 
-A total of 39 people contributed to this release. Thank you to the following contributors:
+A total of 40 people contributed to this release. Thank you to the following contributors:
 
 -   Aayush Khanna
 -   Ahmed Atwa
@@ -3287,6 +3512,7 @@ A total of 39 people contributed to this release. Thank you to the following con
 -   Sivam Das
 -   Snehil Shah
 -   Soumajit Chatterjee
+-   Suhaib Ilahi
 -   Suraj Kumar
 -   Tirtadwipa Manunggal
 -   Utkarsh Raj
@@ -3305,6 +3531,17 @@ A total of 39 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`3772f8f`](https://github.com/stdlib-js/stdlib/commit/3772f8f53a07408b72cf4ec3e8334758f9aded0d) - **docs:** update namespace table of contents [(#5366)](https://github.com/stdlib-js/stdlib/pull/5366) _(by stdlib-bot, Philipp Burckhardt)_
+-   [`9789396`](https://github.com/stdlib-js/stdlib/commit/9789396bd5111e963f4662c57c6b4159d4166946) - **feat:** update namespace TypeScript declarations [(#5364)](https://github.com/stdlib-js/stdlib/pull/5364) _(by stdlib-bot)_
+-   [`40f5bae`](https://github.com/stdlib-js/stdlib/commit/40f5bae95d708401dbea4c37b2c220381638c4a0) - **feat:** add `wasm` to namespace _(by Athan Reines)_
+-   [`a8b94d7`](https://github.com/stdlib-js/stdlib/commit/a8b94d7ea281eb5ac4477eaca40fdb38195ab2b3) - **feat:** add `blas/ext/base/wasm` namespace _(by Athan Reines)_
+-   [`6daebce`](https://github.com/stdlib-js/stdlib/commit/6daebceeb723392b00e87b2c6d7398b76be58b95) - **docs:** update related packages sections [(#5349)](https://github.com/stdlib-js/stdlib/pull/5349) _(by stdlib-bot)_
+-   [`32d2b77`](https://github.com/stdlib-js/stdlib/commit/32d2b77dd2c991cadf726f929f992e109b61d92c) - **docs:** add missing API docs _(by Athan Reines)_
+-   [`0864071`](https://github.com/stdlib-js/stdlib/commit/086407175aec71e2874727a7d3bad97d26289323) - **remove:** remove `blas/ext/base/dapxsumkbn-wasm` _(by Athan Reines)_
+-   [`46b98f4`](https://github.com/stdlib-js/stdlib/commit/46b98f4f6cc171d07810b3f756ff7c36e60ac8ed) - **feat:** add `blas/ext/base/wasm/dapxsumkbn` _(by Athan Reines)_
+-   [`8446185`](https://github.com/stdlib-js/stdlib/commit/8446185b02979b037363bf390bacddf937a83886) - **docs:** update related packages sections [(#5307)](https://github.com/stdlib-js/stdlib/pull/5307) _(by stdlib-bot)_
+-   [`3587230`](https://github.com/stdlib-js/stdlib/commit/3587230f4c2d3a18427b3d7a09b03f56d83d6f6c) - **chore:** address commit comments regarding typo and refactor [(#5263)](https://github.com/stdlib-js/stdlib/pull/5263) _(by Suhaib Ilahi, Philipp Burckhardt)_
+-   [`b090b90`](https://github.com/stdlib-js/stdlib/commit/b090b90935fa0b18e554bf98a4ed0c2f7c51ec33) - **docs:** update related packages sections [(#5253)](https://github.com/stdlib-js/stdlib/pull/5253) _(by stdlib-bot)_
 -   [`76cf95f`](https://github.com/stdlib-js/stdlib/commit/76cf95f336fc29cb4e83184fe6f215c23a723e95) - **feat:** update namespace TypeScript declarations [(#5243)](https://github.com/stdlib-js/stdlib/pull/5243) _(by stdlib-bot)_
 -   [`158bfde`](https://github.com/stdlib-js/stdlib/commit/158bfde6560ed70c956b17f29acd00d81e2bc3b7) - **docs:** update related packages sections [(#5242)](https://github.com/stdlib-js/stdlib/pull/5242) _(by stdlib-bot)_
 -   [`2981d28`](https://github.com/stdlib-js/stdlib/commit/2981d283200482a49ced3e27416ec106eef3fd77) - **docs:** update `blas/ext/base/dfill` to follow current project conventions [(#5171)](https://github.com/stdlib-js/stdlib/pull/5171) _(by Muhammad Haris)_

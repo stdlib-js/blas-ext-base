@@ -150,6 +150,7 @@
     "@stdlib/blas-ext-base-ssumkbn2": "^0.2.2",
     "@stdlib/blas-ext-base-ssumors": "^0.2.2",
     "@stdlib/blas-ext-base-ssumpw": "^0.2.2",
+    "@stdlib/blas-ext-base-wasm": "github:stdlib-js/blas-ext-base-wasm#main",
     "@stdlib/utils-define-read-only-property": "^0.2.2"
   },
   "devDependencies": {
