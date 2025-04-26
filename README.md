@@ -76,6 +76,7 @@ var o = ns;
 
 <div class="namespace-toc">
 
+-   <span class="signature">[`cfill( N, alpha, x, strideX )`][@stdlib/blas/ext/base/cfill]</span><span class="delimiter">: </span><span class="description">fill a single-precision complex floating-point strided array with a specified scalar constant.</span>
 -   <span class="signature">[`dapx( N, alpha, x, strideX )`][@stdlib/blas/ext/base/dapx]</span><span class="delimiter">: </span><span class="description">add a scalar constant to each element in a double-precision floating-point strided array.</span>
 -   <span class="signature">[`dapxsum( N, alpha, x, strideX )`][@stdlib/blas/ext/base/dapxsum]</span><span class="delimiter">: </span><span class="description">add a scalar constant to each double-precision floating-point strided array element and compute the sum.</span>
 -   <span class="signature">[`dapxsumkbn( N, alpha, x, strideX )`][@stdlib/blas/ext/base/dapxsumkbn]</span><span class="delimiter">: </span><span class="description">add a scalar constant to each double-precision floating-point strided array element and compute the sum using an improved Kahan–Babuška algorithm.</span>
@@ -154,6 +155,7 @@ var o = ns;
 -   <span class="signature">[`gsumkbn2( N, x, strideX )`][@stdlib/blas/ext/base/gsumkbn2]</span><span class="delimiter">: </span><span class="description">calculate the sum of strided array elements using a second-order iterative Kahan–Babuška algorithm.</span>
 -   <span class="signature">[`gsumors( N, x, strideX )`][@stdlib/blas/ext/base/gsumors]</span><span class="delimiter">: </span><span class="description">calculate the sum of strided array elements using ordinary recursive summation.</span>
 -   <span class="signature">[`gsumpw( N, x, strideX )`][@stdlib/blas/ext/base/gsumpw]</span><span class="delimiter">: </span><span class="description">calculate the sum of strided array elements using pairwise summation.</span>
+-   <span class="signature">[`ndarray`][@stdlib/blas/ext/base/ndarray]</span><span class="delimiter">: </span><span class="description">base ndarray extended BLAS functions.</span>
 -   <span class="signature">[`sapx( N, alpha, x, strideX )`][@stdlib/blas/ext/base/sapx]</span><span class="delimiter">: </span><span class="description">add a scalar constant to each element in a single-precision floating-point strided array.</span>
 -   <span class="signature">[`sapxsum( N, alpha, x, strideX )`][@stdlib/blas/ext/base/sapxsum]</span><span class="delimiter">: </span><span class="description">add a scalar constant to each single-precision floating-point strided array element and compute the sum.</span>
 -   <span class="signature">[`sapxsumkbn( N, alpha, x, strideX )`][@stdlib/blas/ext/base/sapxsumkbn]</span><span class="delimiter">: </span><span class="description">add a scalar constant to each single-precision floating-point strided array element and compute the sum using an improved Kahan–Babuška algorithm.</span>
@@ -191,6 +193,7 @@ var o = ns;
 -   <span class="signature">[`ssumors( N, x, strideX )`][@stdlib/blas/ext/base/ssumors]</span><span class="delimiter">: </span><span class="description">calculate the sum of single-precision floating-point strided array elements using ordinary recursive summation.</span>
 -   <span class="signature">[`ssumpw( N, x, strideX )`][@stdlib/blas/ext/base/ssumpw]</span><span class="delimiter">: </span><span class="description">calculate the sum of single-precision floating-point strided array elements using pairwise summation.</span>
 -   <span class="signature">[`wasm`][@stdlib/blas/ext/base/wasm]</span><span class="delimiter">: </span><span class="description">extensions to basic linear algebra subprograms (BLAS) compiled to WebAssembly.</span>
+-   <span class="signature">[`zfill( N, alpha, x, strideX )`][@stdlib/blas/ext/base/zfill]</span><span class="delimiter">: </span><span class="description">fill a double-precision complex floating-point strided array with a specified scalar constant.</span>
 
 </div>
 
@@ -308,6 +311,8 @@ Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/blas-ext-base/main/LICENSE
 
 <!-- <toc-links> -->
+
+[@stdlib/blas/ext/base/cfill]: https://github.com/stdlib-js/blas-ext-base-cfill
 
 [@stdlib/blas/ext/base/dapx]: https://github.com/stdlib-js/blas-ext-base-dapx
 
@@ -465,6 +470,8 @@ Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 
 [@stdlib/blas/ext/base/gsumpw]: https://github.com/stdlib-js/blas-ext-base-gsumpw
 
+[@stdlib/blas/ext/base/ndarray]: https://github.com/stdlib-js/blas-ext-base-ndarray
+
 [@stdlib/blas/ext/base/sapx]: https://github.com/stdlib-js/blas-ext-base-sapx
 
 [@stdlib/blas/ext/base/sapxsum]: https://github.com/stdlib-js/blas-ext-base-sapxsum
@@ -538,6 +545,8 @@ Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 [@stdlib/blas/ext/base/ssumpw]: https://github.com/stdlib-js/blas-ext-base-ssumpw
 
 [@stdlib/blas/ext/base/wasm]: https://github.com/stdlib-js/blas-ext-base-wasm
+
+[@stdlib/blas/ext/base/zfill]: https://github.com/stdlib-js/blas-ext-base-zfill
 
 <!-- </toc-links> -->
 
