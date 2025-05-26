@@ -4,12 +4,22 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-05-25)
+## Unreleased (2025-05-26)
 
 <section class="features">
 
 ### Features
 
+-   [`a11b832`](https://github.com/stdlib-js/stdlib/commit/a11b832b9c10879eedf7b86dc83772d6abef7931) - add `csum` to namespace
+-   [`28b0465`](https://github.com/stdlib-js/stdlib/commit/28b046502e53a887c1eb70f712b223a60d4c7833) - add `blas/ext/base/ndarray/csum`
+-   [`e30c3ba`](https://github.com/stdlib-js/stdlib/commit/e30c3baa0ea634ee95dfb857b56bc3b8eb57e3f3) - add `zsum` to namespace
+-   [`d1c43bf`](https://github.com/stdlib-js/stdlib/commit/d1c43bf928d136b64bce740e38fae1e23d482c23) - add `blas/ext/base/ndarray/zsum`
+-   [`22f1408`](https://github.com/stdlib-js/stdlib/commit/22f140863e59a9e1a2f89a6912a0c520a7fc7956) - add `csum` to namespace
+-   [`10ccb4a`](https://github.com/stdlib-js/stdlib/commit/10ccb4a44321d0caf5602042c78b49232de2b1dc) - add `blas/ext/base/csum`
+-   [`4f9ada3`](https://github.com/stdlib-js/stdlib/commit/4f9ada3914fe2a20811614089c1d2ce8bc6a15f0) - add `csumkbn` to namespace
+-   [`c682e65`](https://github.com/stdlib-js/stdlib/commit/c682e653f19695066709857256c8c50cfbb24ac0) - add `blas/ext/base/csumkbn`
+-   [`ef876c4`](https://github.com/stdlib-js/stdlib/commit/ef876c4aa3c97ce2fb042a0d48c852a448775fad) - add `zsum` to namespace
+-   [`c76305e`](https://github.com/stdlib-js/stdlib/commit/c76305ee9931b510e2aec54ec1da3997845d40f4) - add `blas/ext/base/zsum`
 -   [`e030bba`](https://github.com/stdlib-js/stdlib/commit/e030bba632158023584c3e28c080fdf289d15014) - add `gnannsumpw` to namespace
 -   [`cbd656d`](https://github.com/stdlib-js/stdlib/commit/cbd656db90d14e150baa2a23deb44cb645ef2298) - add `blas/ext/base/gnannsumpw`
 -   [`7324255`](https://github.com/stdlib-js/stdlib/commit/7324255304f2fdb5afddd9166579122fcdc2aa2a) - add `zsumkbn` to namespace
@@ -173,6 +183,8 @@
 
 ### Bug Fixes
 
+-   [`3014ce9`](https://github.com/stdlib-js/stdlib/commit/3014ce93b3fd6a8d7d26b7951d762f5100faffdf) - update return type
+-   [`2acc7f0`](https://github.com/stdlib-js/stdlib/commit/2acc7f03aa6e89410deb74d99f466cc1cd400384) - update return type
 -   [`15922b7`](https://github.com/stdlib-js/stdlib/commit/15922b7bcaaaa3eb81bc6fec90898f0bd52e66fc) - address indexing bug
 -   [`549f1c1`](https://github.com/stdlib-js/stdlib/commit/549f1c1889b0d324eab00a142121ef26ed080592) - address indexing bug
 -   [`981c7ba`](https://github.com/stdlib-js/stdlib/commit/981c7baecfe6ab8ab4d973e95cd20453f90c5e28) - add missing checks for `N` and address failing tests stemming from refactoring
@@ -328,6 +340,22 @@ A total of 38 issues were closed in this release:
 
 <details>
 
+-   [`f20c234`](https://github.com/stdlib-js/stdlib/commit/f20c234a4112d25281d202e8a0cf9ba223becb4c) - **docs:** update namespace table of contents [(#7092)](https://github.com/stdlib-js/stdlib/pull/7092) _(by stdlib-bot)_
+-   [`3014ce9`](https://github.com/stdlib-js/stdlib/commit/3014ce93b3fd6a8d7d26b7951d762f5100faffdf) - **fix:** update return type _(by Athan Reines)_
+-   [`2acc7f0`](https://github.com/stdlib-js/stdlib/commit/2acc7f03aa6e89410deb74d99f466cc1cd400384) - **fix:** update return type _(by Athan Reines)_
+-   [`a11b832`](https://github.com/stdlib-js/stdlib/commit/a11b832b9c10879eedf7b86dc83772d6abef7931) - **feat:** add `csum` to namespace _(by Athan Reines)_
+-   [`28b0465`](https://github.com/stdlib-js/stdlib/commit/28b046502e53a887c1eb70f712b223a60d4c7833) - **feat:** add `blas/ext/base/ndarray/csum` _(by Athan Reines)_
+-   [`e30c3ba`](https://github.com/stdlib-js/stdlib/commit/e30c3baa0ea634ee95dfb857b56bc3b8eb57e3f3) - **feat:** add `zsum` to namespace _(by Athan Reines)_
+-   [`d1c43bf`](https://github.com/stdlib-js/stdlib/commit/d1c43bf928d136b64bce740e38fae1e23d482c23) - **feat:** add `blas/ext/base/ndarray/zsum` _(by Athan Reines)_
+-   [`22f1408`](https://github.com/stdlib-js/stdlib/commit/22f140863e59a9e1a2f89a6912a0c520a7fc7956) - **feat:** add `csum` to namespace _(by Athan Reines)_
+-   [`10ccb4a`](https://github.com/stdlib-js/stdlib/commit/10ccb4a44321d0caf5602042c78b49232de2b1dc) - **feat:** add `blas/ext/base/csum` _(by Athan Reines)_
+-   [`84af975`](https://github.com/stdlib-js/stdlib/commit/84af975367b6d0694ffbd0a27b7da0a0c144b4fb) - **chore:** clean-up _(by Athan Reines)_
+-   [`4f9ada3`](https://github.com/stdlib-js/stdlib/commit/4f9ada3914fe2a20811614089c1d2ce8bc6a15f0) - **feat:** add `csumkbn` to namespace _(by Athan Reines)_
+-   [`c682e65`](https://github.com/stdlib-js/stdlib/commit/c682e653f19695066709857256c8c50cfbb24ac0) - **feat:** add `blas/ext/base/csumkbn` _(by Athan Reines)_
+-   [`ef876c4`](https://github.com/stdlib-js/stdlib/commit/ef876c4aa3c97ce2fb042a0d48c852a448775fad) - **feat:** add `zsum` to namespace _(by Athan Reines)_
+-   [`c76305e`](https://github.com/stdlib-js/stdlib/commit/c76305ee9931b510e2aec54ec1da3997845d40f4) - **feat:** add `blas/ext/base/zsum` _(by Athan Reines)_
+-   [`12b992e`](https://github.com/stdlib-js/stdlib/commit/12b992eca7ac911aa20fe41aa4fffc9dec128c9d) - **test:** address failing test cases _(by Athan Reines)_
+-   [`b729264`](https://github.com/stdlib-js/stdlib/commit/b729264841b1af47c4831a8b38ebe51882017381) - **bench:** fix package path _(by Athan Reines)_
 -   [`15922b7`](https://github.com/stdlib-js/stdlib/commit/15922b7bcaaaa3eb81bc6fec90898f0bd52e66fc) - **fix:** address indexing bug _(by Athan Reines)_
 -   [`c917f58`](https://github.com/stdlib-js/stdlib/commit/c917f586cbdc1ba098e933bb731ab3ad536eefe4) - **test:** address failing test case _(by Athan Reines)_
 -   [`549f1c1`](https://github.com/stdlib-js/stdlib/commit/549f1c1889b0d324eab00a142121ef26ed080592) - **fix:** address indexing bug _(by Athan Reines)_
