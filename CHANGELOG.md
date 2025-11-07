@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-09-30)
+## Unreleased (2025-11-07)
 
 <section class="features">
 
@@ -380,6 +380,7 @@ A total of 42 issues were closed in this release:
 
 <details>
 
+-   [`5f5bb2d`](https://github.com/stdlib-js/stdlib/commit/5f5bb2d4277a24000b57fb07bc28d821500cd7e8) - **docs:** update namespace table of contents [(#8425)](https://github.com/stdlib-js/stdlib/pull/8425) _(by stdlib-bot, Athan Reines)_
 -   [`bb33be6`](https://github.com/stdlib-js/stdlib/commit/bb33be6522625aae9440ea4e9988a9b69c4b58ec) - **docs:** fix examples [(#8161)](https://github.com/stdlib-js/stdlib/pull/8161) _(by stdlib-bot)_
 -   [`d94514b`](https://github.com/stdlib-js/stdlib/commit/d94514bc9418f5b42df6233204d5005d53af00ca) - **docs:** clean-up TSDoc declaration comments _(by Philipp Burckhardt)_
 -   [`12636b6`](https://github.com/stdlib-js/stdlib/commit/12636b62433a9a59fefdb4a0b548ff26f94f6d3c) - **feat:** update `blas/ext/base/ndarray` TypeScript declarations _(by Philipp Burckhardt)_
@@ -405,7 +406,7 @@ A total of 42 issues were closed in this release:
 -   [`4977993`](https://github.com/stdlib-js/stdlib/commit/4977993a257fde660b0f8c5678ab0c8d6e26538a) - **docs:** fix example code _(by Philipp Burckhardt)_
 -   [`1acd7fc`](https://github.com/stdlib-js/stdlib/commit/1acd7fc7114fcbef1b80ab506f6f47d3532d6ea8) - **docs:** fix example code _(by Philipp Burckhardt)_
 -   [`20ae685`](https://github.com/stdlib-js/stdlib/commit/20ae6858f9bea5a07a619b688dad98a0a77dcfb6) - **docs:** correctly call .ndarray in second example _(by Philipp Burckhardt)_
--   [`1913191`](https://github.com/stdlib-js/stdlib/commit/1913191dea38c0f42f7143747c121db38f1ebc35) - **chore:** fix C lint errors [(#7878)](https://github.com/stdlib-js/stdlib/pull/7878) _(by GeoDaoyu)_
+-   [`1913191`](https://github.com/stdlib-js/stdlib/commit/1913191dea38c0f42f7143747c121db38f1ebc35) - **chore:** fix C lint errors [(#7878)](https://github.com/stdlib-js/stdlib/pull/7878) _(by Geo Daoyu)_
 -   [`f344466`](https://github.com/stdlib-js/stdlib/commit/f344466c6dcfb8f52d7f3148acaadd52772938da) - **test:** use .strictEqual() instead of .equal() and fix lint errors _(by Philipp Burckhardt)_
 -   [`f928b2f`](https://github.com/stdlib-js/stdlib/commit/f928b2fc629b187e21d707e7e7b68e3b4bcd3f79) - **feat:** add `blas/ext/base/ndarray/gfind-last-index` [(#7786)](https://github.com/stdlib-js/stdlib/pull/7786) _(by Muhammad Haris, Athan Reines)_
 -   [`1880c41`](https://github.com/stdlib-js/stdlib/commit/1880c41dc2fe59e2eb1d1d474be835019278357c) - **docs:** fix description and type _(by Athan Reines)_
@@ -424,7 +425,7 @@ A total of 42 issues were closed in this release:
 -   [`6eee151`](https://github.com/stdlib-js/stdlib/commit/6eee15199727d04e3757e66f38384e97b8a333da) - **style:** fix indentation in JSON files _(by Philipp Burckhardt)_
 -   [`9f11b61`](https://github.com/stdlib-js/stdlib/commit/9f11b6123d01cd7debd87a6d0fd8c1d1619f69b9) - **feat:** add `blas/ext/base/gfind-index` [(#7727)](https://github.com/stdlib-js/stdlib/pull/7727) _(by Muhammad Haris, Athan Reines)_
 -   [`7ee7d36`](https://github.com/stdlib-js/stdlib/commit/7ee7d3670bc523f7353b5bf2d048a144a2c67e01) - **docs:** fix typo _(by Athan Reines)_
--   [`3192ef5`](https://github.com/stdlib-js/stdlib/commit/3192ef5e908c2ac107edf9ac4a4c92bd2997aa67) - **chore:** fix C lint errors [(#7646)](https://github.com/stdlib-js/stdlib/pull/7646) _(by GeoDaoyu)_
+-   [`3192ef5`](https://github.com/stdlib-js/stdlib/commit/3192ef5e908c2ac107edf9ac4a4c92bd2997aa67) - **chore:** fix C lint errors [(#7646)](https://github.com/stdlib-js/stdlib/pull/7646) _(by Geo Daoyu)_
 -   [`708320e`](https://github.com/stdlib-js/stdlib/commit/708320e43d505cd6f390bf6014d58cb5e092cbaf) - **docs:** update related packages sections [(#7647)](https://github.com/stdlib-js/stdlib/pull/7647) _(by stdlib-bot, Philipp Burckhardt)_
 -   [`b7ebe14`](https://github.com/stdlib-js/stdlib/commit/b7ebe14a38ddc3ccce67834db16835f420431494) - **feat:** add `blas/ext/base/wasm/dnansumkbn2` [(#5735)](https://github.com/stdlib-js/stdlib/pull/5735) _(by Shabareesh Shetty, Athan Reines, JoyBoy, stdlib-bot)_
 -   [`9cc5aa7`](https://github.com/stdlib-js/stdlib/commit/9cc5aa7406c2b2d0029a355fa037a599f8cf5b05) - **docs:** remove self-requires from main.js example code _(by Philipp Burckhardt)_
@@ -963,7 +964,7 @@ A total of 42 issues were closed in this release:
 -   [`fadff3a`](https://github.com/stdlib-js/stdlib/commit/fadff3a44660678d9ccce8bb101f579ca1913a64) - **feat:** add `blas/ext/base/cfill` [(#2901)](https://github.com/stdlib-js/stdlib/pull/2901) _(by Muhammad Haris, Athan Reines)_
 -   [`3e80682`](https://github.com/stdlib-js/stdlib/commit/3e80682320d42a999f428fcf3d30e6711b6b9b89) - **refactor:** update implementation for `blas/ext/base/sdsnansumpw` _(by Yaswanth Kosuru, Philipp Burckhardt)_
 -   [`c6bf7de`](https://github.com/stdlib-js/stdlib/commit/c6bf7de53b6ab8c44263cee7fdf1cdfe2815864d) - **refactor:** update implementation for `blas/ext/base/sapxsumors` _(by Yaswanth Kosuru, Philipp Burckhardt)_
--   [`7cc8bb9`](https://github.com/stdlib-js/stdlib/commit/7cc8bb9a96147bb94fe8cfddc180a6ec535fc368) - **refactor:** update `blas/ext/base/dsnannsumors` _(by HarshaNP, Philipp Burckhardt)_
+-   [`7cc8bb9`](https://github.com/stdlib-js/stdlib/commit/7cc8bb9a96147bb94fe8cfddc180a6ec535fc368) - **refactor:** update `blas/ext/base/dsnannsumors` _(by Gitty Harsha, Philipp Burckhardt)_
 -   [`e9f4e07`](https://github.com/stdlib-js/stdlib/commit/e9f4e0759a14b8da93d4e0837b886d8ed56bc696) - **refactor:** update `blas/ext/base/dsnansumpw` to follow current conventions _(by Yaswanth Kosuru, Philipp Burckhardt)_
 -   [`aabe731`](https://github.com/stdlib-js/stdlib/commit/aabe7310272e138b7ae69a9297832aa7fcb21ef1) - **fix:** update variable name and define `status` type _(by Athan Reines)_
 -   [`1fce730`](https://github.com/stdlib-js/stdlib/commit/1fce730e287d8688956b801feb547ebb6a237756) - **fix:** use correct include path _(by Philipp Burckhardt)_
@@ -1111,11 +1112,11 @@ A total of 45 people contributed to this release. Thank you to the following con
 -   Aleksandr
 -   Athan Reines
 -   Bryan Elee
--   GeoDaoyu
+-   Geo Daoyu
+-   Gitty Harsha
 -   Golden Kumar
 -   Gunj Joshi
 -   Gururaj Gurram
--   HarshaNP
 -   Jaimin Godhani
 -   Justyn Shelby
 -   Krishnendu Das
