@@ -149,6 +149,7 @@
     "@stdlib/blas-ext-base-sfill": "^0.2.2",
     "@stdlib/blas-ext-base-sindex-of": "github:stdlib-js/blas-ext-base-sindex-of#main",
     "@stdlib/blas-ext-base-slast-index-of": "github:stdlib-js/blas-ext-base-slast-index-of#main",
+    "@stdlib/blas-ext-base-slinspace": "github:stdlib-js/blas-ext-base-slinspace#main",
     "@stdlib/blas-ext-base-snansum": "^0.2.2",
     "@stdlib/blas-ext-base-snansumkbn": "^0.2.2",
     "@stdlib/blas-ext-base-snansumkbn2": "^0.2.2",

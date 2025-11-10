@@ -10,6 +10,8 @@
 
 ### Features
 
+-   [`03e2dbf`](https://github.com/stdlib-js/stdlib/commit/03e2dbff8a6f36028a410d5b98c8796880bb3516) - add `slinspace` to namespace
+-   [`30f0d38`](https://github.com/stdlib-js/stdlib/commit/30f0d38377dd9eb72f4cdc452f2b74268c2812d6) - add `blas/ext/base/slinspace`
 -   [`dd86a9a`](https://github.com/stdlib-js/stdlib/commit/dd86a9a4d5b0613903a5a502416d250e6f3cba86) - add `dlinspace` to namespace
 -   [`b187382`](https://github.com/stdlib-js/stdlib/commit/b18738234e698259d919d7ffccc25e5a8ab68c70) - add `blas/ext/base/dlinspace`
 -   [`12636b6`](https://github.com/stdlib-js/stdlib/commit/12636b62433a9a59fefdb4a0b548ff26f94f6d3c) - update `blas/ext/base/ndarray` TypeScript declarations
@@ -382,6 +384,9 @@ A total of 42 issues were closed in this release:
 
 <details>
 
+-   [`03e2dbf`](https://github.com/stdlib-js/stdlib/commit/03e2dbff8a6f36028a410d5b98c8796880bb3516) - **feat:** add `slinspace` to namespace _(by Athan Reines)_
+-   [`30f0d38`](https://github.com/stdlib-js/stdlib/commit/30f0d38377dd9eb72f4cdc452f2b74268c2812d6) - **feat:** add `blas/ext/base/slinspace` _(by Athan Reines)_
+-   [`c46348e`](https://github.com/stdlib-js/stdlib/commit/c46348e63572c385a5a10c111a0214c9bb28eeec) - **docs:** update copy _(by Athan Reines)_
 -   [`dd86a9a`](https://github.com/stdlib-js/stdlib/commit/dd86a9a4d5b0613903a5a502416d250e6f3cba86) - **feat:** add `dlinspace` to namespace _(by Athan Reines)_
 -   [`b187382`](https://github.com/stdlib-js/stdlib/commit/b18738234e698259d919d7ffccc25e5a8ab68c70) - **feat:** add `blas/ext/base/dlinspace` _(by Athan Reines)_
 -   [`5f5bb2d`](https://github.com/stdlib-js/stdlib/commit/5f5bb2d4277a24000b57fb07bc28d821500cd7e8) - **docs:** update namespace table of contents [(#8425)](https://github.com/stdlib-js/stdlib/pull/8425) _(by stdlib-bot, Athan Reines)_
