@@ -54,6 +54,7 @@
     "@stdlib/blas-ext-base-dfill": "^0.2.2",
     "@stdlib/blas-ext-base-dindex-of": "github:stdlib-js/blas-ext-base-dindex-of#main",
     "@stdlib/blas-ext-base-dlast-index-of": "github:stdlib-js/blas-ext-base-dlast-index-of#main",
+    "@stdlib/blas-ext-base-dlinspace": "github:stdlib-js/blas-ext-base-dlinspace#main",
     "@stdlib/blas-ext-base-dnanasum": "^0.2.2",
     "@stdlib/blas-ext-base-dnanasumors": "^0.2.2",
     "@stdlib/blas-ext-base-dnancusumkbn": "github:stdlib-js/blas-ext-base-dnancusumkbn#main",
