@@ -4,12 +4,14 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-11-11)
+## Unreleased (2025-11-13)
 
 <section class="features">
 
 ### Features
 
+-   [`b642a63`](https://github.com/stdlib-js/stdlib/commit/b642a63efa55eb3d91078fbb861e159954e477f2) - add `glinspace` to namespace
+-   [`10ffd72`](https://github.com/stdlib-js/stdlib/commit/10ffd722bf162e9287b35adb167a8d76e1d1f840) - add `blas/ext/base/glinspace`
 -   [`03e2dbf`](https://github.com/stdlib-js/stdlib/commit/03e2dbff8a6f36028a410d5b98c8796880bb3516) - add `slinspace` to namespace
 -   [`30f0d38`](https://github.com/stdlib-js/stdlib/commit/30f0d38377dd9eb72f4cdc452f2b74268c2812d6) - add `blas/ext/base/slinspace`
 -   [`dd86a9a`](https://github.com/stdlib-js/stdlib/commit/dd86a9a4d5b0613903a5a502416d250e6f3cba86) - add `dlinspace` to namespace
@@ -384,6 +386,14 @@ A total of 42 issues were closed in this release:
 
 <details>
 
+-   [`b642a63`](https://github.com/stdlib-js/stdlib/commit/b642a63efa55eb3d91078fbb861e159954e477f2) - **feat:** add `glinspace` to namespace _(by Athan Reines)_
+-   [`10ffd72`](https://github.com/stdlib-js/stdlib/commit/10ffd722bf162e9287b35adb167a8d76e1d1f840) - **feat:** add `blas/ext/base/glinspace` _(by Athan Reines)_
+-   [`e937de1`](https://github.com/stdlib-js/stdlib/commit/e937de144bb9fb0349aba8235a0b69a6a1b29b4a) - **test:** update descriptions _(by Athan Reines)_
+-   [`55a95d9`](https://github.com/stdlib-js/stdlib/commit/55a95d9901d416bf70348029ae16209965f5bcd5) - **test:** update descriptions _(by Athan Reines)_
+-   [`7e1263e`](https://github.com/stdlib-js/stdlib/commit/7e1263e4afaadb487cb9e17036f77f4c00caa4de) - **docs:** add notes _(by Athan Reines)_
+-   [`9ef2243`](https://github.com/stdlib-js/stdlib/commit/9ef2243e74763fa05f732c476492b18e9d3711c1) - **docs:** add notes _(by Athan Reines)_
+-   [`c84485f`](https://github.com/stdlib-js/stdlib/commit/c84485fea2e4dfabf2d07dcfa9dabe68a854f72f) - **docs:** update notes _(by Athan Reines)_
+-   [`674864d`](https://github.com/stdlib-js/stdlib/commit/674864dd866f52f3d697a8edb29a3a94e1174ef9) - **docs:** add notes _(by Athan Reines)_
 -   [`66ebb7c`](https://github.com/stdlib-js/stdlib/commit/66ebb7c0d1caf106e213ee524972175da5170e5b) - **docs:** update namespace table of contents [(#8501)](https://github.com/stdlib-js/stdlib/pull/8501) _(by stdlib-bot)_
 -   [`b3817aa`](https://github.com/stdlib-js/stdlib/commit/b3817aa9b503e211474c485bc381251d47aa308b) - **docs:** fix function signature and remove extrs spaces _(by Philipp Burckhardt)_
 -   [`af7c8c4`](https://github.com/stdlib-js/stdlib/commit/af7c8c4e389209dd4004613c251d449e99ba09f7) - **style:** add missing spaces _(by Philipp Burckhardt)_

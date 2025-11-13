@@ -108,6 +108,7 @@
     "@stdlib/blas-ext-base-gindex-of": "github:stdlib-js/blas-ext-base-gindex-of#main",
     "@stdlib/blas-ext-base-gindex-of-row": "github:stdlib-js/blas-ext-base-gindex-of-row#main",
     "@stdlib/blas-ext-base-glast-index-of": "github:stdlib-js/blas-ext-base-glast-index-of#main",
+    "@stdlib/blas-ext-base-glinspace": "github:stdlib-js/blas-ext-base-glinspace#main",
     "@stdlib/blas-ext-base-gnannsumkbn": "^0.2.2",
     "@stdlib/blas-ext-base-gnannsumpw": "github:stdlib-js/blas-ext-base-gnannsumpw#main",
     "@stdlib/blas-ext-base-gnansum": "^0.2.2",
