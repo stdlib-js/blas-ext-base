@@ -102,6 +102,7 @@
     "@stdlib/blas-ext-base-gapxsumors": "^0.3.1",
     "@stdlib/blas-ext-base-gapxsumpw": "^0.3.1",
     "@stdlib/blas-ext-base-gasumpw": "^0.3.1",
+    "@stdlib/blas-ext-base-gcircshift": "github:stdlib-js/blas-ext-base-gcircshift#main",
     "@stdlib/blas-ext-base-gcusum": "^0.3.1",
     "@stdlib/blas-ext-base-gcusumkbn": "^0.3.1",
     "@stdlib/blas-ext-base-gcusumkbn2": "^0.3.1",
