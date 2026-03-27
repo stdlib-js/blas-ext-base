@@ -4,12 +4,25 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-03-26)
+## Unreleased (2026-03-27)
 
 <section class="features">
 
 ### Features
 
+-   [`85155cb`](https://github.com/stdlib-js/stdlib/commit/85155cb6ae402aec36efd20d55c56b2c77436c0c) - add `gjoinBetween` to namespace
+-   [`0c0ad66`](https://github.com/stdlib-js/stdlib/commit/0c0ad66098389167a139e820fbb7ccf1743affb5) - add `gjoin` to namespace
+-   [`8ea2465`](https://github.com/stdlib-js/stdlib/commit/8ea24652dd16bf22b2bd22ecc6afb8c82cf8ba39) - add `scircshift` to namespace
+-   [`7f3d693`](https://github.com/stdlib-js/stdlib/commit/7f3d693315c21301d959976211e7516a38e2f3ec) - add `gjoinBetween` to namespace
+-   [`b56b110`](https://github.com/stdlib-js/stdlib/commit/b56b1102f42d32f640c2bf762659870a4e76e43c) - add `gconjoin` to namespace
+-   [`72b4e77`](https://github.com/stdlib-js/stdlib/commit/72b4e77f402e62ca63623dd0f9c017a82fc933dd) - add `doneTo` to namespace
+-   [`f704d5b`](https://github.com/stdlib-js/stdlib/commit/f704d5b4e33435036f8a735d095b78b41b17f2cb) - add `dcircshift` to namespace
+-   [`a13b269`](https://github.com/stdlib-js/stdlib/commit/a13b26917f85ed3410e65d3920f2855225a58818) - add `blas/ext/base/ndarray/gjoin-between` [(#11163)](https://github.com/stdlib-js/stdlib/pull/11163)
+-   [`f53f0cf`](https://github.com/stdlib-js/stdlib/commit/f53f0cf595e5591fe9f7320f4f192fe8c5afa7a8) - add `blas/ext/base/done-to` [(#11161)](https://github.com/stdlib-js/stdlib/pull/11161)
+-   [`e146f6e`](https://github.com/stdlib-js/stdlib/commit/e146f6ea7925fef840e262e9894014f5f56fc5bc) - add `blas/ext/base/gconjoin` [(#11142)](https://github.com/stdlib-js/stdlib/pull/11142)
+-   [`34c1828`](https://github.com/stdlib-js/stdlib/commit/34c1828ee03a00a6d136c48e1b9399cd284aaed5) - add `blas/ext/base/gjoin-between` [(#11140)](https://github.com/stdlib-js/stdlib/pull/11140)
+-   [`d36550d`](https://github.com/stdlib-js/stdlib/commit/d36550d382e11c60c6c0ee4bb3ff17c64c97089c) - add `blas/ext/base/scircshift` [(#11006)](https://github.com/stdlib-js/stdlib/pull/11006)
+-   [`231767b`](https://github.com/stdlib-js/stdlib/commit/231767bcab64bda4f716847c7f389d3470af9db9) - add `blas/ext/base/dcircshift` [(#10977)](https://github.com/stdlib-js/stdlib/pull/10977)
 -   [`13cf096`](https://github.com/stdlib-js/stdlib/commit/13cf0961eca66b2645d3733c963ffa492ef447aa) - add `gcircshift` to namespace
 -   [`d8b3767`](https://github.com/stdlib-js/stdlib/commit/d8b37675b6f8aa8b91bf918a2434719eb8433c41) - add `blas/ext/base/gcircshift` [(#11007)](https://github.com/stdlib-js/stdlib/pull/11007)
 -   [`56b1e38`](https://github.com/stdlib-js/stdlib/commit/56b1e387b0bad1bbb8b6dde4a73882775b67a59e) - add `gsort` to namespace
@@ -46,6 +59,20 @@
 
 <details>
 
+-   [`85155cb`](https://github.com/stdlib-js/stdlib/commit/85155cb6ae402aec36efd20d55c56b2c77436c0c) - **feat:** add `gjoinBetween` to namespace _(by Athan Reines)_
+-   [`0c0ad66`](https://github.com/stdlib-js/stdlib/commit/0c0ad66098389167a139e820fbb7ccf1743affb5) - **feat:** add `gjoin` to namespace _(by Athan Reines)_
+-   [`8ea2465`](https://github.com/stdlib-js/stdlib/commit/8ea24652dd16bf22b2bd22ecc6afb8c82cf8ba39) - **feat:** add `scircshift` to namespace _(by Athan Reines)_
+-   [`7f3d693`](https://github.com/stdlib-js/stdlib/commit/7f3d693315c21301d959976211e7516a38e2f3ec) - **feat:** add `gjoinBetween` to namespace _(by Athan Reines)_
+-   [`b56b110`](https://github.com/stdlib-js/stdlib/commit/b56b1102f42d32f640c2bf762659870a4e76e43c) - **feat:** add `gconjoin` to namespace _(by Athan Reines)_
+-   [`72b4e77`](https://github.com/stdlib-js/stdlib/commit/72b4e77f402e62ca63623dd0f9c017a82fc933dd) - **feat:** add `doneTo` to namespace _(by Athan Reines)_
+-   [`f704d5b`](https://github.com/stdlib-js/stdlib/commit/f704d5b4e33435036f8a735d095b78b41b17f2cb) - **feat:** add `dcircshift` to namespace _(by Athan Reines)_
+-   [`bf03c10`](https://github.com/stdlib-js/stdlib/commit/bf03c101fdc1f29ee4838246efe4161ffa673ab8) - **docs:** fix examples _(by Athan Reines)_
+-   [`a13b269`](https://github.com/stdlib-js/stdlib/commit/a13b26917f85ed3410e65d3920f2855225a58818) - **feat:** add `blas/ext/base/ndarray/gjoin-between` [(#11163)](https://github.com/stdlib-js/stdlib/pull/11163) _(by Muhammad Haris, Athan Reines, stdlib-bot)_
+-   [`f53f0cf`](https://github.com/stdlib-js/stdlib/commit/f53f0cf595e5591fe9f7320f4f192fe8c5afa7a8) - **feat:** add `blas/ext/base/done-to` [(#11161)](https://github.com/stdlib-js/stdlib/pull/11161) _(by Muhammad Haris, Athan Reines)_
+-   [`e146f6e`](https://github.com/stdlib-js/stdlib/commit/e146f6ea7925fef840e262e9894014f5f56fc5bc) - **feat:** add `blas/ext/base/gconjoin` [(#11142)](https://github.com/stdlib-js/stdlib/pull/11142) _(by Muhammad Haris, Athan Reines)_
+-   [`34c1828`](https://github.com/stdlib-js/stdlib/commit/34c1828ee03a00a6d136c48e1b9399cd284aaed5) - **feat:** add `blas/ext/base/gjoin-between` [(#11140)](https://github.com/stdlib-js/stdlib/pull/11140) _(by Muhammad Haris, Athan Reines)_
+-   [`d36550d`](https://github.com/stdlib-js/stdlib/commit/d36550d382e11c60c6c0ee4bb3ff17c64c97089c) - **feat:** add `blas/ext/base/scircshift` [(#11006)](https://github.com/stdlib-js/stdlib/pull/11006) _(by Muhammad Haris, Athan Reines)_
+-   [`231767b`](https://github.com/stdlib-js/stdlib/commit/231767bcab64bda4f716847c7f389d3470af9db9) - **feat:** add `blas/ext/base/dcircshift` [(#10977)](https://github.com/stdlib-js/stdlib/pull/10977) _(by Muhammad Haris, Athan Reines)_
 -   [`13cf096`](https://github.com/stdlib-js/stdlib/commit/13cf0961eca66b2645d3733c963ffa492ef447aa) - **feat:** add `gcircshift` to namespace _(by Athan Reines)_
 -   [`d8b3767`](https://github.com/stdlib-js/stdlib/commit/d8b37675b6f8aa8b91bf918a2434719eb8433c41) - **feat:** add `blas/ext/base/gcircshift` [(#11007)](https://github.com/stdlib-js/stdlib/pull/11007) _(by Muhammad Haris, Athan Reines)_
 -   [`f9d1409`](https://github.com/stdlib-js/stdlib/commit/f9d140985e169d34f4e66bd770dc675ea28588a3) - **docs:** add missing JSDoc comment _(by Athan Reines)_
