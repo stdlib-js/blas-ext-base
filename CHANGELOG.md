@@ -4,12 +4,36 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-03-27)
+## Unreleased (2026-03-29)
 
 <section class="features">
 
 ### Features
 
+-   [`3b257de`](https://github.com/stdlib-js/stdlib/commit/3b257dea9539f4c1357c0461925ec75a5721036d) - add `szeroTo` to namespace
+-   [`e0dd86c`](https://github.com/stdlib-js/stdlib/commit/e0dd86c929140ee807487322e957b2760401c6ea) - add `dindexOfRow` to namespace
+-   [`083aed7`](https://github.com/stdlib-js/stdlib/commit/083aed7c06206cea17f486d8b66ce811d4b72476) - add `czeroTo` to namespace
+-   [`ddb70d6`](https://github.com/stdlib-js/stdlib/commit/ddb70d636f1fa0223cfdbb90d2a3acbbbe631488) - add `blas/ext/base/dindex-of-row` [(#11162)](https://github.com/stdlib-js/stdlib/pull/11162)
+-   [`eec976a`](https://github.com/stdlib-js/stdlib/commit/eec976a8177ebe0904deead69da4ca504463fe57) - add `blas/ext/base/czero-to` [(#11192)](https://github.com/stdlib-js/stdlib/pull/11192)
+-   [`b241a6d`](https://github.com/stdlib-js/stdlib/commit/b241a6dd8bd6f2275c1168919d110d13e795001d) - add `blas/ext/base/szero-to` [(#11190)](https://github.com/stdlib-js/stdlib/pull/11190)
+-   [`80a1fc1`](https://github.com/stdlib-js/stdlib/commit/80a1fc1f478db29c13e4bbbe3a00ad330542ff00) - add `dcircshift` and `scircshift` to namespace
+-   [`1b0b669`](https://github.com/stdlib-js/stdlib/commit/1b0b669c1ce63a75ce46c6a06f0f07a7544d5bfa) - add `blas/ext/base/ndarray/scircshift` [(#11177)](https://github.com/stdlib-js/stdlib/pull/11177)
+-   [`899e976`](https://github.com/stdlib-js/stdlib/commit/899e9768a73c76b8d2239f3939f2e2a3c669a19c) - add `blas/ext/base/ndarray/dcircshift` [(#11176)](https://github.com/stdlib-js/stdlib/pull/11176)
+-   [`ed59264`](https://github.com/stdlib-js/stdlib/commit/ed592647ff3cf67201974cef05dddebdd392ba7c) - add `gcircshift` to namespace
+-   [`fdf402d`](https://github.com/stdlib-js/stdlib/commit/fdf402da400ed2f7423f8aeffddddc765b719648) - add `blas/ext/base/ndarray/gcircshift` [(#11178)](https://github.com/stdlib-js/stdlib/pull/11178)
+-   [`8427c6a`](https://github.com/stdlib-js/stdlib/commit/8427c6a346e575bdc3aba46679763649f91fae97) - add `zsumkbn` to namespace
+-   [`f05fd5e`](https://github.com/stdlib-js/stdlib/commit/f05fd5ec7c534ff7bfcdf0b003844668be74cd37) - add `ssum*` packages to namespace
+-   [`00a150a`](https://github.com/stdlib-js/stdlib/commit/00a150a8f248211a585ff64f6d06377d1c07da1b) - add `snansum*` packages to namespace
+-   [`4fd2a21`](https://github.com/stdlib-js/stdlib/commit/4fd2a219ae6e07280d6cc6a1b5b09a4041372cfc) - add `scusum*` packages to namespace
+-   [`88a1858`](https://github.com/stdlib-js/stdlib/commit/88a185876ae0c29b939971a8c4886c2baf802c85) - add `gsum*` packages to namespace
+-   [`561c7a6`](https://github.com/stdlib-js/stdlib/commit/561c7a6c4a48617c17afb9f27cb542f3a6d21edf) - add `gsort` to namespace
+-   [`825d1ff`](https://github.com/stdlib-js/stdlib/commit/825d1ff16c1ebde30a9a0e42d13c8a454970f600) - add `gnansum*` packages to namespace
+-   [`973f4df`](https://github.com/stdlib-js/stdlib/commit/973f4df4b3ddb831ff8419e4eb2510c7e381b0e4) - add `gcusum*` packages to namespace
+-   [`cf3741e`](https://github.com/stdlib-js/stdlib/commit/cf3741e5a445a8bb8b6a8374ce9f2580895881e7) - add `dsum*` packages to namespace
+-   [`722ad36`](https://github.com/stdlib-js/stdlib/commit/722ad364638938e89ecbf6701814987815372ab6) - add `dsort*` packages to namespace
+-   [`8fe4e5c`](https://github.com/stdlib-js/stdlib/commit/8fe4e5cccb92b68eb3e72f350e983bea6087dec4) - add `dnansum*` packages to namespace
+-   [`aeb4f1b`](https://github.com/stdlib-js/stdlib/commit/aeb4f1bcd4fd85e034b7d3147794df15b979ab8f) - add `dcusumkbn`, `dcusumkbn2`, `dcusumors`, `dcusumpw` to namespace
+-   [`b9a7439`](https://github.com/stdlib-js/stdlib/commit/b9a7439d4f1ca46f88cc855042770f6c67833b01) - add `csumkbn` to namespace
 -   [`85155cb`](https://github.com/stdlib-js/stdlib/commit/85155cb6ae402aec36efd20d55c56b2c77436c0c) - add `gjoinBetween` to namespace
 -   [`0c0ad66`](https://github.com/stdlib-js/stdlib/commit/0c0ad66098389167a139e820fbb7ccf1743affb5) - add `gjoin` to namespace
 -   [`8ea2465`](https://github.com/stdlib-js/stdlib/commit/8ea24652dd16bf22b2bd22ecc6afb8c82cf8ba39) - add `scircshift` to namespace
@@ -59,6 +83,32 @@
 
 <details>
 
+-   [`3b257de`](https://github.com/stdlib-js/stdlib/commit/3b257dea9539f4c1357c0461925ec75a5721036d) - **feat:** add `szeroTo` to namespace _(by Athan Reines)_
+-   [`e0dd86c`](https://github.com/stdlib-js/stdlib/commit/e0dd86c929140ee807487322e957b2760401c6ea) - **feat:** add `dindexOfRow` to namespace _(by Athan Reines)_
+-   [`083aed7`](https://github.com/stdlib-js/stdlib/commit/083aed7c06206cea17f486d8b66ce811d4b72476) - **feat:** add `czeroTo` to namespace _(by Athan Reines)_
+-   [`ddb70d6`](https://github.com/stdlib-js/stdlib/commit/ddb70d636f1fa0223cfdbb90d2a3acbbbe631488) - **feat:** add `blas/ext/base/dindex-of-row` [(#11162)](https://github.com/stdlib-js/stdlib/pull/11162) _(by Muhammad Haris, Athan Reines)_
+-   [`eec976a`](https://github.com/stdlib-js/stdlib/commit/eec976a8177ebe0904deead69da4ca504463fe57) - **feat:** add `blas/ext/base/czero-to` [(#11192)](https://github.com/stdlib-js/stdlib/pull/11192) _(by Muhammad Haris)_
+-   [`b241a6d`](https://github.com/stdlib-js/stdlib/commit/b241a6dd8bd6f2275c1168919d110d13e795001d) - **feat:** add `blas/ext/base/szero-to` [(#11190)](https://github.com/stdlib-js/stdlib/pull/11190) _(by Muhammad Haris, Athan Reines)_
+-   [`80a1fc1`](https://github.com/stdlib-js/stdlib/commit/80a1fc1f478db29c13e4bbbe3a00ad330542ff00) - **feat:** add `dcircshift` and `scircshift` to namespace _(by Athan Reines)_
+-   [`1b0b669`](https://github.com/stdlib-js/stdlib/commit/1b0b669c1ce63a75ce46c6a06f0f07a7544d5bfa) - **feat:** add `blas/ext/base/ndarray/scircshift` [(#11177)](https://github.com/stdlib-js/stdlib/pull/11177) _(by Muhammad Haris, Athan Reines)_
+-   [`899e976`](https://github.com/stdlib-js/stdlib/commit/899e9768a73c76b8d2239f3939f2e2a3c669a19c) - **feat:** add `blas/ext/base/ndarray/dcircshift` [(#11176)](https://github.com/stdlib-js/stdlib/pull/11176) _(by Muhammad Haris)_
+-   [`ed59264`](https://github.com/stdlib-js/stdlib/commit/ed592647ff3cf67201974cef05dddebdd392ba7c) - **feat:** add `gcircshift` to namespace _(by Athan Reines)_
+-   [`fdf402d`](https://github.com/stdlib-js/stdlib/commit/fdf402da400ed2f7423f8aeffddddc765b719648) - **feat:** add `blas/ext/base/ndarray/gcircshift` [(#11178)](https://github.com/stdlib-js/stdlib/pull/11178) _(by Muhammad Haris, Athan Reines)_
+-   [`8892296`](https://github.com/stdlib-js/stdlib/commit/889229649e046242045e484d4c35097b2fb9ca68) - **docs:** add missing private annotation in `blas/ext/base/ndarray/ssum` [(#11175)](https://github.com/stdlib-js/stdlib/pull/11175) _(by Kaustubh Patange)_
+-   [`3bf34ec`](https://github.com/stdlib-js/stdlib/commit/3bf34ec6df7f894f7cbee125eb3f655ebb2d6a4e) - **chore:** fix typos, grammar, and minor issues across multiple packages [(#11167)](https://github.com/stdlib-js/stdlib/pull/11167) _(by Philipp Burckhardt)_
+-   [`8427c6a`](https://github.com/stdlib-js/stdlib/commit/8427c6a346e575bdc3aba46679763649f91fae97) - **feat:** add `zsumkbn` to namespace _(by Athan Reines)_
+-   [`f05fd5e`](https://github.com/stdlib-js/stdlib/commit/f05fd5ec7c534ff7bfcdf0b003844668be74cd37) - **feat:** add `ssum*` packages to namespace _(by Athan Reines)_
+-   [`00a150a`](https://github.com/stdlib-js/stdlib/commit/00a150a8f248211a585ff64f6d06377d1c07da1b) - **feat:** add `snansum*` packages to namespace _(by Athan Reines)_
+-   [`4fd2a21`](https://github.com/stdlib-js/stdlib/commit/4fd2a219ae6e07280d6cc6a1b5b09a4041372cfc) - **feat:** add `scusum*` packages to namespace _(by Athan Reines)_
+-   [`88a1858`](https://github.com/stdlib-js/stdlib/commit/88a185876ae0c29b939971a8c4886c2baf802c85) - **feat:** add `gsum*` packages to namespace _(by Athan Reines)_
+-   [`561c7a6`](https://github.com/stdlib-js/stdlib/commit/561c7a6c4a48617c17afb9f27cb542f3a6d21edf) - **feat:** add `gsort` to namespace _(by Athan Reines)_
+-   [`825d1ff`](https://github.com/stdlib-js/stdlib/commit/825d1ff16c1ebde30a9a0e42d13c8a454970f600) - **feat:** add `gnansum*` packages to namespace _(by Athan Reines)_
+-   [`973f4df`](https://github.com/stdlib-js/stdlib/commit/973f4df4b3ddb831ff8419e4eb2510c7e381b0e4) - **feat:** add `gcusum*` packages to namespace _(by Athan Reines)_
+-   [`cf3741e`](https://github.com/stdlib-js/stdlib/commit/cf3741e5a445a8bb8b6a8374ce9f2580895881e7) - **feat:** add `dsum*` packages to namespace _(by Athan Reines)_
+-   [`722ad36`](https://github.com/stdlib-js/stdlib/commit/722ad364638938e89ecbf6701814987815372ab6) - **feat:** add `dsort*` packages to namespace _(by Athan Reines)_
+-   [`8fe4e5c`](https://github.com/stdlib-js/stdlib/commit/8fe4e5cccb92b68eb3e72f350e983bea6087dec4) - **feat:** add `dnansum*` packages to namespace _(by Athan Reines)_
+-   [`aeb4f1b`](https://github.com/stdlib-js/stdlib/commit/aeb4f1bcd4fd85e034b7d3147794df15b979ab8f) - **feat:** add `dcusumkbn`, `dcusumkbn2`, `dcusumors`, `dcusumpw` to namespace _(by Athan Reines)_
+-   [`b9a7439`](https://github.com/stdlib-js/stdlib/commit/b9a7439d4f1ca46f88cc855042770f6c67833b01) - **feat:** add `csumkbn` to namespace _(by Athan Reines)_
 -   [`85155cb`](https://github.com/stdlib-js/stdlib/commit/85155cb6ae402aec36efd20d55c56b2c77436c0c) - **feat:** add `gjoinBetween` to namespace _(by Athan Reines)_
 -   [`0c0ad66`](https://github.com/stdlib-js/stdlib/commit/0c0ad66098389167a139e820fbb7ccf1743affb5) - **feat:** add `gjoin` to namespace _(by Athan Reines)_
 -   [`8ea2465`](https://github.com/stdlib-js/stdlib/commit/8ea24652dd16bf22b2bd22ecc6afb8c82cf8ba39) - **feat:** add `scircshift` to namespace _(by Athan Reines)_
