@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-03-29)
+## Unreleased (2026-03-30)
 
 <section class="features">
 
@@ -86,6 +86,7 @@
 
 <details>
 
+-   [`5e93594`](https://github.com/stdlib-js/stdlib/commit/5e93594dd241e229cc3605b53dfa4290168526fc) - **docs:** update namespace table of contents [(#11214)](https://github.com/stdlib-js/stdlib/pull/11214) _(by stdlib-bot)_
 -   [`e25407e`](https://github.com/stdlib-js/stdlib/commit/e25407edd41c8eb563bb7a452677b1283bd3c3a2) - **feat:** add `gzeroTo` to namespace _(by Athan Reines)_
 -   [`20b2de0`](https://github.com/stdlib-js/stdlib/commit/20b2de04ae9d607abca38591e859a5e5f8eab88c) - **feat:** add `blas/ext/base/gzero-to` [(#11191)](https://github.com/stdlib-js/stdlib/pull/11191) _(by Muhammad Haris, Athan Reines)_
 -   [`ba129b3`](https://github.com/stdlib-js/stdlib/commit/ba129b35eed5099aece6caa686c3794e9a6b08b5) - **docs:** update namespace table of contents [(#11198)](https://github.com/stdlib-js/stdlib/pull/11198) _(by stdlib-bot)_

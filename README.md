@@ -183,6 +183,7 @@ var o = ns;
 -   <span class="signature">[`gsumkbn2( N, x, strideX )`][@stdlib/blas/ext/base/gsumkbn2]</span><span class="delimiter">: </span><span class="description">calculate the sum of strided array elements using a second-order iterative Kahan–Babuška algorithm.</span>
 -   <span class="signature">[`gsumors( N, x, strideX )`][@stdlib/blas/ext/base/gsumors]</span><span class="delimiter">: </span><span class="description">calculate the sum of strided array elements using ordinary recursive summation.</span>
 -   <span class="signature">[`gsumpw( N, x, strideX )`][@stdlib/blas/ext/base/gsumpw]</span><span class="delimiter">: </span><span class="description">calculate the sum of strided array elements using pairwise summation.</span>
+-   <span class="signature">[`gzeroTo( N, x, strideX )`][@stdlib/blas/ext/base/gzero-to]</span><span class="delimiter">: </span><span class="description">fill a strided array with linearly spaced numeric elements which increment by `1` starting from zero.</span>
 -   <span class="signature">[`ndarray`][@stdlib/blas/ext/base/ndarray]</span><span class="delimiter">: </span><span class="description">base ndarray extended BLAS functions.</span>
 -   <span class="signature">[`sapx( N, alpha, x, strideX )`][@stdlib/blas/ext/base/sapx]</span><span class="delimiter">: </span><span class="description">add a scalar constant to each element in a single-precision floating-point strided array.</span>
 -   <span class="signature">[`sapxsum( N, alpha, x, strideX )`][@stdlib/blas/ext/base/sapxsum]</span><span class="delimiter">: </span><span class="description">add a scalar constant to each single-precision floating-point strided array element and compute the sum.</span>
@@ -560,6 +561,8 @@ Copyright &copy; 2016-2026. The Stdlib [Authors][stdlib-authors].
 [@stdlib/blas/ext/base/gsumors]: https://github.com/stdlib-js/blas-ext-base-gsumors
 
 [@stdlib/blas/ext/base/gsumpw]: https://github.com/stdlib-js/blas-ext-base-gsumpw
+
+[@stdlib/blas/ext/base/gzero-to]: https://github.com/stdlib-js/blas-ext-base-gzero-to
 
 [@stdlib/blas/ext/base/ndarray]: https://github.com/stdlib-js/blas-ext-base-ndarray
 
