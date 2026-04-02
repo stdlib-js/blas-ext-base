@@ -10,6 +10,8 @@
 
 ### Features
 
+-   [`5ea3825`](https://github.com/stdlib-js/stdlib/commit/5ea3825ac5f8b9629ad0946e160ec5da041838f1) - add `sindexOfRow` to namespace
+-   [`81e0608`](https://github.com/stdlib-js/stdlib/commit/81e0608c675531e58d38f0c817e8c0e3db48932a) - add `blas/ext/base/sindex-of-row` [(#11226)](https://github.com/stdlib-js/stdlib/pull/11226)
 -   [`e032aae`](https://github.com/stdlib-js/stdlib/commit/e032aae332443ea4fb933cdf65ab799739c35dc5) - add `soneTo` to namespace
 -   [`d9e018a`](https://github.com/stdlib-js/stdlib/commit/d9e018a06fcdb391e5ba31186a0e30c6a915b591) - add `zzeroTo` to namespace
 -   [`34f7f92`](https://github.com/stdlib-js/stdlib/commit/34f7f921c1d3138dd155f790d7d036e3e1ed8a0e) - add `szeroTo` to namespace
@@ -96,6 +98,10 @@
 
 <details>
 
+-   [`5ea3825`](https://github.com/stdlib-js/stdlib/commit/5ea3825ac5f8b9629ad0946e160ec5da041838f1) - **feat:** add `sindexOfRow` to namespace _(by Athan Reines)_
+-   [`6c4e286`](https://github.com/stdlib-js/stdlib/commit/6c4e28697eb4881723cfbdcc82b92cbefd75ae05) - **test:** rename fixture directories to kebabcase per project conventions _(by Athan Reines)_
+-   [`81e0608`](https://github.com/stdlib-js/stdlib/commit/81e0608c675531e58d38f0c817e8c0e3db48932a) - **feat:** add `blas/ext/base/sindex-of-row` [(#11226)](https://github.com/stdlib-js/stdlib/pull/11226) _(by Muhammad Haris, Athan Reines)_
+-   [`005bc76`](https://github.com/stdlib-js/stdlib/commit/005bc7603d9898b0fd9a9d3f13e0666645711af5) - **bench:** fix benchmark name _(by Athan Reines)_
 -   [`e032aae`](https://github.com/stdlib-js/stdlib/commit/e032aae332443ea4fb933cdf65ab799739c35dc5) - **feat:** add `soneTo` to namespace _(by Athan Reines)_
 -   [`d9e018a`](https://github.com/stdlib-js/stdlib/commit/d9e018a06fcdb391e5ba31186a0e30c6a915b591) - **feat:** add `zzeroTo` to namespace _(by Athan Reines)_
 -   [`34f7f92`](https://github.com/stdlib-js/stdlib/commit/34f7f921c1d3138dd155f790d7d036e3e1ed8a0e) - **feat:** add `szeroTo` to namespace _(by Athan Reines)_
