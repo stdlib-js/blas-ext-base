@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-04-02)
+## Unreleased (2026-04-03)
 
 <section class="features">
 
@@ -98,6 +98,7 @@
 
 <details>
 
+-   [`faaf3b3`](https://github.com/stdlib-js/stdlib/commit/faaf3b363bc48813c2c82b4b930727ae257cde54) - **docs:** update namespace table of contents [(#11276)](https://github.com/stdlib-js/stdlib/pull/11276) _(by stdlib-bot)_
 -   [`5ea3825`](https://github.com/stdlib-js/stdlib/commit/5ea3825ac5f8b9629ad0946e160ec5da041838f1) - **feat:** add `sindexOfRow` to namespace _(by Athan Reines)_
 -   [`6c4e286`](https://github.com/stdlib-js/stdlib/commit/6c4e28697eb4881723cfbdcc82b92cbefd75ae05) - **test:** rename fixture directories to kebabcase per project conventions _(by Athan Reines)_
 -   [`81e0608`](https://github.com/stdlib-js/stdlib/commit/81e0608c675531e58d38f0c817e8c0e3db48932a) - **feat:** add `blas/ext/base/sindex-of-row` [(#11226)](https://github.com/stdlib-js/stdlib/pull/11226) _(by Muhammad Haris, Athan Reines)_
