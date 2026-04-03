@@ -10,6 +10,8 @@
 
 ### Features
 
+-   [`5e92b2e`](https://github.com/stdlib-js/stdlib/commit/5e92b2ead2deb9c3ae9fdd92c89b70ab9aeb484d) - add `gindexOfColumn` to namespace
+-   [`d9f3a19`](https://github.com/stdlib-js/stdlib/commit/d9f3a193e6aa81f6e7f2baf25baa625584e62054) - add `blas/ext/base/gindex-of-column` [(#11240)](https://github.com/stdlib-js/stdlib/pull/11240)
 -   [`5ea3825`](https://github.com/stdlib-js/stdlib/commit/5ea3825ac5f8b9629ad0946e160ec5da041838f1) - add `sindexOfRow` to namespace
 -   [`81e0608`](https://github.com/stdlib-js/stdlib/commit/81e0608c675531e58d38f0c817e8c0e3db48932a) - add `blas/ext/base/sindex-of-row` [(#11226)](https://github.com/stdlib-js/stdlib/pull/11226)
 -   [`e032aae`](https://github.com/stdlib-js/stdlib/commit/e032aae332443ea4fb933cdf65ab799739c35dc5) - add `soneTo` to namespace
@@ -98,6 +100,8 @@
 
 <details>
 
+-   [`5e92b2e`](https://github.com/stdlib-js/stdlib/commit/5e92b2ead2deb9c3ae9fdd92c89b70ab9aeb484d) - **feat:** add `gindexOfColumn` to namespace _(by Athan Reines)_
+-   [`d9f3a19`](https://github.com/stdlib-js/stdlib/commit/d9f3a193e6aa81f6e7f2baf25baa625584e62054) - **feat:** add `blas/ext/base/gindex-of-column` [(#11240)](https://github.com/stdlib-js/stdlib/pull/11240) _(by Muhammad Haris)_
 -   [`faaf3b3`](https://github.com/stdlib-js/stdlib/commit/faaf3b363bc48813c2c82b4b930727ae257cde54) - **docs:** update namespace table of contents [(#11276)](https://github.com/stdlib-js/stdlib/pull/11276) _(by stdlib-bot)_
 -   [`5ea3825`](https://github.com/stdlib-js/stdlib/commit/5ea3825ac5f8b9629ad0946e160ec5da041838f1) - **feat:** add `sindexOfRow` to namespace _(by Athan Reines)_
 -   [`6c4e286`](https://github.com/stdlib-js/stdlib/commit/6c4e28697eb4881723cfbdcc82b92cbefd75ae05) - **test:** rename fixture directories to kebabcase per project conventions _(by Athan Reines)_
