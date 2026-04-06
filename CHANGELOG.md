@@ -10,6 +10,12 @@
 
 ### Features
 
+-   [`31214ce`](https://github.com/stdlib-js/stdlib/commit/31214cef89dc16436602f8290be8717d30381fd5) - add `soneTo` to namespace
+-   [`91bc1cb`](https://github.com/stdlib-js/stdlib/commit/91bc1cb9a564dc0827136738e39b5b1c7c7b5dc7) - add `doneTo` to namespace
+-   [`32bf665`](https://github.com/stdlib-js/stdlib/commit/32bf665642723bf67d5d9f4799ec97a74c37a230) - add `zoneTo` to namespace
+-   [`cff919f`](https://github.com/stdlib-js/stdlib/commit/cff919f72defff3d568a4739aab97eb1ba3b030b) - add `goneTo` to namespace
+-   [`6df69cd`](https://github.com/stdlib-js/stdlib/commit/6df69cd353e4aa5de1330daf90d67fe0be555807) - add `cindexOfRow` to namespace
+-   [`06b965b`](https://github.com/stdlib-js/stdlib/commit/06b965b1ed7062110830f29c37e6fb867d6bc564) - add `blas/ext/base/zone-to` [(#11300)](https://github.com/stdlib-js/stdlib/pull/11300)
 -   [`a77496b`](https://github.com/stdlib-js/stdlib/commit/a77496b935e22aa6a993a7e42bc7f174fe89d1d6) - update `blas/ext/base` TypeScript declarations [(#11314)](https://github.com/stdlib-js/stdlib/pull/11314)
 -   [`74f9832`](https://github.com/stdlib-js/stdlib/commit/74f98320c3ecfbe641a3a1bbe8661b715a119a7a) - add `blas/ext/base/gone-to` [(#11298)](https://github.com/stdlib-js/stdlib/pull/11298)
 -   [`87e85c4`](https://github.com/stdlib-js/stdlib/commit/87e85c45c5078b68a361f60456f249a88ff57f7d) - add `blas/ext/base/ndarray/sone-to` [(#11302)](https://github.com/stdlib-js/stdlib/pull/11302)
@@ -113,6 +119,12 @@
 
 <details>
 
+-   [`31214ce`](https://github.com/stdlib-js/stdlib/commit/31214cef89dc16436602f8290be8717d30381fd5) - **feat:** add `soneTo` to namespace _(by Athan Reines)_
+-   [`91bc1cb`](https://github.com/stdlib-js/stdlib/commit/91bc1cb9a564dc0827136738e39b5b1c7c7b5dc7) - **feat:** add `doneTo` to namespace _(by Athan Reines)_
+-   [`32bf665`](https://github.com/stdlib-js/stdlib/commit/32bf665642723bf67d5d9f4799ec97a74c37a230) - **feat:** add `zoneTo` to namespace _(by Athan Reines)_
+-   [`cff919f`](https://github.com/stdlib-js/stdlib/commit/cff919f72defff3d568a4739aab97eb1ba3b030b) - **feat:** add `goneTo` to namespace _(by Athan Reines)_
+-   [`6df69cd`](https://github.com/stdlib-js/stdlib/commit/6df69cd353e4aa5de1330daf90d67fe0be555807) - **feat:** add `cindexOfRow` to namespace _(by Athan Reines)_
+-   [`06b965b`](https://github.com/stdlib-js/stdlib/commit/06b965b1ed7062110830f29c37e6fb867d6bc564) - **feat:** add `blas/ext/base/zone-to` [(#11300)](https://github.com/stdlib-js/stdlib/pull/11300) _(by Muhammad Haris)_
 -   [`a77496b`](https://github.com/stdlib-js/stdlib/commit/a77496b935e22aa6a993a7e42bc7f174fe89d1d6) - **feat:** update `blas/ext/base` TypeScript declarations [(#11314)](https://github.com/stdlib-js/stdlib/pull/11314) _(by stdlib-bot)_
 -   [`74f9832`](https://github.com/stdlib-js/stdlib/commit/74f98320c3ecfbe641a3a1bbe8661b715a119a7a) - **feat:** add `blas/ext/base/gone-to` [(#11298)](https://github.com/stdlib-js/stdlib/pull/11298) _(by Muhammad Haris)_
 -   [`87e85c4`](https://github.com/stdlib-js/stdlib/commit/87e85c45c5078b68a361f60456f249a88ff57f7d) - **feat:** add `blas/ext/base/ndarray/sone-to` [(#11302)](https://github.com/stdlib-js/stdlib/pull/11302) _(by Muhammad Haris)_
