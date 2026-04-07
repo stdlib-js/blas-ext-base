@@ -123,6 +123,7 @@
 
 <details>
 
+-   [`bb0baff`](https://github.com/stdlib-js/stdlib/commit/bb0baff5acc1fbfa5f34b31045dde2ebd123c140) - **docs:** update namespace table of contents [(#11322)](https://github.com/stdlib-js/stdlib/pull/11322) _(by stdlib-bot)_
 -   [`f8be298`](https://github.com/stdlib-js/stdlib/commit/f8be298367efe43ece03373744891ccfc22b9945) - **feat:** add `coneTo` to namespace _(by Athan Reines)_
 -   [`5b0f76d`](https://github.com/stdlib-js/stdlib/commit/5b0f76d17b0ad323617cb7afbd89a3e81f7a2985) - **feat:** add `goneTo` to namespace _(by Athan Reines)_
 -   [`cf9c1fd`](https://github.com/stdlib-js/stdlib/commit/cf9c1fd10bbb26b8ffe798bef302240f93389953) - **feat:** add `blas/ext/base/ndarray/gone-to` [(#11308)](https://github.com/stdlib-js/stdlib/pull/11308) _(by Muhammad Haris)_
