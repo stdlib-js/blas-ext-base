@@ -38,6 +38,7 @@
   "dependencies": {
     "@stdlib/blas-ext-base-cfill": "^0.1.1",
     "@stdlib/blas-ext-base-cindex-of-row": "github:stdlib-js/blas-ext-base-cindex-of-row#main",
+    "@stdlib/blas-ext-base-cone-to": "github:stdlib-js/blas-ext-base-cone-to#main",
     "@stdlib/blas-ext-base-csum": "^0.1.1",
     "@stdlib/blas-ext-base-csumkbn": "^0.1.1",
     "@stdlib/blas-ext-base-czero-to": "github:stdlib-js/blas-ext-base-czero-to#main",
@@ -281,6 +282,7 @@
     "@stdlib/blas-ext-base-ndarray-gnansumkbn2": "^0.1.1",
     "@stdlib/blas-ext-base-ndarray-gnansumors": "^0.1.1",
     "@stdlib/blas-ext-base-ndarray-gnansumpw": "^0.1.1",
+    "@stdlib/blas-ext-base-ndarray-gone-to": "github:stdlib-js/blas-ext-base-ndarray-gone-to#main",
     "@stdlib/blas-ext-base-ndarray-gsort": "github:stdlib-js/blas-ext-base-ndarray-gsort#main",
     "@stdlib/blas-ext-base-ndarray-gsorthp": "^0.1.1",
     "@stdlib/blas-ext-base-ndarray-gsum": "^0.1.1",
