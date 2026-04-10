@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`0621f73`](https://github.com/stdlib-js/stdlib/commit/0621f73e9460d7c9459b81d9749678721597ca7d) - add `gvander` to namespace
 -   [`75860d1`](https://github.com/stdlib-js/stdlib/commit/75860d17ef63bc5920a2fcf5e9db9910e54d7881) - add `blas/ext/base/gvander` [(#10934)](https://github.com/stdlib-js/stdlib/pull/10934)
 -   [`a737728`](https://github.com/stdlib-js/stdlib/commit/a7377281de9f9c0b4d7654a266ec357d5f663f60) - add `greplicate` to namespace
 -   [`1d20b6d`](https://github.com/stdlib-js/stdlib/commit/1d20b6da25ab99a62f8dee4c7d5cbdee3727b963) - add `blas/ext/base/greplicate` [(#11303)](https://github.com/stdlib-js/stdlib/pull/11303)
@@ -132,6 +133,10 @@
 
 <details>
 
+-   [`0621f73`](https://github.com/stdlib-js/stdlib/commit/0621f73e9460d7c9459b81d9749678721597ca7d) - **feat:** add `gvander` to namespace _(by Athan Reines)_
+-   [`c4d0293`](https://github.com/stdlib-js/stdlib/commit/c4d0293b4ea81eddd7ab8e22fd4b19ea23de5019) - **docs:** update parameter description _(by Athan Reines)_
+-   [`dcdf5e4`](https://github.com/stdlib-js/stdlib/commit/dcdf5e4a20a5168022acae53a5b10cf0bda0b3d9) - **docs:** improve doctests for ndarray instances in `blas/ext/base/ndarray/dcusumkbn` [(#10740)](https://github.com/stdlib-js/stdlib/pull/10740) _(by Aniket Sonawane)_
+-   [`35566af`](https://github.com/stdlib-js/stdlib/commit/35566af0add64775e60422fd16e50e1bec3947e7) - **docs:** fix C examples in READMEs [(#11229)](https://github.com/stdlib-js/stdlib/pull/11229) _(by anee3, Athan Reines)_
 -   [`6dc0130`](https://github.com/stdlib-js/stdlib/commit/6dc01302b920263a8c8997fc9c30f2962bc2e6c5) - **docs:** update namespace table of contents [(#11350)](https://github.com/stdlib-js/stdlib/pull/11350) _(by stdlib-bot)_
 -   [`75860d1`](https://github.com/stdlib-js/stdlib/commit/75860d17ef63bc5920a2fcf5e9db9910e54d7881) - **feat:** add `blas/ext/base/gvander` [(#10934)](https://github.com/stdlib-js/stdlib/pull/10934) _(by Muhammad Haris, Athan Reines)_
 -   [`45d8ff9`](https://github.com/stdlib-js/stdlib/commit/45d8ff9c4c61258e53e7de4dcf2006c4882ceb2d) - **docs:** update examples _(by Athan Reines)_
@@ -395,7 +400,7 @@
 
 ### Contributors
 
-A total of 10 people contributed to this release. Thank you to the following contributors:
+A total of 11 people contributed to this release. Thank you to the following contributors:
 
 -   Aniket Sonawane
 -   Athan Reines
@@ -406,6 +411,7 @@ A total of 10 people contributed to this release. Thank you to the following con
 -   Partha Das
 -   Philipp Burckhardt
 -   Prajjwal Bajpai
+-   anee3
 -   me0-0
 
 </section>

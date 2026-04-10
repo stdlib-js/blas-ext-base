@@ -148,6 +148,7 @@
     "@stdlib/blas-ext-base-gsumkbn2": "^0.3.1",
     "@stdlib/blas-ext-base-gsumors": "^0.3.1",
     "@stdlib/blas-ext-base-gsumpw": "^0.3.1",
+    "@stdlib/blas-ext-base-gvander": "github:stdlib-js/blas-ext-base-gvander#main",
     "@stdlib/blas-ext-base-gzero-to": "github:stdlib-js/blas-ext-base-gzero-to#main",
     "@stdlib/blas-ext-base-ndarray": "^0.1.1",
     "@stdlib/blas-ext-base-sapx": "^0.3.1",
