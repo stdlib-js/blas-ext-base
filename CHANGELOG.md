@@ -4,12 +4,14 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-04-11)
+## Unreleased (2026-04-12)
 
 <section class="features">
 
 ### Features
 
+-   [`90824dc`](https://github.com/stdlib-js/stdlib/commit/90824dc2c39a70dd1595c064e67a389f138001fb) - add C `ndarray` API and refactor `blas/ext/base/ssorthp` [(#9698)](https://github.com/stdlib-js/stdlib/pull/9698)
+-   [`e0aa4bb`](https://github.com/stdlib-js/stdlib/commit/e0aa4bbd1d4affd798a1cdde34a436ff3951c2ad) - add `blas/ext/base/ndarray/dsort` [(#9710)](https://github.com/stdlib-js/stdlib/pull/9710)
 -   [`9260f31`](https://github.com/stdlib-js/stdlib/commit/9260f31994955a4c597080f7044d73f1f26ba856) - add C implementation for `blas/ext/base/ndarray/csum` [(#10696)](https://github.com/stdlib-js/stdlib/pull/10696)
 -   [`b05fe40`](https://github.com/stdlib-js/stdlib/commit/b05fe40f8bc3caa85cb8734f9e30a487ae2bed74) - add C implementation for `blas/ext/base/ndarray/zsum` [(#10699)](https://github.com/stdlib-js/stdlib/pull/10699)
 -   [`e2cb754`](https://github.com/stdlib-js/stdlib/commit/e2cb754df4df20314ca85ade73ff9d8f06c44159) - add C implementation for `blas/ext/base/ndarray/dnansum` [(#10715)](https://github.com/stdlib-js/stdlib/pull/10715)
@@ -137,6 +139,16 @@
 
 <details>
 
+-   [`4c5ee9d`](https://github.com/stdlib-js/stdlib/commit/4c5ee9de4719b72e1b2f36fe71f9e418c032ac8e) - **docs:** update namespace table of contents [(#11402)](https://github.com/stdlib-js/stdlib/pull/11402) _(by stdlib-bot)_
+-   [`90824dc`](https://github.com/stdlib-js/stdlib/commit/90824dc2c39a70dd1595c064e67a389f138001fb) - **feat:** add C `ndarray` API and refactor `blas/ext/base/ssorthp` [(#9698)](https://github.com/stdlib-js/stdlib/pull/9698) _(by Muhammad Haris, Athan Reines)_
+-   [`e0aa4bb`](https://github.com/stdlib-js/stdlib/commit/e0aa4bbd1d4affd798a1cdde34a436ff3951c2ad) - **feat:** add `blas/ext/base/ndarray/dsort` [(#9710)](https://github.com/stdlib-js/stdlib/pull/9710) _(by Sagar Ratna Chaudhary, Athan Reines, stdlib-bot)_
+-   [`be217cb`](https://github.com/stdlib-js/stdlib/commit/be217cb556c03812a58ba0d7a85708749f7dd3e0) - **bench:** fix descriptions _(by Athan Reines)_
+-   [`3c53cd5`](https://github.com/stdlib-js/stdlib/commit/3c53cd5e6631fc84321e5f5808c739a1f0de0d7d) - **bench:** fix descriptions _(by Athan Reines)_
+-   [`9581084`](https://github.com/stdlib-js/stdlib/commit/9581084bd518b51be6d9df4bccfb5a34a1e1b7dd) - **bench:** fix descriptions _(by Athan Reines)_
+-   [`a889040`](https://github.com/stdlib-js/stdlib/commit/a889040bbfbd378e5f784bd19f0b24f88c9bb2b9) - **test:** ensure support for dtype instances _(by Athan Reines)_
+-   [`9fceca8`](https://github.com/stdlib-js/stdlib/commit/9fceca87d82dacde8ead8d4a030cad27ed50ae70) - **test:** ensure support for dtype instances _(by Athan Reines)_
+-   [`75ff8fe`](https://github.com/stdlib-js/stdlib/commit/75ff8fe6e7a73c630b4dbdb4543e626d95afa2fb) - **test:** ensure support for dtype instances _(by Athan Reines)_
+-   [`9bfb6b0`](https://github.com/stdlib-js/stdlib/commit/9bfb6b06411afd725918cef27c7dc97ba282eed9) - **test:** ensure support for dtype instances _(by Athan Reines)_
 -   [`843db97`](https://github.com/stdlib-js/stdlib/commit/843db97a005833d8362c60da9a0326eca5aad1b8) - **docs:** update namespace table of contents [(#11358)](https://github.com/stdlib-js/stdlib/pull/11358) _(by stdlib-bot)_
 -   [`9260f31`](https://github.com/stdlib-js/stdlib/commit/9260f31994955a4c597080f7044d73f1f26ba856) - **feat:** add C implementation for `blas/ext/base/ndarray/csum` [(#10696)](https://github.com/stdlib-js/stdlib/pull/10696) _(by Kaustubh Patange, Athan Reines, stdlib-bot)_
 -   [`b05fe40`](https://github.com/stdlib-js/stdlib/commit/b05fe40f8bc3caa85cb8734f9e30a487ae2bed74) - **feat:** add C implementation for `blas/ext/base/ndarray/zsum` [(#10699)](https://github.com/stdlib-js/stdlib/pull/10699) _(by Kaustubh Patange, Athan Reines)_
@@ -410,7 +422,7 @@
 
 ### Contributors
 
-A total of 12 people contributed to this release. Thank you to the following contributors:
+A total of 13 people contributed to this release. Thank you to the following contributors:
 
 -   Aniket Sonawane
 -   Athan Reines
@@ -422,6 +434,7 @@ A total of 12 people contributed to this release. Thank you to the following con
 -   Partha Das
 -   Philipp Burckhardt
 -   Prajjwal Bajpai
+-   Sagar Ratna Chaudhary
 -   anee3
 -   me0-0
 
