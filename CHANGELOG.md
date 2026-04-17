@@ -10,6 +10,9 @@
 
 ### Features
 
+-   [`da1d1ef`](https://github.com/stdlib-js/stdlib/commit/da1d1ef00505a288d455266c61a954b6d3c20a00) - add `dvander` and `svander` to namespace
+-   [`d03f7d8`](https://github.com/stdlib-js/stdlib/commit/d03f7d836afb3c0b1acfd8fa44fadf52e915cb12) - add `blas/ext/base/svander` [(#10926)](https://github.com/stdlib-js/stdlib/pull/10926)
+-   [`3b3e2b8`](https://github.com/stdlib-js/stdlib/commit/3b3e2b81e52d051809bdb28b2758254d3253a437) - add `blas/ext/base/dvander` [(#10923)](https://github.com/stdlib-js/stdlib/pull/10923)
 -   [`6c430c7`](https://github.com/stdlib-js/stdlib/commit/6c430c7cf0ad336df590a4bee5e05c78346e5dc2) - add `gnancount` to namespace
 -   [`c84f0ca`](https://github.com/stdlib-js/stdlib/commit/c84f0caa56429dc035cfb22a105d62a3178b5c87) - add `blas/ext/base/gnancount`
 -   [`e7d8e09`](https://github.com/stdlib-js/stdlib/commit/e7d8e0920f12d60fd5e6d53386f5864d881a509c) - add `snancount` to namespace
@@ -155,6 +158,10 @@
 
 <details>
 
+-   [`da1d1ef`](https://github.com/stdlib-js/stdlib/commit/da1d1ef00505a288d455266c61a954b6d3c20a00) - **feat:** add `dvander` and `svander` to namespace _(by Athan Reines)_
+-   [`d03f7d8`](https://github.com/stdlib-js/stdlib/commit/d03f7d836afb3c0b1acfd8fa44fadf52e915cb12) - **feat:** add `blas/ext/base/svander` [(#10926)](https://github.com/stdlib-js/stdlib/pull/10926) _(by Muhammad Haris)_
+-   [`3b3e2b8`](https://github.com/stdlib-js/stdlib/commit/3b3e2b81e52d051809bdb28b2758254d3253a437) - **feat:** add `blas/ext/base/dvander` [(#10923)](https://github.com/stdlib-js/stdlib/pull/10923) _(by Muhammad Haris, Athan Reines)_
+-   [`97b509e`](https://github.com/stdlib-js/stdlib/commit/97b509e9e82501c0367c22cab0ef6c98b27618ef) - **docs:** improve doctests for ndarray instances in `blas/ext/base/ndarray/dsorthp` [(#11503)](https://github.com/stdlib-js/stdlib/pull/11503) _(by Prajjwal Bajpai)_
 -   [`6c430c7`](https://github.com/stdlib-js/stdlib/commit/6c430c7cf0ad336df590a4bee5e05c78346e5dc2) - **feat:** add `gnancount` to namespace _(by Athan Reines)_
 -   [`c84f0ca`](https://github.com/stdlib-js/stdlib/commit/c84f0caa56429dc035cfb22a105d62a3178b5c87) - **feat:** add `blas/ext/base/gnancount` _(by Athan Reines)_
 -   [`e7d8e09`](https://github.com/stdlib-js/stdlib/commit/e7d8e0920f12d60fd5e6d53386f5864d881a509c) - **feat:** add `snancount` to namespace _(by Athan Reines)_
