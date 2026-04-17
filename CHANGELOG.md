@@ -4,12 +4,16 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-04-16)
+## Unreleased (2026-04-17)
 
 <section class="features">
 
 ### Features
 
+-   [`2ab6254`](https://github.com/stdlib-js/stdlib/commit/2ab6254a552c8bb1024eb5fc5baa35cd4812f64b) - update `blas/ext/base/ndarray` TypeScript declarations [(#11496)](https://github.com/stdlib-js/stdlib/pull/11496)
+-   [`aacc13a`](https://github.com/stdlib-js/stdlib/commit/aacc13a91e7131c5829cdb3622990a92805aabc9) - add `dsort` to namespace
+-   [`56329f6`](https://github.com/stdlib-js/stdlib/commit/56329f6843adb81d057638457604f1442db76484) - add `ssort` to namespace
+-   [`fafa2d5`](https://github.com/stdlib-js/stdlib/commit/fafa2d535bd201a047b251afdb6aaa096b998961) - add `blas/ext/base/ndarray/ssort` [(#11484)](https://github.com/stdlib-js/stdlib/pull/11484)
 -   [`54aee70`](https://github.com/stdlib-js/stdlib/commit/54aee70f85a87f79c6b17e4a8cc13a1549a565ed) - add `ssort` to namespace
 -   [`3c7f8d2`](https://github.com/stdlib-js/stdlib/commit/3c7f8d29fb78997b36d33204f92d2e176a834c13) - add `blas/ext/base/ssort` [(#9697)](https://github.com/stdlib-js/stdlib/pull/9697)
 -   [`4bb0678`](https://github.com/stdlib-js/stdlib/commit/4bb06788fb4591402eebc85e92dcae6df313d85c) - update `blas/ext/base` TypeScript declarations [(#11419)](https://github.com/stdlib-js/stdlib/pull/11419)
@@ -143,6 +147,13 @@
 
 <details>
 
+-   [`10210e4`](https://github.com/stdlib-js/stdlib/commit/10210e49f0b5e71b93243d12b650048dc17abed3) - **docs:** update namespace table of contents [(#11497)](https://github.com/stdlib-js/stdlib/pull/11497) _(by stdlib-bot)_
+-   [`2ab6254`](https://github.com/stdlib-js/stdlib/commit/2ab6254a552c8bb1024eb5fc5baa35cd4812f64b) - **feat:** update `blas/ext/base/ndarray` TypeScript declarations [(#11496)](https://github.com/stdlib-js/stdlib/pull/11496) _(by stdlib-bot)_
+-   [`aacc13a`](https://github.com/stdlib-js/stdlib/commit/aacc13a91e7131c5829cdb3622990a92805aabc9) - **feat:** add `dsort` to namespace _(by Athan Reines)_
+-   [`56329f6`](https://github.com/stdlib-js/stdlib/commit/56329f6843adb81d057638457604f1442db76484) - **feat:** add `ssort` to namespace _(by Athan Reines)_
+-   [`fafa2d5`](https://github.com/stdlib-js/stdlib/commit/fafa2d535bd201a047b251afdb6aaa096b998961) - **feat:** add `blas/ext/base/ndarray/ssort` [(#11484)](https://github.com/stdlib-js/stdlib/pull/11484) _(by Muhammad Haris, Athan Reines)_
+-   [`3b2fa8f`](https://github.com/stdlib-js/stdlib/commit/3b2fa8f05fd9bd37f3a7f71f3d5b4ff0f60557e9) - **docs:** update descriptions _(by Athan Reines)_
+-   [`328ca77`](https://github.com/stdlib-js/stdlib/commit/328ca7797c1446568242d8bbd510129396fe3af0) - **docs:** fix notes _(by Athan Reines)_
 -   [`54aee70`](https://github.com/stdlib-js/stdlib/commit/54aee70f85a87f79c6b17e4a8cc13a1549a565ed) - **feat:** add `ssort` to namespace _(by Athan Reines)_
 -   [`3c7f8d2`](https://github.com/stdlib-js/stdlib/commit/3c7f8d29fb78997b36d33204f92d2e176a834c13) - **feat:** add `blas/ext/base/ssort` [(#9697)](https://github.com/stdlib-js/stdlib/pull/9697) _(by Muhammad Haris, Athan Reines, stdlib-bot)_
 -   [`4bb0678`](https://github.com/stdlib-js/stdlib/commit/4bb06788fb4591402eebc85e92dcae6df313d85c) - **feat:** update `blas/ext/base` TypeScript declarations [(#11419)](https://github.com/stdlib-js/stdlib/pull/11419) _(by stdlib-bot)_

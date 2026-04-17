@@ -222,6 +222,7 @@ var o = ns;
 -   <span class="signature">[`snansumpw( N, x, strideX )`][@stdlib/blas/ext/base/snansumpw]</span><span class="delimiter">: </span><span class="description">calculate the sum of single-precision floating-point strided array elements, ignoring `NaN` values and using pairwise summation.</span>
 -   <span class="signature">[`soneTo( N, x, strideX )`][@stdlib/blas/ext/base/sone-to]</span><span class="delimiter">: </span><span class="description">fill a single-precision floating-point strided array with linearly spaced numeric elements which increment by `1` starting from one.</span>
 -   <span class="signature">[`srev( N, x, strideX )`][@stdlib/blas/ext/base/srev]</span><span class="delimiter">: </span><span class="description">reverse a single-precision floating-point strided array in-place.</span>
+-   <span class="signature">[`ssort( N, order, x, strideX )`][@stdlib/blas/ext/base/ssort]</span><span class="delimiter">: </span><span class="description">sort a single-precision floating-point strided array.</span>
 -   <span class="signature">[`ssort2hp( N, order, x, strideX, y, strideY )`][@stdlib/blas/ext/base/ssort2hp]</span><span class="delimiter">: </span><span class="description">simultaneously sort two single-precision floating-point strided arrays based on the sort order of the first array using heapsort.</span>
 -   <span class="signature">[`ssort2ins( N, order, x, strideX, y, strideY )`][@stdlib/blas/ext/base/ssort2ins]</span><span class="delimiter">: </span><span class="description">simultaneously sort two single-precision floating-point strided arrays based on the sort order of the first array using insertion sort.</span>
 -   <span class="signature">[`ssort2sh( N, order, x, strideX, y, strideY )`][@stdlib/blas/ext/base/ssort2sh]</span><span class="delimiter">: </span><span class="description">simultaneously sort two single-precision floating-point strided arrays based on the sort order of the first array using Shellsort.</span>
@@ -650,6 +651,8 @@ Copyright &copy; 2016-2026. The Stdlib [Authors][stdlib-authors].
 [@stdlib/blas/ext/base/sone-to]: https://github.com/stdlib-js/blas-ext-base-sone-to
 
 [@stdlib/blas/ext/base/srev]: https://github.com/stdlib-js/blas-ext-base-srev
+
+[@stdlib/blas/ext/base/ssort]: https://github.com/stdlib-js/blas-ext-base-ssort
 
 [@stdlib/blas/ext/base/ssort2hp]: https://github.com/stdlib-js/blas-ext-base-ssort2hp
 
