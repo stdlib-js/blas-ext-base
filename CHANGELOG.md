@@ -10,6 +10,12 @@
 
 ### Features
 
+-   [`6c430c7`](https://github.com/stdlib-js/stdlib/commit/6c430c7cf0ad336df590a4bee5e05c78346e5dc2) - add `gnancount` to namespace
+-   [`c84f0ca`](https://github.com/stdlib-js/stdlib/commit/c84f0caa56429dc035cfb22a105d62a3178b5c87) - add `blas/ext/base/gnancount`
+-   [`e7d8e09`](https://github.com/stdlib-js/stdlib/commit/e7d8e0920f12d60fd5e6d53386f5864d881a509c) - add `snancount` to namespace
+-   [`8edb14b`](https://github.com/stdlib-js/stdlib/commit/8edb14b2afd6ad44f3ac57e220517a17f7038af9) - add `blas/ext/base/snancount`
+-   [`c3ecb67`](https://github.com/stdlib-js/stdlib/commit/c3ecb679224184a40ed56fb39b2d8f6ad957ae89) - add `dnancount` to namespace
+-   [`4f065eb`](https://github.com/stdlib-js/stdlib/commit/4f065eb18dc8c7038f9f75d7d30991cc9056a770) - add `blas/ext/base/dnancount`
 -   [`51cb65c`](https://github.com/stdlib-js/stdlib/commit/51cb65ca010a117520cada40c81ead09956e1724) - add `gwhere` to namespace
 -   [`85b48f1`](https://github.com/stdlib-js/stdlib/commit/85b48f1932349ff73045a1e53e7477296233381c) - add `blas/ext/base/gwhere` [(#11345)](https://github.com/stdlib-js/stdlib/pull/11345)
 -   [`2ab6254`](https://github.com/stdlib-js/stdlib/commit/2ab6254a552c8bb1024eb5fc5baa35cd4812f64b) - update `blas/ext/base/ndarray` TypeScript declarations [(#11496)](https://github.com/stdlib-js/stdlib/pull/11496)
@@ -149,6 +155,12 @@
 
 <details>
 
+-   [`6c430c7`](https://github.com/stdlib-js/stdlib/commit/6c430c7cf0ad336df590a4bee5e05c78346e5dc2) - **feat:** add `gnancount` to namespace _(by Athan Reines)_
+-   [`c84f0ca`](https://github.com/stdlib-js/stdlib/commit/c84f0caa56429dc035cfb22a105d62a3178b5c87) - **feat:** add `blas/ext/base/gnancount` _(by Athan Reines)_
+-   [`e7d8e09`](https://github.com/stdlib-js/stdlib/commit/e7d8e0920f12d60fd5e6d53386f5864d881a509c) - **feat:** add `snancount` to namespace _(by Athan Reines)_
+-   [`8edb14b`](https://github.com/stdlib-js/stdlib/commit/8edb14b2afd6ad44f3ac57e220517a17f7038af9) - **feat:** add `blas/ext/base/snancount` _(by Athan Reines)_
+-   [`c3ecb67`](https://github.com/stdlib-js/stdlib/commit/c3ecb679224184a40ed56fb39b2d8f6ad957ae89) - **feat:** add `dnancount` to namespace _(by Athan Reines)_
+-   [`4f065eb`](https://github.com/stdlib-js/stdlib/commit/4f065eb18dc8c7038f9f75d7d30991cc9056a770) - **feat:** add `blas/ext/base/dnancount` _(by Athan Reines)_
 -   [`51cb65c`](https://github.com/stdlib-js/stdlib/commit/51cb65ca010a117520cada40c81ead09956e1724) - **feat:** add `gwhere` to namespace _(by Athan Reines)_
 -   [`85b48f1`](https://github.com/stdlib-js/stdlib/commit/85b48f1932349ff73045a1e53e7477296233381c) - **feat:** add `blas/ext/base/gwhere` [(#11345)](https://github.com/stdlib-js/stdlib/pull/11345) _(by Muhammad Haris, Athan Reines)_
 -   [`10210e4`](https://github.com/stdlib-js/stdlib/commit/10210e49f0b5e71b93243d12b650048dc17abed3) - **docs:** update namespace table of contents [(#11497)](https://github.com/stdlib-js/stdlib/pull/11497) _(by stdlib-bot)_
