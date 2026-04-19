@@ -151,6 +151,7 @@
     "@stdlib/blas-ext-base-gsumkbn2": "^0.3.1",
     "@stdlib/blas-ext-base-gsumors": "^0.3.1",
     "@stdlib/blas-ext-base-gsumpw": "^0.3.1",
+    "@stdlib/blas-ext-base-gunitspace": "github:stdlib-js/blas-ext-base-gunitspace#main",
     "@stdlib/blas-ext-base-gvander": "github:stdlib-js/blas-ext-base-gvander#main",
     "@stdlib/blas-ext-base-gwhere": "github:stdlib-js/blas-ext-base-gwhere#main",
     "@stdlib/blas-ext-base-gzero-to": "github:stdlib-js/blas-ext-base-gzero-to#main",
