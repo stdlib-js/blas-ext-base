@@ -10,6 +10,8 @@
 
 ### Features
 
+-   [`19a6bb7`](https://github.com/stdlib-js/stdlib/commit/19a6bb776dbb08fe1f99c8346fabbd9ecb257786) - add `znancount` to namespace
+-   [`535ec3b`](https://github.com/stdlib-js/stdlib/commit/535ec3ba9e8bbc13d16592246b7f45b19e2d7bfa) - add `blas/ext/base/znancount` [(#11514)](https://github.com/stdlib-js/stdlib/pull/11514)
 -   [`1764738`](https://github.com/stdlib-js/stdlib/commit/17647387e691a8e7429f9248ece23fa6ce182cb5) - add `gunitspace` to namespace
 -   [`e92d656`](https://github.com/stdlib-js/stdlib/commit/e92d6562ce95ea73bd3a6f37ff4f454d0d1b336b) - add `blas/ext/base/gunitspace` [(#11555)](https://github.com/stdlib-js/stdlib/pull/11555)
 -   [`da1d1ef`](https://github.com/stdlib-js/stdlib/commit/da1d1ef00505a288d455266c61a954b6d3c20a00) - add `dvander` and `svander` to namespace
@@ -160,6 +162,15 @@
 
 <details>
 
+-   [`19a6bb7`](https://github.com/stdlib-js/stdlib/commit/19a6bb776dbb08fe1f99c8346fabbd9ecb257786) - **feat:** add `znancount` to namespace _(by Athan Reines)_
+-   [`535ec3b`](https://github.com/stdlib-js/stdlib/commit/535ec3ba9e8bbc13d16592246b7f45b19e2d7bfa) - **feat:** add `blas/ext/base/znancount` [(#11514)](https://github.com/stdlib-js/stdlib/pull/11514) _(by Om-A-osc)_
+-   [`0873811`](https://github.com/stdlib-js/stdlib/commit/0873811a6cdde040bef142386df8f1fe2c64d4df) - **docs:** inline ndarray output in doctests and add missing article [(#11557)](https://github.com/stdlib-js/stdlib/pull/11557) _(by Philipp Burckhardt)_
+-   [`638fdf0`](https://github.com/stdlib-js/stdlib/commit/638fdf0149590cc7e645ac544cb1d36ccc0d867a) - **docs:** improve doctests for ndarray instances in `blas/ext/base/ndarray/gcusumkbn2` [(#11576)](https://github.com/stdlib-js/stdlib/pull/11576) _(by Uday Kakade)_
+-   [`3c29f4b`](https://github.com/stdlib-js/stdlib/commit/3c29f4b4fd3bf3bf1f6a132c50bc684444d7674b) - **docs:** improve doctests for ndarray instances in `blas/ext/base/ndarray/gcusumkbn` [(#11574)](https://github.com/stdlib-js/stdlib/pull/11574) _(by Uday Kakade)_
+-   [`ea0027d`](https://github.com/stdlib-js/stdlib/commit/ea0027d3192bfccf9851eed2a333af3fee8c4a7c) - **docs:** improve doctests for ndarray instances in `blas/ext/base/ndarray/gcusumors` [(#11573)](https://github.com/stdlib-js/stdlib/pull/11573) _(by Uday Kakade)_
+-   [`85636fc`](https://github.com/stdlib-js/stdlib/commit/85636fc4c88f2b13210775178edb2d477d8f57af) - **docs:** improve doctests for ndarray instances in `blas/ext/base/ndarray/gcusumpw` [(#11572)](https://github.com/stdlib-js/stdlib/pull/11572) _(by Uday Kakade)_
+-   [`1e24d10`](https://github.com/stdlib-js/stdlib/commit/1e24d102fcb9c24bd27bdb25fc37752f9dd2c2cb) - **docs:** improve doctests for ndarray instances in `blas/ext/base/ndarray/scusumkbn2` [(#11570)](https://github.com/stdlib-js/stdlib/pull/11570) _(by Uday Kakade)_
+-   [`0f724a5`](https://github.com/stdlib-js/stdlib/commit/0f724a5ad7074488bad7ccd26090443f7fbbf7b9) - **docs:** improve doctests for ndarray instances in `blas/ext/base/ndarray/scusumkbn` [(#11569)](https://github.com/stdlib-js/stdlib/pull/11569) _(by Uday Kakade)_
 -   [`1764738`](https://github.com/stdlib-js/stdlib/commit/17647387e691a8e7429f9248ece23fa6ce182cb5) - **feat:** add `gunitspace` to namespace _(by Athan Reines)_
 -   [`e92d656`](https://github.com/stdlib-js/stdlib/commit/e92d6562ce95ea73bd3a6f37ff4f454d0d1b336b) - **feat:** add `blas/ext/base/gunitspace` [(#11555)](https://github.com/stdlib-js/stdlib/pull/11555) _(by Muhammad Haris, Athan Reines)_
 -   [`820d48e`](https://github.com/stdlib-js/stdlib/commit/820d48ebe0a35771a7b62c3d571c8ffca43a09c1) - **docs:** improve doctests for ndarray instances in `blas/ext/ndarray/dsorthsh` [(#11544)](https://github.com/stdlib-js/stdlib/pull/11544) _(by Uday Kakade)_
@@ -485,7 +496,7 @@
 
 ### Contributors
 
-A total of 15 people contributed to this release. Thank you to the following contributors:
+A total of 16 people contributed to this release. Thank you to the following contributors:
 
 -   Aniket Sonawane
 -   Athan Reines
@@ -495,6 +506,7 @@ A total of 15 people contributed to this release. Thank you to the following con
 -   Karan Anand
 -   Kaustubh Patange
 -   Muhammad Haris
+-   Om-A-osc
 -   Partha Das
 -   Philipp Burckhardt
 -   Prajjwal Bajpai

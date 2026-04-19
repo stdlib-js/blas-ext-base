@@ -205,6 +205,7 @@
     "@stdlib/blas-ext-base-wasm": "^0.1.1",
     "@stdlib/blas-ext-base-zfill": "^0.1.1",
     "@stdlib/blas-ext-base-zindex-of-row": "github:stdlib-js/blas-ext-base-zindex-of-row#main",
+    "@stdlib/blas-ext-base-znancount": "github:stdlib-js/blas-ext-base-znancount#main",
     "@stdlib/blas-ext-base-zone-to": "github:stdlib-js/blas-ext-base-zone-to#main",
     "@stdlib/blas-ext-base-zsum": "^0.1.1",
     "@stdlib/blas-ext-base-zsumkbn": "^0.1.1",
