@@ -191,6 +191,7 @@ var o = ns;
 -   <span class="signature">[`gsumkbn2( N, x, strideX )`][@stdlib/blas/ext/base/gsumkbn2]</span><span class="delimiter">: </span><span class="description">calculate the sum of strided array elements using a second-order iterative Kahan–Babuška algorithm.</span>
 -   <span class="signature">[`gsumors( N, x, strideX )`][@stdlib/blas/ext/base/gsumors]</span><span class="delimiter">: </span><span class="description">calculate the sum of strided array elements using ordinary recursive summation.</span>
 -   <span class="signature">[`gsumpw( N, x, strideX )`][@stdlib/blas/ext/base/gsumpw]</span><span class="delimiter">: </span><span class="description">calculate the sum of strided array elements using pairwise summation.</span>
+-   <span class="signature">[`gunitspace( N, start, x, strideX )`][@stdlib/blas/ext/base/gunitspace]</span><span class="delimiter">: </span><span class="description">fill a strided array with linearly spaced numeric elements which increment by `1` starting from a specified value.</span>
 -   <span class="signature">[`gvander( order, mode, M, N, x, strideX, out, ldo )`][@stdlib/blas/ext/base/gvander]</span><span class="delimiter">: </span><span class="description">generate a Vandermonde matrix.</span>
 -   <span class="signature">[`gwhere( N, condition, strideC, x, strideX, y, strideY, out, strideOut )`][@stdlib/blas/ext/base/gwhere]</span><span class="delimiter">: </span><span class="description">take elements from one of two strided arrays depending on a condition.</span>
 -   <span class="signature">[`gzeroTo( N, x, strideX )`][@stdlib/blas/ext/base/gzero-to]</span><span class="delimiter">: </span><span class="description">fill a strided array with linearly spaced numeric elements which increment by `1` starting from zero.</span>
@@ -244,6 +245,7 @@ var o = ns;
 -   <span class="signature">[`wasm`][@stdlib/blas/ext/base/wasm]</span><span class="delimiter">: </span><span class="description">extensions to basic linear algebra subprograms (BLAS) compiled to WebAssembly.</span>
 -   <span class="signature">[`zfill( N, alpha, x, strideX )`][@stdlib/blas/ext/base/zfill]</span><span class="delimiter">: </span><span class="description">fill a double-precision complex floating-point strided array with a specified scalar constant.</span>
 -   <span class="signature">[`zindexOfRow( order, M, N, A, LDA, x, strideX, workspace, strideW )`][@stdlib/blas/ext/base/zindex-of-row]</span><span class="delimiter">: </span><span class="description">return the index of the first row in a double-precision complex floating-point input matrix which has the same elements as a provided search vector.</span>
+-   <span class="signature">[`znancount( N, x, strideX )`][@stdlib/blas/ext/base/znancount]</span><span class="delimiter">: </span><span class="description">calculate the number of non-`NaN` elements in a double-precision complex floating-point strided array.</span>
 -   <span class="signature">[`zoneTo( N, x, strideX )`][@stdlib/blas/ext/base/zone-to]</span><span class="delimiter">: </span><span class="description">fill a double-precision complex floating-point strided array with linearly spaced numeric elements which increment by `1` starting from one.</span>
 -   <span class="signature">[`zsum( N, x, strideX )`][@stdlib/blas/ext/base/zsum]</span><span class="delimiter">: </span><span class="description">calculate the sum of double-precision complex floating-point strided array elements.</span>
 -   <span class="signature">[`zsumkbn( N, x, strideX )`][@stdlib/blas/ext/base/zsumkbn]</span><span class="delimiter">: </span><span class="description">calculate the sum of double-precision complex floating-point strided array elements using an improved Kahan–Babuška algorithm.</span>
@@ -596,6 +598,8 @@ Copyright &copy; 2016-2026. The Stdlib [Authors][stdlib-authors].
 
 [@stdlib/blas/ext/base/gsumpw]: https://github.com/stdlib-js/blas-ext-base-gsumpw
 
+[@stdlib/blas/ext/base/gunitspace]: https://github.com/stdlib-js/blas-ext-base-gunitspace
+
 [@stdlib/blas/ext/base/gvander]: https://github.com/stdlib-js/blas-ext-base-gvander
 
 [@stdlib/blas/ext/base/gwhere]: https://github.com/stdlib-js/blas-ext-base-gwhere
@@ -701,6 +705,8 @@ Copyright &copy; 2016-2026. The Stdlib [Authors][stdlib-authors].
 [@stdlib/blas/ext/base/zfill]: https://github.com/stdlib-js/blas-ext-base-zfill
 
 [@stdlib/blas/ext/base/zindex-of-row]: https://github.com/stdlib-js/blas-ext-base-zindex-of-row
+
+[@stdlib/blas/ext/base/znancount]: https://github.com/stdlib-js/blas-ext-base-znancount
 
 [@stdlib/blas/ext/base/zone-to]: https://github.com/stdlib-js/blas-ext-base-zone-to
 

@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-04-19)
+## Unreleased (2026-04-20)
 
 <section class="features">
 
@@ -162,6 +162,8 @@
 
 <details>
 
+-   [`0f96d30`](https://github.com/stdlib-js/stdlib/commit/0f96d3092e11bed46e6cd83efd770c2d6fa77af1) - **docs:** update namespace table of contents [(#11637)](https://github.com/stdlib-js/stdlib/pull/11637) _(by stdlib-bot, Philipp Burckhardt)_
+-   [`67cdf3c`](https://github.com/stdlib-js/stdlib/commit/67cdf3cc8be241859493c2da00974d595eef73cb) - **chore:** propagate recent doctest and lint fixes to sibling packages [(#11585)](https://github.com/stdlib-js/stdlib/pull/11585) _(by Philipp Burckhardt)_
 -   [`19a6bb7`](https://github.com/stdlib-js/stdlib/commit/19a6bb776dbb08fe1f99c8346fabbd9ecb257786) - **feat:** add `znancount` to namespace _(by Athan Reines)_
 -   [`535ec3b`](https://github.com/stdlib-js/stdlib/commit/535ec3ba9e8bbc13d16592246b7f45b19e2d7bfa) - **feat:** add `blas/ext/base/znancount` [(#11514)](https://github.com/stdlib-js/stdlib/pull/11514) _(by Om-A-osc)_
 -   [`0873811`](https://github.com/stdlib-js/stdlib/commit/0873811a6cdde040bef142386df8f1fe2c64d4df) - **docs:** inline ndarray output in doctests and add missing article [(#11557)](https://github.com/stdlib-js/stdlib/pull/11557) _(by Philipp Burckhardt)_
