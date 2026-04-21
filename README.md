@@ -141,6 +141,7 @@ var o = ns;
 -   <span class="signature">[`dsumkbn2( N, x, strideX )`][@stdlib/blas/ext/base/dsumkbn2]</span><span class="delimiter">: </span><span class="description">calculate the sum of double-precision floating-point strided array elements using a second-order iterative Kahan–Babuška algorithm.</span>
 -   <span class="signature">[`dsumors( N, x, strideX )`][@stdlib/blas/ext/base/dsumors]</span><span class="delimiter">: </span><span class="description">calculate the sum of double-precision floating-point strided array elements using ordinary recursive summation.</span>
 -   <span class="signature">[`dsumpw( N, x, strideX )`][@stdlib/blas/ext/base/dsumpw]</span><span class="delimiter">: </span><span class="description">calculate the sum of double-precision floating-point strided array elements using pairwise summation.</span>
+-   <span class="signature">[`dunitspace( N, start, x, strideX )`][@stdlib/blas/ext/base/dunitspace]</span><span class="delimiter">: </span><span class="description">fill a double-precision floating-point strided array with linearly spaced numeric elements which increment by `1` starting from a specified value.</span>
 -   <span class="signature">[`dvander( order, mode, M, N, x, strideX, out, ldo )`][@stdlib/blas/ext/base/dvander]</span><span class="delimiter">: </span><span class="description">generate a double-precision floating-point Vandermonde matrix.</span>
 -   <span class="signature">[`dzeroTo( N, x, strideX )`][@stdlib/blas/ext/base/dzero-to]</span><span class="delimiter">: </span><span class="description">fill a double-precision floating-point strided array with linearly spaced numeric elements which increment by `1` starting from zero.</span>
 -   <span class="signature">[`gapx( N, alpha, x, strideX )`][@stdlib/blas/ext/base/gapx]</span><span class="delimiter">: </span><span class="description">add a scalar constant to each element in a strided array.</span>
@@ -240,6 +241,7 @@ var o = ns;
 -   <span class="signature">[`ssumkbn2( N, x, strideX )`][@stdlib/blas/ext/base/ssumkbn2]</span><span class="delimiter">: </span><span class="description">calculate the sum of single-precision floating-point strided array elements using a second-order iterative Kahan–Babuška algorithm.</span>
 -   <span class="signature">[`ssumors( N, x, strideX )`][@stdlib/blas/ext/base/ssumors]</span><span class="delimiter">: </span><span class="description">calculate the sum of single-precision floating-point strided array elements using ordinary recursive summation.</span>
 -   <span class="signature">[`ssumpw( N, x, strideX )`][@stdlib/blas/ext/base/ssumpw]</span><span class="delimiter">: </span><span class="description">calculate the sum of single-precision floating-point strided array elements using pairwise summation.</span>
+-   <span class="signature">[`sunitspace( N, start, x, strideX )`][@stdlib/blas/ext/base/sunitspace]</span><span class="delimiter">: </span><span class="description">fill a single-precision floating-point strided array with linearly spaced numeric elements which increment by `1` starting from a specified value.</span>
 -   <span class="signature">[`svander( order, mode, M, N, x, strideX, out, ldo )`][@stdlib/blas/ext/base/svander]</span><span class="delimiter">: </span><span class="description">generate a single-precision floating-point Vandermonde matrix.</span>
 -   <span class="signature">[`szeroTo( N, x, strideX )`][@stdlib/blas/ext/base/szero-to]</span><span class="delimiter">: </span><span class="description">fill a single-precision floating-point strided array with linearly spaced numeric elements which increment by `1` starting from zero.</span>
 -   <span class="signature">[`wasm`][@stdlib/blas/ext/base/wasm]</span><span class="delimiter">: </span><span class="description">extensions to basic linear algebra subprograms (BLAS) compiled to WebAssembly.</span>
@@ -498,6 +500,8 @@ Copyright &copy; 2016-2026. The Stdlib [Authors][stdlib-authors].
 
 [@stdlib/blas/ext/base/dsumpw]: https://github.com/stdlib-js/blas-ext-base-dsumpw
 
+[@stdlib/blas/ext/base/dunitspace]: https://github.com/stdlib-js/blas-ext-base-dunitspace
+
 [@stdlib/blas/ext/base/dvander]: https://github.com/stdlib-js/blas-ext-base-dvander
 
 [@stdlib/blas/ext/base/dzero-to]: https://github.com/stdlib-js/blas-ext-base-dzero-to
@@ -695,6 +699,8 @@ Copyright &copy; 2016-2026. The Stdlib [Authors][stdlib-authors].
 [@stdlib/blas/ext/base/ssumors]: https://github.com/stdlib-js/blas-ext-base-ssumors
 
 [@stdlib/blas/ext/base/ssumpw]: https://github.com/stdlib-js/blas-ext-base-ssumpw
+
+[@stdlib/blas/ext/base/sunitspace]: https://github.com/stdlib-js/blas-ext-base-sunitspace
 
 [@stdlib/blas/ext/base/svander]: https://github.com/stdlib-js/blas-ext-base-svander
 
