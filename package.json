@@ -55,6 +55,7 @@
     "@stdlib/blas-ext-base-dcusumkbn2": "^0.3.1",
     "@stdlib/blas-ext-base-dcusumors": "^0.3.1",
     "@stdlib/blas-ext-base-dcusumpw": "^0.3.1",
+    "@stdlib/blas-ext-base-ddiff": "github:stdlib-js/blas-ext-base-ddiff#main",
     "@stdlib/blas-ext-base-dfill": "^0.3.1",
     "@stdlib/blas-ext-base-dindex-of": "^0.1.1",
     "@stdlib/blas-ext-base-dindex-of-row": "github:stdlib-js/blas-ext-base-dindex-of-row#main",

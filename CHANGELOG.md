@@ -10,6 +10,8 @@
 
 ### Features
 
+-   [`6f2e5f6`](https://github.com/stdlib-js/stdlib/commit/6f2e5f611e255de47b53b93c6c0e58786124be4b) - add `ddiff` to namespace
+-   [`a081627`](https://github.com/stdlib-js/stdlib/commit/a08162791c287674776de93e95a441c2de9e6498) - add `blas/ext/base/ddiff` [(#10376)](https://github.com/stdlib-js/stdlib/pull/10376)
 -   [`521dbb8`](https://github.com/stdlib-js/stdlib/commit/521dbb8b8e93611123c8bcbd21498a0b6d30e6ba) - add `dunitspace` and `sunitspace` to namespace
 -   [`02e7b9c`](https://github.com/stdlib-js/stdlib/commit/02e7b9c7fc5c4011cf3d2c491591a927f25d52d5) - add `blas/ext/base/dunitspace` [(#11682)](https://github.com/stdlib-js/stdlib/pull/11682)
 -   [`47177aa`](https://github.com/stdlib-js/stdlib/commit/47177aab565253e124bcd95faf021ee7e4c20f03) - add `blas/ext/base/sunitspace` [(#11681)](https://github.com/stdlib-js/stdlib/pull/11681)
@@ -165,6 +167,8 @@
 
 <details>
 
+-   [`6f2e5f6`](https://github.com/stdlib-js/stdlib/commit/6f2e5f611e255de47b53b93c6c0e58786124be4b) - **feat:** add `ddiff` to namespace _(by Athan Reines)_
+-   [`a081627`](https://github.com/stdlib-js/stdlib/commit/a08162791c287674776de93e95a441c2de9e6498) - **feat:** add `blas/ext/base/ddiff` [(#10376)](https://github.com/stdlib-js/stdlib/pull/10376) _(by Muhammad Haris, Athan Reines)_
 -   [`0f62461`](https://github.com/stdlib-js/stdlib/commit/0f62461c976de87b8782e28eceaa89b7f42f89e2) - **docs:** update namespace table of contents [(#11688)](https://github.com/stdlib-js/stdlib/pull/11688) _(by stdlib-bot)_
 -   [`521dbb8`](https://github.com/stdlib-js/stdlib/commit/521dbb8b8e93611123c8bcbd21498a0b6d30e6ba) - **feat:** add `dunitspace` and `sunitspace` to namespace _(by Athan Reines)_
 -   [`02e7b9c`](https://github.com/stdlib-js/stdlib/commit/02e7b9c7fc5c4011cf3d2c491591a927f25d52d5) - **feat:** add `blas/ext/base/dunitspace` [(#11682)](https://github.com/stdlib-js/stdlib/pull/11682) _(by Muhammad Haris)_
