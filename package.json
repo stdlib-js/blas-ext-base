@@ -41,6 +41,7 @@
     "@stdlib/blas-ext-base-cone-to": "github:stdlib-js/blas-ext-base-cone-to#main",
     "@stdlib/blas-ext-base-csum": "^0.1.1",
     "@stdlib/blas-ext-base-csumkbn": "^0.1.1",
+    "@stdlib/blas-ext-base-cunitspace": "github:stdlib-js/blas-ext-base-cunitspace#main",
     "@stdlib/blas-ext-base-czero-to": "github:stdlib-js/blas-ext-base-czero-to#main",
     "@stdlib/blas-ext-base-dapx": "^0.3.1",
     "@stdlib/blas-ext-base-dapxsum": "^0.3.1",
@@ -171,6 +172,7 @@
     "@stdlib/blas-ext-base-scusumkbn2": "^0.3.1",
     "@stdlib/blas-ext-base-scusumors": "^0.3.1",
     "@stdlib/blas-ext-base-scusumpw": "^0.3.1",
+    "@stdlib/blas-ext-base-sdiff": "github:stdlib-js/blas-ext-base-sdiff#main",
     "@stdlib/blas-ext-base-sdsapxsum": "^0.3.1",
     "@stdlib/blas-ext-base-sdsapxsumpw": "^0.3.1",
     "@stdlib/blas-ext-base-sdsnansum": "^0.3.1",
@@ -212,6 +214,7 @@
     "@stdlib/blas-ext-base-zone-to": "github:stdlib-js/blas-ext-base-zone-to#main",
     "@stdlib/blas-ext-base-zsum": "^0.1.1",
     "@stdlib/blas-ext-base-zsumkbn": "^0.1.1",
+    "@stdlib/blas-ext-base-zunitspace": "github:stdlib-js/blas-ext-base-zunitspace#main",
     "@stdlib/blas-ext-base-zzero-to": "github:stdlib-js/blas-ext-base-zzero-to#main",
     "@stdlib/utils-define-read-only-property": "^0.2.3"
   },
