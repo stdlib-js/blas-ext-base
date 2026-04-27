@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-04-26)
+## Unreleased (2026-04-27)
 
 <section class="features">
 
 ### Features
 
+-   [`8b4a0aa`](https://github.com/stdlib-js/stdlib/commit/8b4a0aa79df6b1f2018e2e07b33e8cd106611007) - update `blas/ext/base/ndarray` TypeScript declarations [(#11808)](https://github.com/stdlib-js/stdlib/pull/11808)
 -   [`a3078e1`](https://github.com/stdlib-js/stdlib/commit/a3078e1b3da2f651a15563b092822ade951275af) - add `gdiff` and `dcartesianSquare` to namespace
 -   [`bd4ba4e`](https://github.com/stdlib-js/stdlib/commit/bd4ba4ebe0b3793118ab3a6313f76422c2b38cd1) - add `blas/ext/base/gdiff` [(#10903)](https://github.com/stdlib-js/stdlib/pull/10903)
 -   [`a023392`](https://github.com/stdlib-js/stdlib/commit/a02339241efe9c852f08fb5b13fced915c02ad4d) - add `blas/ext/base/dcartesian-square` [(#10797)](https://github.com/stdlib-js/stdlib/pull/10797)
@@ -186,6 +187,8 @@
 
 <details>
 
+-   [`d6b1e3d`](https://github.com/stdlib-js/stdlib/commit/d6b1e3d2286c2ca1044ed87317707ae0be54a351) - **docs:** update namespace table of contents [(#11809)](https://github.com/stdlib-js/stdlib/pull/11809) _(by stdlib-bot)_
+-   [`8b4a0aa`](https://github.com/stdlib-js/stdlib/commit/8b4a0aa79df6b1f2018e2e07b33e8cd106611007) - **feat:** update `blas/ext/base/ndarray` TypeScript declarations [(#11808)](https://github.com/stdlib-js/stdlib/pull/11808) _(by stdlib-bot)_
 -   [`a3078e1`](https://github.com/stdlib-js/stdlib/commit/a3078e1b3da2f651a15563b092822ade951275af) - **feat:** add `gdiff` and `dcartesianSquare` to namespace _(by Athan Reines)_
 -   [`bd4ba4e`](https://github.com/stdlib-js/stdlib/commit/bd4ba4ebe0b3793118ab3a6313f76422c2b38cd1) - **feat:** add `blas/ext/base/gdiff` [(#10903)](https://github.com/stdlib-js/stdlib/pull/10903) _(by Muhammad Haris, Athan Reines)_
 -   [`a023392`](https://github.com/stdlib-js/stdlib/commit/a02339241efe9c852f08fb5b13fced915c02ad4d) - **feat:** add `blas/ext/base/dcartesian-square` [(#10797)](https://github.com/stdlib-js/stdlib/pull/10797) _(by Muhammad Haris, Athan Reines)_
