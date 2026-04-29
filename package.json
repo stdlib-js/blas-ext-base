@@ -168,6 +168,7 @@
     "@stdlib/blas-ext-base-sapxsumors": "^0.3.1",
     "@stdlib/blas-ext-base-sapxsumpw": "^0.3.1",
     "@stdlib/blas-ext-base-sasumpw": "^0.3.1",
+    "@stdlib/blas-ext-base-scartesian-square": "github:stdlib-js/blas-ext-base-scartesian-square#main",
     "@stdlib/blas-ext-base-scircshift": "github:stdlib-js/blas-ext-base-scircshift#main",
     "@stdlib/blas-ext-base-scusum": "^0.3.1",
     "@stdlib/blas-ext-base-scusumkbn": "^0.3.1",
