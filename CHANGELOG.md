@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-04-30)
+## Unreleased (2026-05-01)
 
 <section class="features">
 
 ### Features
 
+-   [`895ee0f`](https://github.com/stdlib-js/stdlib/commit/895ee0f3609b433be1cebf627ca70eb62c7cf866) - update `blas/ext/base` TypeScript declarations [(#11870)](https://github.com/stdlib-js/stdlib/pull/11870)
 -   [`5d5a65b`](https://github.com/stdlib-js/stdlib/commit/5d5a65bfdc252e39e6f19ef5af204eb71d53e9ee) - add `scartesianSquare` to namespace
 -   [`792a723`](https://github.com/stdlib-js/stdlib/commit/792a7238e246fb9a89373a96f61ad582927a95b2) - add `blas/ext/base/scartesian-square` [(#11827)](https://github.com/stdlib-js/stdlib/pull/11827)
 -   [`d71d459`](https://github.com/stdlib-js/stdlib/commit/d71d4593f4f406fb0df5838f6c4f818d757146a7) - update `blas/ext/base` TypeScript declarations [(#11821)](https://github.com/stdlib-js/stdlib/pull/11821)
@@ -190,6 +191,7 @@
 
 <details>
 
+-   [`895ee0f`](https://github.com/stdlib-js/stdlib/commit/895ee0f3609b433be1cebf627ca70eb62c7cf866) - **feat:** update `blas/ext/base` TypeScript declarations [(#11870)](https://github.com/stdlib-js/stdlib/pull/11870) _(by stdlib-bot)_
 -   [`e34b36c`](https://github.com/stdlib-js/stdlib/commit/e34b36cdedc2287b3eff185f30986cb65bfd6ca5) - **docs:** update namespace table of contents [(#11855)](https://github.com/stdlib-js/stdlib/pull/11855) _(by stdlib-bot, Philipp Burckhardt)_
 -   [`5d5a65b`](https://github.com/stdlib-js/stdlib/commit/5d5a65bfdc252e39e6f19ef5af204eb71d53e9ee) - **feat:** add `scartesianSquare` to namespace _(by Athan Reines)_
 -   [`792a723`](https://github.com/stdlib-js/stdlib/commit/792a7238e246fb9a89373a96f61ad582927a95b2) - **feat:** add `blas/ext/base/scartesian-square` [(#11827)](https://github.com/stdlib-js/stdlib/pull/11827) _(by Muhammad Haris, Athan Reines)_
