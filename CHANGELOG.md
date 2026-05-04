@@ -10,6 +10,8 @@
 
 ### Features
 
+-   [`8238153`](https://github.com/stdlib-js/stdlib/commit/8238153ec0e75749592ea606bd1f09696a930581) - add `zwhere` to namespace
+-   [`4cbd368`](https://github.com/stdlib-js/stdlib/commit/4cbd368e1c95b8277b1fc973ff894a0f70a08c44) - add `blas/ext/base/zwhere` [(#11846)](https://github.com/stdlib-js/stdlib/pull/11846)
 -   [`b146f9a`](https://github.com/stdlib-js/stdlib/commit/b146f9a52c16f631a236eb3311436e5d62cb315e) - add `dcartesianPower` to namespace
 -   [`cb59572`](https://github.com/stdlib-js/stdlib/commit/cb595723f0b3efc37c357a7b49b35bdbe0319cd2) - add `blas/ext/base/dcartesian-power` [(#10806)](https://github.com/stdlib-js/stdlib/pull/10806)
 -   [`895ee0f`](https://github.com/stdlib-js/stdlib/commit/895ee0f3609b433be1cebf627ca70eb62c7cf866) - update `blas/ext/base` TypeScript declarations [(#11870)](https://github.com/stdlib-js/stdlib/pull/11870)
@@ -193,6 +195,8 @@
 
 <details>
 
+-   [`8238153`](https://github.com/stdlib-js/stdlib/commit/8238153ec0e75749592ea606bd1f09696a930581) - **feat:** add `zwhere` to namespace _(by Athan Reines)_
+-   [`4cbd368`](https://github.com/stdlib-js/stdlib/commit/4cbd368e1c95b8277b1fc973ff894a0f70a08c44) - **feat:** add `blas/ext/base/zwhere` [(#11846)](https://github.com/stdlib-js/stdlib/pull/11846) _(by Muhammad Haris, Athan Reines)_
 -   [`738b2c7`](https://github.com/stdlib-js/stdlib/commit/738b2c717eb26b3e374351f754d578f2035aaf20) - **docs:** update namespace table of contents [(#11916)](https://github.com/stdlib-js/stdlib/pull/11916) _(by stdlib-bot)_
 -   [`b146f9a`](https://github.com/stdlib-js/stdlib/commit/b146f9a52c16f631a236eb3311436e5d62cb315e) - **feat:** add `dcartesianPower` to namespace _(by Athan Reines)_
 -   [`cb59572`](https://github.com/stdlib-js/stdlib/commit/cb595723f0b3efc37c357a7b49b35bdbe0319cd2) - **feat:** add `blas/ext/base/dcartesian-power` [(#10806)](https://github.com/stdlib-js/stdlib/pull/10806) _(by Muhammad Haris, Athan Reines)_

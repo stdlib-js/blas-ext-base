@@ -220,6 +220,7 @@
     "@stdlib/blas-ext-base-zsum": "^0.1.1",
     "@stdlib/blas-ext-base-zsumkbn": "^0.1.1",
     "@stdlib/blas-ext-base-zunitspace": "github:stdlib-js/blas-ext-base-zunitspace#main",
+    "@stdlib/blas-ext-base-zwhere": "github:stdlib-js/blas-ext-base-zwhere#main",
     "@stdlib/blas-ext-base-zzero-to": "github:stdlib-js/blas-ext-base-zzero-to#main",
     "@stdlib/utils-define-read-only-property": "^0.2.3"
   },
