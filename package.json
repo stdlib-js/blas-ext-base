@@ -50,6 +50,7 @@
     "@stdlib/blas-ext-base-dapxsumors": "^0.3.1",
     "@stdlib/blas-ext-base-dapxsumpw": "^0.3.1",
     "@stdlib/blas-ext-base-dasumpw": "^0.3.1",
+    "@stdlib/blas-ext-base-dcartesian-power": "github:stdlib-js/blas-ext-base-dcartesian-power#main",
     "@stdlib/blas-ext-base-dcartesian-square": "github:stdlib-js/blas-ext-base-dcartesian-square#main",
     "@stdlib/blas-ext-base-dcircshift": "github:stdlib-js/blas-ext-base-dcircshift#main",
     "@stdlib/blas-ext-base-dcusum": "^0.3.1",
