@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-05-04)
+## Unreleased (2026-05-05)
 
 <section class="features">
 
 ### Features
 
+-   [`ed858b1`](https://github.com/stdlib-js/stdlib/commit/ed858b109614dcd701ba2d7cb7ce8715a500814a) - add `blas/ext/base/scartesian-power` [(#11923)](https://github.com/stdlib-js/stdlib/pull/11923)
 -   [`8238153`](https://github.com/stdlib-js/stdlib/commit/8238153ec0e75749592ea606bd1f09696a930581) - add `zwhere` to namespace
 -   [`4cbd368`](https://github.com/stdlib-js/stdlib/commit/4cbd368e1c95b8277b1fc973ff894a0f70a08c44) - add `blas/ext/base/zwhere` [(#11846)](https://github.com/stdlib-js/stdlib/pull/11846)
 -   [`b146f9a`](https://github.com/stdlib-js/stdlib/commit/b146f9a52c16f631a236eb3311436e5d62cb315e) - add `dcartesianPower` to namespace
@@ -195,6 +196,9 @@
 
 <details>
 
+-   [`afe8812`](https://github.com/stdlib-js/stdlib/commit/afe8812d245b6c040daf664b55f4a4d8642b7095) - **docs:** update namespace table of contents [(#11938)](https://github.com/stdlib-js/stdlib/pull/11938) _(by stdlib-bot)_
+-   [`ed858b1`](https://github.com/stdlib-js/stdlib/commit/ed858b109614dcd701ba2d7cb7ce8715a500814a) - **feat:** add `blas/ext/base/scartesian-power` [(#11923)](https://github.com/stdlib-js/stdlib/pull/11923) _(by Muhammad Haris, Athan Reines)_
+-   [`a3a5677`](https://github.com/stdlib-js/stdlib/commit/a3a5677b7bdb9957229fbc1ebd46a82c160c06d7) - **docs:** follow-up fixes [(#11925)](https://github.com/stdlib-js/stdlib/pull/11925) _(by Philipp Burckhardt)_
 -   [`8238153`](https://github.com/stdlib-js/stdlib/commit/8238153ec0e75749592ea606bd1f09696a930581) - **feat:** add `zwhere` to namespace _(by Athan Reines)_
 -   [`4cbd368`](https://github.com/stdlib-js/stdlib/commit/4cbd368e1c95b8277b1fc973ff894a0f70a08c44) - **feat:** add `blas/ext/base/zwhere` [(#11846)](https://github.com/stdlib-js/stdlib/pull/11846) _(by Muhammad Haris, Athan Reines)_
 -   [`738b2c7`](https://github.com/stdlib-js/stdlib/commit/738b2c717eb26b3e374351f754d578f2035aaf20) - **docs:** update namespace table of contents [(#11916)](https://github.com/stdlib-js/stdlib/pull/11916) _(by stdlib-bot)_

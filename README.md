@@ -260,6 +260,7 @@ var o = ns;
 -   <span class="signature">[`zsum( N, x, strideX )`][@stdlib/blas/ext/base/zsum]</span><span class="delimiter">: </span><span class="description">calculate the sum of double-precision complex floating-point strided array elements.</span>
 -   <span class="signature">[`zsumkbn( N, x, strideX )`][@stdlib/blas/ext/base/zsumkbn]</span><span class="delimiter">: </span><span class="description">calculate the sum of double-precision complex floating-point strided array elements using an improved Kahan–Babuška algorithm.</span>
 -   <span class="signature">[`zunitspace( N, start, x, strideX )`][@stdlib/blas/ext/base/zunitspace]</span><span class="delimiter">: </span><span class="description">fill a double-precision complex floating-point strided array with linearly spaced numeric elements which increment by `1` starting from a specified value.</span>
+-   <span class="signature">[`zwhere( N, condition, strideC, x, strideX, y, strideY, out, strideOut )`][@stdlib/blas/ext/base/zwhere]</span><span class="delimiter">: </span><span class="description">take elements from one of two double-precision complex floating-point strided arrays depending on a condition.</span>
 -   <span class="signature">[`zzeroTo( N, x, strideX )`][@stdlib/blas/ext/base/zzero-to]</span><span class="delimiter">: </span><span class="description">fill a double-precision complex floating-point strided array with linearly spaced numeric elements which increment by `1` starting from zero.</span>
 
 </div>
@@ -746,6 +747,8 @@ Copyright &copy; 2016-2026. The Stdlib [Authors][stdlib-authors].
 [@stdlib/blas/ext/base/zsumkbn]: https://github.com/stdlib-js/blas-ext-base-zsumkbn
 
 [@stdlib/blas/ext/base/zunitspace]: https://github.com/stdlib-js/blas-ext-base-zunitspace
+
+[@stdlib/blas/ext/base/zwhere]: https://github.com/stdlib-js/blas-ext-base-zwhere
 
 [@stdlib/blas/ext/base/zzero-to]: https://github.com/stdlib-js/blas-ext-base-zzero-to
 
