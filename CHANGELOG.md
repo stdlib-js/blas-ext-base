@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-05-05)
+## Unreleased (2026-05-06)
 
 <section class="features">
 
@@ -183,6 +183,7 @@
 
 ### Bug Fixes
 
+-   [`74e79f9`](https://github.com/stdlib-js/stdlib/commit/74e79f9fd8dfae766dd9a016f0c1e63b9abae097) - propagate `API_SUFFIX` wrappers and complex number description wording [(#11952)](https://github.com/stdlib-js/stdlib/pull/11952)
 -   [`51981c7`](https://github.com/stdlib-js/stdlib/commit/51981c7c552f088da5cc1a36c005a9f3d550bfea) - preserve sign of zero in native C implementation of `blas/ext/base/ssumpw`
 -   [`c703f0f`](https://github.com/stdlib-js/stdlib/commit/c703f0f66c85fdd8890b2a0603ebe9934892d1b6) - rename C function to `stdlib_blas_ext_ssum` in `blas/ext/base/ndarray/ssum`
 -   [`60fcd9d`](https://github.com/stdlib-js/stdlib/commit/60fcd9dc51b43ad76b1b14e6d7b4c30a5670114a) - improve type specificity
@@ -198,6 +199,9 @@
 
 <details>
 
+-   [`7acb10f`](https://github.com/stdlib-js/stdlib/commit/7acb10fe279a12ff58df34a3d847828606cd0acd) - **docs:** update namespace table of contents [(#11961)](https://github.com/stdlib-js/stdlib/pull/11961) _(by stdlib-bot)_
+-   [`e16eb11`](https://github.com/stdlib-js/stdlib/commit/e16eb11c02f1861dad6f5681d76b9e3af9eb7978) - **chore:** minor clean-up [(#11951)](https://github.com/stdlib-js/stdlib/pull/11951) _(by Philipp Burckhardt)_
+-   [`74e79f9`](https://github.com/stdlib-js/stdlib/commit/74e79f9fd8dfae766dd9a016f0c1e63b9abae097) - **fix:** propagate `API_SUFFIX` wrappers and complex number description wording [(#11952)](https://github.com/stdlib-js/stdlib/pull/11952) _(by Philipp Burckhardt)_
 -   [`6d28870`](https://github.com/stdlib-js/stdlib/commit/6d288709c0687064b62303d447e2629dc26b93c2) - **feat:** add `gcartesianPower` and `scartesianPower` to namespace _(by Athan Reines)_
 -   [`181b4cc`](https://github.com/stdlib-js/stdlib/commit/181b4cc56c3da41a434fadea64fd1fe48d3684cf) - **feat:** add `blas/ext/base/gcartesian-power` [(#11926)](https://github.com/stdlib-js/stdlib/pull/11926) _(by Muhammad Haris)_
 -   [`afe8812`](https://github.com/stdlib-js/stdlib/commit/afe8812d245b6c040daf664b55f4a4d8642b7095) - **docs:** update namespace table of contents [(#11938)](https://github.com/stdlib-js/stdlib/pull/11938) _(by stdlib-bot)_
