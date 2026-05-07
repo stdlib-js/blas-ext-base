@@ -4,12 +4,14 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-05-06)
+## Unreleased (2026-05-07)
 
 <section class="features">
 
 ### Features
 
+-   [`3b9515c`](https://github.com/stdlib-js/stdlib/commit/3b9515c50ed33f750fd6b6546cce8d2ab4597c04) - add `gcartesianSquare` to namespace
+-   [`0c3e5bd`](https://github.com/stdlib-js/stdlib/commit/0c3e5bd9e7be52a36fdddff2821fe66b840436ec) - add `blas/ext/base/gcartesian-square` [(#11828)](https://github.com/stdlib-js/stdlib/pull/11828)
 -   [`6d28870`](https://github.com/stdlib-js/stdlib/commit/6d288709c0687064b62303d447e2629dc26b93c2) - add `gcartesianPower` and `scartesianPower` to namespace
 -   [`181b4cc`](https://github.com/stdlib-js/stdlib/commit/181b4cc56c3da41a434fadea64fd1fe48d3684cf) - add `blas/ext/base/gcartesian-power` [(#11926)](https://github.com/stdlib-js/stdlib/pull/11926)
 -   [`ed858b1`](https://github.com/stdlib-js/stdlib/commit/ed858b109614dcd701ba2d7cb7ce8715a500814a) - add `blas/ext/base/scartesian-power` [(#11923)](https://github.com/stdlib-js/stdlib/pull/11923)
@@ -199,6 +201,14 @@
 
 <details>
 
+-   [`3b9515c`](https://github.com/stdlib-js/stdlib/commit/3b9515c50ed33f750fd6b6546cce8d2ab4597c04) - **feat:** add `gcartesianSquare` to namespace _(by Athan Reines)_
+-   [`f598b20`](https://github.com/stdlib-js/stdlib/commit/f598b204b92ae6506508187df09cf820fcfe7a80) - **docs:** remove note _(by Athan Reines)_
+-   [`5b0ee90`](https://github.com/stdlib-js/stdlib/commit/5b0ee90828fbfcf28be89b0b7811619ccc33712a) - **docs:** remove note _(by Athan Reines)_
+-   [`0dd5d2b`](https://github.com/stdlib-js/stdlib/commit/0dd5d2bed9ccea95d15ebbd110a7eea323ff81fa) - **refactor:** remove unused header _(by Athan Reines)_
+-   [`9b3f20e`](https://github.com/stdlib-js/stdlib/commit/9b3f20ecfb18a3acb806c66c0cb35562ce54d506) - **refactor:** remove unused header _(by Athan Reines)_
+-   [`bcdee7b`](https://github.com/stdlib-js/stdlib/commit/bcdee7beb5eea973b528014038f1d602730213a3) - **docs:** improve doctests for complex number typed arrays in `blas/ext/base/zfill` [(#11977)](https://github.com/stdlib-js/stdlib/pull/11977) _(by Karan Anand)_
+-   [`0c3e5bd`](https://github.com/stdlib-js/stdlib/commit/0c3e5bd9e7be52a36fdddff2821fe66b840436ec) - **feat:** add `blas/ext/base/gcartesian-square` [(#11828)](https://github.com/stdlib-js/stdlib/pull/11828) _(by Muhammad Haris, Athan Reines)_
+-   [`2628663`](https://github.com/stdlib-js/stdlib/commit/26286631e01471db55b3be13e2a21762b5507f7b) - **chore:** add missing keywords in `blas/ext/base/ndarray` cusum packages [(#11967)](https://github.com/stdlib-js/stdlib/pull/11967) _(by Philipp Burckhardt)_
 -   [`7acb10f`](https://github.com/stdlib-js/stdlib/commit/7acb10fe279a12ff58df34a3d847828606cd0acd) - **docs:** update namespace table of contents [(#11961)](https://github.com/stdlib-js/stdlib/pull/11961) _(by stdlib-bot)_
 -   [`e16eb11`](https://github.com/stdlib-js/stdlib/commit/e16eb11c02f1861dad6f5681d76b9e3af9eb7978) - **chore:** minor clean-up [(#11951)](https://github.com/stdlib-js/stdlib/pull/11951) _(by Philipp Burckhardt)_
 -   [`74e79f9`](https://github.com/stdlib-js/stdlib/commit/74e79f9fd8dfae766dd9a016f0c1e63b9abae097) - **fix:** propagate `API_SUFFIX` wrappers and complex number description wording [(#11952)](https://github.com/stdlib-js/stdlib/pull/11952) _(by Philipp Burckhardt)_
