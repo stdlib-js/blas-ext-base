@@ -42,6 +42,7 @@
     "@stdlib/blas-ext-base-csum": "^0.1.1",
     "@stdlib/blas-ext-base-csumkbn": "^0.1.1",
     "@stdlib/blas-ext-base-cunitspace": "github:stdlib-js/blas-ext-base-cunitspace#main",
+    "@stdlib/blas-ext-base-cwhere": "github:stdlib-js/blas-ext-base-cwhere#main",
     "@stdlib/blas-ext-base-czero-to": "github:stdlib-js/blas-ext-base-czero-to#main",
     "@stdlib/blas-ext-base-dapx": "^0.3.1",
     "@stdlib/blas-ext-base-dapxsum": "^0.3.1",
