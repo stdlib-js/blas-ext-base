@@ -137,6 +137,7 @@
     "@stdlib/blas-ext-base-gjoin": "^0.1.1",
     "@stdlib/blas-ext-base-gjoin-between": "github:stdlib-js/blas-ext-base-gjoin-between#main",
     "@stdlib/blas-ext-base-glast-index-of": "^0.1.1",
+    "@stdlib/blas-ext-base-glast-index-of-row": "github:stdlib-js/blas-ext-base-glast-index-of-row#main",
     "@stdlib/blas-ext-base-glinspace": "^0.1.1",
     "@stdlib/blas-ext-base-gnancount": "github:stdlib-js/blas-ext-base-gnancount#main",
     "@stdlib/blas-ext-base-gnannsumkbn": "^0.3.1",
