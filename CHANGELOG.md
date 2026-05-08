@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-05-07)
+## Unreleased (2026-05-08)
 
 <section class="features">
 
 ### Features
 
+-   [`cecfaba`](https://github.com/stdlib-js/stdlib/commit/cecfaba846295aed36d6fc5cd4c6913d6f918622) - update `blas/ext/base` TypeScript declarations [(#11994)](https://github.com/stdlib-js/stdlib/pull/11994)
 -   [`bd61437`](https://github.com/stdlib-js/stdlib/commit/bd61437b35e4d8d57ce98b0501c6b1f87d9ef425) - add `glastIndexOfRow` to namespace
 -   [`7c02336`](https://github.com/stdlib-js/stdlib/commit/7c02336dc7a51f2e5b1aaca05ed4e16199bec1cd) - add `blas/ext/base/glast-index-of-row` [(#11929)](https://github.com/stdlib-js/stdlib/pull/11929)
 -   [`c3e3ffd`](https://github.com/stdlib-js/stdlib/commit/c3e3ffd4dc1abffc093c840645e0397c6d0b39e8) - add `cwhere` to namespace
@@ -207,6 +208,7 @@
 
 <details>
 
+-   [`cecfaba`](https://github.com/stdlib-js/stdlib/commit/cecfaba846295aed36d6fc5cd4c6913d6f918622) - **feat:** update `blas/ext/base` TypeScript declarations [(#11994)](https://github.com/stdlib-js/stdlib/pull/11994) _(by stdlib-bot)_
 -   [`bd61437`](https://github.com/stdlib-js/stdlib/commit/bd61437b35e4d8d57ce98b0501c6b1f87d9ef425) - **feat:** add `glastIndexOfRow` to namespace _(by Athan Reines)_
 -   [`7c02336`](https://github.com/stdlib-js/stdlib/commit/7c02336dc7a51f2e5b1aaca05ed4e16199bec1cd) - **feat:** add `blas/ext/base/glast-index-of-row` [(#11929)](https://github.com/stdlib-js/stdlib/pull/11929) _(by Muhammad Haris, Athan Reines)_
 -   [`c3e3ffd`](https://github.com/stdlib-js/stdlib/commit/c3e3ffd4dc1abffc093c840645e0397c6d0b39e8) - **feat:** add `cwhere` to namespace _(by Athan Reines)_
