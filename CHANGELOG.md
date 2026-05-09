@@ -4,12 +4,14 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-05-08)
+## Unreleased (2026-05-09)
 
 <section class="features">
 
 ### Features
 
+-   [`cfecd68`](https://github.com/stdlib-js/stdlib/commit/cfecd68a37a2593d143fe35e3bd1e2b6de31ffbf) - add `dindexOfColumn` to namespace
+-   [`5fd5c85`](https://github.com/stdlib-js/stdlib/commit/5fd5c85cdf7761f3e958064cfcbaee974ff1204b) - add `blas/ext/base/dindex-of-column` [(#11935)](https://github.com/stdlib-js/stdlib/pull/11935)
 -   [`6bae4bc`](https://github.com/stdlib-js/stdlib/commit/6bae4bc2b0f2922fa6dc649b0ca27a81065479fe) - add `slastIndexOfRow` to namespace
 -   [`03cd59e`](https://github.com/stdlib-js/stdlib/commit/03cd59e46eb4a2ccdb5810b3e87635770a3f5e9e) - add `blas/ext/base/slast-index-of-row` [(#11931)](https://github.com/stdlib-js/stdlib/pull/11931)
 -   [`cecfaba`](https://github.com/stdlib-js/stdlib/commit/cecfaba846295aed36d6fc5cd4c6913d6f918622) - update `blas/ext/base` TypeScript declarations [(#11994)](https://github.com/stdlib-js/stdlib/pull/11994)
@@ -210,6 +212,8 @@
 
 <details>
 
+-   [`cfecd68`](https://github.com/stdlib-js/stdlib/commit/cfecd68a37a2593d143fe35e3bd1e2b6de31ffbf) - **feat:** add `dindexOfColumn` to namespace _(by Athan Reines)_
+-   [`5fd5c85`](https://github.com/stdlib-js/stdlib/commit/5fd5c85cdf7761f3e958064cfcbaee974ff1204b) - **feat:** add `blas/ext/base/dindex-of-column` [(#11935)](https://github.com/stdlib-js/stdlib/pull/11935) _(by Muhammad Haris, Athan Reines)_
 -   [`6bae4bc`](https://github.com/stdlib-js/stdlib/commit/6bae4bc2b0f2922fa6dc649b0ca27a81065479fe) - **feat:** add `slastIndexOfRow` to namespace _(by Athan Reines)_
 -   [`03cd59e`](https://github.com/stdlib-js/stdlib/commit/03cd59e46eb4a2ccdb5810b3e87635770a3f5e9e) - **feat:** add `blas/ext/base/slast-index-of-row` [(#11931)](https://github.com/stdlib-js/stdlib/pull/11931) _(by Muhammad Haris)_
 -   [`918d2ff`](https://github.com/stdlib-js/stdlib/commit/918d2ff186886691b3e26eeb849beb7777bed172) - **docs:** update namespace table of contents [(#11995)](https://github.com/stdlib-js/stdlib/pull/11995) _(by stdlib-bot)_
