@@ -10,6 +10,9 @@
 
 ### Features
 
+-   [`ffd98ea`](https://github.com/stdlib-js/stdlib/commit/ffd98eacb7a311fe200c3fc8630fb8bfc05ad54c) - add `cindexOf` and `zindexOf` to namespace
+-   [`9fe52ef`](https://github.com/stdlib-js/stdlib/commit/9fe52ef6bee547b7df7bfab7fc7bc36cf3fec510) - add `blas/ext/base/cindex-of` [(#11798)](https://github.com/stdlib-js/stdlib/pull/11798)
+-   [`7fb79ff`](https://github.com/stdlib-js/stdlib/commit/7fb79ff35cfcb8311ec4ca24ece274f7c6bdb4d8) - add `blas/ext/base/zindex-of` [(#11800)](https://github.com/stdlib-js/stdlib/pull/11800)
 -   [`cc63b7a`](https://github.com/stdlib-js/stdlib/commit/cc63b7a923561de213c54f207327f5017be27dbb) - add `dlastIndexOfRow` and `sindexOfColumn` to namespace
 -   [`5adb91b`](https://github.com/stdlib-js/stdlib/commit/5adb91b530474c4fd82c27b6a43344d6e2e29f7f) - add `blas/ext/base/dlast-index-of-row` [(#12013)](https://github.com/stdlib-js/stdlib/pull/12013)
 -   [`3abbe0d`](https://github.com/stdlib-js/stdlib/commit/3abbe0dfbbaddc85e1f0bd9c62fe043c7c7ed85a) - add `blas/ext/base/sindex-of-column` [(#12055)](https://github.com/stdlib-js/stdlib/pull/12055)
@@ -217,6 +220,9 @@
 
 <details>
 
+-   [`ffd98ea`](https://github.com/stdlib-js/stdlib/commit/ffd98eacb7a311fe200c3fc8630fb8bfc05ad54c) - **feat:** add `cindexOf` and `zindexOf` to namespace _(by Athan Reines)_
+-   [`9fe52ef`](https://github.com/stdlib-js/stdlib/commit/9fe52ef6bee547b7df7bfab7fc7bc36cf3fec510) - **feat:** add `blas/ext/base/cindex-of` [(#11798)](https://github.com/stdlib-js/stdlib/pull/11798) _(by Muhammad Haris)_
+-   [`7fb79ff`](https://github.com/stdlib-js/stdlib/commit/7fb79ff35cfcb8311ec4ca24ece274f7c6bdb4d8) - **feat:** add `blas/ext/base/zindex-of` [(#11800)](https://github.com/stdlib-js/stdlib/pull/11800) _(by Muhammad Haris)_
 -   [`c534f97`](https://github.com/stdlib-js/stdlib/commit/c534f971488b2a5ebacca4dccf73a9d9b4e09bc7) - **docs:** update namespace table of contents [(#12092)](https://github.com/stdlib-js/stdlib/pull/12092) _(by stdlib-bot)_
 -   [`cc63b7a`](https://github.com/stdlib-js/stdlib/commit/cc63b7a923561de213c54f207327f5017be27dbb) - **feat:** add `dlastIndexOfRow` and `sindexOfColumn` to namespace _(by Athan Reines)_
 -   [`5adb91b`](https://github.com/stdlib-js/stdlib/commit/5adb91b530474c4fd82c27b6a43344d6e2e29f7f) - **feat:** add `blas/ext/base/dlast-index-of-row` [(#12013)](https://github.com/stdlib-js/stdlib/pull/12013) _(by Muhammad Haris, Athan Reines)_
