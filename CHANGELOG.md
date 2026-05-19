@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-05-18)
+## Unreleased (2026-05-19)
 
 <section class="features">
 
 ### Features
 
+-   [`e143b11`](https://github.com/stdlib-js/stdlib/commit/e143b110e11ee35abc354f03d29f53e19698080f) - update `blas/ext/base` TypeScript declarations [(#12197)](https://github.com/stdlib-js/stdlib/pull/12197)
 -   [`253d30f`](https://github.com/stdlib-js/stdlib/commit/253d30fa746ea523a925707173eada2f3f78c4b5) - add `gaxpb` to namespace
 -   [`b28f7b8`](https://github.com/stdlib-js/stdlib/commit/b28f7b8960745d35e8daa745713b487a70d56596) - add `blas/ext/base/gaxpb` [(#12166)](https://github.com/stdlib-js/stdlib/pull/12166)
 -   [`193ef92`](https://github.com/stdlib-js/stdlib/commit/193ef92269b918b379332d43d792209adbd0e495) - update `blas/ext/base/ndarray` TypeScript declarations [(#12150)](https://github.com/stdlib-js/stdlib/pull/12150)
@@ -234,6 +235,7 @@
 
 <details>
 
+-   [`e143b11`](https://github.com/stdlib-js/stdlib/commit/e143b110e11ee35abc354f03d29f53e19698080f) - **feat:** update `blas/ext/base` TypeScript declarations [(#12197)](https://github.com/stdlib-js/stdlib/pull/12197) _(by stdlib-bot)_
 -   [`8a676c9`](https://github.com/stdlib-js/stdlib/commit/8a676c90f885ee4c0ffd9b324f4e4707ea025843) - **docs:** update namespace table of contents [(#12189)](https://github.com/stdlib-js/stdlib/pull/12189) _(by stdlib-bot)_
 -   [`a6856ed`](https://github.com/stdlib-js/stdlib/commit/a6856ed70d323f4f09e5c5d382a18282f431de9d) - **docs:** update notes [(#12130)](https://github.com/stdlib-js/stdlib/pull/12130) _(by Philipp Burckhardt)_
 -   [`fbf2d91`](https://github.com/stdlib-js/stdlib/commit/fbf2d918b4fba88e148b3deba62b37cb667524aa) - **test:** fix typo in test description [(#12176)](https://github.com/stdlib-js/stdlib/pull/12176) _(by Philipp Burckhardt)_
