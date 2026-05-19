@@ -10,6 +10,9 @@
 
 ### Features
 
+-   [`0d57983`](https://github.com/stdlib-js/stdlib/commit/0d57983c34c524d74428c894f4b1978bd6748386) - add `daxpb` and `saxpb` to namespace
+-   [`103392c`](https://github.com/stdlib-js/stdlib/commit/103392c9afbdde68c21474d580f35d634155fd0c) - add `blas/ext/base/saxpb` [(#12200)](https://github.com/stdlib-js/stdlib/pull/12200)
+-   [`f18c4cf`](https://github.com/stdlib-js/stdlib/commit/f18c4cfba3dcfe67a22040e3bd126cded18dc01d) - add `blas/ext/base/daxpb` [(#12181)](https://github.com/stdlib-js/stdlib/pull/12181)
 -   [`e143b11`](https://github.com/stdlib-js/stdlib/commit/e143b110e11ee35abc354f03d29f53e19698080f) - update `blas/ext/base` TypeScript declarations [(#12197)](https://github.com/stdlib-js/stdlib/pull/12197)
 -   [`253d30f`](https://github.com/stdlib-js/stdlib/commit/253d30fa746ea523a925707173eada2f3f78c4b5) - add `gaxpb` to namespace
 -   [`b28f7b8`](https://github.com/stdlib-js/stdlib/commit/b28f7b8960745d35e8daa745713b487a70d56596) - add `blas/ext/base/gaxpb` [(#12166)](https://github.com/stdlib-js/stdlib/pull/12166)
@@ -235,6 +238,10 @@
 
 <details>
 
+-   [`0d57983`](https://github.com/stdlib-js/stdlib/commit/0d57983c34c524d74428c894f4b1978bd6748386) - **feat:** add `daxpb` and `saxpb` to namespace _(by Athan Reines)_
+-   [`103392c`](https://github.com/stdlib-js/stdlib/commit/103392c9afbdde68c21474d580f35d634155fd0c) - **feat:** add `blas/ext/base/saxpb` [(#12200)](https://github.com/stdlib-js/stdlib/pull/12200) _(by Karan Anand, Athan Reines)_
+-   [`2384460`](https://github.com/stdlib-js/stdlib/commit/23844609387e67c18bc0db81a5abcacdce492ffc) - **docs:** propagate recent doc-note and grammar fixes to sibling packages [(#12193)](https://github.com/stdlib-js/stdlib/pull/12193) _(by Philipp Burckhardt)_
+-   [`f18c4cf`](https://github.com/stdlib-js/stdlib/commit/f18c4cfba3dcfe67a22040e3bd126cded18dc01d) - **feat:** add `blas/ext/base/daxpb` [(#12181)](https://github.com/stdlib-js/stdlib/pull/12181) _(by Karan Anand, Athan Reines)_
 -   [`e143b11`](https://github.com/stdlib-js/stdlib/commit/e143b110e11ee35abc354f03d29f53e19698080f) - **feat:** update `blas/ext/base` TypeScript declarations [(#12197)](https://github.com/stdlib-js/stdlib/pull/12197) _(by stdlib-bot)_
 -   [`8a676c9`](https://github.com/stdlib-js/stdlib/commit/8a676c90f885ee4c0ffd9b324f4e4707ea025843) - **docs:** update namespace table of contents [(#12189)](https://github.com/stdlib-js/stdlib/pull/12189) _(by stdlib-bot)_
 -   [`a6856ed`](https://github.com/stdlib-js/stdlib/commit/a6856ed70d323f4f09e5c5d382a18282f431de9d) - **docs:** update notes [(#12130)](https://github.com/stdlib-js/stdlib/pull/12130) _(by Philipp Burckhardt)_
