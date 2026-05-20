@@ -10,6 +10,8 @@
 
 ### Features
 
+-   [`5cb5df2`](https://github.com/stdlib-js/stdlib/commit/5cb5df24dea651203b5609fb82855a1cd70b3895) - add `zdiff` to namespace
+-   [`3d96dae`](https://github.com/stdlib-js/stdlib/commit/3d96daefeb96e6183eab2e438d30ce73e5d6b20e) - add `blas/ext/base/zdiff` [(#11741)](https://github.com/stdlib-js/stdlib/pull/11741)
 -   [`0d57983`](https://github.com/stdlib-js/stdlib/commit/0d57983c34c524d74428c894f4b1978bd6748386) - add `daxpb` and `saxpb` to namespace
 -   [`103392c`](https://github.com/stdlib-js/stdlib/commit/103392c9afbdde68c21474d580f35d634155fd0c) - add `blas/ext/base/saxpb` [(#12200)](https://github.com/stdlib-js/stdlib/pull/12200)
 -   [`f18c4cf`](https://github.com/stdlib-js/stdlib/commit/f18c4cfba3dcfe67a22040e3bd126cded18dc01d) - add `blas/ext/base/daxpb` [(#12181)](https://github.com/stdlib-js/stdlib/pull/12181)
@@ -220,6 +222,8 @@
 
 ### Bug Fixes
 
+-   [`9e3a4ba`](https://github.com/stdlib-js/stdlib/commit/9e3a4baead056e16d5a6a8cf9d91018c6aba20a0) - add missing `API_SUFFIX` and fix types
+-   [`a11c3ee`](https://github.com/stdlib-js/stdlib/commit/a11c3ee5ae67e719b024612187f7c0444bc811f0) - add missing `API_SUFFIX` and fix types
 -   [`dff4820`](https://github.com/stdlib-js/stdlib/commit/dff4820f380b561fb0044e3d6deb894aa4a8f865) - update `blas/ext/base/gapx` TypeScript test type expectations [(#12169)](https://github.com/stdlib-js/stdlib/pull/12169)
 -   [`8ad7ea2`](https://github.com/stdlib-js/stdlib/commit/8ad7ea2f5654f163c8d489e606f9985ad7206be2) - update stride validation error messages [(#11998)](https://github.com/stdlib-js/stdlib/pull/11998)
 -   [`74e79f9`](https://github.com/stdlib-js/stdlib/commit/74e79f9fd8dfae766dd9a016f0c1e63b9abae097) - propagate `API_SUFFIX` wrappers and complex number description wording [(#11952)](https://github.com/stdlib-js/stdlib/pull/11952)
@@ -238,6 +242,11 @@
 
 <details>
 
+-   [`5cb5df2`](https://github.com/stdlib-js/stdlib/commit/5cb5df24dea651203b5609fb82855a1cd70b3895) - **feat:** add `zdiff` to namespace _(by Athan Reines)_
+-   [`9e3a4ba`](https://github.com/stdlib-js/stdlib/commit/9e3a4baead056e16d5a6a8cf9d91018c6aba20a0) - **fix:** add missing `API_SUFFIX` and fix types _(by Athan Reines)_
+-   [`a11c3ee`](https://github.com/stdlib-js/stdlib/commit/a11c3ee5ae67e719b024612187f7c0444bc811f0) - **fix:** add missing `API_SUFFIX` and fix types _(by Athan Reines)_
+-   [`0976c33`](https://github.com/stdlib-js/stdlib/commit/0976c338c9cc1ca8479d9dec49c9015f7ce374ba) - **docs:** fix types _(by Athan Reines)_
+-   [`3d96dae`](https://github.com/stdlib-js/stdlib/commit/3d96daefeb96e6183eab2e438d30ce73e5d6b20e) - **feat:** add `blas/ext/base/zdiff` [(#11741)](https://github.com/stdlib-js/stdlib/pull/11741) _(by Muhammad Haris, Athan Reines)_
 -   [`050caba`](https://github.com/stdlib-js/stdlib/commit/050cabae51fef57497301d6a63e0e52fb929167d) - **docs:** update namespace table of contents [(#12213)](https://github.com/stdlib-js/stdlib/pull/12213) _(by stdlib-bot)_
 -   [`442d1f9`](https://github.com/stdlib-js/stdlib/commit/442d1f9d521d9293a4bae3141a6be5bd438b453c) - **chore:** correct issues found during recent `develop` commit review [(#12201)](https://github.com/stdlib-js/stdlib/pull/12201) _(by Philipp Burckhardt)_
 -   [`9559de0`](https://github.com/stdlib-js/stdlib/commit/9559de093ed0c43ba65c7b6829be61a5967cd2f4) - **chore:** propagate typo and doc-note fixes across `blas` sibling packages [(#12202)](https://github.com/stdlib-js/stdlib/pull/12202) _(by Philipp Burckhardt)_
