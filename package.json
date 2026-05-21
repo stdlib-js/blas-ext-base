@@ -198,6 +198,7 @@
     "@stdlib/blas-ext-base-sdsnansumpw": "^0.3.1",
     "@stdlib/blas-ext-base-sdssum": "^0.3.1",
     "@stdlib/blas-ext-base-sdssumpw": "^0.3.1",
+    "@stdlib/blas-ext-base-sediff": "github:stdlib-js/blas-ext-base-sediff#main",
     "@stdlib/blas-ext-base-sfill": "^0.3.1",
     "@stdlib/blas-ext-base-sindex-of": "^0.1.1",
     "@stdlib/blas-ext-base-sindex-of-column": "github:stdlib-js/blas-ext-base-sindex-of-column#main",
