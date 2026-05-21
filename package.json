@@ -64,6 +64,7 @@
     "@stdlib/blas-ext-base-dcusumors": "^0.3.1",
     "@stdlib/blas-ext-base-dcusumpw": "^0.3.1",
     "@stdlib/blas-ext-base-ddiff": "github:stdlib-js/blas-ext-base-ddiff#main",
+    "@stdlib/blas-ext-base-dediff": "github:stdlib-js/blas-ext-base-dediff#main",
     "@stdlib/blas-ext-base-dfill": "^0.3.1",
     "@stdlib/blas-ext-base-dindex-of": "^0.1.1",
     "@stdlib/blas-ext-base-dindex-of-column": "github:stdlib-js/blas-ext-base-dindex-of-column#main",
