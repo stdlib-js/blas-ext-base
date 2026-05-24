@@ -36,6 +36,7 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
+    "@stdlib/blas-ext-base-capx": "github:stdlib-js/blas-ext-base-capx#main",
     "@stdlib/blas-ext-base-cfill": "^0.1.1",
     "@stdlib/blas-ext-base-cindex-of": "github:stdlib-js/blas-ext-base-cindex-of#main",
     "@stdlib/blas-ext-base-cindex-of-column": "github:stdlib-js/blas-ext-base-cindex-of-column#main",
@@ -390,12 +391,14 @@
     "@stdlib/blas-ext-base-wasm-dnansumkbn2": "^0.1.1",
     "@stdlib/blas-ext-base-wasm-dnansumpw": "^0.1.1",
     "@stdlib/blas-ext-base-wasm-sapxsumkbn": "^0.1.1",
+    "@stdlib/complex-float32-base-add": "^0.2.1",
     "@stdlib/complex-float32-ctor": "^0.1.1",
     "@stdlib/complex-float32-imag": "^0.1.2",
     "@stdlib/complex-float32-real": "^0.1.2",
     "@stdlib/complex-float64-ctor": "^0.1.2",
     "@stdlib/complex-float64-imag": "^0.1.2",
     "@stdlib/complex-float64-real": "^0.1.2",
+    "@stdlib/console-log-each": "^0.2.4",
     "@stdlib/constants-float64-eps": "^0.2.3",
     "@stdlib/constants-float64-max": "^0.2.3",
     "@stdlib/fs-read-file": "^0.2.3",

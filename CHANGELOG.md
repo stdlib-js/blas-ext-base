@@ -10,6 +10,8 @@
 
 ### Features
 
+-   [`e1489ee`](https://github.com/stdlib-js/stdlib/commit/e1489ee6c7d1dff5122ccf182b389cb3545c91f2) - add `capx` to namespace
+-   [`ce17493`](https://github.com/stdlib-js/stdlib/commit/ce17493d5f87ef366feced6ec5d4d871c4507033) - add `blas/ext/base/capx` [(#12239)](https://github.com/stdlib-js/stdlib/pull/12239)
 -   [`1003900`](https://github.com/stdlib-js/stdlib/commit/1003900dbae60a66c99d4adbb7f21b6cb98f6f73) - update `blas/ext/base` TypeScript declarations [(#12238)](https://github.com/stdlib-js/stdlib/pull/12238)
 -   [`b2bd6d6`](https://github.com/stdlib-js/stdlib/commit/b2bd6d650e731b983bb4e891fcb1d419c2e8c43b) - add `sediff` to namespace
 -   [`4fe4366`](https://github.com/stdlib-js/stdlib/commit/4fe4366076c122648cf44226f4ffa7f455fe3217) - add `blas/ext/base/sediff` [(#10905)](https://github.com/stdlib-js/stdlib/pull/10905)
@@ -246,6 +248,9 @@
 
 <details>
 
+-   [`e1489ee`](https://github.com/stdlib-js/stdlib/commit/e1489ee6c7d1dff5122ccf182b389cb3545c91f2) - **feat:** add `capx` to namespace _(by Athan Reines)_
+-   [`ce17493`](https://github.com/stdlib-js/stdlib/commit/ce17493d5f87ef366feced6ec5d4d871c4507033) - **feat:** add `blas/ext/base/capx` [(#12239)](https://github.com/stdlib-js/stdlib/pull/12239) _(by Karan Anand, Athan Reines)_
+-   [`91a6a85`](https://github.com/stdlib-js/stdlib/commit/91a6a85ebfca1036a0123648aa5165900c1cc74a) - **docs:** fix offset parameter wording in multi-offset READMEs [(#12243)](https://github.com/stdlib-js/stdlib/pull/12243) _(by Philipp Burckhardt, Athan Reines)_
 -   [`1003900`](https://github.com/stdlib-js/stdlib/commit/1003900dbae60a66c99d4adbb7f21b6cb98f6f73) - **feat:** update `blas/ext/base` TypeScript declarations [(#12238)](https://github.com/stdlib-js/stdlib/pull/12238) _(by stdlib-bot)_
 -   [`8441545`](https://github.com/stdlib-js/stdlib/commit/8441545518bc1d000fcd81a6ab91548f56eafaa6) - **docs:** fix offset parameter wording in `blas/ext/base/*sort2*` READMEs [(#12229)](https://github.com/stdlib-js/stdlib/pull/12229) _(by Philipp Burckhardt)_
 -   [`6615546`](https://github.com/stdlib-js/stdlib/commit/6615546b345be4962195031e37f9e708885826ca) - **test:** correct typos and errors in `blas/ext/base/dediff` [(#12228)](https://github.com/stdlib-js/stdlib/pull/12228) _(by Philipp Burckhardt)_
