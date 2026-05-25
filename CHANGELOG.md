@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-05-24)
+## Unreleased (2026-05-25)
 
 <section class="features">
 
@@ -248,6 +248,7 @@
 
 <details>
 
+-   [`c1be7ac`](https://github.com/stdlib-js/stdlib/commit/c1be7aca75e7707e553f94375997f04c38b97135) - **docs:** update namespace table of contents [(#12272)](https://github.com/stdlib-js/stdlib/pull/12272) _(by stdlib-bot)_
 -   [`e1489ee`](https://github.com/stdlib-js/stdlib/commit/e1489ee6c7d1dff5122ccf182b389cb3545c91f2) - **feat:** add `capx` to namespace _(by Athan Reines)_
 -   [`ce17493`](https://github.com/stdlib-js/stdlib/commit/ce17493d5f87ef366feced6ec5d4d871c4507033) - **feat:** add `blas/ext/base/capx` [(#12239)](https://github.com/stdlib-js/stdlib/pull/12239) _(by Karan Anand, Athan Reines)_
 -   [`91a6a85`](https://github.com/stdlib-js/stdlib/commit/91a6a85ebfca1036a0123648aa5165900c1cc74a) - **docs:** fix offset parameter wording in multi-offset READMEs [(#12243)](https://github.com/stdlib-js/stdlib/pull/12243) _(by Philipp Burckhardt, Athan Reines)_

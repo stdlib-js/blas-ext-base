@@ -76,6 +76,7 @@ var o = ns;
 
 <div class="namespace-toc">
 
+-   <span class="signature">[`capx( N, alpha, x, strideX )`][@stdlib/blas/ext/base/capx]</span><span class="delimiter">: </span><span class="description">add a scalar constant to each element in a single-precision complex floating-point strided array.</span>
 -   <span class="signature">[`cfill( N, alpha, x, strideX )`][@stdlib/blas/ext/base/cfill]</span><span class="delimiter">: </span><span class="description">fill a single-precision complex floating-point strided array with a specified scalar constant.</span>
 -   <span class="signature">[`cindexOfColumn( order, M, N, A, LDA, x, strideX, workspace, strideW )`][@stdlib/blas/ext/base/cindex-of-column]</span><span class="delimiter">: </span><span class="description">return the index of the first column in a single-precision complex floating-point input matrix which has the same elements as a provided search vector.</span>
 -   <span class="signature">[`cindexOfRow( order, M, N, A, LDA, x, strideX, workspace, strideW )`][@stdlib/blas/ext/base/cindex-of-row]</span><span class="delimiter">: </span><span class="description">return the index of the first row in a single-precision complex floating-point input matrix which has the same elements as a provided search vector.</span>
@@ -401,6 +402,8 @@ Copyright &copy; 2016-2026. The Stdlib [Authors][stdlib-authors].
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/blas-ext-base/main/LICENSE
 
 <!-- <toc-links> -->
+
+[@stdlib/blas/ext/base/capx]: https://github.com/stdlib-js/blas-ext-base-capx
 
 [@stdlib/blas/ext/base/cfill]: https://github.com/stdlib-js/blas-ext-base-cfill
 
