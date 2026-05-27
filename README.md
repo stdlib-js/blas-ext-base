@@ -77,6 +77,7 @@ var o = ns;
 <div class="namespace-toc">
 
 -   <span class="signature">[`capx( N, alpha, x, strideX )`][@stdlib/blas/ext/base/capx]</span><span class="delimiter">: </span><span class="description">add a scalar constant to each element in a single-precision complex floating-point strided array.</span>
+-   <span class="signature">[`caxpb( N, alpha, beta, x, strideX )`][@stdlib/blas/ext/base/caxpb]</span><span class="delimiter">: </span><span class="description">multiply each element in a single-precision complex floating-point strided array by a scalar constant and add a scalar constant to each result.</span>
 -   <span class="signature">[`cfill( N, alpha, x, strideX )`][@stdlib/blas/ext/base/cfill]</span><span class="delimiter">: </span><span class="description">fill a single-precision complex floating-point strided array with a specified scalar constant.</span>
 -   <span class="signature">[`cindexOfColumn( order, M, N, A, LDA, x, strideX, workspace, strideW )`][@stdlib/blas/ext/base/cindex-of-column]</span><span class="delimiter">: </span><span class="description">return the index of the first column in a single-precision complex floating-point input matrix which has the same elements as a provided search vector.</span>
 -   <span class="signature">[`cindexOfRow( order, M, N, A, LDA, x, strideX, workspace, strideW )`][@stdlib/blas/ext/base/cindex-of-row]</span><span class="delimiter">: </span><span class="description">return the index of the first row in a single-precision complex floating-point input matrix which has the same elements as a provided search vector.</span>
@@ -157,6 +158,7 @@ var o = ns;
 -   <span class="signature">[`dunitspace( N, start, x, strideX )`][@stdlib/blas/ext/base/dunitspace]</span><span class="delimiter">: </span><span class="description">fill a double-precision floating-point strided array with linearly spaced numeric elements which increment by `1` starting from a specified value.</span>
 -   <span class="signature">[`dvander( order, mode, M, N, x, strideX, out, ldo )`][@stdlib/blas/ext/base/dvander]</span><span class="delimiter">: </span><span class="description">generate a double-precision floating-point Vandermonde matrix.</span>
 -   <span class="signature">[`dwhere( N, condition, strideC, x, strideX, y, strideY, out, strideOut )`][@stdlib/blas/ext/base/dwhere]</span><span class="delimiter">: </span><span class="description">take elements from one of two double-precision floating-point strided arrays depending on a condition.</span>
+-   <span class="signature">[`dxsa( N, alpha, x, strideX )`][@stdlib/blas/ext/base/dxsa]</span><span class="delimiter">: </span><span class="description">subtract a scalar constant from each element in a double-precision floating-point strided array.</span>
 -   <span class="signature">[`dzeroTo( N, x, strideX )`][@stdlib/blas/ext/base/dzero-to]</span><span class="delimiter">: </span><span class="description">fill a double-precision floating-point strided array with linearly spaced numeric elements which increment by `1` starting from zero.</span>
 -   <span class="signature">[`gapx( N, alpha, x, strideX )`][@stdlib/blas/ext/base/gapx]</span><span class="delimiter">: </span><span class="description">add a scalar constant to each element in a strided array.</span>
 -   <span class="signature">[`gapxsum( N, alpha, x, strideX )`][@stdlib/blas/ext/base/gapxsum]</span><span class="delimiter">: </span><span class="description">add a scalar constant to each strided array element and compute the sum.</span>
@@ -271,6 +273,7 @@ var o = ns;
 -   <span class="signature">[`sunitspace( N, start, x, strideX )`][@stdlib/blas/ext/base/sunitspace]</span><span class="delimiter">: </span><span class="description">fill a single-precision floating-point strided array with linearly spaced numeric elements which increment by `1` starting from a specified value.</span>
 -   <span class="signature">[`svander( order, mode, M, N, x, strideX, out, ldo )`][@stdlib/blas/ext/base/svander]</span><span class="delimiter">: </span><span class="description">generate a single-precision floating-point Vandermonde matrix.</span>
 -   <span class="signature">[`swhere( N, condition, strideC, x, strideX, y, strideY, out, strideOut )`][@stdlib/blas/ext/base/swhere]</span><span class="delimiter">: </span><span class="description">take elements from one of two single-precision floating-point strided arrays depending on a condition.</span>
+-   <span class="signature">[`sxsa( N, alpha, x, strideX )`][@stdlib/blas/ext/base/sxsa]</span><span class="delimiter">: </span><span class="description">subtract a scalar constant from each element in a single-precision floating-point strided array.</span>
 -   <span class="signature">[`szeroTo( N, x, strideX )`][@stdlib/blas/ext/base/szero-to]</span><span class="delimiter">: </span><span class="description">fill a single-precision floating-point strided array with linearly spaced numeric elements which increment by `1` starting from zero.</span>
 -   <span class="signature">[`wasm`][@stdlib/blas/ext/base/wasm]</span><span class="delimiter">: </span><span class="description">extensions to basic linear algebra subprograms (BLAS) compiled to WebAssembly.</span>
 -   <span class="signature">[`zapx( N, alpha, x, strideX )`][@stdlib/blas/ext/base/zapx]</span><span class="delimiter">: </span><span class="description">add a scalar constant to each element in a double-precision complex floating-point strided array.</span>
@@ -406,6 +409,8 @@ Copyright &copy; 2016-2026. The Stdlib [Authors][stdlib-authors].
 <!-- <toc-links> -->
 
 [@stdlib/blas/ext/base/capx]: https://github.com/stdlib-js/blas-ext-base-capx
+
+[@stdlib/blas/ext/base/caxpb]: https://github.com/stdlib-js/blas-ext-base-caxpb
 
 [@stdlib/blas/ext/base/cfill]: https://github.com/stdlib-js/blas-ext-base-cfill
 
@@ -566,6 +571,8 @@ Copyright &copy; 2016-2026. The Stdlib [Authors][stdlib-authors].
 [@stdlib/blas/ext/base/dvander]: https://github.com/stdlib-js/blas-ext-base-dvander
 
 [@stdlib/blas/ext/base/dwhere]: https://github.com/stdlib-js/blas-ext-base-dwhere
+
+[@stdlib/blas/ext/base/dxsa]: https://github.com/stdlib-js/blas-ext-base-dxsa
 
 [@stdlib/blas/ext/base/dzero-to]: https://github.com/stdlib-js/blas-ext-base-dzero-to
 
@@ -794,6 +801,8 @@ Copyright &copy; 2016-2026. The Stdlib [Authors][stdlib-authors].
 [@stdlib/blas/ext/base/svander]: https://github.com/stdlib-js/blas-ext-base-svander
 
 [@stdlib/blas/ext/base/swhere]: https://github.com/stdlib-js/blas-ext-base-swhere
+
+[@stdlib/blas/ext/base/sxsa]: https://github.com/stdlib-js/blas-ext-base-sxsa
 
 [@stdlib/blas/ext/base/szero-to]: https://github.com/stdlib-js/blas-ext-base-szero-to
 
