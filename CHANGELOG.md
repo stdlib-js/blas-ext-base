@@ -10,6 +10,8 @@
 
 ### Features
 
+-   [`53ba9dc`](https://github.com/stdlib-js/stdlib/commit/53ba9dcb878686fb7d685da7fbadeeb739069204) - add `smskrev` to namespace
+-   [`f3c2d1c`](https://github.com/stdlib-js/stdlib/commit/f3c2d1c11d5f724e60fc1e040bbc3deb0a3e2903) - add `blas/ext/base/smskrev` [(#10924)](https://github.com/stdlib-js/stdlib/pull/10924)
 -   [`65d7735`](https://github.com/stdlib-js/stdlib/commit/65d7735880ff6d36b49a243112bb56f078e53c49) - add `cxsa`, `gaxpb`, and `zaxpb` to namespace
 -   [`c587366`](https://github.com/stdlib-js/stdlib/commit/c587366d17fda33fdc13f8e0443ee93157c5e0e0) - add `dmskrev` and `gaxpby` to namespace
 -   [`4a99de9`](https://github.com/stdlib-js/stdlib/commit/4a99de96ce637b10b7e949fc516f0c2602ac96c2) - update `blas/ext/base/ndarray` TypeScript declarations [(#12387)](https://github.com/stdlib-js/stdlib/pull/12387)
@@ -284,6 +286,10 @@
 
 <details>
 
+-   [`53ba9dc`](https://github.com/stdlib-js/stdlib/commit/53ba9dcb878686fb7d685da7fbadeeb739069204) - **feat:** add `smskrev` to namespace _(by Athan Reines)_
+-   [`f3c2d1c`](https://github.com/stdlib-js/stdlib/commit/f3c2d1c11d5f724e60fc1e040bbc3deb0a3e2903) - **feat:** add `blas/ext/base/smskrev` [(#10924)](https://github.com/stdlib-js/stdlib/pull/10924) _(by Muhammad Haris, Athan Reines)_
+-   [`2bab6a4`](https://github.com/stdlib-js/stdlib/commit/2bab6a4b9db733334bdcd9bfc032af183bdd7cf2) - **docs:** fix missing header _(by Athan Reines)_
+-   [`7719ac8`](https://github.com/stdlib-js/stdlib/commit/7719ac8d2f7584c23d167ec3a3b9a7ad1fbba992) - **docs:** fix missing function description _(by Athan Reines)_
 -   [`65d7735`](https://github.com/stdlib-js/stdlib/commit/65d7735880ff6d36b49a243112bb56f078e53c49) - **feat:** add `cxsa`, `gaxpb`, and `zaxpb` to namespace _(by Athan Reines)_
 -   [`c587366`](https://github.com/stdlib-js/stdlib/commit/c587366d17fda33fdc13f8e0443ee93157c5e0e0) - **feat:** add `dmskrev` and `gaxpby` to namespace _(by Athan Reines)_
 -   [`78f0c53`](https://github.com/stdlib-js/stdlib/commit/78f0c534da8ae86ddf72c54884ebd040fa3c0ea4) - **docs:** update namespace table of contents [(#12388)](https://github.com/stdlib-js/stdlib/pull/12388) _(by stdlib-bot)_

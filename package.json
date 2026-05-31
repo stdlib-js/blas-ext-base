@@ -217,6 +217,7 @@
     "@stdlib/blas-ext-base-slast-index-of": "^0.1.1",
     "@stdlib/blas-ext-base-slast-index-of-row": "github:stdlib-js/blas-ext-base-slast-index-of-row#main",
     "@stdlib/blas-ext-base-slinspace": "^0.1.1",
+    "@stdlib/blas-ext-base-smskrev": "github:stdlib-js/blas-ext-base-smskrev#main",
     "@stdlib/blas-ext-base-snancount": "github:stdlib-js/blas-ext-base-snancount#main",
     "@stdlib/blas-ext-base-snansum": "^0.3.1",
     "@stdlib/blas-ext-base-snansumkbn": "^0.3.1",
