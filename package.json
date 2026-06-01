@@ -184,6 +184,7 @@
     "@stdlib/blas-ext-base-gvander": "github:stdlib-js/blas-ext-base-gvander#main",
     "@stdlib/blas-ext-base-gwhere": "github:stdlib-js/blas-ext-base-gwhere#main",
     "@stdlib/blas-ext-base-gwxsa": "github:stdlib-js/blas-ext-base-gwxsa#main",
+    "@stdlib/blas-ext-base-gxpy": "github:stdlib-js/blas-ext-base-gxpy#main",
     "@stdlib/blas-ext-base-gxsa": "github:stdlib-js/blas-ext-base-gxsa#main",
     "@stdlib/blas-ext-base-gzero-to": "github:stdlib-js/blas-ext-base-gzero-to#main",
     "@stdlib/blas-ext-base-ndarray": "^0.1.1",
