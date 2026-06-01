@@ -10,6 +10,8 @@
 
 ### Features
 
+-   [`d864f6f`](https://github.com/stdlib-js/stdlib/commit/d864f6f8bf80276cb56eca9ed76045f5d310d3d4) - add `dzeros` to namespace
+-   [`a8ae603`](https://github.com/stdlib-js/stdlib/commit/a8ae6038b6a494bb4f9db398c5b0eb94d00d519e) - add `blas/ext/base/dzeros`
 -   [`9d49c60`](https://github.com/stdlib-js/stdlib/commit/9d49c6028806a168ca07b211136dc3134037b36c) - add `cdiff` to namespace
 -   [`6da0095`](https://github.com/stdlib-js/stdlib/commit/6da00954850ddf7230d07fe481f65a2c7a168c15) - add `blas/ext/base/cdiff` [(#11744)](https://github.com/stdlib-js/stdlib/pull/11744)
 -   [`48eafd9`](https://github.com/stdlib-js/stdlib/commit/48eafd99ff26711d802914a9e850f8d11537c1a6) - add `gxsa` to namespace
@@ -298,6 +300,8 @@
 
 <details>
 
+-   [`d864f6f`](https://github.com/stdlib-js/stdlib/commit/d864f6f8bf80276cb56eca9ed76045f5d310d3d4) - **feat:** add `dzeros` to namespace _(by Athan Reines)_
+-   [`a8ae603`](https://github.com/stdlib-js/stdlib/commit/a8ae6038b6a494bb4f9db398c5b0eb94d00d519e) - **feat:** add `blas/ext/base/dzeros` _(by Athan Reines)_
 -   [`9d49c60`](https://github.com/stdlib-js/stdlib/commit/9d49c6028806a168ca07b211136dc3134037b36c) - **feat:** add `cdiff` to namespace _(by Athan Reines)_
 -   [`6da0095`](https://github.com/stdlib-js/stdlib/commit/6da00954850ddf7230d07fe481f65a2c7a168c15) - **feat:** add `blas/ext/base/cdiff` [(#11744)](https://github.com/stdlib-js/stdlib/pull/11744) _(by Muhammad Haris, Athan Reines)_
 -   [`48eafd9`](https://github.com/stdlib-js/stdlib/commit/48eafd99ff26711d802914a9e850f8d11537c1a6) - **feat:** add `gxsa` to namespace _(by Athan Reines)_

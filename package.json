@@ -124,6 +124,7 @@
     "@stdlib/blas-ext-base-dwhere": "github:stdlib-js/blas-ext-base-dwhere#main",
     "@stdlib/blas-ext-base-dxsa": "github:stdlib-js/blas-ext-base-dxsa#main",
     "@stdlib/blas-ext-base-dzero-to": "github:stdlib-js/blas-ext-base-dzero-to#main",
+    "@stdlib/blas-ext-base-dzeros": "github:stdlib-js/blas-ext-base-dzeros#main",
     "@stdlib/blas-ext-base-gapx": "^0.3.1",
     "@stdlib/blas-ext-base-gapxsum": "^0.3.1",
     "@stdlib/blas-ext-base-gapxsumkbn": "^0.3.1",
