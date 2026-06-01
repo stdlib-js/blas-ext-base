@@ -10,6 +10,8 @@
 
 ### Features
 
+-   [`9d49c60`](https://github.com/stdlib-js/stdlib/commit/9d49c6028806a168ca07b211136dc3134037b36c) - add `cdiff` to namespace
+-   [`6da0095`](https://github.com/stdlib-js/stdlib/commit/6da00954850ddf7230d07fe481f65a2c7a168c15) - add `blas/ext/base/cdiff` [(#11744)](https://github.com/stdlib-js/stdlib/pull/11744)
 -   [`48eafd9`](https://github.com/stdlib-js/stdlib/commit/48eafd99ff26711d802914a9e850f8d11537c1a6) - add `gxsa` to namespace
 -   [`a472680`](https://github.com/stdlib-js/stdlib/commit/a47268016f446a4d26673c0296e32c4b14ca7a9f) - add `gwapx` to namespace
 -   [`c54b9b1`](https://github.com/stdlib-js/stdlib/commit/c54b9b1602d48dd2972c5b0ef34f34047d2680b2) - add `blas/ext/base/gwapx` [(#12413)](https://github.com/stdlib-js/stdlib/pull/12413)
@@ -296,6 +298,8 @@
 
 <details>
 
+-   [`9d49c60`](https://github.com/stdlib-js/stdlib/commit/9d49c6028806a168ca07b211136dc3134037b36c) - **feat:** add `cdiff` to namespace _(by Athan Reines)_
+-   [`6da0095`](https://github.com/stdlib-js/stdlib/commit/6da00954850ddf7230d07fe481f65a2c7a168c15) - **feat:** add `blas/ext/base/cdiff` [(#11744)](https://github.com/stdlib-js/stdlib/pull/11744) _(by Muhammad Haris, Athan Reines)_
 -   [`48eafd9`](https://github.com/stdlib-js/stdlib/commit/48eafd99ff26711d802914a9e850f8d11537c1a6) - **feat:** add `gxsa` to namespace _(by Athan Reines)_
 -   [`a472680`](https://github.com/stdlib-js/stdlib/commit/a47268016f446a4d26673c0296e32c4b14ca7a9f) - **feat:** add `gwapx` to namespace _(by Athan Reines)_
 -   [`c54b9b1`](https://github.com/stdlib-js/stdlib/commit/c54b9b1602d48dd2972c5b0ef34f34047d2680b2) - **feat:** add `blas/ext/base/gwapx` [(#12413)](https://github.com/stdlib-js/stdlib/pull/12413) _(by Karan Anand)_
