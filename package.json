@@ -248,6 +248,7 @@
     "@stdlib/blas-ext-base-swhere": "github:stdlib-js/blas-ext-base-swhere#main",
     "@stdlib/blas-ext-base-sxsa": "github:stdlib-js/blas-ext-base-sxsa#main",
     "@stdlib/blas-ext-base-szero-to": "github:stdlib-js/blas-ext-base-szero-to#main",
+    "@stdlib/blas-ext-base-szeros": "github:stdlib-js/blas-ext-base-szeros#main",
     "@stdlib/blas-ext-base-wasm": "^0.1.1",
     "@stdlib/blas-ext-base-zapx": "github:stdlib-js/blas-ext-base-zapx#main",
     "@stdlib/blas-ext-base-zaxpb": "github:stdlib-js/blas-ext-base-zaxpb#main",
