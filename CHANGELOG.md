@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-06-01)
+## Unreleased (2026-06-02)
 
 <section class="features">
 
@@ -302,6 +302,8 @@
 
 <details>
 
+-   [`f7eebc9`](https://github.com/stdlib-js/stdlib/commit/f7eebc9dd0757b872dc22b1a0eb01c12a7221df8) - **docs:** update namespace table of contents [(#12439)](https://github.com/stdlib-js/stdlib/pull/12439) _(by stdlib-bot)_
+-   [`0f2cc7c`](https://github.com/stdlib-js/stdlib/commit/0f2cc7c6e98ae9681285d72aecba3f0b258106e2) - **docs:** update descriptions _(by Athan Reines)_
 -   [`d2f751e`](https://github.com/stdlib-js/stdlib/commit/d2f751e2a9be84e74863b07fef380abbeff2fdd4) - **feat:** add `szeros` to namespace _(by Athan Reines)_
 -   [`02527f4`](https://github.com/stdlib-js/stdlib/commit/02527f445e4edeeb4d552159d748b18104ad3c95) - **feat:** add `blas/ext/base/szeros` _(by Athan Reines)_
 -   [`d864f6f`](https://github.com/stdlib-js/stdlib/commit/d864f6f8bf80276cb56eca9ed76045f5d310d3d4) - **feat:** add `dzeros` to namespace _(by Athan Reines)_
