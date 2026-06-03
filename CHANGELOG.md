@@ -10,6 +10,8 @@
 
 ### Features
 
+-   [`e903f79`](https://github.com/stdlib-js/stdlib/commit/e903f792e69612bfa05c36ff659ae56036313c56) - add `dones` to namespace
+-   [`6b340ea`](https://github.com/stdlib-js/stdlib/commit/6b340ea0a794b13c3f9e3eebb0381695a80126cd) - add `blas/ext/base/dones`
 -   [`b5749b6`](https://github.com/stdlib-js/stdlib/commit/b5749b622f585b65628072e223ceb18f3f21f80c) - add `saxpby` to namespace
 -   [`62c39ad`](https://github.com/stdlib-js/stdlib/commit/62c39adef274b54ab0e73ee1e4f9595e33e04796) - add `blas/ext/base/saxpby` [(#12506)](https://github.com/stdlib-js/stdlib/pull/12506)
 -   [`d2f751e`](https://github.com/stdlib-js/stdlib/commit/d2f751e2a9be84e74863b07fef380abbeff2fdd4) - add `szeros` to namespace
@@ -304,6 +306,8 @@
 
 <details>
 
+-   [`e903f79`](https://github.com/stdlib-js/stdlib/commit/e903f792e69612bfa05c36ff659ae56036313c56) - **feat:** add `dones` to namespace _(by Athan Reines)_
+-   [`6b340ea`](https://github.com/stdlib-js/stdlib/commit/6b340ea0a794b13c3f9e3eebb0381695a80126cd) - **feat:** add `blas/ext/base/dones` _(by Athan Reines)_
 -   [`b5749b6`](https://github.com/stdlib-js/stdlib/commit/b5749b622f585b65628072e223ceb18f3f21f80c) - **feat:** add `saxpby` to namespace _(by Athan Reines)_
 -   [`62c39ad`](https://github.com/stdlib-js/stdlib/commit/62c39adef274b54ab0e73ee1e4f9595e33e04796) - **feat:** add `blas/ext/base/saxpby` [(#12506)](https://github.com/stdlib-js/stdlib/pull/12506) _(by Karan Anand)_
 -   [`f7eebc9`](https://github.com/stdlib-js/stdlib/commit/f7eebc9dd0757b872dc22b1a0eb01c12a7221df8) - **docs:** update namespace table of contents [(#12439)](https://github.com/stdlib-js/stdlib/pull/12439) _(by stdlib-bot)_

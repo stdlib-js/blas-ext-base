@@ -93,6 +93,7 @@
     "@stdlib/blas-ext-base-dnansumors": "^0.3.1",
     "@stdlib/blas-ext-base-dnansumpw": "^0.3.1",
     "@stdlib/blas-ext-base-done-to": "github:stdlib-js/blas-ext-base-done-to#main",
+    "@stdlib/blas-ext-base-dones": "github:stdlib-js/blas-ext-base-dones#main",
     "@stdlib/blas-ext-base-drev": "^0.3.1",
     "@stdlib/blas-ext-base-drrss": "^0.1.1",
     "@stdlib/blas-ext-base-drss": "^0.1.1",
