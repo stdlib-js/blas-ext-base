@@ -4,12 +4,14 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-06-02)
+## Unreleased (2026-06-03)
 
 <section class="features">
 
 ### Features
 
+-   [`b5749b6`](https://github.com/stdlib-js/stdlib/commit/b5749b622f585b65628072e223ceb18f3f21f80c) - add `saxpby` to namespace
+-   [`62c39ad`](https://github.com/stdlib-js/stdlib/commit/62c39adef274b54ab0e73ee1e4f9595e33e04796) - add `blas/ext/base/saxpby` [(#12506)](https://github.com/stdlib-js/stdlib/pull/12506)
 -   [`d2f751e`](https://github.com/stdlib-js/stdlib/commit/d2f751e2a9be84e74863b07fef380abbeff2fdd4) - add `szeros` to namespace
 -   [`02527f4`](https://github.com/stdlib-js/stdlib/commit/02527f445e4edeeb4d552159d748b18104ad3c95) - add `blas/ext/base/szeros`
 -   [`d864f6f`](https://github.com/stdlib-js/stdlib/commit/d864f6f8bf80276cb56eca9ed76045f5d310d3d4) - add `dzeros` to namespace
@@ -302,6 +304,8 @@
 
 <details>
 
+-   [`b5749b6`](https://github.com/stdlib-js/stdlib/commit/b5749b622f585b65628072e223ceb18f3f21f80c) - **feat:** add `saxpby` to namespace _(by Athan Reines)_
+-   [`62c39ad`](https://github.com/stdlib-js/stdlib/commit/62c39adef274b54ab0e73ee1e4f9595e33e04796) - **feat:** add `blas/ext/base/saxpby` [(#12506)](https://github.com/stdlib-js/stdlib/pull/12506) _(by Karan Anand)_
 -   [`f7eebc9`](https://github.com/stdlib-js/stdlib/commit/f7eebc9dd0757b872dc22b1a0eb01c12a7221df8) - **docs:** update namespace table of contents [(#12439)](https://github.com/stdlib-js/stdlib/pull/12439) _(by stdlib-bot)_
 -   [`0f2cc7c`](https://github.com/stdlib-js/stdlib/commit/0f2cc7c6e98ae9681285d72aecba3f0b258106e2) - **docs:** update descriptions _(by Athan Reines)_
 -   [`d2f751e`](https://github.com/stdlib-js/stdlib/commit/d2f751e2a9be84e74863b07fef380abbeff2fdd4) - **feat:** add `szeros` to namespace _(by Athan Reines)_
