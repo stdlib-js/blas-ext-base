@@ -232,6 +232,7 @@
     "@stdlib/blas-ext-base-snansumors": "^0.3.1",
     "@stdlib/blas-ext-base-snansumpw": "^0.3.1",
     "@stdlib/blas-ext-base-sone-to": "github:stdlib-js/blas-ext-base-sone-to#main",
+    "@stdlib/blas-ext-base-sones": "github:stdlib-js/blas-ext-base-sones#main",
     "@stdlib/blas-ext-base-srev": "^0.3.1",
     "@stdlib/blas-ext-base-ssort": "github:stdlib-js/blas-ext-base-ssort#main",
     "@stdlib/blas-ext-base-ssort2hp": "^0.2.3",
