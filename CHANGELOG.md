@@ -4,12 +4,15 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-06-04)
+## Unreleased (2026-06-05)
 
 <section class="features">
 
 ### Features
 
+-   [`6c702e2`](https://github.com/stdlib-js/stdlib/commit/6c702e28867687afcb9570a8936c5341f974c461) - add `gcuany` and `gcusome` to namespace
+-   [`e55fddc`](https://github.com/stdlib-js/stdlib/commit/e55fddcf3ba3596e3d913925dc02f5c2600a0ec7) - add `blas/ext/base/gcusome` [(#12182)](https://github.com/stdlib-js/stdlib/pull/12182)
+-   [`7f321d8`](https://github.com/stdlib-js/stdlib/commit/7f321d8a3fbb4852da1e7f2a53634a10013e5d1b) - add `blas/ext/base/gcuany` [(#12535)](https://github.com/stdlib-js/stdlib/pull/12535)
 -   [`aac3a7c`](https://github.com/stdlib-js/stdlib/commit/aac3a7c1ed319e1270df50675c413235af628f2a) - add `sones` to namespace
 -   [`1d97e1a`](https://github.com/stdlib-js/stdlib/commit/1d97e1a17530208c82ec7ae8c59c1e3e73b0b066) - add `blas/ext/base/sones`
 -   [`e903f79`](https://github.com/stdlib-js/stdlib/commit/e903f792e69612bfa05c36ff659ae56036313c56) - add `dones` to namespace
@@ -287,6 +290,8 @@
 
 ### Bug Fixes
 
+-   [`a601344`](https://github.com/stdlib-js/stdlib/commit/a601344e6d755e59e2df59ec4650f2b1e20aa333) - type `order` parameter as `Layout` in `blas/ext/base/scartesian-square` [(#12530)](https://github.com/stdlib-js/stdlib/pull/12530)
+-   [`3bf760c`](https://github.com/stdlib-js/stdlib/commit/3bf760c663458801bfd17ca21ae891b724331fe9) - type `order` parameter as `Layout` in `blas/ext/base/dcartesian-square` [(#12531)](https://github.com/stdlib-js/stdlib/pull/12531)
 -   [`95a8c41`](https://github.com/stdlib-js/stdlib/commit/95a8c41a2a5313aea289e722bed88bc888454233) - use correct argument value in error message and propagate JSDoc fixes to sibling packages [(#12302)](https://github.com/stdlib-js/stdlib/pull/12302)
 -   [`9e3a4ba`](https://github.com/stdlib-js/stdlib/commit/9e3a4baead056e16d5a6a8cf9d91018c6aba20a0) - add missing `API_SUFFIX` and fix types
 -   [`a11c3ee`](https://github.com/stdlib-js/stdlib/commit/a11c3ee5ae67e719b024612187f7c0444bc811f0) - add missing `API_SUFFIX` and fix types
@@ -308,6 +313,22 @@
 
 <details>
 
+-   [`6c702e2`](https://github.com/stdlib-js/stdlib/commit/6c702e28867687afcb9570a8936c5341f974c461) - **feat:** add `gcuany` and `gcusome` to namespace _(by Athan Reines)_
+-   [`e55fddc`](https://github.com/stdlib-js/stdlib/commit/e55fddcf3ba3596e3d913925dc02f5c2600a0ec7) - **feat:** add `blas/ext/base/gcusome` [(#12182)](https://github.com/stdlib-js/stdlib/pull/12182) _(by Muhammad Haris)_
+-   [`7f321d8`](https://github.com/stdlib-js/stdlib/commit/7f321d8a3fbb4852da1e7f2a53634a10013e5d1b) - **feat:** add `blas/ext/base/gcuany` [(#12535)](https://github.com/stdlib-js/stdlib/pull/12535) _(by Muhammad Haris)_
+-   [`15a731b`](https://github.com/stdlib-js/stdlib/commit/15a731b9aa63d384fa1d8d5cd3f9c20004714ad4) - **refactor:** remove redundant generic constraint in `blas/ext/base/ndarray/gsorthp` [(#12546)](https://github.com/stdlib-js/stdlib/pull/12546) _(by Philipp Burckhardt)_
+-   [`c26d8b5`](https://github.com/stdlib-js/stdlib/commit/c26d8b58bd7f8254b6db66b8458128bed8e4beab) - **refactor:** remove redundant generic constraint in `blas/ext/base/ndarray/gsort` [(#12545)](https://github.com/stdlib-js/stdlib/pull/12545) _(by Philipp Burckhardt)_
+-   [`f766a24`](https://github.com/stdlib-js/stdlib/commit/f766a2481ba05b540c57b8c058fe2ce399f52495) - **refactor:** use `strideX`/`offsetX` parameter names in `blas/ext/base/ssortins` [(#12541)](https://github.com/stdlib-js/stdlib/pull/12541) _(by Philipp Burckhardt)_
+-   [`1a35c42`](https://github.com/stdlib-js/stdlib/commit/1a35c4297cbdd96e126faa9a05aee2fc004119a4) - **refactor:** use `strideX`/`offsetX` parameter names in `blas/ext/base/gsort` [(#12538)](https://github.com/stdlib-js/stdlib/pull/12538) _(by Philipp Burckhardt)_
+-   [`9f94bda`](https://github.com/stdlib-js/stdlib/commit/9f94bda297163561179901566584481aba80d01c) - **refactor:** use `strideX`/`offsetX` parameter names in `blas/ext/base/ssortsh` [(#12542)](https://github.com/stdlib-js/stdlib/pull/12542) _(by Philipp Burckhardt)_
+-   [`a18215d`](https://github.com/stdlib-js/stdlib/commit/a18215d30d740a00f67b05ec71d1f1da0d64166b) - **refactor:** use `strideX`/`offsetX` parameter names in `blas/ext/base/dsortsh` [(#12540)](https://github.com/stdlib-js/stdlib/pull/12540) _(by Philipp Burckhardt)_
+-   [`e74dd95`](https://github.com/stdlib-js/stdlib/commit/e74dd953c73dd0fd149fc24dcee6f1f66847557a) - **refactor:** use `strideX`/`offsetX` parameter names in `blas/ext/base/gsorthp` [(#12539)](https://github.com/stdlib-js/stdlib/pull/12539) _(by Philipp Burckhardt)_
+-   [`45710f8`](https://github.com/stdlib-js/stdlib/commit/45710f8f1e2c0353af2798441c01f5fff9ad3fb6) - **refactor:** use `strideX`/`offsetX` parameter names in `blas/ext/base/dssumors` [(#12537)](https://github.com/stdlib-js/stdlib/pull/12537) _(by Philipp Burckhardt)_
+-   [`37b53d2`](https://github.com/stdlib-js/stdlib/commit/37b53d20a65b426c7d5a9a4048ac31b10af45df5) - **refactor:** use `strideX` parameter name in `blas/ext/base/dnansum` [(#12536)](https://github.com/stdlib-js/stdlib/pull/12536) _(by Philipp Burckhardt)_
+-   [`ec68ca7`](https://github.com/stdlib-js/stdlib/commit/ec68ca7cc35210db29a028d561ec71968e2ff753) - **docs:** fix TSDoc errors in `blas` declarations [(#12529)](https://github.com/stdlib-js/stdlib/pull/12529) _(by Philipp Burckhardt, Athan Reines)_
+-   [`7587c51`](https://github.com/stdlib-js/stdlib/commit/7587c516c9cf38a7048079bf01c42135061b8d98) - **docs:** propagate TSDoc declaration fixes to sibling packages [(#12524)](https://github.com/stdlib-js/stdlib/pull/12524) _(by Philipp Burckhardt)_
+-   [`a601344`](https://github.com/stdlib-js/stdlib/commit/a601344e6d755e59e2df59ec4650f2b1e20aa333) - **fix:** type `order` parameter as `Layout` in `blas/ext/base/scartesian-square` [(#12530)](https://github.com/stdlib-js/stdlib/pull/12530) _(by Philipp Burckhardt)_
+-   [`3bf760c`](https://github.com/stdlib-js/stdlib/commit/3bf760c663458801bfd17ca21ae891b724331fe9) - **fix:** type `order` parameter as `Layout` in `blas/ext/base/dcartesian-square` [(#12531)](https://github.com/stdlib-js/stdlib/pull/12531) _(by Philipp Burckhardt)_
 -   [`a3a2ba1`](https://github.com/stdlib-js/stdlib/commit/a3a2ba1ab29ccd763a7089ac24da1df0c17f34ff) - **docs:** update namespace table of contents [(#12521)](https://github.com/stdlib-js/stdlib/pull/12521) _(by stdlib-bot)_
 -   [`aac3a7c`](https://github.com/stdlib-js/stdlib/commit/aac3a7c1ed319e1270df50675c413235af628f2a) - **feat:** add `sones` to namespace _(by Athan Reines)_
 -   [`1d97e1a`](https://github.com/stdlib-js/stdlib/commit/1d97e1a17530208c82ec7ae8c59c1e3e73b0b066) - **feat:** add `blas/ext/base/sones` _(by Athan Reines)_
