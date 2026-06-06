@@ -4,12 +4,17 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-06-05)
+## Unreleased (2026-06-06)
 
 <section class="features">
 
 ### Features
 
+-   [`fc58e6c`](https://github.com/stdlib-js/stdlib/commit/fc58e6cbed284e4a21421d7e3b73c7504d5bf968) - add various symbols to namespace
+-   [`0176557`](https://github.com/stdlib-js/stdlib/commit/01765576597097cc6bee0458802983e4a51aa2cc) - add `blas/ext/base/scartesian-product` [(#12563)](https://github.com/stdlib-js/stdlib/pull/12563)
+-   [`e4c19a3`](https://github.com/stdlib-js/stdlib/commit/e4c19a3e4864e7c9807cae88b2a37b5d0918edfb) - add `blas/ext/base/daxpby` [(#12573)](https://github.com/stdlib-js/stdlib/pull/12573)
+-   [`ccab031`](https://github.com/stdlib-js/stdlib/commit/ccab031cf9dbf53fb7d865934c310b7ca98f45bc) - add `blas/ext/base/gcartesian-product` [(#12561)](https://github.com/stdlib-js/stdlib/pull/12561)
+-   [`813f930`](https://github.com/stdlib-js/stdlib/commit/813f930eb5499d52a3bf36758d226f39baae8bf5) - add `blas/ext/base/gsome` [(#12555)](https://github.com/stdlib-js/stdlib/pull/12555)
 -   [`6c702e2`](https://github.com/stdlib-js/stdlib/commit/6c702e28867687afcb9570a8936c5341f974c461) - add `gcuany` and `gcusome` to namespace
 -   [`e55fddc`](https://github.com/stdlib-js/stdlib/commit/e55fddcf3ba3596e3d913925dc02f5c2600a0ec7) - add `blas/ext/base/gcusome` [(#12182)](https://github.com/stdlib-js/stdlib/pull/12182)
 -   [`7f321d8`](https://github.com/stdlib-js/stdlib/commit/7f321d8a3fbb4852da1e7f2a53634a10013e5d1b) - add `blas/ext/base/gcuany` [(#12535)](https://github.com/stdlib-js/stdlib/pull/12535)
@@ -290,6 +295,7 @@
 
 ### Bug Fixes
 
+-   [`9dd3f73`](https://github.com/stdlib-js/stdlib/commit/9dd3f73544d43392c6ff8d5f290e0e466ac0c812) - rename header files to align with project conventions
 -   [`a601344`](https://github.com/stdlib-js/stdlib/commit/a601344e6d755e59e2df59ec4650f2b1e20aa333) - type `order` parameter as `Layout` in `blas/ext/base/scartesian-square` [(#12530)](https://github.com/stdlib-js/stdlib/pull/12530)
 -   [`3bf760c`](https://github.com/stdlib-js/stdlib/commit/3bf760c663458801bfd17ca21ae891b724331fe9) - type `order` parameter as `Layout` in `blas/ext/base/dcartesian-square` [(#12531)](https://github.com/stdlib-js/stdlib/pull/12531)
 -   [`95a8c41`](https://github.com/stdlib-js/stdlib/commit/95a8c41a2a5313aea289e722bed88bc888454233) - use correct argument value in error message and propagate JSDoc fixes to sibling packages [(#12302)](https://github.com/stdlib-js/stdlib/pull/12302)
@@ -313,6 +319,13 @@
 
 <details>
 
+-   [`fc58e6c`](https://github.com/stdlib-js/stdlib/commit/fc58e6cbed284e4a21421d7e3b73c7504d5bf968) - **feat:** add various symbols to namespace _(by Athan Reines)_
+-   [`9dd3f73`](https://github.com/stdlib-js/stdlib/commit/9dd3f73544d43392c6ff8d5f290e0e466ac0c812) - **fix:** rename header files to align with project conventions _(by Athan Reines)_
+-   [`0176557`](https://github.com/stdlib-js/stdlib/commit/01765576597097cc6bee0458802983e4a51aa2cc) - **feat:** add `blas/ext/base/scartesian-product` [(#12563)](https://github.com/stdlib-js/stdlib/pull/12563) _(by Muhammad Haris)_
+-   [`e4c19a3`](https://github.com/stdlib-js/stdlib/commit/e4c19a3e4864e7c9807cae88b2a37b5d0918edfb) - **feat:** add `blas/ext/base/daxpby` [(#12573)](https://github.com/stdlib-js/stdlib/pull/12573) _(by Karan Anand)_
+-   [`ccab031`](https://github.com/stdlib-js/stdlib/commit/ccab031cf9dbf53fb7d865934c310b7ca98f45bc) - **feat:** add `blas/ext/base/gcartesian-product` [(#12561)](https://github.com/stdlib-js/stdlib/pull/12561) _(by Muhammad Haris, Athan Reines)_
+-   [`4f19dd0`](https://github.com/stdlib-js/stdlib/commit/4f19dd0fddd451cd6454758b8701e813876a619f) - **chore:** follow-up corrections for recent commits [(#12557)](https://github.com/stdlib-js/stdlib/pull/12557) _(by Philipp Burckhardt)_
+-   [`813f930`](https://github.com/stdlib-js/stdlib/commit/813f930eb5499d52a3bf36758d226f39baae8bf5) - **feat:** add `blas/ext/base/gsome` [(#12555)](https://github.com/stdlib-js/stdlib/pull/12555) _(by Muhammad Haris, Athan Reines)_
 -   [`4711e24`](https://github.com/stdlib-js/stdlib/commit/4711e24e67adfa46cabbe13f3fc0952530be1f7d) - **docs:** update namespace table of contents [(#12552)](https://github.com/stdlib-js/stdlib/pull/12552) _(by stdlib-bot)_
 -   [`6c702e2`](https://github.com/stdlib-js/stdlib/commit/6c702e28867687afcb9570a8936c5341f974c461) - **feat:** add `gcuany` and `gcusome` to namespace _(by Athan Reines)_
 -   [`e55fddc`](https://github.com/stdlib-js/stdlib/commit/e55fddcf3ba3596e3d913925dc02f5c2600a0ec7) - **feat:** add `blas/ext/base/gcusome` [(#12182)](https://github.com/stdlib-js/stdlib/pull/12182) _(by Muhammad Haris)_
