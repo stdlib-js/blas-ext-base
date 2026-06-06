@@ -10,6 +10,8 @@
 
 ### Features
 
+-   [`da2a5fc`](https://github.com/stdlib-js/stdlib/commit/da2a5fcbc760d50bc4c3cae711d21d6b7c162c0b) - add `gediff` to namespace
+-   [`545cf3d`](https://github.com/stdlib-js/stdlib/commit/545cf3db4bd81309e6baf9aa5eead13e78c9c77d) - add `blas/ext/base/gediff` [(#10907)](https://github.com/stdlib-js/stdlib/pull/10907)
 -   [`72f20d1`](https://github.com/stdlib-js/stdlib/commit/72f20d155341ee6bb9de688ba7b2a1b701ff3a54) - update `blas/ext/base` TypeScript declarations [(#12578)](https://github.com/stdlib-js/stdlib/pull/12578)
 -   [`d61f60f`](https://github.com/stdlib-js/stdlib/commit/d61f60f9d86d485fd6be90594d1226ff29b664da) - update `blas/ext/base/ndarray` TypeScript declarations [(#12577)](https://github.com/stdlib-js/stdlib/pull/12577)
 -   [`fc58e6c`](https://github.com/stdlib-js/stdlib/commit/fc58e6cbed284e4a21421d7e3b73c7504d5bf968) - add various symbols to namespace
@@ -321,6 +323,8 @@
 
 <details>
 
+-   [`da2a5fc`](https://github.com/stdlib-js/stdlib/commit/da2a5fcbc760d50bc4c3cae711d21d6b7c162c0b) - **feat:** add `gediff` to namespace _(by Athan Reines)_
+-   [`545cf3d`](https://github.com/stdlib-js/stdlib/commit/545cf3db4bd81309e6baf9aa5eead13e78c9c77d) - **feat:** add `blas/ext/base/gediff` [(#10907)](https://github.com/stdlib-js/stdlib/pull/10907) _(by Muhammad Haris, Athan Reines)_
 -   [`72f20d1`](https://github.com/stdlib-js/stdlib/commit/72f20d155341ee6bb9de688ba7b2a1b701ff3a54) - **feat:** update `blas/ext/base` TypeScript declarations [(#12578)](https://github.com/stdlib-js/stdlib/pull/12578) _(by stdlib-bot)_
 -   [`d61f60f`](https://github.com/stdlib-js/stdlib/commit/d61f60f9d86d485fd6be90594d1226ff29b664da) - **feat:** update `blas/ext/base/ndarray` TypeScript declarations [(#12577)](https://github.com/stdlib-js/stdlib/pull/12577) _(by stdlib-bot)_
 -   [`fc58e6c`](https://github.com/stdlib-js/stdlib/commit/fc58e6cbed284e4a21421d7e3b73c7504d5bf968) - **feat:** add various symbols to namespace _(by Athan Reines)_

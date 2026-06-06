@@ -151,6 +151,7 @@
     "@stdlib/blas-ext-base-gcusumors": "^0.3.1",
     "@stdlib/blas-ext-base-gcusumpw": "^0.3.1",
     "@stdlib/blas-ext-base-gdiff": "github:stdlib-js/blas-ext-base-gdiff#main",
+    "@stdlib/blas-ext-base-gediff": "github:stdlib-js/blas-ext-base-gediff#main",
     "@stdlib/blas-ext-base-gfill": "^0.2.3",
     "@stdlib/blas-ext-base-gfill-by": "^0.2.3",
     "@stdlib/blas-ext-base-gfind-index": "^0.1.1",
