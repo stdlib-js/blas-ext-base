@@ -4,12 +4,14 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-06-06)
+## Unreleased (2026-06-07)
 
 <section class="features">
 
 ### Features
 
+-   [`2aa1270`](https://github.com/stdlib-js/stdlib/commit/2aa1270d82e129f1f3f6de8f7df2e924863fd6bf) - add `blas/ext/base/zaxpby` [(#12649)](https://github.com/stdlib-js/stdlib/pull/12649)
+-   [`db04ac0`](https://github.com/stdlib-js/stdlib/commit/db04ac0482183af792769dfb9a8d48edc83ca006) - add `blas/ext/base/caxpby` [(#12639)](https://github.com/stdlib-js/stdlib/pull/12639)
 -   [`da2a5fc`](https://github.com/stdlib-js/stdlib/commit/da2a5fcbc760d50bc4c3cae711d21d6b7c162c0b) - add `gediff` to namespace
 -   [`545cf3d`](https://github.com/stdlib-js/stdlib/commit/545cf3db4bd81309e6baf9aa5eead13e78c9c77d) - add `blas/ext/base/gediff` [(#10907)](https://github.com/stdlib-js/stdlib/pull/10907)
 -   [`72f20d1`](https://github.com/stdlib-js/stdlib/commit/72f20d155341ee6bb9de688ba7b2a1b701ff3a54) - update `blas/ext/base` TypeScript declarations [(#12578)](https://github.com/stdlib-js/stdlib/pull/12578)
@@ -323,6 +325,13 @@
 
 <details>
 
+-   [`8d0b8f2`](https://github.com/stdlib-js/stdlib/commit/8d0b8f2b73e653844c958e5a76411a6bbb6760f3) - **docs:** update namespace table of contents [(#12663)](https://github.com/stdlib-js/stdlib/pull/12663) _(by stdlib-bot)_
+-   [`2aa1270`](https://github.com/stdlib-js/stdlib/commit/2aa1270d82e129f1f3f6de8f7df2e924863fd6bf) - **feat:** add `blas/ext/base/zaxpby` [(#12649)](https://github.com/stdlib-js/stdlib/pull/12649) _(by Karan Anand, Athan Reines)_
+-   [`db04ac0`](https://github.com/stdlib-js/stdlib/commit/db04ac0482183af792769dfb9a8d48edc83ca006) - **feat:** add `blas/ext/base/caxpby` [(#12639)](https://github.com/stdlib-js/stdlib/pull/12639) _(by Karan Anand)_
+-   [`cd863cf`](https://github.com/stdlib-js/stdlib/commit/cd863cfcc93259fc77714263c6c8b532c84563a3) - **docs:** propagate recent develop fixes to sibling packages [(#12642)](https://github.com/stdlib-js/stdlib/pull/12642) _(by Philipp Burckhardt)_
+-   [`d935b4a`](https://github.com/stdlib-js/stdlib/commit/d935b4a88d82fc3a68362bceeea5381625c28695) - **chore:** follow-up fixes for previous commits [(#12641)](https://github.com/stdlib-js/stdlib/pull/12641) _(by Philipp Burckhardt, Athan Reines)_
+-   [`f2640a2`](https://github.com/stdlib-js/stdlib/commit/f2640a213240945e2e06593eed4e3fb031e95db5) - **docs:** add missing Oxford comma _(by Athan Reines)_
+-   [`f3b8c81`](https://github.com/stdlib-js/stdlib/commit/f3b8c8138f75478315e5ad7176e97a2078dbd91d) - **chore:** clean-up examples and benchmarks _(by Athan Reines)_
 -   [`da2a5fc`](https://github.com/stdlib-js/stdlib/commit/da2a5fcbc760d50bc4c3cae711d21d6b7c162c0b) - **feat:** add `gediff` to namespace _(by Athan Reines)_
 -   [`545cf3d`](https://github.com/stdlib-js/stdlib/commit/545cf3db4bd81309e6baf9aa5eead13e78c9c77d) - **feat:** add `blas/ext/base/gediff` [(#10907)](https://github.com/stdlib-js/stdlib/pull/10907) _(by Muhammad Haris, Athan Reines)_
 -   [`72f20d1`](https://github.com/stdlib-js/stdlib/commit/72f20d155341ee6bb9de688ba7b2a1b701ff3a54) - **feat:** update `blas/ext/base` TypeScript declarations [(#12578)](https://github.com/stdlib-js/stdlib/pull/12578) _(by stdlib-bot)_
