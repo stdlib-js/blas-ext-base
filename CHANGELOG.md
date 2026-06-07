@@ -10,6 +10,11 @@
 
 ### Features
 
+-   [`c351bac`](https://github.com/stdlib-js/stdlib/commit/c351bacba9b2ec3a944095e108b018d3d7c39683) - add `dcuany`, `dcuevery`, `dcusome`, and `scunone` to namespace
+-   [`98254d8`](https://github.com/stdlib-js/stdlib/commit/98254d8e6ef22f0e25673c812e3a22936eca1a12) - add `blas/ext/base/dcusome` [(#12681)](https://github.com/stdlib-js/stdlib/pull/12681)
+-   [`809606b`](https://github.com/stdlib-js/stdlib/commit/809606b3d2b4ae19e028cc35c01879936684b5a5) - add `blas/ext/base/dcuevery` [(#12676)](https://github.com/stdlib-js/stdlib/pull/12676)
+-   [`00c289d`](https://github.com/stdlib-js/stdlib/commit/00c289d300dbdaf3100a80783f3deb909499ff18) - add `blas/ext/base/dcuany` [(#12679)](https://github.com/stdlib-js/stdlib/pull/12679)
+-   [`81c49c2`](https://github.com/stdlib-js/stdlib/commit/81c49c2f009a283a6d6f5094adedf88b0d5134de) - add `blas/ext/base/scunone` [(#12674)](https://github.com/stdlib-js/stdlib/pull/12674)
 -   [`d47b1ba`](https://github.com/stdlib-js/stdlib/commit/d47b1bacd9d5f8a35a4d4d93ade48b1b1f2d2ce7) - add `dcunone` to namespace
 -   [`29d002b`](https://github.com/stdlib-js/stdlib/commit/29d002b9c30f832aa56e5e3b6157460a2d48baef) - add `blas/ext/base/dcunone` [(#12572)](https://github.com/stdlib-js/stdlib/pull/12572)
 -   [`aced3a8`](https://github.com/stdlib-js/stdlib/commit/aced3a833ef7548d7565ee53ba74aa91f732ef22) - add `caxpby`, `zaxpby`, and `swxsa` to namespace
@@ -330,6 +335,14 @@
 
 <details>
 
+-   [`5fabee9`](https://github.com/stdlib-js/stdlib/commit/5fabee94b1086a0db3c5d8dcac4b001bdf549b7b) - **bench:** fix description _(by Athan Reines)_
+-   [`4716900`](https://github.com/stdlib-js/stdlib/commit/4716900526f5fac5b2febef52d991b5d8c89e533) - **bench:** fix description _(by Athan Reines)_
+-   [`7ae840f`](https://github.com/stdlib-js/stdlib/commit/7ae840f44e2862440d457946e79d5dfa9ebd4491) - **bench:** fix description _(by Athan Reines)_
+-   [`c351bac`](https://github.com/stdlib-js/stdlib/commit/c351bacba9b2ec3a944095e108b018d3d7c39683) - **feat:** add `dcuany`, `dcuevery`, `dcusome`, and `scunone` to namespace _(by Athan Reines)_
+-   [`98254d8`](https://github.com/stdlib-js/stdlib/commit/98254d8e6ef22f0e25673c812e3a22936eca1a12) - **feat:** add `blas/ext/base/dcusome` [(#12681)](https://github.com/stdlib-js/stdlib/pull/12681) _(by Muhammad Haris, Athan Reines)_
+-   [`809606b`](https://github.com/stdlib-js/stdlib/commit/809606b3d2b4ae19e028cc35c01879936684b5a5) - **feat:** add `blas/ext/base/dcuevery` [(#12676)](https://github.com/stdlib-js/stdlib/pull/12676) _(by Muhammad Haris, Athan Reines)_
+-   [`00c289d`](https://github.com/stdlib-js/stdlib/commit/00c289d300dbdaf3100a80783f3deb909499ff18) - **feat:** add `blas/ext/base/dcuany` [(#12679)](https://github.com/stdlib-js/stdlib/pull/12679) _(by Muhammad Haris, Athan Reines)_
+-   [`81c49c2`](https://github.com/stdlib-js/stdlib/commit/81c49c2f009a283a6d6f5094adedf88b0d5134de) - **feat:** add `blas/ext/base/scunone` [(#12674)](https://github.com/stdlib-js/stdlib/pull/12674) _(by Muhammad Haris, Athan Reines)_
 -   [`d47b1ba`](https://github.com/stdlib-js/stdlib/commit/d47b1bacd9d5f8a35a4d4d93ade48b1b1f2d2ce7) - **feat:** add `dcunone` to namespace _(by Athan Reines)_
 -   [`29d002b`](https://github.com/stdlib-js/stdlib/commit/29d002b9c30f832aa56e5e3b6157460a2d48baef) - **feat:** add `blas/ext/base/dcunone` [(#12572)](https://github.com/stdlib-js/stdlib/pull/12572) _(by Muhammad Haris, Athan Reines)_
 -   [`aced3a8`](https://github.com/stdlib-js/stdlib/commit/aced3a833ef7548d7565ee53ba74aa91f732ef22) - **feat:** add `caxpby`, `zaxpby`, and `swxsa` to namespace _(by Athan Reines)_
