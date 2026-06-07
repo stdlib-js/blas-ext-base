@@ -129,6 +129,7 @@
     "@stdlib/blas-ext-base-dunitspace": "github:stdlib-js/blas-ext-base-dunitspace#main",
     "@stdlib/blas-ext-base-dvander": "github:stdlib-js/blas-ext-base-dvander#main",
     "@stdlib/blas-ext-base-dwhere": "github:stdlib-js/blas-ext-base-dwhere#main",
+    "@stdlib/blas-ext-base-dwxsa": "github:stdlib-js/blas-ext-base-dwxsa#main",
     "@stdlib/blas-ext-base-dxsa": "github:stdlib-js/blas-ext-base-dxsa#main",
     "@stdlib/blas-ext-base-dzero-to": "github:stdlib-js/blas-ext-base-dzero-to#main",
     "@stdlib/blas-ext-base-dzeros": "github:stdlib-js/blas-ext-base-dzeros#main",
