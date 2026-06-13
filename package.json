@@ -51,6 +51,7 @@
     "@stdlib/blas-ext-base-cunitspace": "github:stdlib-js/blas-ext-base-cunitspace#main",
     "@stdlib/blas-ext-base-cwhere": "github:stdlib-js/blas-ext-base-cwhere#main",
     "@stdlib/blas-ext-base-cwxsa": "github:stdlib-js/blas-ext-base-cwxsa#main",
+    "@stdlib/blas-ext-base-cxpy": "github:stdlib-js/blas-ext-base-cxpy#main",
     "@stdlib/blas-ext-base-cxsa": "github:stdlib-js/blas-ext-base-cxsa#main",
     "@stdlib/blas-ext-base-czero-to": "github:stdlib-js/blas-ext-base-czero-to#main",
     "@stdlib/blas-ext-base-dapx": "^0.3.1",
