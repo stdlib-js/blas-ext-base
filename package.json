@@ -225,6 +225,7 @@
     "@stdlib/blas-ext-base-scartesian-square": "github:stdlib-js/blas-ext-base-scartesian-square#main",
     "@stdlib/blas-ext-base-scircshift": "github:stdlib-js/blas-ext-base-scircshift#main",
     "@stdlib/blas-ext-base-scuany": "github:stdlib-js/blas-ext-base-scuany#main",
+    "@stdlib/blas-ext-base-scuevery": "github:stdlib-js/blas-ext-base-scuevery#main",
     "@stdlib/blas-ext-base-scunone": "github:stdlib-js/blas-ext-base-scunone#main",
     "@stdlib/blas-ext-base-scusum": "^0.3.1",
     "@stdlib/blas-ext-base-scusumkbn": "^0.3.1",
