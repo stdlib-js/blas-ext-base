@@ -4,12 +4,17 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-06-15)
+## Unreleased (2026-06-16)
 
 <section class="features">
 
 ### Features
 
+-   [`eafdf72`](https://github.com/stdlib-js/stdlib/commit/eafdf722458fbde031140158a111fc5d0848f27c) - add `gaxpby` to namespace
+-   [`a35e055`](https://github.com/stdlib-js/stdlib/commit/a35e055f4bec9d6f6859b46f8f0f712c04972a28) - add various symbols to namespace
+-   [`2727513`](https://github.com/stdlib-js/stdlib/commit/2727513484321792782174ebc5f3084c66b94003) - add `blas/ext/base/dwapx` [(#12868)](https://github.com/stdlib-js/stdlib/pull/12868)
+-   [`ec3f1dd`](https://github.com/stdlib-js/stdlib/commit/ec3f1dde3a7b3ae3c8a24d80a01c3423d98f67ad) - add `blas/ext/base/gindex-of-truthy` [(#12895)](https://github.com/stdlib-js/stdlib/pull/12895)
+-   [`d333900`](https://github.com/stdlib-js/stdlib/commit/d33390094ba01d2d1a8fa2772a87b8e9da0238a9) - add `blas/ext/base/zxpy` [(#12865)](https://github.com/stdlib-js/stdlib/pull/12865)
 -   [`badfba2`](https://github.com/stdlib-js/stdlib/commit/badfba29312771490b1158b1a27a9dc88dcbc42c) - update `blas/ext/base` TypeScript declarations [(#12892)](https://github.com/stdlib-js/stdlib/pull/12892)
 -   [`d3273eb`](https://github.com/stdlib-js/stdlib/commit/d3273eb1d4114973f9af8d49dc8f16110438213c) - add `blas/ext/base/scusome` [(#12717)](https://github.com/stdlib-js/stdlib/pull/12717)
 -   [`5b2170f`](https://github.com/stdlib-js/stdlib/commit/5b2170fd17caecbf83aa54bd2d86986ab9c52049) - add `blas/ext/base/ndarray/gaxpby` [(#12866)](https://github.com/stdlib-js/stdlib/pull/12866)
@@ -341,6 +346,14 @@
 
 ### Bug Fixes
 
+-   [`2d3727e`](https://github.com/stdlib-js/stdlib/commit/2d3727e4d322219eee8ac42156770b5ca71ad0da) - ensure consistent behavior between JavaScript and C [(#12904)](https://github.com/stdlib-js/stdlib/pull/12904)
+-   [`f69102b`](https://github.com/stdlib-js/stdlib/commit/f69102b50fad0c2e7b19f326273bd7fc2e052c2d) - ensure consistent behavior between JavaScript and C [(#12900)](https://github.com/stdlib-js/stdlib/pull/12900)
+-   [`e2ff56d`](https://github.com/stdlib-js/stdlib/commit/e2ff56d2b1cc5baf269c4a4426cb32a487b4294f) - ensure consistent behavior between JavaScript and C [(#12901)](https://github.com/stdlib-js/stdlib/pull/12901)
+-   [`6f55796`](https://github.com/stdlib-js/stdlib/commit/6f557963cba2318227eb675513676f1016c5c77e) - ensure consistent behavior between JavaScript and C [(#12903)](https://github.com/stdlib-js/stdlib/pull/12903)
+-   [`8abcc10`](https://github.com/stdlib-js/stdlib/commit/8abcc1002910bcd3638535a2f6cfad70099faa2b) - ensure consistent behavior between JavaScript and C [(#12905)](https://github.com/stdlib-js/stdlib/pull/12905)
+-   [`13f0c81`](https://github.com/stdlib-js/stdlib/commit/13f0c8101e2c8101f06a1692ef706728c3b6ad2b) - ensure consistent behavior between JavaScript and C [(#12906)](https://github.com/stdlib-js/stdlib/pull/12906)
+-   [`198c63d`](https://github.com/stdlib-js/stdlib/commit/198c63df747cbdd94a2cae68c20158ff0414074f) - ensure consistent behavior between JavaScript and C [(#12907)](https://github.com/stdlib-js/stdlib/pull/12907)
+-   [`1e6bcbb`](https://github.com/stdlib-js/stdlib/commit/1e6bcbb2bde4899c2e283e68633e023aedfdef0f) - ensure consistent NaN handling in JavaScript and C [(#12909)](https://github.com/stdlib-js/stdlib/pull/12909)
 -   [`9dd3f73`](https://github.com/stdlib-js/stdlib/commit/9dd3f73544d43392c6ff8d5f290e0e466ac0c812) - rename header files to align with project conventions
 -   [`a601344`](https://github.com/stdlib-js/stdlib/commit/a601344e6d755e59e2df59ec4650f2b1e20aa333) - type `order` parameter as `Layout` in `blas/ext/base/scartesian-square` [(#12530)](https://github.com/stdlib-js/stdlib/pull/12530)
 -   [`3bf760c`](https://github.com/stdlib-js/stdlib/commit/3bf760c663458801bfd17ca21ae891b724331fe9) - type `order` parameter as `Layout` in `blas/ext/base/dcartesian-square` [(#12531)](https://github.com/stdlib-js/stdlib/pull/12531)
@@ -365,6 +378,23 @@
 
 <details>
 
+-   [`eafdf72`](https://github.com/stdlib-js/stdlib/commit/eafdf722458fbde031140158a111fc5d0848f27c) - **feat:** add `gaxpby` to namespace _(by Athan Reines)_
+-   [`a35e055`](https://github.com/stdlib-js/stdlib/commit/a35e055f4bec9d6f6859b46f8f0f712c04972a28) - **feat:** add various symbols to namespace _(by Athan Reines)_
+-   [`6cfefb7`](https://github.com/stdlib-js/stdlib/commit/6cfefb714d4e4468c01c9096eba103ce110082cb) - **docs:** make notes consistent _(by Athan Reines)_
+-   [`2727513`](https://github.com/stdlib-js/stdlib/commit/2727513484321792782174ebc5f3084c66b94003) - **feat:** add `blas/ext/base/dwapx` [(#12868)](https://github.com/stdlib-js/stdlib/pull/12868) _(by Karan Anand)_
+-   [`2d3727e`](https://github.com/stdlib-js/stdlib/commit/2d3727e4d322219eee8ac42156770b5ca71ad0da) - **fix:** ensure consistent behavior between JavaScript and C [(#12904)](https://github.com/stdlib-js/stdlib/pull/12904) _(by Muhammad Haris, Athan Reines)_
+-   [`f69102b`](https://github.com/stdlib-js/stdlib/commit/f69102b50fad0c2e7b19f326273bd7fc2e052c2d) - **fix:** ensure consistent behavior between JavaScript and C [(#12900)](https://github.com/stdlib-js/stdlib/pull/12900) _(by Muhammad Haris)_
+-   [`e2ff56d`](https://github.com/stdlib-js/stdlib/commit/e2ff56d2b1cc5baf269c4a4426cb32a487b4294f) - **fix:** ensure consistent behavior between JavaScript and C [(#12901)](https://github.com/stdlib-js/stdlib/pull/12901) _(by Muhammad Haris)_
+-   [`6f55796`](https://github.com/stdlib-js/stdlib/commit/6f557963cba2318227eb675513676f1016c5c77e) - **fix:** ensure consistent behavior between JavaScript and C [(#12903)](https://github.com/stdlib-js/stdlib/pull/12903) _(by Muhammad Haris)_
+-   [`8abcc10`](https://github.com/stdlib-js/stdlib/commit/8abcc1002910bcd3638535a2f6cfad70099faa2b) - **fix:** ensure consistent behavior between JavaScript and C [(#12905)](https://github.com/stdlib-js/stdlib/pull/12905) _(by Muhammad Haris)_
+-   [`13f0c81`](https://github.com/stdlib-js/stdlib/commit/13f0c8101e2c8101f06a1692ef706728c3b6ad2b) - **fix:** ensure consistent behavior between JavaScript and C [(#12906)](https://github.com/stdlib-js/stdlib/pull/12906) _(by Muhammad Haris)_
+-   [`198c63d`](https://github.com/stdlib-js/stdlib/commit/198c63df747cbdd94a2cae68c20158ff0414074f) - **fix:** ensure consistent behavior between JavaScript and C [(#12907)](https://github.com/stdlib-js/stdlib/pull/12907) _(by Muhammad Haris)_
+-   [`ec3f1dd`](https://github.com/stdlib-js/stdlib/commit/ec3f1dde3a7b3ae3c8a24d80a01c3423d98f67ad) - **feat:** add `blas/ext/base/gindex-of-truthy` [(#12895)](https://github.com/stdlib-js/stdlib/pull/12895) _(by Muhammad Haris, Athan Reines)_
+-   [`1e6bcbb`](https://github.com/stdlib-js/stdlib/commit/1e6bcbb2bde4899c2e283e68633e023aedfdef0f) - **fix:** ensure consistent NaN handling in JavaScript and C [(#12909)](https://github.com/stdlib-js/stdlib/pull/12909) _(by Muhammad Haris)_
+-   [`34f2e8b`](https://github.com/stdlib-js/stdlib/commit/34f2e8b225a824c7377bab95dd9ebf409bf3622f) - **docs:** update require order in examples [(#12876)](https://github.com/stdlib-js/stdlib/pull/12876) _(by Philipp Burckhardt, Athan Reines)_
+-   [`d333900`](https://github.com/stdlib-js/stdlib/commit/d33390094ba01d2d1a8fa2772a87b8e9da0238a9) - **feat:** add `blas/ext/base/zxpy` [(#12865)](https://github.com/stdlib-js/stdlib/pull/12865) _(by Karan Anand)_
+-   [`074468a`](https://github.com/stdlib-js/stdlib/commit/074468a3ee4927ca61e528cc474a3082ebb6b7f9) - **test:** fix complex array indexing in `blas/ext/base/cxpy` [(#12886)](https://github.com/stdlib-js/stdlib/pull/12886) _(by Karan Anand)_
+-   [`7765cff`](https://github.com/stdlib-js/stdlib/commit/7765cff3b0fd3850443a675a9b3a099513ba2da2) - **docs:** update namespace table of contents [(#12893)](https://github.com/stdlib-js/stdlib/pull/12893) _(by stdlib-bot)_
 -   [`badfba2`](https://github.com/stdlib-js/stdlib/commit/badfba29312771490b1158b1a27a9dc88dcbc42c) - **feat:** update `blas/ext/base` TypeScript declarations [(#12892)](https://github.com/stdlib-js/stdlib/pull/12892) _(by stdlib-bot)_
 -   [`fcca435`](https://github.com/stdlib-js/stdlib/commit/fcca4355ad6d547eb04701c573cd151fe74adf88) - **docs:** update `blas/ext/base/ndarray` scalar helper imports [(#12880)](https://github.com/stdlib-js/stdlib/pull/12880) _(by Karan Anand)_
 -   [`d3273eb`](https://github.com/stdlib-js/stdlib/commit/d3273eb1d4114973f9af8d49dc8f16110438213c) - **feat:** add `blas/ext/base/scusome` [(#12717)](https://github.com/stdlib-js/stdlib/pull/12717) _(by Muhammad Haris, Athan Reines)_

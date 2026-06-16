@@ -265,6 +265,7 @@ var o = ns;
 -   <span class="signature">[`scartesianSquare( order, N, x, strideX, out, LDO )`][@stdlib/blas/ext/base/scartesian-square]</span><span class="delimiter">: </span><span class="description">compute the Cartesian square for a single-precision floating-point strided array.</span>
 -   <span class="signature">[`scircshift( N, k, x, strideX )`][@stdlib/blas/ext/base/scircshift]</span><span class="delimiter">: </span><span class="description">circularly shift the elements of a single-precision floating-point strided array by a specified number of positions.</span>
 -   <span class="signature">[`scuany( N, x, strideX, out, strideOut )`][@stdlib/blas/ext/base/scuany]</span><span class="delimiter">: </span><span class="description">cumulatively test whether at least one element in a single-precision floating-point strided array is truthy.</span>
+-   <span class="signature">[`scuevery( N, x, strideX, out, strideOut )`][@stdlib/blas/ext/base/scuevery]</span><span class="delimiter">: </span><span class="description">cumulatively test whether every element in a single-precision floating-point strided array is truthy.</span>
 -   <span class="signature">[`scunone( N, x, strideX, out, strideOut )`][@stdlib/blas/ext/base/scunone]</span><span class="delimiter">: </span><span class="description">cumulatively test whether every element in a single-precision floating-point strided array is falsy.</span>
 -   <span class="signature">[`scusum( N, sum, x, strideX, y, strideY )`][@stdlib/blas/ext/base/scusum]</span><span class="delimiter">: </span><span class="description">calculate the cumulative sum of single-precision floating-point strided array elements.</span>
 -   <span class="signature">[`scusumkbn( N, sum, x, strideX, y, strideY )`][@stdlib/blas/ext/base/scusumkbn]</span><span class="delimiter">: </span><span class="description">calculate the cumulative sum of single-precision floating-point strided array elements using an improved Kahan–Babuška algorithm.</span>
@@ -398,6 +399,11 @@ For more information on the project, filing bug reports and feature requests, an
 
 ---
 
+## License
+
+See [LICENSE][stdlib-license].
+
+
 ## Copyright
 
 Copyright &copy; 2016-2026. The Stdlib [Authors][stdlib-authors].
@@ -443,6 +449,8 @@ Copyright &copy; 2016-2026. The Stdlib [Authors][stdlib-authors].
 [esm-url]: https://github.com/stdlib-js/blas-ext-base/tree/esm
 [esm-readme]: https://github.com/stdlib-js/blas-ext-base/blob/esm/README.md
 [branches-url]: https://github.com/stdlib-js/blas-ext-base/blob/main/branches.md
+
+[stdlib-license]: https://raw.githubusercontent.com/stdlib-js/blas-ext-base/main/LICENSE
 
 <!-- <toc-links> -->
 
@@ -823,6 +831,8 @@ Copyright &copy; 2016-2026. The Stdlib [Authors][stdlib-authors].
 [@stdlib/blas/ext/base/scircshift]: https://github.com/stdlib-js/blas-ext-base-scircshift
 
 [@stdlib/blas/ext/base/scuany]: https://github.com/stdlib-js/blas-ext-base-scuany
+
+[@stdlib/blas/ext/base/scuevery]: https://github.com/stdlib-js/blas-ext-base-scuevery
 
 [@stdlib/blas/ext/base/scunone]: https://github.com/stdlib-js/blas-ext-base-scunone
 
