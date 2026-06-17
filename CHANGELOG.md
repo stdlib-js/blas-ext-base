@@ -4,12 +4,14 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-06-16)
+## Unreleased (2026-06-17)
 
 <section class="features">
 
 ### Features
 
+-   [`0eff8f9`](https://github.com/stdlib-js/stdlib/commit/0eff8f9ba8d63256ad3d78d1e9c00699ab616cc5) - add `blas/ext/base/sindex-of-truthy` [(#12919)](https://github.com/stdlib-js/stdlib/pull/12919)
+-   [`8498df4`](https://github.com/stdlib-js/stdlib/commit/8498df4dafe6e7bdb6b6bbaffb300e43da0588ba) - add `blas/ext/base/ndarray/ddiff` [(#12870)](https://github.com/stdlib-js/stdlib/pull/12870)
 -   [`6e65472`](https://github.com/stdlib-js/stdlib/commit/6e65472b21a86ca4ee4398725681509521c9a496) - add `dindexOfTruthy` and `swapx` to namespace
 -   [`47f53b3`](https://github.com/stdlib-js/stdlib/commit/47f53b3d83fe141c4befef6bce23bd37b4961026) - add `blas/ext/base/dindex-of-truthy` [(#12910)](https://github.com/stdlib-js/stdlib/pull/12910)
 -   [`454c11b`](https://github.com/stdlib-js/stdlib/commit/454c11ba8cbf3d98da513295412c0d94488ff4bd) - add `blas/ext/base/swapx` [(#12869)](https://github.com/stdlib-js/stdlib/pull/12869)
@@ -381,6 +383,12 @@
 
 <details>
 
+-   [`884245d`](https://github.com/stdlib-js/stdlib/commit/884245d7dd6273d24c89f8f294d6796d65c328c4) - **docs:** update namespace table of contents [(#12931)](https://github.com/stdlib-js/stdlib/pull/12931) _(by stdlib-bot)_
+-   [`0eff8f9`](https://github.com/stdlib-js/stdlib/commit/0eff8f9ba8d63256ad3d78d1e9c00699ab616cc5) - **feat:** add `blas/ext/base/sindex-of-truthy` [(#12919)](https://github.com/stdlib-js/stdlib/pull/12919) _(by Muhammad Haris)_
+-   [`098dede`](https://github.com/stdlib-js/stdlib/commit/098deded1d652e152eb6d5f86cad92ef4844e3bd) - **style:** adjust spacing and fix REPL text wrapping [(#12348)](https://github.com/stdlib-js/stdlib/pull/12348) _(by Philipp Burckhardt, Athan Reines)_
+-   [`45848d1`](https://github.com/stdlib-js/stdlib/commit/45848d1dc0f91c2a851126a53e739375b8e7d67e) - **chore:** clean-up for changes introduced in previous commits [(#12921)](https://github.com/stdlib-js/stdlib/pull/12921) _(by Philipp Burckhardt)_
+-   [`8db7bc7`](https://github.com/stdlib-js/stdlib/commit/8db7bc7046b07a7b5ad04d203a49b8cf75aa7f71) - **docs:** drop redundant \"elements\" qualifier [(#12922)](https://github.com/stdlib-js/stdlib/pull/12922) _(by Philipp Burckhardt)_
+-   [`8498df4`](https://github.com/stdlib-js/stdlib/commit/8498df4dafe6e7bdb6b6bbaffb300e43da0588ba) - **feat:** add `blas/ext/base/ndarray/ddiff` [(#12870)](https://github.com/stdlib-js/stdlib/pull/12870) _(by Muhammad Haris, Athan Reines)_
 -   [`6e65472`](https://github.com/stdlib-js/stdlib/commit/6e65472b21a86ca4ee4398725681509521c9a496) - **feat:** add `dindexOfTruthy` and `swapx` to namespace _(by Athan Reines)_
 -   [`47f53b3`](https://github.com/stdlib-js/stdlib/commit/47f53b3d83fe141c4befef6bce23bd37b4961026) - **feat:** add `blas/ext/base/dindex-of-truthy` [(#12910)](https://github.com/stdlib-js/stdlib/pull/12910) _(by Muhammad Haris, Athan Reines)_
 -   [`454c11b`](https://github.com/stdlib-js/stdlib/commit/454c11ba8cbf3d98da513295412c0d94488ff4bd) - **feat:** add `blas/ext/base/swapx` [(#12869)](https://github.com/stdlib-js/stdlib/pull/12869) _(by Karan Anand)_
