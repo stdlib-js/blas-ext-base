@@ -86,6 +86,7 @@
     "@stdlib/blas-ext-base-dlast-index-of": "^0.1.1",
     "@stdlib/blas-ext-base-dlast-index-of-row": "github:stdlib-js/blas-ext-base-dlast-index-of-row#main",
     "@stdlib/blas-ext-base-dlinspace": "^0.1.1",
+    "@stdlib/blas-ext-base-dminheap-sift-down": "github:stdlib-js/blas-ext-base-dminheap-sift-down#main",
     "@stdlib/blas-ext-base-dmskrev": "github:stdlib-js/blas-ext-base-dmskrev#main",
     "@stdlib/blas-ext-base-dnanasum": "^0.3.1",
     "@stdlib/blas-ext-base-dnanasumors": "^0.3.1",
