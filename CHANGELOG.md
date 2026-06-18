@@ -4,12 +4,17 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-06-17)
+## Unreleased (2026-06-18)
 
 <section class="features">
 
 ### Features
 
+-   [`41808bf`](https://github.com/stdlib-js/stdlib/commit/41808bf84bd375fde4c3ed2484bfc306e6944104) - update `blas/ext/base` TypeScript declarations [(#12945)](https://github.com/stdlib-js/stdlib/pull/12945)
+-   [`37e473f`](https://github.com/stdlib-js/stdlib/commit/37e473f40210e8eae7e786ba5b2e67e52c5e3fc6) - update `blas/ext/base/ndarray` TypeScript declarations [(#12944)](https://github.com/stdlib-js/stdlib/pull/12944)
+-   [`a8c3544`](https://github.com/stdlib-js/stdlib/commit/a8c354429ab5aec4fd0c317b0536c79b4c365ca8) - add `blas/ext/base/sminheap-sift-down` [(#12939)](https://github.com/stdlib-js/stdlib/pull/12939)
+-   [`5a60a91`](https://github.com/stdlib-js/stdlib/commit/5a60a91fdf94bea31e01defeabfd9f770beea67e) - add `blas/ext/base/gindex-of-falsy` [(#12940)](https://github.com/stdlib-js/stdlib/pull/12940)
+-   [`bfaddc8`](https://github.com/stdlib-js/stdlib/commit/bfaddc8367ecd7beed039b7ccd3865445cc8a651) - add `blas/ext/base/ndarray/scunone` [(#12887)](https://github.com/stdlib-js/stdlib/pull/12887)
 -   [`ae56fc5`](https://github.com/stdlib-js/stdlib/commit/ae56fc587c8d12df4dca62a4b92177f3f8bb8b24) - add `dminheapSiftDown` to namespace
 -   [`18bf06b`](https://github.com/stdlib-js/stdlib/commit/18bf06b3b34969c1c6fb4f4b1dddb172aaccec98) - add `blas/ext/base/dminheap-sift-down` [(#12932)](https://github.com/stdlib-js/stdlib/pull/12932)
 -   [`d03d818`](https://github.com/stdlib-js/stdlib/commit/d03d8186865b7b0f6b4ad74a34847ea8e08770ca) - add `sindexOfTruthy` to namespace
@@ -389,6 +394,11 @@
 
 <details>
 
+-   [`41808bf`](https://github.com/stdlib-js/stdlib/commit/41808bf84bd375fde4c3ed2484bfc306e6944104) - **feat:** update `blas/ext/base` TypeScript declarations [(#12945)](https://github.com/stdlib-js/stdlib/pull/12945) _(by stdlib-bot)_
+-   [`37e473f`](https://github.com/stdlib-js/stdlib/commit/37e473f40210e8eae7e786ba5b2e67e52c5e3fc6) - **feat:** update `blas/ext/base/ndarray` TypeScript declarations [(#12944)](https://github.com/stdlib-js/stdlib/pull/12944) _(by stdlib-bot)_
+-   [`a8c3544`](https://github.com/stdlib-js/stdlib/commit/a8c354429ab5aec4fd0c317b0536c79b4c365ca8) - **feat:** add `blas/ext/base/sminheap-sift-down` [(#12939)](https://github.com/stdlib-js/stdlib/pull/12939) _(by Muhammad Haris)_
+-   [`5a60a91`](https://github.com/stdlib-js/stdlib/commit/5a60a91fdf94bea31e01defeabfd9f770beea67e) - **feat:** add `blas/ext/base/gindex-of-falsy` [(#12940)](https://github.com/stdlib-js/stdlib/pull/12940) _(by Muhammad Haris)_
+-   [`bfaddc8`](https://github.com/stdlib-js/stdlib/commit/bfaddc8367ecd7beed039b7ccd3865445cc8a651) - **feat:** add `blas/ext/base/ndarray/scunone` [(#12887)](https://github.com/stdlib-js/stdlib/pull/12887) _(by Muhammad Haris)_
 -   [`ae56fc5`](https://github.com/stdlib-js/stdlib/commit/ae56fc587c8d12df4dca62a4b92177f3f8bb8b24) - **feat:** add `dminheapSiftDown` to namespace _(by Athan Reines)_
 -   [`18bf06b`](https://github.com/stdlib-js/stdlib/commit/18bf06b3b34969c1c6fb4f4b1dddb172aaccec98) - **feat:** add `blas/ext/base/dminheap-sift-down` [(#12932)](https://github.com/stdlib-js/stdlib/pull/12932) _(by Muhammad Haris, Athan Reines)_
 -   [`d03d818`](https://github.com/stdlib-js/stdlib/commit/d03d8186865b7b0f6b4ad74a34847ea8e08770ca) - **feat:** add `sindexOfTruthy` to namespace _(by Athan Reines)_
