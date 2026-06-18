@@ -181,6 +181,7 @@
     "@stdlib/blas-ext-base-glast-index-of-row": "github:stdlib-js/blas-ext-base-glast-index-of-row#main",
     "@stdlib/blas-ext-base-glinspace": "^0.1.1",
     "@stdlib/blas-ext-base-gminheap-sift-down": "github:stdlib-js/blas-ext-base-gminheap-sift-down#main",
+    "@stdlib/blas-ext-base-gminheapify": "github:stdlib-js/blas-ext-base-gminheapify#main",
     "@stdlib/blas-ext-base-gmskrev": "github:stdlib-js/blas-ext-base-gmskrev#main",
     "@stdlib/blas-ext-base-gnancount": "github:stdlib-js/blas-ext-base-gnancount#main",
     "@stdlib/blas-ext-base-gnannsumkbn": "^0.3.1",
