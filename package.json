@@ -321,6 +321,7 @@
     "@stdlib/blas-ext-base-zwxsa": "github:stdlib-js/blas-ext-base-zwxsa#main",
     "@stdlib/blas-ext-base-zxpy": "github:stdlib-js/blas-ext-base-zxpy#main",
     "@stdlib/blas-ext-base-zxsa": "github:stdlib-js/blas-ext-base-zxsa#main",
+    "@stdlib/blas-ext-base-zxsy": "github:stdlib-js/blas-ext-base-zxsy#main",
     "@stdlib/blas-ext-base-zzero-to": "github:stdlib-js/blas-ext-base-zzero-to#main",
     "@stdlib/utils-define-read-only-property": "^0.2.3"
   },
