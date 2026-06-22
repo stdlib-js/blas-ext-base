@@ -4,12 +4,19 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-06-21)
+## Unreleased (2026-06-22)
 
 <section class="features">
 
 ### Features
 
+-   [`026754a`](https://github.com/stdlib-js/stdlib/commit/026754aa609cd8aae2f3cc12d3ded66b2a4c6ce0) - add `dxpy` and `gxpy` to namespace
+-   [`5f8985e`](https://github.com/stdlib-js/stdlib/commit/5f8985e50129f6a86885c1f2ca3972cd716ec262) - add `dxsy`, `gxsy`, `zwapx` to namespace
+-   [`044604e`](https://github.com/stdlib-js/stdlib/commit/044604e18ddb222c03b8ab0ddd4ba0934c3ff8ae) - add `blas/ext/base/ndarray/dxpy` [(#13032)](https://github.com/stdlib-js/stdlib/pull/13032)
+-   [`4916a79`](https://github.com/stdlib-js/stdlib/commit/4916a794abe0c977d4257e149a493e988b6dfdba) - add `blas/ext/base/ndarray/gxpy` [(#13031)](https://github.com/stdlib-js/stdlib/pull/13031)
+-   [`5e2dad8`](https://github.com/stdlib-js/stdlib/commit/5e2dad8a9f5f2ee6f49118ec89f9987bce7d92c6) - add `blas/ext/base/zwapx` [(#13026)](https://github.com/stdlib-js/stdlib/pull/13026)
+-   [`096398f`](https://github.com/stdlib-js/stdlib/commit/096398f18c56b57e5996621d99bb310ba7df065d) - add `blas/ext/base/dxsy` [(#13028)](https://github.com/stdlib-js/stdlib/pull/13028)
+-   [`f47e688`](https://github.com/stdlib-js/stdlib/commit/f47e6889d07b18cbbcdbe78b6b8be7265be914ca) - add `blas/ext/base/gxsy` [(#13027)](https://github.com/stdlib-js/stdlib/pull/13027)
 -   [`e6e7d42`](https://github.com/stdlib-js/stdlib/commit/e6e7d42b10701833a2a943d2f0df75163742aa9e) - add `dnone`, `dsome`, `dindexOfFalsy`, and `sindexOfFalsy` to namespace
 -   [`5609f46`](https://github.com/stdlib-js/stdlib/commit/5609f46b441850c67aa6d22f3f023953bf2f2461) - add `gindexOfTruthy`, `gindexOfFalsy`, and `dindexOfFalsy` to namespace
 -   [`7cc82a3`](https://github.com/stdlib-js/stdlib/commit/7cc82a344d877a1d0bfb96bd3479c9b84da948bb) - add `blas/ext/base/dsome` [(#12845)](https://github.com/stdlib-js/stdlib/pull/12845)
@@ -412,6 +419,15 @@
 
 <details>
 
+-   [`026754a`](https://github.com/stdlib-js/stdlib/commit/026754aa609cd8aae2f3cc12d3ded66b2a4c6ce0) - **feat:** add `dxpy` and `gxpy` to namespace _(by Athan Reines)_
+-   [`5f8985e`](https://github.com/stdlib-js/stdlib/commit/5f8985e50129f6a86885c1f2ca3972cd716ec262) - **feat:** add `dxsy`, `gxsy`, `zwapx` to namespace _(by Athan Reines)_
+-   [`f87196f`](https://github.com/stdlib-js/stdlib/commit/f87196f6a805d7b4a8676cfef02652f0cc19ff96) - **docs:** fix copy _(by Athan Reines)_
+-   [`044604e`](https://github.com/stdlib-js/stdlib/commit/044604e18ddb222c03b8ab0ddd4ba0934c3ff8ae) - **feat:** add `blas/ext/base/ndarray/dxpy` [(#13032)](https://github.com/stdlib-js/stdlib/pull/13032) _(by Karan Anand)_
+-   [`4916a79`](https://github.com/stdlib-js/stdlib/commit/4916a794abe0c977d4257e149a493e988b6dfdba) - **feat:** add `blas/ext/base/ndarray/gxpy` [(#13031)](https://github.com/stdlib-js/stdlib/pull/13031) _(by Karan Anand)_
+-   [`5e2dad8`](https://github.com/stdlib-js/stdlib/commit/5e2dad8a9f5f2ee6f49118ec89f9987bce7d92c6) - **feat:** add `blas/ext/base/zwapx` [(#13026)](https://github.com/stdlib-js/stdlib/pull/13026) _(by Karan Anand)_
+-   [`096398f`](https://github.com/stdlib-js/stdlib/commit/096398f18c56b57e5996621d99bb310ba7df065d) - **feat:** add `blas/ext/base/dxsy` [(#13028)](https://github.com/stdlib-js/stdlib/pull/13028) _(by Karan Anand)_
+-   [`f47e688`](https://github.com/stdlib-js/stdlib/commit/f47e6889d07b18cbbcdbe78b6b8be7265be914ca) - **feat:** add `blas/ext/base/gxsy` [(#13027)](https://github.com/stdlib-js/stdlib/pull/13027) _(by Karan Anand)_
+-   [`a876b5e`](https://github.com/stdlib-js/stdlib/commit/a876b5e1601b2a3468f428578c03f617504db8d5) - **chore:** follow-up fixes for prior commits [(#13014)](https://github.com/stdlib-js/stdlib/pull/13014) _(by Philipp Burckhardt)_
 -   [`e6e7d42`](https://github.com/stdlib-js/stdlib/commit/e6e7d42b10701833a2a943d2f0df75163742aa9e) - **feat:** add `dnone`, `dsome`, `dindexOfFalsy`, and `sindexOfFalsy` to namespace _(by Athan Reines)_
 -   [`5609f46`](https://github.com/stdlib-js/stdlib/commit/5609f46b441850c67aa6d22f3f023953bf2f2461) - **feat:** add `gindexOfTruthy`, `gindexOfFalsy`, and `dindexOfFalsy` to namespace _(by Athan Reines)_
 -   [`7cc82a3`](https://github.com/stdlib-js/stdlib/commit/7cc82a344d877a1d0bfb96bd3479c9b84da948bb) - **feat:** add `blas/ext/base/dsome` [(#12845)](https://github.com/stdlib-js/stdlib/pull/12845) _(by Muhammad Haris, Athan Reines)_
