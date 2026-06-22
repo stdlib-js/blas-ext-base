@@ -492,6 +492,7 @@
     "@stdlib/blas-ext-base-ndarray-zsum": "^0.1.1",
     "@stdlib/blas-ext-base-ndarray-zsumkbn": "^0.1.1",
     "@stdlib/blas-ext-base-ndarray-zunitspace": "github:stdlib-js/blas-ext-base-ndarray-zunitspace#main",
+    "@stdlib/blas-ext-base-ndarray-zxpy": "github:stdlib-js/blas-ext-base-ndarray-zxpy#main",
     "@stdlib/blas-ext-base-ndarray-zxsa": "github:stdlib-js/blas-ext-base-ndarray-zxsa#main",
     "@stdlib/blas-ext-base-ndarray-zzero-to": "github:stdlib-js/blas-ext-base-ndarray-zzero-to#main",
     "@stdlib/blas-ext-base-wasm-dapx": "^0.1.1",
