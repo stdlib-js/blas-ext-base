@@ -10,6 +10,15 @@
 
 ### Features
 
+-   [`dae431e`](https://github.com/stdlib-js/stdlib/commit/dae431ecaeaee544f03f03398bb140836fea62b2) - add various symbols to namespace
+-   [`ec6375f`](https://github.com/stdlib-js/stdlib/commit/ec6375f6499b2f10522731a249cd7b0a7466e308) - add `cxpy` and `sxpy` to namespace
+-   [`8f77aab`](https://github.com/stdlib-js/stdlib/commit/8f77aabbbbbc2bf52c48d52f12399f39ed28bdc6) - add `blas/ext/base/ndarray/cxpy` [(#13035)](https://github.com/stdlib-js/stdlib/pull/13035)
+-   [`19b7973`](https://github.com/stdlib-js/stdlib/commit/19b79733604d2bee711f83c3a838e6df0c79216a) - add `blas/ext/base/ndarray/sxpy` [(#13034)](https://github.com/stdlib-js/stdlib/pull/13034)
+-   [`a7a3ee4`](https://github.com/stdlib-js/stdlib/commit/a7a3ee4a17c395155a8d8cc9c121b3d1d985c39e) - add `blas/ext/base/cwapx` [(#13025)](https://github.com/stdlib-js/stdlib/pull/13025)
+-   [`41dd183`](https://github.com/stdlib-js/stdlib/commit/41dd1836f01143b38862034462a0d8167325170b) - add `blas/ext/base/cxsy` [(#13029)](https://github.com/stdlib-js/stdlib/pull/13029)
+-   [`c7a7bd4`](https://github.com/stdlib-js/stdlib/commit/c7a7bd41578b300fc4c188c3b2fbfb80a7ecd236) - add `blas/ext/base/sxsy` [(#13030)](https://github.com/stdlib-js/stdlib/pull/13030)
+-   [`9b655da`](https://github.com/stdlib-js/stdlib/commit/9b655da4fdd2fa6d4d981fe3d71159ffaf9b2d4d) - add `blas/ext/base/snone` [(#13011)](https://github.com/stdlib-js/stdlib/pull/13011)
+-   [`8f249bb`](https://github.com/stdlib-js/stdlib/commit/8f249bbb2a9232039126f6bb2a5abbd0ecb65ce2) - add `blas/ext/base/ssome` [(#13020)](https://github.com/stdlib-js/stdlib/pull/13020)
 -   [`026754a`](https://github.com/stdlib-js/stdlib/commit/026754aa609cd8aae2f3cc12d3ded66b2a4c6ce0) - add `dxpy` and `gxpy` to namespace
 -   [`5f8985e`](https://github.com/stdlib-js/stdlib/commit/5f8985e50129f6a86885c1f2ca3972cd716ec262) - add `dxsy`, `gxsy`, `zwapx` to namespace
 -   [`044604e`](https://github.com/stdlib-js/stdlib/commit/044604e18ddb222c03b8ab0ddd4ba0934c3ff8ae) - add `blas/ext/base/ndarray/dxpy` [(#13032)](https://github.com/stdlib-js/stdlib/pull/13032)
@@ -419,6 +428,15 @@
 
 <details>
 
+-   [`dae431e`](https://github.com/stdlib-js/stdlib/commit/dae431ecaeaee544f03f03398bb140836fea62b2) - **feat:** add various symbols to namespace _(by Athan Reines)_
+-   [`ec6375f`](https://github.com/stdlib-js/stdlib/commit/ec6375f6499b2f10522731a249cd7b0a7466e308) - **feat:** add `cxpy` and `sxpy` to namespace _(by Athan Reines)_
+-   [`8f77aab`](https://github.com/stdlib-js/stdlib/commit/8f77aabbbbbc2bf52c48d52f12399f39ed28bdc6) - **feat:** add `blas/ext/base/ndarray/cxpy` [(#13035)](https://github.com/stdlib-js/stdlib/pull/13035) _(by Karan Anand)_
+-   [`19b7973`](https://github.com/stdlib-js/stdlib/commit/19b79733604d2bee711f83c3a838e6df0c79216a) - **feat:** add `blas/ext/base/ndarray/sxpy` [(#13034)](https://github.com/stdlib-js/stdlib/pull/13034) _(by Karan Anand)_
+-   [`a7a3ee4`](https://github.com/stdlib-js/stdlib/commit/a7a3ee4a17c395155a8d8cc9c121b3d1d985c39e) - **feat:** add `blas/ext/base/cwapx` [(#13025)](https://github.com/stdlib-js/stdlib/pull/13025) _(by Karan Anand)_
+-   [`41dd183`](https://github.com/stdlib-js/stdlib/commit/41dd1836f01143b38862034462a0d8167325170b) - **feat:** add `blas/ext/base/cxsy` [(#13029)](https://github.com/stdlib-js/stdlib/pull/13029) _(by Karan Anand)_
+-   [`c7a7bd4`](https://github.com/stdlib-js/stdlib/commit/c7a7bd41578b300fc4c188c3b2fbfb80a7ecd236) - **feat:** add `blas/ext/base/sxsy` [(#13030)](https://github.com/stdlib-js/stdlib/pull/13030) _(by Karan Anand, Athan Reines)_
+-   [`9b655da`](https://github.com/stdlib-js/stdlib/commit/9b655da4fdd2fa6d4d981fe3d71159ffaf9b2d4d) - **feat:** add `blas/ext/base/snone` [(#13011)](https://github.com/stdlib-js/stdlib/pull/13011) _(by Muhammad Haris)_
+-   [`8f249bb`](https://github.com/stdlib-js/stdlib/commit/8f249bbb2a9232039126f6bb2a5abbd0ecb65ce2) - **feat:** add `blas/ext/base/ssome` [(#13020)](https://github.com/stdlib-js/stdlib/pull/13020) _(by Muhammad Haris)_
 -   [`026754a`](https://github.com/stdlib-js/stdlib/commit/026754aa609cd8aae2f3cc12d3ded66b2a4c6ce0) - **feat:** add `dxpy` and `gxpy` to namespace _(by Athan Reines)_
 -   [`5f8985e`](https://github.com/stdlib-js/stdlib/commit/5f8985e50129f6a86885c1f2ca3972cd716ec262) - **feat:** add `dxsy`, `gxsy`, `zwapx` to namespace _(by Athan Reines)_
 -   [`f87196f`](https://github.com/stdlib-js/stdlib/commit/f87196f6a805d7b4a8676cfef02652f0cc19ff96) - **docs:** fix copy _(by Athan Reines)_
