@@ -10,6 +10,16 @@
 
 ### Features
 
+-   [`61ededa`](https://github.com/stdlib-js/stdlib/commit/61ededae1f9d7ffe85aa41aff826bff8b7268ef3) - add `gwax` to namespace
+-   [`4f6e45f`](https://github.com/stdlib-js/stdlib/commit/4f6e45f22500f456a7fde5de9d84b7ec102e415f) - add `cxsy` and `zxsy` to namespace
+-   [`27a872a`](https://github.com/stdlib-js/stdlib/commit/27a872ab42141803501183d79a0c73c134b8105a) - add `blas/ext/base/gwax` [(#13085)](https://github.com/stdlib-js/stdlib/pull/13085)
+-   [`5d927bf`](https://github.com/stdlib-js/stdlib/commit/5d927bfdccbd24aa7e7632ba7a0c963b838f4306) - add `blas/ext/base/ndarray/zxsy` [(#13082)](https://github.com/stdlib-js/stdlib/pull/13082)
+-   [`51f525b`](https://github.com/stdlib-js/stdlib/commit/51f525b91f19d10d203efd2792e2c7f4327a66eb) - add `blas/ext/base/ndarray/cxsy` [(#13081)](https://github.com/stdlib-js/stdlib/pull/13081)
+-   [`2cf02f1`](https://github.com/stdlib-js/stdlib/commit/2cf02f163d47f46ab7ac02a78b2feeb1e089c419) - add `dxsy`, `gxsy`, and `sxsy` to namespace
+-   [`4d22f38`](https://github.com/stdlib-js/stdlib/commit/4d22f38cd1c2d00c47e20eca23ed6fd12cf517a5) - add `blas/ext/base/ndarray/gxsy` [(#13041)](https://github.com/stdlib-js/stdlib/pull/13041)
+-   [`beecc92`](https://github.com/stdlib-js/stdlib/commit/beecc92a0cb588375fa43a0e028151bd164ef99b) - add `blas/ext/base/ndarray/dxsy` [(#13045)](https://github.com/stdlib-js/stdlib/pull/13045)
+-   [`b1fbd01`](https://github.com/stdlib-js/stdlib/commit/b1fbd01fe3988440e6718f89266bd3b00a1e962c) - add `blas/ext/base/ndarray/sxsy` [(#13066)](https://github.com/stdlib-js/stdlib/pull/13066)
+-   [`4c3293f`](https://github.com/stdlib-js/stdlib/commit/4c3293f70b23dcec6671641de8f6ed28bb8368e3) - update `blas/ext/base/ndarray` TypeScript declarations [(#13074)](https://github.com/stdlib-js/stdlib/pull/13074)
 -   [`8b8cf28`](https://github.com/stdlib-js/stdlib/commit/8b8cf28c8316221406920ff8af1f618a9da5dc92) - update `blas/ext/base` TypeScript declarations [(#13075)](https://github.com/stdlib-js/stdlib/pull/13075)
 -   [`8b48f25`](https://github.com/stdlib-js/stdlib/commit/8b48f2570011668acee25cd054e33f9470d149b0) - add `zxsy` to namespace
 -   [`2a40396`](https://github.com/stdlib-js/stdlib/commit/2a40396454d5f9c24af8a8555c921ee3ae485b0a) - add `blas/ext/base/zxsy` [(#13036)](https://github.com/stdlib-js/stdlib/pull/13036)
@@ -438,6 +448,20 @@
 
 <details>
 
+-   [`61ededa`](https://github.com/stdlib-js/stdlib/commit/61ededae1f9d7ffe85aa41aff826bff8b7268ef3) - **feat:** add `gwax` to namespace _(by Athan Reines)_
+-   [`4f6e45f`](https://github.com/stdlib-js/stdlib/commit/4f6e45f22500f456a7fde5de9d84b7ec102e415f) - **feat:** add `cxsy` and `zxsy` to namespace _(by Athan Reines)_
+-   [`27a872a`](https://github.com/stdlib-js/stdlib/commit/27a872ab42141803501183d79a0c73c134b8105a) - **feat:** add `blas/ext/base/gwax` [(#13085)](https://github.com/stdlib-js/stdlib/pull/13085) _(by Karan Anand)_
+-   [`8fc9974`](https://github.com/stdlib-js/stdlib/commit/8fc99743f66763d218b180d7e4c98a3e889ae05a) - **docs:** add missing trailing periods to package descriptions [(#13086)](https://github.com/stdlib-js/stdlib/pull/13086) _(by Karan Anand)_
+-   [`5d927bf`](https://github.com/stdlib-js/stdlib/commit/5d927bfdccbd24aa7e7632ba7a0c963b838f4306) - **feat:** add `blas/ext/base/ndarray/zxsy` [(#13082)](https://github.com/stdlib-js/stdlib/pull/13082) _(by Karan Anand)_
+-   [`51f525b`](https://github.com/stdlib-js/stdlib/commit/51f525b91f19d10d203efd2792e2c7f4327a66eb) - **feat:** add `blas/ext/base/ndarray/cxsy` [(#13081)](https://github.com/stdlib-js/stdlib/pull/13081) _(by Karan Anand)_
+-   [`2cf02f1`](https://github.com/stdlib-js/stdlib/commit/2cf02f163d47f46ab7ac02a78b2feeb1e089c419) - **feat:** add `dxsy`, `gxsy`, and `sxsy` to namespace _(by Athan Reines)_
+-   [`4d22f38`](https://github.com/stdlib-js/stdlib/commit/4d22f38cd1c2d00c47e20eca23ed6fd12cf517a5) - **feat:** add `blas/ext/base/ndarray/gxsy` [(#13041)](https://github.com/stdlib-js/stdlib/pull/13041) _(by Karan Anand)_
+-   [`0cd1435`](https://github.com/stdlib-js/stdlib/commit/0cd1435aca7f3f50fa6509306f9bf4fb306cb053) - **chore:** update keywords [(#13058)](https://github.com/stdlib-js/stdlib/pull/13058) _(by Philipp Burckhardt)_
+-   [`75fa3bf`](https://github.com/stdlib-js/stdlib/commit/75fa3bfd4969f4453369d4f5d8e32be7ec32e8cd) - **docs:** update descriptions and example [(#13059)](https://github.com/stdlib-js/stdlib/pull/13059) _(by Philipp Burckhardt)_
+-   [`beecc92`](https://github.com/stdlib-js/stdlib/commit/beecc92a0cb588375fa43a0e028151bd164ef99b) - **feat:** add `blas/ext/base/ndarray/dxsy` [(#13045)](https://github.com/stdlib-js/stdlib/pull/13045) _(by Karan Anand)_
+-   [`b1fbd01`](https://github.com/stdlib-js/stdlib/commit/b1fbd01fe3988440e6718f89266bd3b00a1e962c) - **feat:** add `blas/ext/base/ndarray/sxsy` [(#13066)](https://github.com/stdlib-js/stdlib/pull/13066) _(by Karan Anand)_
+-   [`36c1beb`](https://github.com/stdlib-js/stdlib/commit/36c1beb26264b0bb537c3a9d439b730e156172a9) - **docs:** update Markdown stdlib package URLs [(#13072)](https://github.com/stdlib-js/stdlib/pull/13072) _(by stdlib-bot)_
+-   [`4c3293f`](https://github.com/stdlib-js/stdlib/commit/4c3293f70b23dcec6671641de8f6ed28bb8368e3) - **feat:** update `blas/ext/base/ndarray` TypeScript declarations [(#13074)](https://github.com/stdlib-js/stdlib/pull/13074) _(by stdlib-bot)_
 -   [`8b8cf28`](https://github.com/stdlib-js/stdlib/commit/8b8cf28c8316221406920ff8af1f618a9da5dc92) - **feat:** update `blas/ext/base` TypeScript declarations [(#13075)](https://github.com/stdlib-js/stdlib/pull/13075) _(by stdlib-bot)_
 -   [`fb7ba7a`](https://github.com/stdlib-js/stdlib/commit/fb7ba7aa301480bcab339b75cc7562966292e365) - **docs:** update namespace table of contents [(#13079)](https://github.com/stdlib-js/stdlib/pull/13079) _(by stdlib-bot)_
 -   [`8b48f25`](https://github.com/stdlib-js/stdlib/commit/8b48f2570011668acee25cd054e33f9470d149b0) - **feat:** add `zxsy` to namespace _(by Athan Reines)_
