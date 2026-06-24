@@ -4,12 +4,15 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-06-23)
+## Unreleased (2026-06-24)
 
 <section class="features">
 
 ### Features
 
+-   [`10a88a6`](https://github.com/stdlib-js/stdlib/commit/10a88a6c31f4d04875ff05b426f9035359e44be2) - add `dlogspace` and `slogspace` to namespace
+-   [`aa616ba`](https://github.com/stdlib-js/stdlib/commit/aa616baa0cbde1be1da1795cb1fc6b7f16e6fc05) - add `blas/ext/base/dlogspace` [(#13091)](https://github.com/stdlib-js/stdlib/pull/13091)
+-   [`90ffe1d`](https://github.com/stdlib-js/stdlib/commit/90ffe1dc546b034cc0322ebc7c230bfe71185e05) - add `blas/ext/base/slogspace` [(#13093)](https://github.com/stdlib-js/stdlib/pull/13093)
 -   [`7908811`](https://github.com/stdlib-js/stdlib/commit/7908811940fd3122265bcd712d98bf93e65f65f6) - add `glogspace` and `gwxpy` to namespace
 -   [`74484ec`](https://github.com/stdlib-js/stdlib/commit/74484ecbd39895f343c77fe63de3c05a94a090ca) - add `blas/ext/base/glogspace` [(#13064)](https://github.com/stdlib-js/stdlib/pull/13064)
 -   [`c238bc5`](https://github.com/stdlib-js/stdlib/commit/c238bc5e833cc0b0acd6f303c066ee52d9359193) - add `blas/ext/base/gwxpy` [(#13087)](https://github.com/stdlib-js/stdlib/pull/13087)
@@ -451,6 +454,9 @@
 
 <details>
 
+-   [`10a88a6`](https://github.com/stdlib-js/stdlib/commit/10a88a6c31f4d04875ff05b426f9035359e44be2) - **feat:** add `dlogspace` and `slogspace` to namespace _(by Athan Reines)_
+-   [`aa616ba`](https://github.com/stdlib-js/stdlib/commit/aa616baa0cbde1be1da1795cb1fc6b7f16e6fc05) - **feat:** add `blas/ext/base/dlogspace` [(#13091)](https://github.com/stdlib-js/stdlib/pull/13091) _(by Muhammad Haris)_
+-   [`90ffe1d`](https://github.com/stdlib-js/stdlib/commit/90ffe1dc546b034cc0322ebc7c230bfe71185e05) - **feat:** add `blas/ext/base/slogspace` [(#13093)](https://github.com/stdlib-js/stdlib/pull/13093) _(by Muhammad Haris)_
 -   [`7908811`](https://github.com/stdlib-js/stdlib/commit/7908811940fd3122265bcd712d98bf93e65f65f6) - **feat:** add `glogspace` and `gwxpy` to namespace _(by Athan Reines)_
 -   [`74484ec`](https://github.com/stdlib-js/stdlib/commit/74484ecbd39895f343c77fe63de3c05a94a090ca) - **feat:** add `blas/ext/base/glogspace` [(#13064)](https://github.com/stdlib-js/stdlib/pull/13064) _(by Muhammad Haris)_
 -   [`c238bc5`](https://github.com/stdlib-js/stdlib/commit/c238bc5e833cc0b0acd6f303c066ee52d9359193) - **feat:** add `blas/ext/base/gwxpy` [(#13087)](https://github.com/stdlib-js/stdlib/pull/13087) _(by Karan Anand)_
