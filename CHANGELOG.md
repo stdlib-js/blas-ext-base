@@ -4,12 +4,16 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-06-27)
+## Unreleased (2026-06-28)
 
 <section class="features">
 
 ### Features
 
+-   [`5508fe4`](https://github.com/stdlib-js/stdlib/commit/5508fe4693bc34e2993567c3b18fc9d64b8f6167) - add `dany`, `dlastIndexOfFalsy`, and `slastIndexOfFalsy` to namespace
+-   [`04bcc3a`](https://github.com/stdlib-js/stdlib/commit/04bcc3a924bc1c876bd50e88d29d514363be85af) - add `blas/ext/base/dany` [(#13168)](https://github.com/stdlib-js/stdlib/pull/13168)
+-   [`17010b5`](https://github.com/stdlib-js/stdlib/commit/17010b5c5c7e06ec831a37e28237d479ce227ed0) - add `blas/ext/base/slast-index-of-falsy` [(#13165)](https://github.com/stdlib-js/stdlib/pull/13165)
+-   [`1c50e17`](https://github.com/stdlib-js/stdlib/commit/1c50e172c33763ad42866d2dcab9be1a5325f242) - add `blas/ext/base/dlast-index-of-falsy` [(#13164)](https://github.com/stdlib-js/stdlib/pull/13164)
 -   [`feac65a`](https://github.com/stdlib-js/stdlib/commit/feac65a6629c841c09513a93aa8054aa1f42a5a4) - update `blas/ext/base` TypeScript declarations [(#13159)](https://github.com/stdlib-js/stdlib/pull/13159)
 -   [`7a152f0`](https://github.com/stdlib-js/stdlib/commit/7a152f0a475b2821e58ac001eed35955b5682ab3) - add `dxmy` and `sxmy` to namespace
 -   [`56d5810`](https://github.com/stdlib-js/stdlib/commit/56d5810e67f9489666d2d4d57432a3005b184478) - add `blas/ext/base/sxmy` [(#13127)](https://github.com/stdlib-js/stdlib/pull/13127)
@@ -469,6 +473,10 @@
 
 <details>
 
+-   [`5508fe4`](https://github.com/stdlib-js/stdlib/commit/5508fe4693bc34e2993567c3b18fc9d64b8f6167) - **feat:** add `dany`, `dlastIndexOfFalsy`, and `slastIndexOfFalsy` to namespace _(by Athan Reines)_
+-   [`04bcc3a`](https://github.com/stdlib-js/stdlib/commit/04bcc3a924bc1c876bd50e88d29d514363be85af) - **feat:** add `blas/ext/base/dany` [(#13168)](https://github.com/stdlib-js/stdlib/pull/13168) _(by Muhammad Haris)_
+-   [`17010b5`](https://github.com/stdlib-js/stdlib/commit/17010b5c5c7e06ec831a37e28237d479ce227ed0) - **feat:** add `blas/ext/base/slast-index-of-falsy` [(#13165)](https://github.com/stdlib-js/stdlib/pull/13165) _(by Muhammad Haris)_
+-   [`1c50e17`](https://github.com/stdlib-js/stdlib/commit/1c50e172c33763ad42866d2dcab9be1a5325f242) - **feat:** add `blas/ext/base/dlast-index-of-falsy` [(#13164)](https://github.com/stdlib-js/stdlib/pull/13164) _(by Muhammad Haris)_
 -   [`feac65a`](https://github.com/stdlib-js/stdlib/commit/feac65a6629c841c09513a93aa8054aa1f42a5a4) - **feat:** update `blas/ext/base` TypeScript declarations [(#13159)](https://github.com/stdlib-js/stdlib/pull/13159) _(by stdlib-bot)_
 -   [`a89402a`](https://github.com/stdlib-js/stdlib/commit/a89402ae3d59a3c0d1e6d7bc735dd8804ef6b048) - **docs:** update namespace table of contents [(#13161)](https://github.com/stdlib-js/stdlib/pull/13161) _(by stdlib-bot, Philipp Burckhardt)_
 -   [`7a152f0`](https://github.com/stdlib-js/stdlib/commit/7a152f0a475b2821e58ac001eed35955b5682ab3) - **feat:** add `dxmy` and `sxmy` to namespace _(by Athan Reines)_
