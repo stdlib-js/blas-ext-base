@@ -96,6 +96,7 @@ var o = ns;
 -   <span class="signature">[`cxsa( N, alpha, x, strideX )`][@stdlib/blas/ext/base/cxsa]</span><span class="delimiter">: </span><span class="description">subtract a scalar constant from each element in a single-precision complex floating-point strided array.</span>
 -   <span class="signature">[`cxsy( N, x, strideX, y, strideY )`][@stdlib/blas/ext/base/cxsy]</span><span class="delimiter">: </span><span class="description">subtract elements of a single-precision complex floating-point strided array `y` from the corresponding elements of a single-precision complex floating-point strided array `x` and assign the results to `y`.</span>
 -   <span class="signature">[`czeroTo( N, x, strideX )`][@stdlib/blas/ext/base/czero-to]</span><span class="delimiter">: </span><span class="description">fill a single-precision complex floating-point strided array with linearly spaced numeric elements which increment by `1` starting from zero.</span>
+-   <span class="signature">[`dany( N, x, strideX )`][@stdlib/blas/ext/base/dany]</span><span class="delimiter">: </span><span class="description">test whether at least one element in a double-precision floating-point strided array is truthy.</span>
 -   <span class="signature">[`dapx( N, alpha, x, strideX )`][@stdlib/blas/ext/base/dapx]</span><span class="delimiter">: </span><span class="description">add a scalar constant to each element in a double-precision floating-point strided array.</span>
 -   <span class="signature">[`dapxsum( N, alpha, x, strideX )`][@stdlib/blas/ext/base/dapxsum]</span><span class="delimiter">: </span><span class="description">add a scalar constant to each double-precision floating-point strided array element and compute the sum.</span>
 -   <span class="signature">[`dapxsumkbn( N, alpha, x, strideX )`][@stdlib/blas/ext/base/dapxsumkbn]</span><span class="delimiter">: </span><span class="description">add a scalar constant to each double-precision floating-point strided array element and compute the sum using an improved Kahan–Babuška algorithm.</span>
@@ -126,6 +127,7 @@ var o = ns;
 -   <span class="signature">[`dindexOfRow( order, M, N, A, LDA, x, strideX, workspace, strideW )`][@stdlib/blas/ext/base/dindex-of-row]</span><span class="delimiter">: </span><span class="description">return the index of the first row in a double-precision floating-point input matrix which has the same elements as a provided search vector.</span>
 -   <span class="signature">[`dindexOfTruthy( N, x, strideX )`][@stdlib/blas/ext/base/dindex-of-truthy]</span><span class="delimiter">: </span><span class="description">return the index of the first truthy element in a double-precision floating-point strided array.</span>
 -   <span class="signature">[`dindexOf( N, searchElement, x, strideX )`][@stdlib/blas/ext/base/dindex-of]</span><span class="delimiter">: </span><span class="description">return the first index of a specified search element in a double-precision floating-point strided array.</span>
+-   <span class="signature">[`dlastIndexOfFalsy( N, x, strideX )`][@stdlib/blas/ext/base/dlast-index-of-falsy]</span><span class="delimiter">: </span><span class="description">return the index of the last falsy element in a double-precision floating-point strided array.</span>
 -   <span class="signature">[`dlastIndexOfRow( order, M, N, A, LDA, x, strideX, workspace, strideW )`][@stdlib/blas/ext/base/dlast-index-of-row]</span><span class="delimiter">: </span><span class="description">return the index of the last row in a double-precision floating-point input matrix which has the same elements as a provided search vector.</span>
 -   <span class="signature">[`dlastIndexOfTruthy( N, x, strideX )`][@stdlib/blas/ext/base/dlast-index-of-truthy]</span><span class="delimiter">: </span><span class="description">return the index of the last truthy element in a double-precision floating-point strided array.</span>
 -   <span class="signature">[`dlastIndexOf( N, searchElement, x, strideX )`][@stdlib/blas/ext/base/dlast-index-of]</span><span class="delimiter">: </span><span class="description">return the last index of a specified search element in a double-precision floating-point strided array.</span>
@@ -311,6 +313,7 @@ var o = ns;
 -   <span class="signature">[`sindexOfRow( order, M, N, A, LDA, x, strideX, workspace, strideW )`][@stdlib/blas/ext/base/sindex-of-row]</span><span class="delimiter">: </span><span class="description">return the index of the first row in a single-precision floating-point input matrix which has the same elements as a provided search vector.</span>
 -   <span class="signature">[`sindexOfTruthy( N, x, strideX )`][@stdlib/blas/ext/base/sindex-of-truthy]</span><span class="delimiter">: </span><span class="description">return the index of the first truthy element in a single-precision floating-point strided array.</span>
 -   <span class="signature">[`sindexOf( N, searchElement, x, strideX )`][@stdlib/blas/ext/base/sindex-of]</span><span class="delimiter">: </span><span class="description">return the first index of a specified search element in a single-precision floating-point strided array.</span>
+-   <span class="signature">[`slastIndexOfFalsy( N, x, strideX )`][@stdlib/blas/ext/base/slast-index-of-falsy]</span><span class="delimiter">: </span><span class="description">return the index of the last falsy element in a single-precision floating-point strided array.</span>
 -   <span class="signature">[`slastIndexOfRow( order, M, N, A, LDA, x, strideX, workspace, strideW )`][@stdlib/blas/ext/base/slast-index-of-row]</span><span class="delimiter">: </span><span class="description">return the index of the last row in a single-precision floating-point input matrix which has the same elements as a provided search vector.</span>
 -   <span class="signature">[`slastIndexOfTruthy( N, x, strideX )`][@stdlib/blas/ext/base/slast-index-of-truthy]</span><span class="delimiter">: </span><span class="description">return the index of the last truthy element in a single-precision floating-point strided array.</span>
 -   <span class="signature">[`slastIndexOf( N, searchElement, x, strideX )`][@stdlib/blas/ext/base/slast-index-of]</span><span class="delimiter">: </span><span class="description">return the last index of a specified search element in a single-precision floating-point strided array.</span>
@@ -532,6 +535,8 @@ Copyright &copy; 2016-2026. The Stdlib [Authors][stdlib-authors].
 
 [@stdlib/blas/ext/base/czero-to]: https://github.com/stdlib-js/blas-ext-base-czero-to
 
+[@stdlib/blas/ext/base/dany]: https://github.com/stdlib-js/blas-ext-base-dany
+
 [@stdlib/blas/ext/base/dapx]: https://github.com/stdlib-js/blas-ext-base-dapx
 
 [@stdlib/blas/ext/base/dapxsum]: https://github.com/stdlib-js/blas-ext-base-dapxsum
@@ -591,6 +596,8 @@ Copyright &copy; 2016-2026. The Stdlib [Authors][stdlib-authors].
 [@stdlib/blas/ext/base/dindex-of-truthy]: https://github.com/stdlib-js/blas-ext-base-dindex-of-truthy
 
 [@stdlib/blas/ext/base/dindex-of]: https://github.com/stdlib-js/blas-ext-base-dindex-of
+
+[@stdlib/blas/ext/base/dlast-index-of-falsy]: https://github.com/stdlib-js/blas-ext-base-dlast-index-of-falsy
 
 [@stdlib/blas/ext/base/dlast-index-of-row]: https://github.com/stdlib-js/blas-ext-base-dlast-index-of-row
 
@@ -961,6 +968,8 @@ Copyright &copy; 2016-2026. The Stdlib [Authors][stdlib-authors].
 [@stdlib/blas/ext/base/sindex-of-truthy]: https://github.com/stdlib-js/blas-ext-base-sindex-of-truthy
 
 [@stdlib/blas/ext/base/sindex-of]: https://github.com/stdlib-js/blas-ext-base-sindex-of
+
+[@stdlib/blas/ext/base/slast-index-of-falsy]: https://github.com/stdlib-js/blas-ext-base-slast-index-of-falsy
 
 [@stdlib/blas/ext/base/slast-index-of-row]: https://github.com/stdlib-js/blas-ext-base-slast-index-of-row
 
