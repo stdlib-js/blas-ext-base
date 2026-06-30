@@ -237,6 +237,7 @@
     "@stdlib/blas-ext-base-gxsy": "github:stdlib-js/blas-ext-base-gxsy#main",
     "@stdlib/blas-ext-base-gzero-to": "github:stdlib-js/blas-ext-base-gzero-to#main",
     "@stdlib/blas-ext-base-ndarray": "^0.1.1",
+    "@stdlib/blas-ext-base-sany": "github:stdlib-js/blas-ext-base-sany#main",
     "@stdlib/blas-ext-base-sapx": "^0.3.1",
     "@stdlib/blas-ext-base-sapxsum": "^0.3.1",
     "@stdlib/blas-ext-base-sapxsumkbn": "^0.3.1",
