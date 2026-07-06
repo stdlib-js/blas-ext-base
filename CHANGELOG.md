@@ -10,6 +10,8 @@
 
 ### Features
 
+-   [`be45b36`](https://github.com/stdlib-js/stdlib/commit/be45b365726a79c00971a08873e2e93a9b83bc9e) - add `gfirstIndexNotEqual` to namespace
+-   [`1294ee8`](https://github.com/stdlib-js/stdlib/commit/1294ee86615198b0d73eed069f4fb4b7a63a41ef) - add `blas/ext/base/gfirst-index-not-equal` [(#13264)](https://github.com/stdlib-js/stdlib/pull/13264)
 -   [`cf8b010`](https://github.com/stdlib-js/stdlib/commit/cf8b0101eaac6a6465ec688f921aaf2d4056548f) - add `sfillNaN` to namespace
 -   [`75e1556`](https://github.com/stdlib-js/stdlib/commit/75e15560346455306a82f81e8a856339c0584189) - add `blas/ext/base/sfill-nan` [(#13326)](https://github.com/stdlib-js/stdlib/pull/13326)
 -   [`555c400`](https://github.com/stdlib-js/stdlib/commit/555c400e40e046884107b497434ffffd6d4cc5fd) - add `dxmy`, `gxmy`, and `sxmy` to namespace
@@ -493,6 +495,8 @@
 
 <details>
 
+-   [`be45b36`](https://github.com/stdlib-js/stdlib/commit/be45b365726a79c00971a08873e2e93a9b83bc9e) - **feat:** add `gfirstIndexNotEqual` to namespace _(by Athan Reines)_
+-   [`1294ee8`](https://github.com/stdlib-js/stdlib/commit/1294ee86615198b0d73eed069f4fb4b7a63a41ef) - **feat:** add `blas/ext/base/gfirst-index-not-equal` [(#13264)](https://github.com/stdlib-js/stdlib/pull/13264) _(by Muhammad Haris, Athan Reines)_
 -   [`cf8b010`](https://github.com/stdlib-js/stdlib/commit/cf8b0101eaac6a6465ec688f921aaf2d4056548f) - **feat:** add `sfillNaN` to namespace _(by Athan Reines)_
 -   [`75e1556`](https://github.com/stdlib-js/stdlib/commit/75e15560346455306a82f81e8a856339c0584189) - **feat:** add `blas/ext/base/sfill-nan` [(#13326)](https://github.com/stdlib-js/stdlib/pull/13326) _(by Muhammad Haris)_
 -   [`555c400`](https://github.com/stdlib-js/stdlib/commit/555c400e40e046884107b497434ffffd6d4cc5fd) - **feat:** add `dxmy`, `gxmy`, and `sxmy` to namespace _(by Athan Reines)_

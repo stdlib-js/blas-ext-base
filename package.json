@@ -185,6 +185,7 @@
     "@stdlib/blas-ext-base-gfind-index": "^0.1.1",
     "@stdlib/blas-ext-base-gfind-last-index": "^0.1.1",
     "@stdlib/blas-ext-base-gfirst-index-equal": "github:stdlib-js/blas-ext-base-gfirst-index-equal#main",
+    "@stdlib/blas-ext-base-gfirst-index-not-equal": "github:stdlib-js/blas-ext-base-gfirst-index-not-equal#main",
     "@stdlib/blas-ext-base-gindex-of": "^0.1.1",
     "@stdlib/blas-ext-base-gindex-of-column": "github:stdlib-js/blas-ext-base-gindex-of-column#main",
     "@stdlib/blas-ext-base-gindex-of-falsy": "github:stdlib-js/blas-ext-base-gindex-of-falsy#main",
