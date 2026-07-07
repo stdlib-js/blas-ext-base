@@ -189,6 +189,7 @@
     "@stdlib/blas-ext-base-gindex-of": "^0.1.1",
     "@stdlib/blas-ext-base-gindex-of-column": "github:stdlib-js/blas-ext-base-gindex-of-column#main",
     "@stdlib/blas-ext-base-gindex-of-falsy": "github:stdlib-js/blas-ext-base-gindex-of-falsy#main",
+    "@stdlib/blas-ext-base-gindex-of-not-equal": "github:stdlib-js/blas-ext-base-gindex-of-not-equal#main",
     "@stdlib/blas-ext-base-gindex-of-row": "^0.1.1",
     "@stdlib/blas-ext-base-gindex-of-same-value": "github:stdlib-js/blas-ext-base-gindex-of-same-value#main",
     "@stdlib/blas-ext-base-gindex-of-truthy": "github:stdlib-js/blas-ext-base-gindex-of-truthy#main",
