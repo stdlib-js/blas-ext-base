@@ -10,6 +10,8 @@
 
 ### Features
 
+-   [`0eecee5`](https://github.com/stdlib-js/stdlib/commit/0eecee50dc4adf16af8e3bb027189d87310b4dd8) - add `gfirstIndexLessThan` to namespace
+-   [`0932d0b`](https://github.com/stdlib-js/stdlib/commit/0932d0b21c85647f48a394306c6da3f374562ee9) - add `blas/ext/base/gfirst-index-less-than` [(#13271)](https://github.com/stdlib-js/stdlib/pull/13271)
 -   [`fadf0fb`](https://github.com/stdlib-js/stdlib/commit/fadf0fb39cf54704bcb3a58a290c43d97b1222a5) - add `gindexOfNotEqual` to namespace
 -   [`f9a3672`](https://github.com/stdlib-js/stdlib/commit/f9a36725589098239bc46a1a0577b44310f48bf8) - add `blas/ext/base/gindex-of-not-equal` [(#13342)](https://github.com/stdlib-js/stdlib/pull/13342)
 -   [`be45b36`](https://github.com/stdlib-js/stdlib/commit/be45b365726a79c00971a08873e2e93a9b83bc9e) - add `gfirstIndexNotEqual` to namespace
@@ -497,6 +499,12 @@
 
 <details>
 
+-   [`f6e5777`](https://github.com/stdlib-js/stdlib/commit/f6e5777279016fa47a11875065b566c6989b1519) - **style:** disable lint rule _(by Athan Reines)_
+-   [`0eecee5`](https://github.com/stdlib-js/stdlib/commit/0eecee50dc4adf16af8e3bb027189d87310b4dd8) - **feat:** add `gfirstIndexLessThan` to namespace _(by Athan Reines)_
+-   [`0932d0b`](https://github.com/stdlib-js/stdlib/commit/0932d0b21c85647f48a394306c6da3f374562ee9) - **feat:** add `blas/ext/base/gfirst-index-less-than` [(#13271)](https://github.com/stdlib-js/stdlib/pull/13271) _(by Muhammad Haris, Athan Reines)_
+-   [`547176e`](https://github.com/stdlib-js/stdlib/commit/547176ec139fa4257ee56a3be0597255049fbc12) - **test:** fix grammar in test descriptions _(by Athan Reines)_
+-   [`dbc07aa`](https://github.com/stdlib-js/stdlib/commit/dbc07aa0eee1ff553c3cb307c8e296224cb2545e) - **docs:** add notes _(by Athan Reines)_
+-   [`9c31305`](https://github.com/stdlib-js/stdlib/commit/9c31305739ee5411d758efbe4ac7de92ae3e939b) - **test:** fix grammar in test descriptions _(by Athan Reines)_
 -   [`fadf0fb`](https://github.com/stdlib-js/stdlib/commit/fadf0fb39cf54704bcb3a58a290c43d97b1222a5) - **feat:** add `gindexOfNotEqual` to namespace _(by Athan Reines)_
 -   [`f9a3672`](https://github.com/stdlib-js/stdlib/commit/f9a36725589098239bc46a1a0577b44310f48bf8) - **feat:** add `blas/ext/base/gindex-of-not-equal` [(#13342)](https://github.com/stdlib-js/stdlib/pull/13342) _(by Muhammad Haris, Athan Reines)_
 -   [`97a25cb`](https://github.com/stdlib-js/stdlib/commit/97a25cba301263b4ae206940a37a6d02f8c9baf7) - **chore:** follow-up fixes for commits merged to `develop` [(#13327)](https://github.com/stdlib-js/stdlib/pull/13327) _(by Philipp Burckhardt)_
