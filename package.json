@@ -89,6 +89,7 @@
     "@stdlib/blas-ext-base-dindex-of": "^0.1.1",
     "@stdlib/blas-ext-base-dindex-of-column": "github:stdlib-js/blas-ext-base-dindex-of-column#main",
     "@stdlib/blas-ext-base-dindex-of-falsy": "github:stdlib-js/blas-ext-base-dindex-of-falsy#main",
+    "@stdlib/blas-ext-base-dindex-of-not-equal": "github:stdlib-js/blas-ext-base-dindex-of-not-equal#main",
     "@stdlib/blas-ext-base-dindex-of-row": "github:stdlib-js/blas-ext-base-dindex-of-row#main",
     "@stdlib/blas-ext-base-dindex-of-truthy": "github:stdlib-js/blas-ext-base-dindex-of-truthy#main",
     "@stdlib/blas-ext-base-dlast-index-of": "^0.1.1",
