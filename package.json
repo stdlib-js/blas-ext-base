@@ -153,6 +153,7 @@
     "@stdlib/blas-ext-base-dwax": "github:stdlib-js/blas-ext-base-dwax#main",
     "@stdlib/blas-ext-base-dwhere": "github:stdlib-js/blas-ext-base-dwhere#main",
     "@stdlib/blas-ext-base-dwxsa": "github:stdlib-js/blas-ext-base-dwxsa#main",
+    "@stdlib/blas-ext-base-dxdy": "github:stdlib-js/blas-ext-base-dxdy#main",
     "@stdlib/blas-ext-base-dxmy": "github:stdlib-js/blas-ext-base-dxmy#main",
     "@stdlib/blas-ext-base-dxpy": "github:stdlib-js/blas-ext-base-dxpy#main",
     "@stdlib/blas-ext-base-dxsa": "github:stdlib-js/blas-ext-base-dxsa#main",
