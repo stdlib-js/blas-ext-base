@@ -10,6 +10,8 @@
 
 ### Features
 
+-   [`f1cfa7c`](https://github.com/stdlib-js/stdlib/commit/f1cfa7cf29471ee65f1cdb3df553af81aa73b316) - add `sxdy` to namespace
+-   [`3108efa`](https://github.com/stdlib-js/stdlib/commit/3108efa420b47b65c03df355b899607f343e06ec) - add `blas/ext/base/sxdy` [(#13446)](https://github.com/stdlib-js/stdlib/pull/13446)
 -   [`b458a5b`](https://github.com/stdlib-js/stdlib/commit/b458a5bf96f35e3e0e7d2bbe8df008a030667c2c) - add `dxdy` to namespace
 -   [`bb60d76`](https://github.com/stdlib-js/stdlib/commit/bb60d76f1b9bdaa80f17a05eb0d931eb36982af3) - add `blas/ext/base/dxdy` [(#13445)](https://github.com/stdlib-js/stdlib/pull/13445)
 -   [`f0ea13b`](https://github.com/stdlib-js/stdlib/commit/f0ea13be3ab90733442767b8705fafa98b239ba8) - add `gxdy` to namespace
@@ -544,6 +546,8 @@
 
 <details>
 
+-   [`f1cfa7c`](https://github.com/stdlib-js/stdlib/commit/f1cfa7cf29471ee65f1cdb3df553af81aa73b316) - **feat:** add `sxdy` to namespace _(by Athan Reines)_
+-   [`3108efa`](https://github.com/stdlib-js/stdlib/commit/3108efa420b47b65c03df355b899607f343e06ec) - **feat:** add `blas/ext/base/sxdy` [(#13446)](https://github.com/stdlib-js/stdlib/pull/13446) _(by Karan Anand)_
 -   [`b458a5b`](https://github.com/stdlib-js/stdlib/commit/b458a5bf96f35e3e0e7d2bbe8df008a030667c2c) - **feat:** add `dxdy` to namespace _(by Athan Reines)_
 -   [`bb60d76`](https://github.com/stdlib-js/stdlib/commit/bb60d76f1b9bdaa80f17a05eb0d931eb36982af3) - **feat:** add `blas/ext/base/dxdy` [(#13445)](https://github.com/stdlib-js/stdlib/pull/13445) _(by Karan Anand, Athan Reines)_
 -   [`f0ea13b`](https://github.com/stdlib-js/stdlib/commit/f0ea13be3ab90733442767b8705fafa98b239ba8) - **feat:** add `gxdy` to namespace _(by Athan Reines)_

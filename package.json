@@ -338,6 +338,7 @@
     "@stdlib/blas-ext-base-swax": "github:stdlib-js/blas-ext-base-swax#main",
     "@stdlib/blas-ext-base-swhere": "github:stdlib-js/blas-ext-base-swhere#main",
     "@stdlib/blas-ext-base-swxsa": "github:stdlib-js/blas-ext-base-swxsa#main",
+    "@stdlib/blas-ext-base-sxdy": "github:stdlib-js/blas-ext-base-sxdy#main",
     "@stdlib/blas-ext-base-sxmy": "github:stdlib-js/blas-ext-base-sxmy#main",
     "@stdlib/blas-ext-base-sxpy": "github:stdlib-js/blas-ext-base-sxpy#main",
     "@stdlib/blas-ext-base-sxsa": "github:stdlib-js/blas-ext-base-sxsa#main",
