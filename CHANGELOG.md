@@ -10,6 +10,8 @@
 
 ### Features
 
+-   [`f0ea13b`](https://github.com/stdlib-js/stdlib/commit/f0ea13be3ab90733442767b8705fafa98b239ba8) - add `gxdy` to namespace
+-   [`60db353`](https://github.com/stdlib-js/stdlib/commit/60db353662730f6cd42ff5c0a8797a162ccb2940) - add `blas/ext/base/gxdy` [(#13444)](https://github.com/stdlib-js/stdlib/pull/13444)
 -   [`6347e82`](https://github.com/stdlib-js/stdlib/commit/6347e820477f34bfff967f96978dc85a878c3054) - update `blas/ext/base` TypeScript declarations [(#13462)](https://github.com/stdlib-js/stdlib/pull/13462)
 -   [`5ca34e1`](https://github.com/stdlib-js/stdlib/commit/5ca34e1e1bd01241b598bb886ecabd6ba883ef0e) - update `blas/ext/base/ndarray` TypeScript declarations [(#13461)](https://github.com/stdlib-js/stdlib/pull/13461)
 -   [`ea0b2cd`](https://github.com/stdlib-js/stdlib/commit/ea0b2cdf6e87efa81e5eb0f4dd687b293a0e40e1) - add `gfillNotEqual` to namespace
@@ -540,6 +542,8 @@
 
 <details>
 
+-   [`f0ea13b`](https://github.com/stdlib-js/stdlib/commit/f0ea13be3ab90733442767b8705fafa98b239ba8) - **feat:** add `gxdy` to namespace _(by Athan Reines)_
+-   [`60db353`](https://github.com/stdlib-js/stdlib/commit/60db353662730f6cd42ff5c0a8797a162ccb2940) - **feat:** add `blas/ext/base/gxdy` [(#13444)](https://github.com/stdlib-js/stdlib/pull/13444) _(by Karan Anand)_
 -   [`462801a`](https://github.com/stdlib-js/stdlib/commit/462801a8eb3659986bb713f55cb923faa976d881) - **docs:** update namespace table of contents [(#13465)](https://github.com/stdlib-js/stdlib/pull/13465) _(by stdlib-bot)_
 -   [`6347e82`](https://github.com/stdlib-js/stdlib/commit/6347e820477f34bfff967f96978dc85a878c3054) - **feat:** update `blas/ext/base` TypeScript declarations [(#13462)](https://github.com/stdlib-js/stdlib/pull/13462) _(by stdlib-bot)_
 -   [`5ca34e1`](https://github.com/stdlib-js/stdlib/commit/5ca34e1e1bd01241b598bb886ecabd6ba883ef0e) - **feat:** update `blas/ext/base/ndarray` TypeScript declarations [(#13461)](https://github.com/stdlib-js/stdlib/pull/13461) _(by stdlib-bot)_

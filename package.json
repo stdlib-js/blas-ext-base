@@ -251,6 +251,7 @@
     "@stdlib/blas-ext-base-gwxpy": "github:stdlib-js/blas-ext-base-gwxpy#main",
     "@stdlib/blas-ext-base-gwxsa": "github:stdlib-js/blas-ext-base-gwxsa#main",
     "@stdlib/blas-ext-base-gwxsy": "github:stdlib-js/blas-ext-base-gwxsy#main",
+    "@stdlib/blas-ext-base-gxdy": "github:stdlib-js/blas-ext-base-gxdy#main",
     "@stdlib/blas-ext-base-gxmy": "github:stdlib-js/blas-ext-base-gxmy#main",
     "@stdlib/blas-ext-base-gxpy": "github:stdlib-js/blas-ext-base-gxpy#main",
     "@stdlib/blas-ext-base-gxsa": "github:stdlib-js/blas-ext-base-gxsa#main",
