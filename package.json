@@ -354,6 +354,7 @@
     "@stdlib/blas-ext-base-zindex-of": "github:stdlib-js/blas-ext-base-zindex-of#main",
     "@stdlib/blas-ext-base-zindex-of-column": "github:stdlib-js/blas-ext-base-zindex-of-column#main",
     "@stdlib/blas-ext-base-zindex-of-row": "github:stdlib-js/blas-ext-base-zindex-of-row#main",
+    "@stdlib/blas-ext-base-zindex-of-truthy": "github:stdlib-js/blas-ext-base-zindex-of-truthy#main",
     "@stdlib/blas-ext-base-zlast-index-of-row": "github:stdlib-js/blas-ext-base-zlast-index-of-row#main",
     "@stdlib/blas-ext-base-znancount": "github:stdlib-js/blas-ext-base-znancount#main",
     "@stdlib/blas-ext-base-zone-to": "github:stdlib-js/blas-ext-base-zone-to#main",
