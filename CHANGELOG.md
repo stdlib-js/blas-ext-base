@@ -553,6 +553,7 @@
 
 <details>
 
+-   [`eec0e8b`](https://github.com/stdlib-js/stdlib/commit/eec0e8be28a396fe8a41f11707cfa3df71f08f08) - **docs:** update namespace table of contents [(#13494)](https://github.com/stdlib-js/stdlib/pull/13494) _(by stdlib-bot)_
 -   [`b31f62d`](https://github.com/stdlib-js/stdlib/commit/b31f62d78290e341821d1543c71235a400fe205f) - **feat:** update `blas/ext/base` TypeScript declarations [(#13492)](https://github.com/stdlib-js/stdlib/pull/13492) _(by stdlib-bot)_
 -   [`17fa2b7`](https://github.com/stdlib-js/stdlib/commit/17fa2b74b3a31b9042e9d017246dff89b7e8c33a) - **feat:** add `blas/ext/base/ndarray/dfill-not-equal` [(#13413)](https://github.com/stdlib-js/stdlib/pull/13413) _(by Muhammad Haris)_
 -   [`2369938`](https://github.com/stdlib-js/stdlib/commit/2369938272d133d7ea0776230f83674d4d19a9c8) - **feat:** add `blas/ext/base/ndarray/sfill-not-equal` [(#13414)](https://github.com/stdlib-js/stdlib/pull/13414) _(by Muhammad Haris)_
