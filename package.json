@@ -46,6 +46,7 @@
     "@stdlib/blas-ext-base-cindex-of-row": "github:stdlib-js/blas-ext-base-cindex-of-row#main",
     "@stdlib/blas-ext-base-clast-index-of-row": "github:stdlib-js/blas-ext-base-clast-index-of-row#main",
     "@stdlib/blas-ext-base-cone-to": "github:stdlib-js/blas-ext-base-cone-to#main",
+    "@stdlib/blas-ext-base-creplicate": "github:stdlib-js/blas-ext-base-creplicate#main",
     "@stdlib/blas-ext-base-csum": "^0.1.1",
     "@stdlib/blas-ext-base-csumkbn": "^0.1.1",
     "@stdlib/blas-ext-base-cunitspace": "github:stdlib-js/blas-ext-base-cunitspace#main",

@@ -4,12 +4,14 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-07-17)
+## Unreleased (2026-07-18)
 
 <section class="features">
 
 ### Features
 
+-   [`c624655`](https://github.com/stdlib-js/stdlib/commit/c624655adbccab46e816d0008a66991e18f60b0b) - add `creplicate` to namespace
+-   [`254d999`](https://github.com/stdlib-js/stdlib/commit/254d999f6a93cd5f4a39fa8746973ee1adc72c62) - add `blas/ext/base/creplicate` [(#13520)](https://github.com/stdlib-js/stdlib/pull/13520)
 -   [`0d350ea`](https://github.com/stdlib-js/stdlib/commit/0d350ea4a24f3a8f7ebc1637df446b7821aa6b82) - update `blas/ext/base` TypeScript declarations [(#13514)](https://github.com/stdlib-js/stdlib/pull/13514)
 -   [`58b7b90`](https://github.com/stdlib-js/stdlib/commit/58b7b9015fde01541172c02f046f84f28e10dc68) - update `blas/ext/base/ndarray` TypeScript declarations [(#13513)](https://github.com/stdlib-js/stdlib/pull/13513)
 -   [`6d0d735`](https://github.com/stdlib-js/stdlib/commit/6d0d7358547e042936941e50215bfbc8ea6afe38) - add `zreplicate` to namespace
@@ -557,6 +559,9 @@
 
 <details>
 
+-   [`c624655`](https://github.com/stdlib-js/stdlib/commit/c624655adbccab46e816d0008a66991e18f60b0b) - **feat:** add `creplicate` to namespace _(by Athan Reines)_
+-   [`254d999`](https://github.com/stdlib-js/stdlib/commit/254d999f6a93cd5f4a39fa8746973ee1adc72c62) - **feat:** add `blas/ext/base/creplicate` [(#13520)](https://github.com/stdlib-js/stdlib/pull/13520) _(by Muhammad Haris)_
+-   [`f20ee0e`](https://github.com/stdlib-js/stdlib/commit/f20ee0ec83653a2e8d1073b044fb39255c990fbb) - **chore:** clean-up [(#13497)](https://github.com/stdlib-js/stdlib/pull/13497) _(by Philipp Burckhardt, Athan Reines)_
 -   [`75e4560`](https://github.com/stdlib-js/stdlib/commit/75e456086d0770ffc7fff40628d23a48816f4614) - **docs:** update namespace table of contents [(#13515)](https://github.com/stdlib-js/stdlib/pull/13515) _(by stdlib-bot)_
 -   [`0d350ea`](https://github.com/stdlib-js/stdlib/commit/0d350ea4a24f3a8f7ebc1637df446b7821aa6b82) - **feat:** update `blas/ext/base` TypeScript declarations [(#13514)](https://github.com/stdlib-js/stdlib/pull/13514) _(by stdlib-bot)_
 -   [`58b7b90`](https://github.com/stdlib-js/stdlib/commit/58b7b9015fde01541172c02f046f84f28e10dc68) - **feat:** update `blas/ext/base/ndarray` TypeScript declarations [(#13513)](https://github.com/stdlib-js/stdlib/pull/13513) _(by stdlib-bot)_
