@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`0ea6a8a`](https://github.com/stdlib-js/stdlib/commit/0ea6a8afb0404f4b46de9ce639f565cea6141bb5) - update `blas/ext/base` TypeScript declarations [(#13545)](https://github.com/stdlib-js/stdlib/pull/13545)
 -   [`24f73b5`](https://github.com/stdlib-js/stdlib/commit/24f73b54d01b658711f1a5a7476d6d40c529d11d) - add `blas/ext/base/ndarray/sany` [(#13529)](https://github.com/stdlib-js/stdlib/pull/13529)
 -   [`3314d55`](https://github.com/stdlib-js/stdlib/commit/3314d55954420932363b7c696055d7ea3c6274c9) - add `blas/ext/base/ndarray/gany` [(#13534)](https://github.com/stdlib-js/stdlib/pull/13534)
 -   [`8fd9261`](https://github.com/stdlib-js/stdlib/commit/8fd92613a473f36db4bf57fdb6d34b6a0664c2b2) - add `blas/ext/base/ndarray/dany` [(#13530)](https://github.com/stdlib-js/stdlib/pull/13530)
@@ -562,6 +563,7 @@
 
 <details>
 
+-   [`0ea6a8a`](https://github.com/stdlib-js/stdlib/commit/0ea6a8afb0404f4b46de9ce639f565cea6141bb5) - **feat:** update `blas/ext/base` TypeScript declarations [(#13545)](https://github.com/stdlib-js/stdlib/pull/13545) _(by stdlib-bot)_
 -   [`a0a518d`](https://github.com/stdlib-js/stdlib/commit/a0a518d2584da8a734961ff2ddd85b984b6a9f68) - **docs:** update namespace table of contents [(#13548)](https://github.com/stdlib-js/stdlib/pull/13548) _(by stdlib-bot)_
 -   [`24f73b5`](https://github.com/stdlib-js/stdlib/commit/24f73b54d01b658711f1a5a7476d6d40c529d11d) - **feat:** add `blas/ext/base/ndarray/sany` [(#13529)](https://github.com/stdlib-js/stdlib/pull/13529) _(by Muhammad Haris, Athan Reines)_
 -   [`3314d55`](https://github.com/stdlib-js/stdlib/commit/3314d55954420932363b7c696055d7ea3c6274c9) - **feat:** add `blas/ext/base/ndarray/gany` [(#13534)](https://github.com/stdlib-js/stdlib/pull/13534) _(by Muhammad Haris, Athan Reines)_
