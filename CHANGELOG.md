@@ -4,12 +4,16 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-07-20)
+## Unreleased (2026-07-21)
 
 <section class="features">
 
 ### Features
 
+-   [`9a1c7c1`](https://github.com/stdlib-js/stdlib/commit/9a1c7c1fb370e0fab0a7b560a64240682b507186) - add `zxdy` to namespace
+-   [`a98bbff`](https://github.com/stdlib-js/stdlib/commit/a98bbffab2e4b66c07d9e4a545528b6aa8c88446) - add `zxdy` to namespace
+-   [`7dd59f5`](https://github.com/stdlib-js/stdlib/commit/7dd59f5645376fd714344cf7967837491775d4c2) - add `blas/ext/base/ndarray/zxdy` [(#13568)](https://github.com/stdlib-js/stdlib/pull/13568)
+-   [`f8a04bc`](https://github.com/stdlib-js/stdlib/commit/f8a04bc6e2f3a3a18585c186eedcf2d6064c0346) - add `blas/ext/base/zxdy` [(#13564)](https://github.com/stdlib-js/stdlib/pull/13564)
 -   [`bb73694`](https://github.com/stdlib-js/stdlib/commit/bb73694c5843ef47dcd9887d287e7677887c3c4f) - update `blas/ext/base` TypeScript declarations [(#13573)](https://github.com/stdlib-js/stdlib/pull/13573)
 -   [`3450f46`](https://github.com/stdlib-js/stdlib/commit/3450f464c9e33b8092962c1964043105fa900132) - update `blas/ext/base/ndarray` TypeScript declarations [(#13572)](https://github.com/stdlib-js/stdlib/pull/13572)
 -   [`5253dd3`](https://github.com/stdlib-js/stdlib/commit/5253dd34980a7b23e79887a22ea6fb6095e241db) - add `dfirstIndexLessThan` and `sfirstIndexLessThan` to namespace
@@ -575,6 +579,14 @@
 
 <details>
 
+-   [`9a1c7c1`](https://github.com/stdlib-js/stdlib/commit/9a1c7c1fb370e0fab0a7b560a64240682b507186) - **feat:** add `zxdy` to namespace _(by Athan Reines)_
+-   [`a98bbff`](https://github.com/stdlib-js/stdlib/commit/a98bbffab2e4b66c07d9e4a545528b6aa8c88446) - **feat:** add `zxdy` to namespace _(by Athan Reines)_
+-   [`7dd59f5`](https://github.com/stdlib-js/stdlib/commit/7dd59f5645376fd714344cf7967837491775d4c2) - **feat:** add `blas/ext/base/ndarray/zxdy` [(#13568)](https://github.com/stdlib-js/stdlib/pull/13568) _(by Karan Anand)_
+-   [`f8a04bc`](https://github.com/stdlib-js/stdlib/commit/f8a04bc6e2f3a3a18585c186eedcf2d6064c0346) - **feat:** add `blas/ext/base/zxdy` [(#13564)](https://github.com/stdlib-js/stdlib/pull/13564) _(by Karan Anand, Athan Reines)_
+-   [`b953edd`](https://github.com/stdlib-js/stdlib/commit/b953edd95d0ca1b521d0abbd2c2719d099ff7807) - **refactor:** use `constants/float64/nan` and clean-up [(#13585)](https://github.com/stdlib-js/stdlib/pull/13585) _(by Philipp Burckhardt)_
+-   [`b772009`](https://github.com/stdlib-js/stdlib/commit/b7720097291937d41fbac5611b0e310210965a87) - **chore:** clean-up [(#13584)](https://github.com/stdlib-js/stdlib/pull/13584) _(by Philipp Burckhardt)_
+-   [`f25221d`](https://github.com/stdlib-js/stdlib/commit/f25221d5fcb5e84cb0ad4951db6f08f254c12d15) - **docs:** update Markdown equation elements _(by stdlib-bot)_
+-   [`6c38993`](https://github.com/stdlib-js/stdlib/commit/6c38993a7eabe55b575ff98f2b997eb31a146eef) - **docs:** update Markdown equation SVGs _(by stdlib-bot)_
 -   [`bb73694`](https://github.com/stdlib-js/stdlib/commit/bb73694c5843ef47dcd9887d287e7677887c3c4f) - **feat:** update `blas/ext/base` TypeScript declarations [(#13573)](https://github.com/stdlib-js/stdlib/pull/13573) _(by stdlib-bot)_
 -   [`3450f46`](https://github.com/stdlib-js/stdlib/commit/3450f464c9e33b8092962c1964043105fa900132) - **feat:** update `blas/ext/base/ndarray` TypeScript declarations [(#13572)](https://github.com/stdlib-js/stdlib/pull/13572) _(by stdlib-bot)_
 -   [`90b59bc`](https://github.com/stdlib-js/stdlib/commit/90b59bc772f94cd29af6854a219dd77a8197b78d) - **docs:** update namespace table of contents [(#13575)](https://github.com/stdlib-js/stdlib/pull/13575) _(by stdlib-bot)_
