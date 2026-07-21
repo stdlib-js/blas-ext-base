@@ -10,6 +10,8 @@
 
 ### Features
 
+-   [`cd11115`](https://github.com/stdlib-js/stdlib/commit/cd111158dfb4d6c60848678bafb80e02d31d5757) - update `blas/ext/base` TypeScript declarations [(#13589)](https://github.com/stdlib-js/stdlib/pull/13589)
+-   [`b1e5869`](https://github.com/stdlib-js/stdlib/commit/b1e58694eb92fa9db04ae7b584e3ad2b3a6d1fa0) - update `blas/ext/base/ndarray` TypeScript declarations [(#13588)](https://github.com/stdlib-js/stdlib/pull/13588)
 -   [`9a1c7c1`](https://github.com/stdlib-js/stdlib/commit/9a1c7c1fb370e0fab0a7b560a64240682b507186) - add `zxdy` to namespace
 -   [`a98bbff`](https://github.com/stdlib-js/stdlib/commit/a98bbffab2e4b66c07d9e4a545528b6aa8c88446) - add `zxdy` to namespace
 -   [`7dd59f5`](https://github.com/stdlib-js/stdlib/commit/7dd59f5645376fd714344cf7967837491775d4c2) - add `blas/ext/base/ndarray/zxdy` [(#13568)](https://github.com/stdlib-js/stdlib/pull/13568)
@@ -579,6 +581,8 @@
 
 <details>
 
+-   [`cd11115`](https://github.com/stdlib-js/stdlib/commit/cd111158dfb4d6c60848678bafb80e02d31d5757) - **feat:** update `blas/ext/base` TypeScript declarations [(#13589)](https://github.com/stdlib-js/stdlib/pull/13589) _(by stdlib-bot)_
+-   [`b1e5869`](https://github.com/stdlib-js/stdlib/commit/b1e58694eb92fa9db04ae7b584e3ad2b3a6d1fa0) - **feat:** update `blas/ext/base/ndarray` TypeScript declarations [(#13588)](https://github.com/stdlib-js/stdlib/pull/13588) _(by stdlib-bot)_
 -   [`3f8fe7f`](https://github.com/stdlib-js/stdlib/commit/3f8fe7fe0c3783141a6bc80690ab78497591323f) - **docs:** update namespace table of contents [(#13591)](https://github.com/stdlib-js/stdlib/pull/13591) _(by stdlib-bot)_
 -   [`9a1c7c1`](https://github.com/stdlib-js/stdlib/commit/9a1c7c1fb370e0fab0a7b560a64240682b507186) - **feat:** add `zxdy` to namespace _(by Athan Reines)_
 -   [`a98bbff`](https://github.com/stdlib-js/stdlib/commit/a98bbffab2e4b66c07d9e4a545528b6aa8c88446) - **feat:** add `zxdy` to namespace _(by Athan Reines)_
