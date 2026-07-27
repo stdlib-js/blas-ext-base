@@ -10,6 +10,15 @@
 
 ### Features
 
+-   [`02d9b41`](https://github.com/stdlib-js/stdlib/commit/02d9b41da8934e2eef3b20a8dc3e14761735cc7b) - add `gwxmy` and `zcartesianProduct` to namespace
+-   [`bacbb9b`](https://github.com/stdlib-js/stdlib/commit/bacbb9b22d48d5a0ac945f7ed7a7c04b38e62a37) - add `cwxsa`, `dwxsa`, `gwxsa`, `swsxa`, and `zwxsa` to namespace
+-   [`262e4c6`](https://github.com/stdlib-js/stdlib/commit/262e4c6027e39fba8f8a80b6844369e262bb62a4) - add `blas/ext/base/ndarray/zwxsa` [(#13682)](https://github.com/stdlib-js/stdlib/pull/13682)
+-   [`41598f0`](https://github.com/stdlib-js/stdlib/commit/41598f007722669296000160423c8642bb072649) - add `blas/ext/base/ndarray/cwxsa` [(#13681)](https://github.com/stdlib-js/stdlib/pull/13681)
+-   [`42fc0f9`](https://github.com/stdlib-js/stdlib/commit/42fc0f9cc903d2087121db78f9749d3031f514d0) - add `blas/ext/base/gwxmy` [(#13683)](https://github.com/stdlib-js/stdlib/pull/13683)
+-   [`5144a03`](https://github.com/stdlib-js/stdlib/commit/5144a037ca5d32b670f754572d0a71ab815eee90) - add `blas/ext/base/ndarray/swxsa` [(#13678)](https://github.com/stdlib-js/stdlib/pull/13678)
+-   [`7caa263`](https://github.com/stdlib-js/stdlib/commit/7caa263a0cf5f22a14a58c0503a1dfd3c231872d) - add `blas/ext/base/ndarray/dwxsa` [(#13679)](https://github.com/stdlib-js/stdlib/pull/13679)
+-   [`97052d6`](https://github.com/stdlib-js/stdlib/commit/97052d665119ff2881f29310a8059646015163b4) - add `blas/ext/base/ndarray/gwxsa` [(#13680)](https://github.com/stdlib-js/stdlib/pull/13680)
+-   [`c19010a`](https://github.com/stdlib-js/stdlib/commit/c19010a5833c251b63a3cf6f7a92f51e3d4bafaf) - add `blas/ext/base/zcartesian-product` [(#12646)](https://github.com/stdlib-js/stdlib/pull/12646)
 -   [`99657f7`](https://github.com/stdlib-js/stdlib/commit/99657f7dca2210ad0b553421f26258c7b629e0a3) - add `dfirstIndexLessThan`, `gfirstIndexLessThan`, `dindexOfNotEqual` to namespace
 -   [`adcd582`](https://github.com/stdlib-js/stdlib/commit/adcd5827ae001b14378db6c014feb89522f71858) - add `gtriu` and `zcartesianSquare` to namespace
 -   [`a7865fd`](https://github.com/stdlib-js/stdlib/commit/a7865fdde1c2ce33df770d2a987dc1775ee5690e) - add `blas/ext/base/zcartesian-square` [(#11830)](https://github.com/stdlib-js/stdlib/pull/11830)
@@ -600,6 +609,17 @@ This release closes the following issue:
 
 <details>
 
+-   [`02d9b41`](https://github.com/stdlib-js/stdlib/commit/02d9b41da8934e2eef3b20a8dc3e14761735cc7b) - **feat:** add `gwxmy` and `zcartesianProduct` to namespace _(by Athan Reines)_
+-   [`bacbb9b`](https://github.com/stdlib-js/stdlib/commit/bacbb9b22d48d5a0ac945f7ed7a7c04b38e62a37) - **feat:** add `cwxsa`, `dwxsa`, `gwxsa`, `swsxa`, and `zwxsa` to namespace _(by Athan Reines)_
+-   [`7d094cf`](https://github.com/stdlib-js/stdlib/commit/7d094cf3a0884ea538611332e6355facda825489) - **docs:** add link [(#13685)](https://github.com/stdlib-js/stdlib/pull/13685) _(by Karan Anand)_
+-   [`262e4c6`](https://github.com/stdlib-js/stdlib/commit/262e4c6027e39fba8f8a80b6844369e262bb62a4) - **feat:** add `blas/ext/base/ndarray/zwxsa` [(#13682)](https://github.com/stdlib-js/stdlib/pull/13682) _(by Karan Anand, Athan Reines)_
+-   [`41598f0`](https://github.com/stdlib-js/stdlib/commit/41598f007722669296000160423c8642bb072649) - **feat:** add `blas/ext/base/ndarray/cwxsa` [(#13681)](https://github.com/stdlib-js/stdlib/pull/13681) _(by Karan Anand, Athan Reines)_
+-   [`7d69621`](https://github.com/stdlib-js/stdlib/commit/7d69621f6e719dbe9651cc0e999f055e77c22bc4) - **docs:** add link [(#13684)](https://github.com/stdlib-js/stdlib/pull/13684) _(by Karan Anand)_
+-   [`42fc0f9`](https://github.com/stdlib-js/stdlib/commit/42fc0f9cc903d2087121db78f9749d3031f514d0) - **feat:** add `blas/ext/base/gwxmy` [(#13683)](https://github.com/stdlib-js/stdlib/pull/13683) _(by Karan Anand)_
+-   [`5144a03`](https://github.com/stdlib-js/stdlib/commit/5144a037ca5d32b670f754572d0a71ab815eee90) - **feat:** add `blas/ext/base/ndarray/swxsa` [(#13678)](https://github.com/stdlib-js/stdlib/pull/13678) _(by Karan Anand, Athan Reines)_
+-   [`7caa263`](https://github.com/stdlib-js/stdlib/commit/7caa263a0cf5f22a14a58c0503a1dfd3c231872d) - **feat:** add `blas/ext/base/ndarray/dwxsa` [(#13679)](https://github.com/stdlib-js/stdlib/pull/13679) _(by Karan Anand, Athan Reines)_
+-   [`97052d6`](https://github.com/stdlib-js/stdlib/commit/97052d665119ff2881f29310a8059646015163b4) - **feat:** add `blas/ext/base/ndarray/gwxsa` [(#13680)](https://github.com/stdlib-js/stdlib/pull/13680) _(by Karan Anand, Athan Reines)_
+-   [`c19010a`](https://github.com/stdlib-js/stdlib/commit/c19010a5833c251b63a3cf6f7a92f51e3d4bafaf) - **feat:** add `blas/ext/base/zcartesian-product` [(#12646)](https://github.com/stdlib-js/stdlib/pull/12646) _(by Muhammad Haris, Athan Reines)_
 -   [`99657f7`](https://github.com/stdlib-js/stdlib/commit/99657f7dca2210ad0b553421f26258c7b629e0a3) - **feat:** add `dfirstIndexLessThan`, `gfirstIndexLessThan`, `dindexOfNotEqual` to namespace _(by Athan Reines)_
 -   [`adcd582`](https://github.com/stdlib-js/stdlib/commit/adcd5827ae001b14378db6c014feb89522f71858) - **feat:** add `gtriu` and `zcartesianSquare` to namespace _(by Athan Reines)_
 -   [`a7865fd`](https://github.com/stdlib-js/stdlib/commit/a7865fdde1c2ce33df770d2a987dc1775ee5690e) - **feat:** add `blas/ext/base/zcartesian-square` [(#11830)](https://github.com/stdlib-js/stdlib/pull/11830) _(by Muhammad Haris, Athan Reines)_
