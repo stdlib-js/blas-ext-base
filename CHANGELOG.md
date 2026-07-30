@@ -10,6 +10,11 @@
 
 ### Features
 
+-   [`04b7511`](https://github.com/stdlib-js/stdlib/commit/04b751124cbfab5f144b7dab7056dbef9fe0474b) - add `dwxsy`, `swxmy`, `swxpy`, `swxsy` to namespace
+-   [`49ae61d`](https://github.com/stdlib-js/stdlib/commit/49ae61d06166c2b205d9900f75e8c3ae4fc7d33e) - add `blas/ext/base/swxmy` [(#13713)](https://github.com/stdlib-js/stdlib/pull/13713)
+-   [`6f54c0b`](https://github.com/stdlib-js/stdlib/commit/6f54c0b87585d94ea90a173703ef585a039ce2da) - add `blas/ext/base/swxpy` [(#13721)](https://github.com/stdlib-js/stdlib/pull/13721)
+-   [`36f4ad6`](https://github.com/stdlib-js/stdlib/commit/36f4ad6f345b5bfe0ebb134d7ea8ff210197bccd) - add `blas/ext/base/dwxsy` [(#13764)](https://github.com/stdlib-js/stdlib/pull/13764)
+-   [`455b52e`](https://github.com/stdlib-js/stdlib/commit/455b52e6f734290465b536dc1bd7f8f80ecaa588) - add `blas/ext/base/swxsy` [(#13769)](https://github.com/stdlib-js/stdlib/pull/13769)
 -   [`52e533e`](https://github.com/stdlib-js/stdlib/commit/52e533e14adc08e39a812c6012ba57c513fed1eb) - update `blas/ext/base` TypeScript declarations [(#13768)](https://github.com/stdlib-js/stdlib/pull/13768)
 -   [`39a2ecc`](https://github.com/stdlib-js/stdlib/commit/39a2ecc05db1b48d7f505322e76b03e950602fb5) - add `dwxpy` and `gsorthpBy` to namespace
 -   [`f71616b`](https://github.com/stdlib-js/stdlib/commit/f71616b4d04ac49f76171570e600b3837891e7fe) - add `blas/ext/base/gsorthp-by` [(#13247)](https://github.com/stdlib-js/stdlib/pull/13247)
@@ -624,6 +629,13 @@ This release closes the following issue:
 
 <details>
 
+-   [`04b7511`](https://github.com/stdlib-js/stdlib/commit/04b751124cbfab5f144b7dab7056dbef9fe0474b) - **feat:** add `dwxsy`, `swxmy`, `swxpy`, `swxsy` to namespace _(by Athan Reines)_
+-   [`49ae61d`](https://github.com/stdlib-js/stdlib/commit/49ae61d06166c2b205d9900f75e8c3ae4fc7d33e) - **feat:** add `blas/ext/base/swxmy` [(#13713)](https://github.com/stdlib-js/stdlib/pull/13713) _(by Karan Anand)_
+-   [`6f54c0b`](https://github.com/stdlib-js/stdlib/commit/6f54c0b87585d94ea90a173703ef585a039ce2da) - **feat:** add `blas/ext/base/swxpy` [(#13721)](https://github.com/stdlib-js/stdlib/pull/13721) _(by Karan Anand)_
+-   [`abe2e55`](https://github.com/stdlib-js/stdlib/commit/abe2e550ce8c29d07dc21901e5ba4221f941a300) - **build:** add wasm configurations [(#13771)](https://github.com/stdlib-js/stdlib/pull/13771) _(by Karan Anand, Athan Reines)_
+-   [`36f4ad6`](https://github.com/stdlib-js/stdlib/commit/36f4ad6f345b5bfe0ebb134d7ea8ff210197bccd) - **feat:** add `blas/ext/base/dwxsy` [(#13764)](https://github.com/stdlib-js/stdlib/pull/13764) _(by Karan Anand)_
+-   [`455b52e`](https://github.com/stdlib-js/stdlib/commit/455b52e6f734290465b536dc1bd7f8f80ecaa588) - **feat:** add `blas/ext/base/swxsy` [(#13769)](https://github.com/stdlib-js/stdlib/pull/13769) _(by Karan Anand)_
+-   [`9f0bb66`](https://github.com/stdlib-js/stdlib/commit/9f0bb6633afa52523e9c0763878e295fa1c5ba66) - **docs:** update namespace table of contents [(#13770)](https://github.com/stdlib-js/stdlib/pull/13770) _(by stdlib-bot)_
 -   [`52e533e`](https://github.com/stdlib-js/stdlib/commit/52e533e14adc08e39a812c6012ba57c513fed1eb) - **feat:** update `blas/ext/base` TypeScript declarations [(#13768)](https://github.com/stdlib-js/stdlib/pull/13768) _(by stdlib-bot)_
 -   [`10ee0a5`](https://github.com/stdlib-js/stdlib/commit/10ee0a56ed60ae3d051ff0426b8e203a29c44cdc) - **chore:** clean-up [(#13754)](https://github.com/stdlib-js/stdlib/pull/13754) _(by Philipp Burckhardt)_
 -   [`c90a54a`](https://github.com/stdlib-js/stdlib/commit/c90a54ab17c4cbbbf0c78e2e5bea120f90debd14) - **chore:** clean-up [(#13752)](https://github.com/stdlib-js/stdlib/pull/13752) _(by Philipp Burckhardt, Athan Reines)_
