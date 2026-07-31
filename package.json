@@ -91,6 +91,7 @@
     "@stdlib/blas-ext-base-dfill-nan": "github:stdlib-js/blas-ext-base-dfill-nan#main",
     "@stdlib/blas-ext-base-dfill-not-equal": "github:stdlib-js/blas-ext-base-dfill-not-equal#main",
     "@stdlib/blas-ext-base-dfirst-index-equal": "github:stdlib-js/blas-ext-base-dfirst-index-equal#main",
+    "@stdlib/blas-ext-base-dfirst-index-greater-than": "github:stdlib-js/blas-ext-base-dfirst-index-greater-than#main",
     "@stdlib/blas-ext-base-dfirst-index-less-than": "github:stdlib-js/blas-ext-base-dfirst-index-less-than#main",
     "@stdlib/blas-ext-base-dindex-of": "^0.1.1",
     "@stdlib/blas-ext-base-dindex-of-column": "github:stdlib-js/blas-ext-base-dindex-of-column#main",
