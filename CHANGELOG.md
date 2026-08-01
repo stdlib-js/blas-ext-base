@@ -4,12 +4,17 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-07-31)
+## Unreleased (2026-08-01)
 
 <section class="features">
 
 ### Features
 
+-   [`deeb87b`](https://github.com/stdlib-js/stdlib/commit/deeb87be93d9cd4d199cb137eac42757cc14c6a2) - add `zlastIndexOfFalsy` to namespace
+-   [`f7f06ec`](https://github.com/stdlib-js/stdlib/commit/f7f06ec06d23b1b67d90d955b32b595a476fb6b3) - add `gfillEqual` and `sindexOfNotEqual` to namespace
+-   [`321bbd8`](https://github.com/stdlib-js/stdlib/commit/321bbd80199d4fc09e59e5d00bd0996fed349005) - add `blas/ext/base/ndarray/sindex-of-not-equal` [(#13560)](https://github.com/stdlib-js/stdlib/pull/13560)
+-   [`35251d8`](https://github.com/stdlib-js/stdlib/commit/35251d8eeb6ae8d50fd92604399824a5a0b6e432) - add `blas/ext/base/zlast-index-of-falsy` [(#13535)](https://github.com/stdlib-js/stdlib/pull/13535)
+-   [`bdd912c`](https://github.com/stdlib-js/stdlib/commit/bdd912cecb2c3485281ad3552667b8c1b4a529cb) - add `blas/ext/base/ndarray/gfill-equal` [(#13561)](https://github.com/stdlib-js/stdlib/pull/13561)
 -   [`8e73a39`](https://github.com/stdlib-js/stdlib/commit/8e73a393a749f649f7c16f0e763c16c16eea8b0b) - add `zwxmy` to namespace
 -   [`451c6c8`](https://github.com/stdlib-js/stdlib/commit/451c6c8ba0e1b7d6183a9bb2b53b68c22a9b3e8d) - add `blas/ext/base/zwxmy` [(#13715)](https://github.com/stdlib-js/stdlib/pull/13715)
 -   [`8f69a3d`](https://github.com/stdlib-js/stdlib/commit/8f69a3de6d8cdd35d69e5524b6b8df2ae8dfd641) - add `dtriu` and `striu` to namespace
@@ -644,6 +649,13 @@ This release closes the following issue:
 
 <details>
 
+-   [`deeb87b`](https://github.com/stdlib-js/stdlib/commit/deeb87be93d9cd4d199cb137eac42757cc14c6a2) - **feat:** add `zlastIndexOfFalsy` to namespace _(by Athan Reines)_
+-   [`f7f06ec`](https://github.com/stdlib-js/stdlib/commit/f7f06ec06d23b1b67d90d955b32b595a476fb6b3) - **feat:** add `gfillEqual` and `sindexOfNotEqual` to namespace _(by Athan Reines)_
+-   [`321bbd8`](https://github.com/stdlib-js/stdlib/commit/321bbd80199d4fc09e59e5d00bd0996fed349005) - **feat:** add `blas/ext/base/ndarray/sindex-of-not-equal` [(#13560)](https://github.com/stdlib-js/stdlib/pull/13560) _(by Muhammad Haris, Athan Reines)_
+-   [`35251d8`](https://github.com/stdlib-js/stdlib/commit/35251d8eeb6ae8d50fd92604399824a5a0b6e432) - **feat:** add `blas/ext/base/zlast-index-of-falsy` [(#13535)](https://github.com/stdlib-js/stdlib/pull/13535) _(by Muhammad Haris, Athan Reines)_
+-   [`bdd912c`](https://github.com/stdlib-js/stdlib/commit/bdd912cecb2c3485281ad3552667b8c1b4a529cb) - **feat:** add `blas/ext/base/ndarray/gfill-equal` [(#13561)](https://github.com/stdlib-js/stdlib/pull/13561) _(by Muhammad Haris, Athan Reines)_
+-   [`430fdea`](https://github.com/stdlib-js/stdlib/commit/430fdea947428af11c0e75dc6f6a0bd3cbd13e88) - **chore:** clean-up [(#13805)](https://github.com/stdlib-js/stdlib/pull/13805) _(by Philipp Burckhardt)_
+-   [`382065d`](https://github.com/stdlib-js/stdlib/commit/382065db2b6fa61764c0f170d8fc47fc41ceb38e) - **docs:** fix C API examples in `blas/ext/base/zwxmy` [(#13802)](https://github.com/stdlib-js/stdlib/pull/13802) _(by Philipp Burckhardt)_
 -   [`8e73a39`](https://github.com/stdlib-js/stdlib/commit/8e73a393a749f649f7c16f0e763c16c16eea8b0b) - **feat:** add `zwxmy` to namespace _(by Athan Reines)_
 -   [`451c6c8`](https://github.com/stdlib-js/stdlib/commit/451c6c8ba0e1b7d6183a9bb2b53b68c22a9b3e8d) - **feat:** add `blas/ext/base/zwxmy` [(#13715)](https://github.com/stdlib-js/stdlib/pull/13715) _(by Karan Anand)_
 -   [`d389b17`](https://github.com/stdlib-js/stdlib/commit/d389b17e2d3a7899dd14810d2e39d507dbe11ab4) - **test:** fix test messages _(by Athan Reines)_
