@@ -10,6 +10,10 @@
 
 ### Features
 
+-   [`c73cd19`](https://github.com/stdlib-js/stdlib/commit/c73cd19b8091980d997ffe984a21a12cb6120de7) - add `cwxsy` and `zwxsy` to namespace
+-   [`c76524b`](https://github.com/stdlib-js/stdlib/commit/c76524be87a121a6582d0aef3bb4cea4f0b2b787) - add `blas/ext/base/zwxsy` [(#13795)](https://github.com/stdlib-js/stdlib/pull/13795)
+-   [`1a8c0fa`](https://github.com/stdlib-js/stdlib/commit/1a8c0fa1384559cc6a5f555ef45a4f4cd86ff86c) - add `blas/ext/base/cwxsy` [(#13797)](https://github.com/stdlib-js/stdlib/pull/13797)
+-   [`6628c7e`](https://github.com/stdlib-js/stdlib/commit/6628c7ef569d23c7e469a6d03b0e332dc81a02a3) - update `blas/ext/base/ndarray` TypeScript declarations [(#13821)](https://github.com/stdlib-js/stdlib/pull/13821)
 -   [`94bf37f`](https://github.com/stdlib-js/stdlib/commit/94bf37f511638f34e84d59d09874d0b0acf89373) - update `blas/ext/base` TypeScript declarations [(#13822)](https://github.com/stdlib-js/stdlib/pull/13822)
 -   [`deeb87b`](https://github.com/stdlib-js/stdlib/commit/deeb87be93d9cd4d199cb137eac42757cc14c6a2) - add `zlastIndexOfFalsy` to namespace
 -   [`f7f06ec`](https://github.com/stdlib-js/stdlib/commit/f7f06ec06d23b1b67d90d955b32b595a476fb6b3) - add `gfillEqual` and `sindexOfNotEqual` to namespace
@@ -650,6 +654,10 @@ This release closes the following issue:
 
 <details>
 
+-   [`c73cd19`](https://github.com/stdlib-js/stdlib/commit/c73cd19b8091980d997ffe984a21a12cb6120de7) - **feat:** add `cwxsy` and `zwxsy` to namespace _(by Athan Reines)_
+-   [`c76524b`](https://github.com/stdlib-js/stdlib/commit/c76524be87a121a6582d0aef3bb4cea4f0b2b787) - **feat:** add `blas/ext/base/zwxsy` [(#13795)](https://github.com/stdlib-js/stdlib/pull/13795) _(by Karan Anand, Athan Reines)_
+-   [`1a8c0fa`](https://github.com/stdlib-js/stdlib/commit/1a8c0fa1384559cc6a5f555ef45a4f4cd86ff86c) - **feat:** add `blas/ext/base/cwxsy` [(#13797)](https://github.com/stdlib-js/stdlib/pull/13797) _(by Karan Anand, Athan Reines)_
+-   [`6628c7e`](https://github.com/stdlib-js/stdlib/commit/6628c7ef569d23c7e469a6d03b0e332dc81a02a3) - **feat:** update `blas/ext/base/ndarray` TypeScript declarations [(#13821)](https://github.com/stdlib-js/stdlib/pull/13821) _(by stdlib-bot)_
 -   [`94bf37f`](https://github.com/stdlib-js/stdlib/commit/94bf37f511638f34e84d59d09874d0b0acf89373) - **feat:** update `blas/ext/base` TypeScript declarations [(#13822)](https://github.com/stdlib-js/stdlib/pull/13822) _(by stdlib-bot)_
 -   [`23754ee`](https://github.com/stdlib-js/stdlib/commit/23754ee4984d1234aad0ed046a1387232f472ae6) - **docs:** update namespace table of contents [(#13824)](https://github.com/stdlib-js/stdlib/pull/13824) _(by stdlib-bot)_
 -   [`deeb87b`](https://github.com/stdlib-js/stdlib/commit/deeb87be93d9cd4d199cb137eac42757cc14c6a2) - **feat:** add `zlastIndexOfFalsy` to namespace _(by Athan Reines)_
