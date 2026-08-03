@@ -10,6 +10,9 @@
 
 ### Features
 
+-   [`8a59dbb`](https://github.com/stdlib-js/stdlib/commit/8a59dbb67df4d3db474598220b08d3f14c8a8966) - add `dtril` and `stril` to namespace
+-   [`e67b57a`](https://github.com/stdlib-js/stdlib/commit/e67b57abc3958d5e89a8ecb528791cab8902b096) - add `blas/ext/base/stril` [(#13866)](https://github.com/stdlib-js/stdlib/pull/13866)
+-   [`95afc49`](https://github.com/stdlib-js/stdlib/commit/95afc496caf8360f8dbf5c7b560b025c4a94de91) - add `blas/ext/base/dtril` [(#13863)](https://github.com/stdlib-js/stdlib/pull/13863)
 -   [`0c06470`](https://github.com/stdlib-js/stdlib/commit/0c06470bf2d9709dbf13b97b978c19173e2e9cee) - update `blas/ext/base` TypeScript declarations [(#13871)](https://github.com/stdlib-js/stdlib/pull/13871)
 -   [`d7e176f`](https://github.com/stdlib-js/stdlib/commit/d7e176f0b434396ca1b4440e63d56f2cd896d9b7) - add `dcopyWithin` and `gtril` to namespace
 -   [`de7ab3e`](https://github.com/stdlib-js/stdlib/commit/de7ab3e827c58a490ba25dcdd146e0a4880e0846) - add `blas/ext/base/gtril` [(#13867)](https://github.com/stdlib-js/stdlib/pull/13867)
@@ -664,6 +667,9 @@ This release closes the following issue:
 
 <details>
 
+-   [`8a59dbb`](https://github.com/stdlib-js/stdlib/commit/8a59dbb67df4d3db474598220b08d3f14c8a8966) - **feat:** add `dtril` and `stril` to namespace _(by Athan Reines)_
+-   [`e67b57a`](https://github.com/stdlib-js/stdlib/commit/e67b57abc3958d5e89a8ecb528791cab8902b096) - **feat:** add `blas/ext/base/stril` [(#13866)](https://github.com/stdlib-js/stdlib/pull/13866) _(by Kaustubh Patange, Athan Reines)_
+-   [`95afc49`](https://github.com/stdlib-js/stdlib/commit/95afc496caf8360f8dbf5c7b560b025c4a94de91) - **feat:** add `blas/ext/base/dtril` [(#13863)](https://github.com/stdlib-js/stdlib/pull/13863) _(by Kaustubh Patange)_
 -   [`0c06470`](https://github.com/stdlib-js/stdlib/commit/0c06470bf2d9709dbf13b97b978c19173e2e9cee) - **feat:** update `blas/ext/base` TypeScript declarations [(#13871)](https://github.com/stdlib-js/stdlib/pull/13871) _(by stdlib-bot)_
 -   [`67eddb8`](https://github.com/stdlib-js/stdlib/commit/67eddb82a1bae564f3603d48d158c820717bf45d) - **docs:** update namespace table of contents [(#13873)](https://github.com/stdlib-js/stdlib/pull/13873) _(by stdlib-bot)_
 -   [`d7e176f`](https://github.com/stdlib-js/stdlib/commit/d7e176f0b434396ca1b4440e63d56f2cd896d9b7) - **feat:** add `dcopyWithin` and `gtril` to namespace _(by Athan Reines)_
