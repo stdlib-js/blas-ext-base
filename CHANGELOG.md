@@ -4,12 +4,19 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-08-03)
+## Unreleased (2026-08-04)
 
 <section class="features">
 
 ### Features
 
+-   [`681a95f`](https://github.com/stdlib-js/stdlib/commit/681a95fc177c62e75d5ace80231d00d8ea777192) - update `blas/ext/base` TypeScript declarations [(#13902)](https://github.com/stdlib-js/stdlib/pull/13902)
+-   [`f27e6eb`](https://github.com/stdlib-js/stdlib/commit/f27e6ebcb209931a4781c92ff3aeb9d4c0fe0552) - add `blas/ext/base/dwxdy` [(#13848)](https://github.com/stdlib-js/stdlib/pull/13848)
+-   [`deb4cc6`](https://github.com/stdlib-js/stdlib/commit/deb4cc6d397356e6bc6523c2ba471a0779588c02) - add `blas/ext/base/ndarray/cindex-of-truthy` [(#13885)](https://github.com/stdlib-js/stdlib/pull/13885)
+-   [`f9cf5fa`](https://github.com/stdlib-js/stdlib/commit/f9cf5fa73ea2476423eab22e31b6972eea1f6760) - add `blas/ext/base/ndarray/zindex-of-truthy` [(#13887)](https://github.com/stdlib-js/stdlib/pull/13887)
+-   [`fa9cd2c`](https://github.com/stdlib-js/stdlib/commit/fa9cd2c7f7d3422b12942d1c65511d422075ee58) - add `blas/ext/base/ndarray/dindex-of-truthy` [(#13881)](https://github.com/stdlib-js/stdlib/pull/13881)
+-   [`7990082`](https://github.com/stdlib-js/stdlib/commit/7990082003e2fed3624714a9d073ea9600a359cc) - add `blas/ext/base/ndarray/sindex-of-truthy` [(#13882)](https://github.com/stdlib-js/stdlib/pull/13882)
+-   [`a752a62`](https://github.com/stdlib-js/stdlib/commit/a752a625201ea5c0ff3f77544622ebdf3b1fcf4b) - add `blas/ext/base/scopy-within` [(#10880)](https://github.com/stdlib-js/stdlib/pull/10880)
 -   [`8a59dbb`](https://github.com/stdlib-js/stdlib/commit/8a59dbb67df4d3db474598220b08d3f14c8a8966) - add `dtril` and `stril` to namespace
 -   [`e67b57a`](https://github.com/stdlib-js/stdlib/commit/e67b57abc3958d5e89a8ecb528791cab8902b096) - add `blas/ext/base/stril` [(#13866)](https://github.com/stdlib-js/stdlib/pull/13866)
 -   [`95afc49`](https://github.com/stdlib-js/stdlib/commit/95afc496caf8360f8dbf5c7b560b025c4a94de91) - add `blas/ext/base/dtril` [(#13863)](https://github.com/stdlib-js/stdlib/pull/13863)
@@ -667,6 +674,14 @@ This release closes the following issue:
 
 <details>
 
+-   [`681a95f`](https://github.com/stdlib-js/stdlib/commit/681a95fc177c62e75d5ace80231d00d8ea777192) - **feat:** update `blas/ext/base` TypeScript declarations [(#13902)](https://github.com/stdlib-js/stdlib/pull/13902) _(by stdlib-bot)_
+-   [`f27e6eb`](https://github.com/stdlib-js/stdlib/commit/f27e6ebcb209931a4781c92ff3aeb9d4c0fe0552) - **feat:** add `blas/ext/base/dwxdy` [(#13848)](https://github.com/stdlib-js/stdlib/pull/13848) _(by Karan Anand)_
+-   [`deb4cc6`](https://github.com/stdlib-js/stdlib/commit/deb4cc6d397356e6bc6523c2ba471a0779588c02) - **feat:** add `blas/ext/base/ndarray/cindex-of-truthy` [(#13885)](https://github.com/stdlib-js/stdlib/pull/13885) _(by Muhammad Haris)_
+-   [`f9cf5fa`](https://github.com/stdlib-js/stdlib/commit/f9cf5fa73ea2476423eab22e31b6972eea1f6760) - **feat:** add `blas/ext/base/ndarray/zindex-of-truthy` [(#13887)](https://github.com/stdlib-js/stdlib/pull/13887) _(by Muhammad Haris)_
+-   [`fa9cd2c`](https://github.com/stdlib-js/stdlib/commit/fa9cd2c7f7d3422b12942d1c65511d422075ee58) - **feat:** add `blas/ext/base/ndarray/dindex-of-truthy` [(#13881)](https://github.com/stdlib-js/stdlib/pull/13881) _(by Muhammad Haris)_
+-   [`7990082`](https://github.com/stdlib-js/stdlib/commit/7990082003e2fed3624714a9d073ea9600a359cc) - **feat:** add `blas/ext/base/ndarray/sindex-of-truthy` [(#13882)](https://github.com/stdlib-js/stdlib/pull/13882) _(by Muhammad Haris)_
+-   [`a752a62`](https://github.com/stdlib-js/stdlib/commit/a752a625201ea5c0ff3f77544622ebdf3b1fcf4b) - **feat:** add `blas/ext/base/scopy-within` [(#10880)](https://github.com/stdlib-js/stdlib/pull/10880) _(by Muhammad Haris, Athan Reines)_
+-   [`b766e2c`](https://github.com/stdlib-js/stdlib/commit/b766e2c81ea14ce3e92b4b0d5084a1ad999f231c) - **style:** enable lint rule _(by Athan Reines)_
 -   [`8a59dbb`](https://github.com/stdlib-js/stdlib/commit/8a59dbb67df4d3db474598220b08d3f14c8a8966) - **feat:** add `dtril` and `stril` to namespace _(by Athan Reines)_
 -   [`e67b57a`](https://github.com/stdlib-js/stdlib/commit/e67b57abc3958d5e89a8ecb528791cab8902b096) - **feat:** add `blas/ext/base/stril` [(#13866)](https://github.com/stdlib-js/stdlib/pull/13866) _(by Kaustubh Patange, Athan Reines)_
 -   [`95afc49`](https://github.com/stdlib-js/stdlib/commit/95afc496caf8360f8dbf5c7b560b025c4a94de91) - **feat:** add `blas/ext/base/dtril` [(#13863)](https://github.com/stdlib-js/stdlib/pull/13863) _(by Kaustubh Patange)_
