@@ -4,12 +4,16 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-08-05)
+## Unreleased (2026-08-06)
 
 <section class="features">
 
 ### Features
 
+-   [`bf605e6`](https://github.com/stdlib-js/stdlib/commit/bf605e6f9d7438b1d7c8ec5e55298a30c2d9dfa4) - add `dtriu2tril` and `striu2tril` to namespace
+-   [`7c8ed62`](https://github.com/stdlib-js/stdlib/commit/7c8ed62609abd8be1d1b5c85e84a9cf63307d87d) - add `blas/ext/base/striu2tril` [(#13960)](https://github.com/stdlib-js/stdlib/pull/13960)
+-   [`5968644`](https://github.com/stdlib-js/stdlib/commit/5968644e48283b9deb697b067381865b5c7023a4) - add `blas/ext/base/dtriu2tril` [(#13956)](https://github.com/stdlib-js/stdlib/pull/13956)
+-   [`75dab5b`](https://github.com/stdlib-js/stdlib/commit/75dab5bc88fd1d882d0e39cbbb63e0c5d81a9b32) - update `blas/ext/base/ndarray` TypeScript declarations [(#13929)](https://github.com/stdlib-js/stdlib/pull/13929)
 -   [`0fd9c1f`](https://github.com/stdlib-js/stdlib/commit/0fd9c1f4b23ea5858fcd26384117655624e24189) - update `blas/ext/base` TypeScript declarations [(#13930)](https://github.com/stdlib-js/stdlib/pull/13930)
 -   [`fa48b8a`](https://github.com/stdlib-js/stdlib/commit/fa48b8abe427c09d597ea3fbba4eba244cae31cd) - add various symbols to namespace
 -   [`07a265b`](https://github.com/stdlib-js/stdlib/commit/07a265bb24da3a0f33e841263a12ecb60df95632) - add various symbols to namespace
@@ -681,6 +685,13 @@ This release closes the following issue:
 
 <details>
 
+-   [`bf605e6`](https://github.com/stdlib-js/stdlib/commit/bf605e6f9d7438b1d7c8ec5e55298a30c2d9dfa4) - **feat:** add `dtriu2tril` and `striu2tril` to namespace _(by Athan Reines)_
+-   [`7c8ed62`](https://github.com/stdlib-js/stdlib/commit/7c8ed62609abd8be1d1b5c85e84a9cf63307d87d) - **feat:** add `blas/ext/base/striu2tril` [(#13960)](https://github.com/stdlib-js/stdlib/pull/13960) _(by Kaustubh Patange)_
+-   [`5968644`](https://github.com/stdlib-js/stdlib/commit/5968644e48283b9deb697b067381865b5c7023a4) - **feat:** add `blas/ext/base/dtriu2tril` [(#13956)](https://github.com/stdlib-js/stdlib/pull/13956) _(by Kaustubh Patange)_
+-   [`dac85e0`](https://github.com/stdlib-js/stdlib/commit/dac85e0230cd4052f0ec097d58e3372d899782f6) - **docs:** update Markdown equation elements [(#13966)](https://github.com/stdlib-js/stdlib/pull/13966) _(by stdlib-bot, Athan Reines)_
+-   [`75dab5b`](https://github.com/stdlib-js/stdlib/commit/75dab5bc88fd1d882d0e39cbbb63e0c5d81a9b32) - **feat:** update `blas/ext/base/ndarray` TypeScript declarations [(#13929)](https://github.com/stdlib-js/stdlib/pull/13929) _(by stdlib-bot)_
+-   [`3d19e26`](https://github.com/stdlib-js/stdlib/commit/3d19e26c5ac90f6e1902ee773e06728fe7d0ec6d) - **chore:** clean-up [(#13914)](https://github.com/stdlib-js/stdlib/pull/13914) _(by Philipp Burckhardt)_
+-   [`b51ebff`](https://github.com/stdlib-js/stdlib/commit/b51ebff8a15e9d9cf8d9bb64d569d709f45fc994) - **docs:** update Markdown equation elements [(#13928)](https://github.com/stdlib-js/stdlib/pull/13928) _(by stdlib-bot)_
 -   [`0fd9c1f`](https://github.com/stdlib-js/stdlib/commit/0fd9c1f4b23ea5858fcd26384117655624e24189) - **feat:** update `blas/ext/base` TypeScript declarations [(#13930)](https://github.com/stdlib-js/stdlib/pull/13930) _(by stdlib-bot)_
 -   [`879f1c8`](https://github.com/stdlib-js/stdlib/commit/879f1c8c38558b441ceed6b0d086e0a715a81c99) - **docs:** update namespace table of contents [(#13932)](https://github.com/stdlib-js/stdlib/pull/13932) _(by stdlib-bot)_
 -   [`fa48b8a`](https://github.com/stdlib-js/stdlib/commit/fa48b8abe427c09d597ea3fbba4eba244cae31cd) - **feat:** add various symbols to namespace _(by Athan Reines)_
