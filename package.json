@@ -405,6 +405,7 @@
     "@stdlib/blas-ext-base-zreplicate": "github:stdlib-js/blas-ext-base-zreplicate#main",
     "@stdlib/blas-ext-base-zsum": "^0.1.1",
     "@stdlib/blas-ext-base-zsumkbn": "^0.1.1",
+    "@stdlib/blas-ext-base-ztril": "github:stdlib-js/blas-ext-base-ztril#main",
     "@stdlib/blas-ext-base-ztriu": "github:stdlib-js/blas-ext-base-ztriu#main",
     "@stdlib/blas-ext-base-zunitspace": "github:stdlib-js/blas-ext-base-zunitspace#main",
     "@stdlib/blas-ext-base-zwapx": "github:stdlib-js/blas-ext-base-zwapx#main",
