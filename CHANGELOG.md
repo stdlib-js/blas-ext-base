@@ -10,6 +10,11 @@
 
 ### Features
 
+-   [`4929800`](https://github.com/stdlib-js/stdlib/commit/4929800a100d94e4decad89ef6e4779cd2ed655a) - add `dcopyWithin`, `gcopyWithin`, and `scopyWithin` to namespace
+-   [`3011ada`](https://github.com/stdlib-js/stdlib/commit/3011ada9e958935edc18a2c037c5310bd134a687) - add `gtriu2tril` to namespace
+-   [`0cd0c16`](https://github.com/stdlib-js/stdlib/commit/0cd0c164a01f117ae7bbe3797401749b1f85b3a3) - add `blas/ext/base/ndarray/scopy-within` [(#14006)](https://github.com/stdlib-js/stdlib/pull/14006)
+-   [`3285719`](https://github.com/stdlib-js/stdlib/commit/32857196b6f4dea7b428b5f7fdc26c8b79e7d567) - add `blas/ext/base/ndarray/gcopy-within` [(#14002)](https://github.com/stdlib-js/stdlib/pull/14002)
+-   [`7b6112d`](https://github.com/stdlib-js/stdlib/commit/7b6112d845372709a28da86e699bc7325c6d8fac) - add `blas/ext/base/ndarray/dcopy-within` [(#14005)](https://github.com/stdlib-js/stdlib/pull/14005)
 -   [`6545980`](https://github.com/stdlib-js/stdlib/commit/6545980b96914e622d49cedc3237e63a8367c0e8) - update `blas/ext/base` TypeScript declarations [(#13996)](https://github.com/stdlib-js/stdlib/pull/13996)
 -   [`61d48ce`](https://github.com/stdlib-js/stdlib/commit/61d48ce8004a6276438bca02a5d0dd2a1b1ca830) - add `blas/ext/base/gtriu2tril` [(#13980)](https://github.com/stdlib-js/stdlib/pull/13980)
 -   [`bf605e6`](https://github.com/stdlib-js/stdlib/commit/bf605e6f9d7438b1d7c8ec5e55298a30c2d9dfa4) - add `dtriu2tril` and `striu2tril` to namespace
@@ -687,6 +692,11 @@ This release closes the following issue:
 
 <details>
 
+-   [`4929800`](https://github.com/stdlib-js/stdlib/commit/4929800a100d94e4decad89ef6e4779cd2ed655a) - **feat:** add `dcopyWithin`, `gcopyWithin`, and `scopyWithin` to namespace _(by Athan Reines)_
+-   [`3011ada`](https://github.com/stdlib-js/stdlib/commit/3011ada9e958935edc18a2c037c5310bd134a687) - **feat:** add `gtriu2tril` to namespace _(by Athan Reines)_
+-   [`0cd0c16`](https://github.com/stdlib-js/stdlib/commit/0cd0c164a01f117ae7bbe3797401749b1f85b3a3) - **feat:** add `blas/ext/base/ndarray/scopy-within` [(#14006)](https://github.com/stdlib-js/stdlib/pull/14006) _(by Muhammad Haris)_
+-   [`3285719`](https://github.com/stdlib-js/stdlib/commit/32857196b6f4dea7b428b5f7fdc26c8b79e7d567) - **feat:** add `blas/ext/base/ndarray/gcopy-within` [(#14002)](https://github.com/stdlib-js/stdlib/pull/14002) _(by Muhammad Haris)_
+-   [`7b6112d`](https://github.com/stdlib-js/stdlib/commit/7b6112d845372709a28da86e699bc7325c6d8fac) - **feat:** add `blas/ext/base/ndarray/dcopy-within` [(#14005)](https://github.com/stdlib-js/stdlib/pull/14005) _(by Muhammad Haris)_
 -   [`c8e719a`](https://github.com/stdlib-js/stdlib/commit/c8e719af3f5cc40e6b9e89daabaffadb86f05a91) - **docs:** update namespace table of contents [(#13997)](https://github.com/stdlib-js/stdlib/pull/13997) _(by stdlib-bot)_
 -   [`6545980`](https://github.com/stdlib-js/stdlib/commit/6545980b96914e622d49cedc3237e63a8367c0e8) - **feat:** update `blas/ext/base` TypeScript declarations [(#13996)](https://github.com/stdlib-js/stdlib/pull/13996) _(by stdlib-bot)_
 -   [`cfbd29a`](https://github.com/stdlib-js/stdlib/commit/cfbd29afc8207dd44b5722ec49f0438ec08aea79) - **chore:** clean-up [(#13976)](https://github.com/stdlib-js/stdlib/pull/13976) _(by Philipp Burckhardt)_
