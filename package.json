@@ -160,6 +160,7 @@
     "@stdlib/blas-ext-base-dsumors": "^0.3.1",
     "@stdlib/blas-ext-base-dsumpw": "^0.3.1",
     "@stdlib/blas-ext-base-dtril": "github:stdlib-js/blas-ext-base-dtril#main",
+    "@stdlib/blas-ext-base-dtril2triu": "github:stdlib-js/blas-ext-base-dtril2triu#main",
     "@stdlib/blas-ext-base-dtriu": "github:stdlib-js/blas-ext-base-dtriu#main",
     "@stdlib/blas-ext-base-dtriu2tril": "github:stdlib-js/blas-ext-base-dtriu2tril#main",
     "@stdlib/blas-ext-base-dunitspace": "github:stdlib-js/blas-ext-base-dunitspace#main",
