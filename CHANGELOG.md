@@ -4,12 +4,22 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-08-07)
+## Unreleased (2026-08-08)
 
 <section class="features">
 
 ### Features
 
+-   [`31eafd1`](https://github.com/stdlib-js/stdlib/commit/31eafd1afc74a184c69928a501a742d12955fc53) - update `blas/ext/base` TypeScript declarations [(#14041)](https://github.com/stdlib-js/stdlib/pull/14041)
+-   [`e364ad8`](https://github.com/stdlib-js/stdlib/commit/e364ad86d18b7d2ca02eeeeffc567de620a84696) - update `blas/ext/base/ndarray` TypeScript declarations [(#14040)](https://github.com/stdlib-js/stdlib/pull/14040)
+-   [`ec28702`](https://github.com/stdlib-js/stdlib/commit/ec28702dd34b0f1338abc26e8c0c001e73c8cba7) - add `gfirstIndexGreaterThan` to namespace
+-   [`d87632e`](https://github.com/stdlib-js/stdlib/commit/d87632e1af73ae549bb5c1e30ba8c73427b2eb22) - add `blas/ext/base/ndarray/gfirst-index-greater-than` [(#14015)](https://github.com/stdlib-js/stdlib/pull/14015)
+-   [`ed534a5`](https://github.com/stdlib-js/stdlib/commit/ed534a54f1af518e58efa792f366a9293d183212) - add various symbols to namespace
+-   [`5b355d1`](https://github.com/stdlib-js/stdlib/commit/5b355d144a03bc354d1eda469d0f263e02146af8) - add C implementation for `blas/ext/base/ndarray/snansumkbn` [(#14032)](https://github.com/stdlib-js/stdlib/pull/14032)
+-   [`62c3bf3`](https://github.com/stdlib-js/stdlib/commit/62c3bf3e748bd1f0917f7b17b1a3f4a387cdaf39) - add `blas/ext/base/ndarray/dfirst-index-greater-than` [(#14019)](https://github.com/stdlib-js/stdlib/pull/14019)
+-   [`8d72b98`](https://github.com/stdlib-js/stdlib/commit/8d72b98bee671ef70300fae9d60e7247720ad33d) - add `blas/ext/base/ndarray/sfirst-index-less-than` [(#14021)](https://github.com/stdlib-js/stdlib/pull/14021)
+-   [`d91654c`](https://github.com/stdlib-js/stdlib/commit/d91654cdb66fd04d95c0f583311352569c41ab3e) - add `blas/ext/base/ndarray/dlast-index-equal` [(#14024)](https://github.com/stdlib-js/stdlib/pull/14024)
+-   [`2f8f0be`](https://github.com/stdlib-js/stdlib/commit/2f8f0be49ee217957c7cfae99f98072d59770c5a) - add `blas/ext/base/ndarray/glast-index-equal` [(#14023)](https://github.com/stdlib-js/stdlib/pull/14023)
 -   [`8b8c879`](https://github.com/stdlib-js/stdlib/commit/8b8c879d34eea47ac3558dc7eafeaf65c446f645) - add `ztril` to namespace
 -   [`41d170f`](https://github.com/stdlib-js/stdlib/commit/41d170f7431dd066a58189cf01889ccac32c1ffd) - add `blas/ext/base/ztril` [(#13923)](https://github.com/stdlib-js/stdlib/pull/13923)
 -   [`4929800`](https://github.com/stdlib-js/stdlib/commit/4929800a100d94e4decad89ef6e4779cd2ed655a) - add `dcopyWithin`, `gcopyWithin`, and `scopyWithin` to namespace
@@ -694,6 +704,18 @@ This release closes the following issue:
 
 <details>
 
+-   [`31eafd1`](https://github.com/stdlib-js/stdlib/commit/31eafd1afc74a184c69928a501a742d12955fc53) - **feat:** update `blas/ext/base` TypeScript declarations [(#14041)](https://github.com/stdlib-js/stdlib/pull/14041) _(by stdlib-bot)_
+-   [`e364ad8`](https://github.com/stdlib-js/stdlib/commit/e364ad86d18b7d2ca02eeeeffc567de620a84696) - **feat:** update `blas/ext/base/ndarray` TypeScript declarations [(#14040)](https://github.com/stdlib-js/stdlib/pull/14040) _(by stdlib-bot)_
+-   [`ec28702`](https://github.com/stdlib-js/stdlib/commit/ec28702dd34b0f1338abc26e8c0c001e73c8cba7) - **feat:** add `gfirstIndexGreaterThan` to namespace _(by Athan Reines)_
+-   [`d87632e`](https://github.com/stdlib-js/stdlib/commit/d87632e1af73ae549bb5c1e30ba8c73427b2eb22) - **feat:** add `blas/ext/base/ndarray/gfirst-index-greater-than` [(#14015)](https://github.com/stdlib-js/stdlib/pull/14015) _(by Muhammad Haris)_
+-   [`ed534a5`](https://github.com/stdlib-js/stdlib/commit/ed534a54f1af518e58efa792f366a9293d183212) - **feat:** add various symbols to namespace _(by Athan Reines)_
+-   [`5b355d1`](https://github.com/stdlib-js/stdlib/commit/5b355d144a03bc354d1eda469d0f263e02146af8) - **feat:** add C implementation for `blas/ext/base/ndarray/snansumkbn` [(#14032)](https://github.com/stdlib-js/stdlib/pull/14032) _(by Atharva Patange)_
+-   [`62c3bf3`](https://github.com/stdlib-js/stdlib/commit/62c3bf3e748bd1f0917f7b17b1a3f4a387cdaf39) - **feat:** add `blas/ext/base/ndarray/dfirst-index-greater-than` [(#14019)](https://github.com/stdlib-js/stdlib/pull/14019) _(by Muhammad Haris)_
+-   [`8d72b98`](https://github.com/stdlib-js/stdlib/commit/8d72b98bee671ef70300fae9d60e7247720ad33d) - **feat:** add `blas/ext/base/ndarray/sfirst-index-less-than` [(#14021)](https://github.com/stdlib-js/stdlib/pull/14021) _(by Muhammad Haris)_
+-   [`d91654c`](https://github.com/stdlib-js/stdlib/commit/d91654cdb66fd04d95c0f583311352569c41ab3e) - **feat:** add `blas/ext/base/ndarray/dlast-index-equal` [(#14024)](https://github.com/stdlib-js/stdlib/pull/14024) _(by Muhammad Haris)_
+-   [`2f8f0be`](https://github.com/stdlib-js/stdlib/commit/2f8f0be49ee217957c7cfae99f98072d59770c5a) - **feat:** add `blas/ext/base/ndarray/glast-index-equal` [(#14023)](https://github.com/stdlib-js/stdlib/pull/14023) _(by Muhammad Haris, Athan Reines)_
+-   [`b149fa7`](https://github.com/stdlib-js/stdlib/commit/b149fa757b98c9bc6050f91c5415c3e0a607f83d) - **chore:** clean-up [(#14014)](https://github.com/stdlib-js/stdlib/pull/14014) _(by Philipp Burckhardt, Athan Reines)_
+-   [`f19d370`](https://github.com/stdlib-js/stdlib/commit/f19d370e0a194ac8ffed4916f8b8b51ecfe5896f) - **chore:** clean-up [(#14016)](https://github.com/stdlib-js/stdlib/pull/14016) _(by Philipp Burckhardt)_
 -   [`8b8c879`](https://github.com/stdlib-js/stdlib/commit/8b8c879d34eea47ac3558dc7eafeaf65c446f645) - **feat:** add `ztril` to namespace _(by Athan Reines)_
 -   [`41d170f`](https://github.com/stdlib-js/stdlib/commit/41d170f7431dd066a58189cf01889ccac32c1ffd) - **feat:** add `blas/ext/base/ztril` [(#13923)](https://github.com/stdlib-js/stdlib/pull/13923) _(by Kaustubh Patange, Athan Reines)_
 -   [`d4eb315`](https://github.com/stdlib-js/stdlib/commit/d4eb31523d94dbbcd4477ac82b36fbbc1b51e157) - **docs:** remove unused header in examples _(by Athan Reines)_
@@ -1794,10 +1816,11 @@ This release closes the following issue:
 
 ### Contributors
 
-A total of 17 people contributed to this release. Thank you to the following contributors:
+A total of 18 people contributed to this release. Thank you to the following contributors:
 
 -   Aniket Sonawane
 -   Athan Reines
+-   Atharva Patange
 -   AyushiJain18270
 -   Gururaj Gurram
 -   Kamal Singh Rautela
