@@ -4,12 +4,14 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-08-08)
+## Unreleased (2026-08-09)
 
 <section class="features">
 
 ### Features
 
+-   [`32ddc79`](https://github.com/stdlib-js/stdlib/commit/32ddc799dc2e54819a196092eea40c663c71795f) - add `ctril` to namespace
+-   [`1bb45b7`](https://github.com/stdlib-js/stdlib/commit/1bb45b7ed47908991d90f256150a340a113415dc) - add `blas/ext/base/ctril` [(#13921)](https://github.com/stdlib-js/stdlib/pull/13921)
 -   [`268ae62`](https://github.com/stdlib-js/stdlib/commit/268ae62bcad05ca2365d0988fea9bd0a79067162) - add `dtril2triu` to namespace
 -   [`1c2449f`](https://github.com/stdlib-js/stdlib/commit/1c2449f89788bd15177aafc6c3556ca1f508a2a0) - add `blas/ext/base/dtril2triu` [(#14033)](https://github.com/stdlib-js/stdlib/pull/14033)
 -   [`31eafd1`](https://github.com/stdlib-js/stdlib/commit/31eafd1afc74a184c69928a501a742d12955fc53) - update `blas/ext/base` TypeScript declarations [(#14041)](https://github.com/stdlib-js/stdlib/pull/14041)
@@ -659,6 +661,7 @@
 
 ### Bug Fixes
 
+-   [`ebbf2de`](https://github.com/stdlib-js/stdlib/commit/ebbf2de9f235cc98990c0cd3b020beac567667fa) - pass const qualified views [(#14052)](https://github.com/stdlib-js/stdlib/pull/14052)
 -   [`92b5eb4`](https://github.com/stdlib-js/stdlib/commit/92b5eb479a9ba6d3fe4f722d2f1b47e61a03122c) - use correct argument during error message interpolation and update descriptions [(#13105)](https://github.com/stdlib-js/stdlib/pull/13105)
 -   [`e6cc42b`](https://github.com/stdlib-js/stdlib/commit/e6cc42bab0268753252236d0e7511c97443754cc) - correct typo in enum name and fix C examples [(#13088)](https://github.com/stdlib-js/stdlib/pull/13088)
 -   [`b3383d1`](https://github.com/stdlib-js/stdlib/commit/b3383d1340434b809dd7c2d73664293f5a29e948) - use correct element type
@@ -706,6 +709,10 @@ This release closes the following issue:
 
 <details>
 
+-   [`32ddc79`](https://github.com/stdlib-js/stdlib/commit/32ddc799dc2e54819a196092eea40c663c71795f) - **feat:** add `ctril` to namespace _(by Athan Reines)_
+-   [`1bb45b7`](https://github.com/stdlib-js/stdlib/commit/1bb45b7ed47908991d90f256150a340a113415dc) - **feat:** add `blas/ext/base/ctril` [(#13921)](https://github.com/stdlib-js/stdlib/pull/13921) _(by Kaustubh Patange, Athan Reines)_
+-   [`91c2fae`](https://github.com/stdlib-js/stdlib/commit/91c2fae9c872e69410f67d10374e65173c67c38d) - **chore:** clean-up [(#14054)](https://github.com/stdlib-js/stdlib/pull/14054) _(by Philipp Burckhardt)_
+-   [`ebbf2de`](https://github.com/stdlib-js/stdlib/commit/ebbf2de9f235cc98990c0cd3b020beac567667fa) - **fix:** pass const qualified views [(#14052)](https://github.com/stdlib-js/stdlib/pull/14052) _(by Philipp Burckhardt, Athan Reines)_
 -   [`268ae62`](https://github.com/stdlib-js/stdlib/commit/268ae62bcad05ca2365d0988fea9bd0a79067162) - **feat:** add `dtril2triu` to namespace _(by Athan Reines)_
 -   [`1c2449f`](https://github.com/stdlib-js/stdlib/commit/1c2449f89788bd15177aafc6c3556ca1f508a2a0) - **feat:** add `blas/ext/base/dtril2triu` [(#14033)](https://github.com/stdlib-js/stdlib/pull/14033) _(by Kaustubh Patange)_
 -   [`31eafd1`](https://github.com/stdlib-js/stdlib/commit/31eafd1afc74a184c69928a501a742d12955fc53) - **feat:** update `blas/ext/base` TypeScript declarations [(#14041)](https://github.com/stdlib-js/stdlib/pull/14041) _(by stdlib-bot)_

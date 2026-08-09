@@ -52,6 +52,7 @@
     "@stdlib/blas-ext-base-creplicate": "github:stdlib-js/blas-ext-base-creplicate#main",
     "@stdlib/blas-ext-base-csum": "^0.1.1",
     "@stdlib/blas-ext-base-csumkbn": "^0.1.1",
+    "@stdlib/blas-ext-base-ctril": "github:stdlib-js/blas-ext-base-ctril#main",
     "@stdlib/blas-ext-base-ctriu": "github:stdlib-js/blas-ext-base-ctriu#main",
     "@stdlib/blas-ext-base-cunitspace": "github:stdlib-js/blas-ext-base-cunitspace#main",
     "@stdlib/blas-ext-base-cwapx": "github:stdlib-js/blas-ext-base-cwapx#main",
