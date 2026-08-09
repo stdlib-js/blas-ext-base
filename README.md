@@ -92,6 +92,7 @@ var o = ns;
 -   <span class="signature">[`creplicate( N, k, x, strideX, out, strideOut )`][@stdlib/blas/ext/base/creplicate]</span><span class="delimiter">: </span><span class="description">replicate each element in a single-precision complex floating-point strided array a specified number of times.</span>
 -   <span class="signature">[`csum( N, x, strideX )`][@stdlib/blas/ext/base/csum]</span><span class="delimiter">: </span><span class="description">calculate the sum of single-precision complex floating-point strided array elements.</span>
 -   <span class="signature">[`csumkbn( N, x, strideX )`][@stdlib/blas/ext/base/csumkbn]</span><span class="delimiter">: </span><span class="description">calculate the sum of single-precision complex floating-point strided array elements using an improved Kahan–Babuška algorithm.</span>
+-   <span class="signature">[`ctril( order, M, N, k, A, LDA, B, LDB )`][@stdlib/blas/ext/base/ctril]</span><span class="delimiter">: </span><span class="description">copy the lower triangular part of a single-precision complex floating-point matrix `A` to another matrix `B`.</span>
 -   <span class="signature">[`ctriu( order, M, N, k, A, LDA, B, LDB )`][@stdlib/blas/ext/base/ctriu]</span><span class="delimiter">: </span><span class="description">copy the upper triangular part of a single-precision complex floating-point matrix `A` to another matrix `B`.</span>
 -   <span class="signature">[`cunitspace( N, start, x, strideX )`][@stdlib/blas/ext/base/cunitspace]</span><span class="delimiter">: </span><span class="description">fill a single-precision complex floating-point strided array with linearly spaced numeric elements which increment by `1` starting from a specified value.</span>
 -   <span class="signature">[`cwapx( N, alpha, x, strideX, w, strideW )`][@stdlib/blas/ext/base/cwapx]</span><span class="delimiter">: </span><span class="description">add a scalar constant to each element in a single-precision complex floating-point strided array `x` and assign the results to elements in a single-precision complex floating-point strided array `w`.</span>
@@ -200,6 +201,7 @@ var o = ns;
 -   <span class="signature">[`dsumors( N, x, strideX )`][@stdlib/blas/ext/base/dsumors]</span><span class="delimiter">: </span><span class="description">calculate the sum of double-precision floating-point strided array elements using ordinary recursive summation.</span>
 -   <span class="signature">[`dsumpw( N, x, strideX )`][@stdlib/blas/ext/base/dsumpw]</span><span class="delimiter">: </span><span class="description">calculate the sum of double-precision floating-point strided array elements using pairwise summation.</span>
 -   <span class="signature">[`dtril( order, M, N, k, A, LDA, B, LDB )`][@stdlib/blas/ext/base/dtril]</span><span class="delimiter">: </span><span class="description">copy the lower triangular part of a double-precision floating-point matrix `A` to another matrix `B`.</span>
+-   <span class="signature">[`dtril2triu( order, M, N, k, A, LDA, B, LDB )`][@stdlib/blas/ext/base/dtril2triu]</span><span class="delimiter">: </span><span class="description">reflect the lower triangular part of a double-precision floating-point matrix `A` into the upper triangular part of another matrix `B`.</span>
 -   <span class="signature">[`dtriu( order, M, N, k, A, LDA, B, LDB )`][@stdlib/blas/ext/base/dtriu]</span><span class="delimiter">: </span><span class="description">copy the upper triangular part of a double-precision floating-point matrix `A` to another matrix `B`.</span>
 -   <span class="signature">[`dtriu2tril( order, M, N, k, A, LDA, B, LDB )`][@stdlib/blas/ext/base/dtriu2tril]</span><span class="delimiter">: </span><span class="description">reflect the upper triangular part of a double-precision floating-point matrix `A` into the lower triangular part of another matrix `B`.</span>
 -   <span class="signature">[`dunitspace( N, start, x, strideX )`][@stdlib/blas/ext/base/dunitspace]</span><span class="delimiter">: </span><span class="description">fill a double-precision floating-point strided array with linearly spaced numeric elements which increment by `1` starting from a specified value.</span>
@@ -308,6 +310,7 @@ var o = ns;
 -   <span class="signature">[`gsumpw( N, x, strideX )`][@stdlib/blas/ext/base/gsumpw]</span><span class="delimiter">: </span><span class="description">calculate the sum of strided array elements using pairwise summation.</span>
 -   <span class="signature">[`gtril( order, M, N, k, A, LDA, B, LDB )`][@stdlib/blas/ext/base/gtril]</span><span class="delimiter">: </span><span class="description">copy the lower triangular part of a matrix `A` to another matrix `B`.</span>
 -   <span class="signature">[`gtriu( order, M, N, k, A, LDA, B, LDB )`][@stdlib/blas/ext/base/gtriu]</span><span class="delimiter">: </span><span class="description">copy the upper triangular part of a matrix `A` to another matrix `B`.</span>
+-   <span class="signature">[`gtriu2tril( order, M, N, k, A, LDA, B, LDB )`][@stdlib/blas/ext/base/gtriu2tril]</span><span class="delimiter">: </span><span class="description">reflect the upper triangular part of a matrix A into the lower triangular part of another matrix B.</span>
 -   <span class="signature">[`gunitspace( N, start, x, strideX )`][@stdlib/blas/ext/base/gunitspace]</span><span class="delimiter">: </span><span class="description">fill a strided array with linearly spaced numeric elements which increment by `1` starting from a specified value.</span>
 -   <span class="signature">[`gvander( order, mode, M, N, x, strideX, out, ldo )`][@stdlib/blas/ext/base/gvander]</span><span class="delimiter">: </span><span class="description">generate a Vandermonde matrix.</span>
 -   <span class="signature">[`gwapx( N, alpha, x, strideX, w, strideW )`][@stdlib/blas/ext/base/gwapx]</span><span class="delimiter">: </span><span class="description">add a scalar constant to each element in a strided array `x` and assign the results to elements in a strided array `w`.</span>
@@ -444,6 +447,7 @@ var o = ns;
 -   <span class="signature">[`zreplicate( N, k, x, strideX, out, strideOut )`][@stdlib/blas/ext/base/zreplicate]</span><span class="delimiter">: </span><span class="description">replicate each element in a double-precision complex floating-point strided array a specified number of times.</span>
 -   <span class="signature">[`zsum( N, x, strideX )`][@stdlib/blas/ext/base/zsum]</span><span class="delimiter">: </span><span class="description">calculate the sum of double-precision complex floating-point strided array elements.</span>
 -   <span class="signature">[`zsumkbn( N, x, strideX )`][@stdlib/blas/ext/base/zsumkbn]</span><span class="delimiter">: </span><span class="description">calculate the sum of double-precision complex floating-point strided array elements using an improved Kahan–Babuška algorithm.</span>
+-   <span class="signature">[`ztril( order, M, N, k, A, LDA, B, LDB )`][@stdlib/blas/ext/base/ztril]</span><span class="delimiter">: </span><span class="description">copy the lower triangular part of a double-precision complex floating-point matrix `A` to another matrix `B`.</span>
 -   <span class="signature">[`ztriu( order, M, N, k, A, LDA, B, LDB )`][@stdlib/blas/ext/base/ztriu]</span><span class="delimiter">: </span><span class="description">copy the upper triangular part of a double-precision complex floating-point matrix `A` to another matrix `B`.</span>
 -   <span class="signature">[`zunitspace( N, start, x, strideX )`][@stdlib/blas/ext/base/zunitspace]</span><span class="delimiter">: </span><span class="description">fill a double-precision complex floating-point strided array with linearly spaced numeric elements which increment by `1` starting from a specified value.</span>
 -   <span class="signature">[`zwapx( N, alpha, x, strideX, w, strideW )`][@stdlib/blas/ext/base/zwapx]</span><span class="delimiter">: </span><span class="description">add a scalar constant to each element in a double-precision complex floating-point strided array `x` and assign the results to elements in a double-precision complex floating-point strided array `w`.</span>
@@ -607,6 +611,8 @@ Copyright &copy; 2016-2026. The Stdlib [Authors][stdlib-authors].
 [@stdlib/blas/ext/base/csum]: https://github.com/stdlib-js/blas-ext-base-csum
 
 [@stdlib/blas/ext/base/csumkbn]: https://github.com/stdlib-js/blas-ext-base-csumkbn
+
+[@stdlib/blas/ext/base/ctril]: https://github.com/stdlib-js/blas-ext-base-ctril
 
 [@stdlib/blas/ext/base/ctriu]: https://github.com/stdlib-js/blas-ext-base-ctriu
 
@@ -824,6 +830,8 @@ Copyright &copy; 2016-2026. The Stdlib [Authors][stdlib-authors].
 
 [@stdlib/blas/ext/base/dtril]: https://github.com/stdlib-js/blas-ext-base-dtril
 
+[@stdlib/blas/ext/base/dtril2triu]: https://github.com/stdlib-js/blas-ext-base-dtril2triu
+
 [@stdlib/blas/ext/base/dtriu]: https://github.com/stdlib-js/blas-ext-base-dtriu
 
 [@stdlib/blas/ext/base/dtriu2tril]: https://github.com/stdlib-js/blas-ext-base-dtriu2tril
@@ -1039,6 +1047,8 @@ Copyright &copy; 2016-2026. The Stdlib [Authors][stdlib-authors].
 [@stdlib/blas/ext/base/gtril]: https://github.com/stdlib-js/blas-ext-base-gtril
 
 [@stdlib/blas/ext/base/gtriu]: https://github.com/stdlib-js/blas-ext-base-gtriu
+
+[@stdlib/blas/ext/base/gtriu2tril]: https://github.com/stdlib-js/blas-ext-base-gtriu2tril
 
 [@stdlib/blas/ext/base/gunitspace]: https://github.com/stdlib-js/blas-ext-base-gunitspace
 
@@ -1311,6 +1321,8 @@ Copyright &copy; 2016-2026. The Stdlib [Authors][stdlib-authors].
 [@stdlib/blas/ext/base/zsum]: https://github.com/stdlib-js/blas-ext-base-zsum
 
 [@stdlib/blas/ext/base/zsumkbn]: https://github.com/stdlib-js/blas-ext-base-zsumkbn
+
+[@stdlib/blas/ext/base/ztril]: https://github.com/stdlib-js/blas-ext-base-ztril
 
 [@stdlib/blas/ext/base/ztriu]: https://github.com/stdlib-js/blas-ext-base-ztriu
 
