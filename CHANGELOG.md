@@ -10,6 +10,11 @@
 
 ### Features
 
+-   [`2591722`](https://github.com/stdlib-js/stdlib/commit/25917224ea51893f8c3ba4b3d9f8eea0bb6795a3) - add `dtriu` to namespace
+-   [`2f72a61`](https://github.com/stdlib-js/stdlib/commit/2f72a61a6dc051964528b67be28329c3905f6d04) - add `cfillEqual` and `gtril2triu` to namespace
+-   [`2e44e74`](https://github.com/stdlib-js/stdlib/commit/2e44e746a2ba82e39926d773524268fac83142f3) - add `blas/ext/base/ndarray/dtriu` [(#14089)](https://github.com/stdlib-js/stdlib/pull/14089)
+-   [`93fe758`](https://github.com/stdlib-js/stdlib/commit/93fe75861c187639288483d2563b5dba35bff0c1) - add `blas/ext/base/gtril2triu` [(#14064)](https://github.com/stdlib-js/stdlib/pull/14064)
+-   [`46c9090`](https://github.com/stdlib-js/stdlib/commit/46c9090d31a9fe5d9af46672d83d30ccaff1e9ae) - add `blas/ext/base/cfill-equal` [(#13523)](https://github.com/stdlib-js/stdlib/pull/13523)
 -   [`220141e`](https://github.com/stdlib-js/stdlib/commit/220141e1db59d731d1c55f197a58bc62626ac1b8) - add `zcopyWithin` to namespace
 -   [`7d68afe`](https://github.com/stdlib-js/stdlib/commit/7d68afeb04fe571683aed501f6293195b6b35615) - add `blas/ext/base/zcopy-within` [(#13998)](https://github.com/stdlib-js/stdlib/pull/13998)
 -   [`14a8a3b`](https://github.com/stdlib-js/stdlib/commit/14a8a3b19bba1db1bf9456bd7f55df70efb02f84) - update `blas/ext/base` TypeScript declarations [(#14082)](https://github.com/stdlib-js/stdlib/pull/14082)
@@ -712,6 +717,12 @@ This release closes the following issue:
 
 <details>
 
+-   [`2591722`](https://github.com/stdlib-js/stdlib/commit/25917224ea51893f8c3ba4b3d9f8eea0bb6795a3) - **feat:** add `dtriu` to namespace _(by Athan Reines)_
+-   [`2f72a61`](https://github.com/stdlib-js/stdlib/commit/2f72a61a6dc051964528b67be28329c3905f6d04) - **feat:** add `cfillEqual` and `gtril2triu` to namespace _(by Athan Reines)_
+-   [`2e44e74`](https://github.com/stdlib-js/stdlib/commit/2e44e746a2ba82e39926d773524268fac83142f3) - **feat:** add `blas/ext/base/ndarray/dtriu` [(#14089)](https://github.com/stdlib-js/stdlib/pull/14089) _(by Kaustubh Patange, Athan Reines)_
+-   [`93fe758`](https://github.com/stdlib-js/stdlib/commit/93fe75861c187639288483d2563b5dba35bff0c1) - **feat:** add `blas/ext/base/gtril2triu` [(#14064)](https://github.com/stdlib-js/stdlib/pull/14064) _(by Kaustubh Patange, Athan Reines)_
+-   [`46c9090`](https://github.com/stdlib-js/stdlib/commit/46c9090d31a9fe5d9af46672d83d30ccaff1e9ae) - **feat:** add `blas/ext/base/cfill-equal` [(#13523)](https://github.com/stdlib-js/stdlib/pull/13523) _(by Muhammad Haris, Athan Reines)_
+-   [`a6a322a`](https://github.com/stdlib-js/stdlib/commit/a6a322a60407a3b43eaf765f3a4ce4c37fd022bf) - **docs:** update comments _(by Athan Reines)_
 -   [`220141e`](https://github.com/stdlib-js/stdlib/commit/220141e1db59d731d1c55f197a58bc62626ac1b8) - **feat:** add `zcopyWithin` to namespace _(by Athan Reines)_
 -   [`7d68afe`](https://github.com/stdlib-js/stdlib/commit/7d68afeb04fe571683aed501f6293195b6b35615) - **feat:** add `blas/ext/base/zcopy-within` [(#13998)](https://github.com/stdlib-js/stdlib/pull/13998) _(by Muhammad Haris)_
 -   [`14a8a3b`](https://github.com/stdlib-js/stdlib/commit/14a8a3b19bba1db1bf9456bd7f55df70efb02f84) - **feat:** update `blas/ext/base` TypeScript declarations [(#14082)](https://github.com/stdlib-js/stdlib/pull/14082) _(by stdlib-bot)_
