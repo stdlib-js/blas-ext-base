@@ -4,12 +4,19 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-08-09)
+## Unreleased (2026-08-10)
 
 <section class="features">
 
 ### Features
 
+-   [`47fac55`](https://github.com/stdlib-js/stdlib/commit/47fac55c2a9246770f30d4700f65e9972c75c12d) - add `ctriu`, `gtriu`, `striu`, and `ztriu` to namespace
+-   [`919e1ca`](https://github.com/stdlib-js/stdlib/commit/919e1ca6ee507c854ba542ec5c24bd1cd058ef38) - add `ccopyWithin` to namespace
+-   [`f24cab5`](https://github.com/stdlib-js/stdlib/commit/f24cab5f78d5faed964a927a1fe873e6396219e5) - add `blas/ext/base/ccopy-within` [(#14007)](https://github.com/stdlib-js/stdlib/pull/14007)
+-   [`9f9dfc5`](https://github.com/stdlib-js/stdlib/commit/9f9dfc5c6df0ec6a5b9752567cdb78812825c93b) - add `blas/ext/base/ndarray/gtriu` [(#14107)](https://github.com/stdlib-js/stdlib/pull/14107)
+-   [`375701a`](https://github.com/stdlib-js/stdlib/commit/375701a0232fa37fdf0a44db0c826b33aca577eb) - add `blas/ext/base/ndarray/ctriu` [(#14104)](https://github.com/stdlib-js/stdlib/pull/14104)
+-   [`a6dc0eb`](https://github.com/stdlib-js/stdlib/commit/a6dc0eb48ba2fe21872eb47eb9bab8dd9aa33beb) - add `blas/ext/base/ndarray/ztriu` [(#14105)](https://github.com/stdlib-js/stdlib/pull/14105)
+-   [`5bab5d6`](https://github.com/stdlib-js/stdlib/commit/5bab5d6fd4f4354b77acf67065c1921c9f8ccfed) - add `blas/ext/base/ndarray/striu` [(#14102)](https://github.com/stdlib-js/stdlib/pull/14102)
 -   [`2591722`](https://github.com/stdlib-js/stdlib/commit/25917224ea51893f8c3ba4b3d9f8eea0bb6795a3) - add `dtriu` to namespace
 -   [`2f72a61`](https://github.com/stdlib-js/stdlib/commit/2f72a61a6dc051964528b67be28329c3905f6d04) - add `cfillEqual` and `gtril2triu` to namespace
 -   [`2e44e74`](https://github.com/stdlib-js/stdlib/commit/2e44e746a2ba82e39926d773524268fac83142f3) - add `blas/ext/base/ndarray/dtriu` [(#14089)](https://github.com/stdlib-js/stdlib/pull/14089)
@@ -717,6 +724,13 @@ This release closes the following issue:
 
 <details>
 
+-   [`47fac55`](https://github.com/stdlib-js/stdlib/commit/47fac55c2a9246770f30d4700f65e9972c75c12d) - **feat:** add `ctriu`, `gtriu`, `striu`, and `ztriu` to namespace _(by Athan Reines)_
+-   [`919e1ca`](https://github.com/stdlib-js/stdlib/commit/919e1ca6ee507c854ba542ec5c24bd1cd058ef38) - **feat:** add `ccopyWithin` to namespace _(by Athan Reines)_
+-   [`f24cab5`](https://github.com/stdlib-js/stdlib/commit/f24cab5f78d5faed964a927a1fe873e6396219e5) - **feat:** add `blas/ext/base/ccopy-within` [(#14007)](https://github.com/stdlib-js/stdlib/pull/14007) _(by Muhammad Haris, Athan Reines)_
+-   [`9f9dfc5`](https://github.com/stdlib-js/stdlib/commit/9f9dfc5c6df0ec6a5b9752567cdb78812825c93b) - **feat:** add `blas/ext/base/ndarray/gtriu` [(#14107)](https://github.com/stdlib-js/stdlib/pull/14107) _(by Kaustubh Patange, Athan Reines)_
+-   [`375701a`](https://github.com/stdlib-js/stdlib/commit/375701a0232fa37fdf0a44db0c826b33aca577eb) - **feat:** add `blas/ext/base/ndarray/ctriu` [(#14104)](https://github.com/stdlib-js/stdlib/pull/14104) _(by Kaustubh Patange)_
+-   [`a6dc0eb`](https://github.com/stdlib-js/stdlib/commit/a6dc0eb48ba2fe21872eb47eb9bab8dd9aa33beb) - **feat:** add `blas/ext/base/ndarray/ztriu` [(#14105)](https://github.com/stdlib-js/stdlib/pull/14105) _(by Kaustubh Patange)_
+-   [`5bab5d6`](https://github.com/stdlib-js/stdlib/commit/5bab5d6fd4f4354b77acf67065c1921c9f8ccfed) - **feat:** add `blas/ext/base/ndarray/striu` [(#14102)](https://github.com/stdlib-js/stdlib/pull/14102) _(by Kaustubh Patange)_
 -   [`2591722`](https://github.com/stdlib-js/stdlib/commit/25917224ea51893f8c3ba4b3d9f8eea0bb6795a3) - **feat:** add `dtriu` to namespace _(by Athan Reines)_
 -   [`2f72a61`](https://github.com/stdlib-js/stdlib/commit/2f72a61a6dc051964528b67be28329c3905f6d04) - **feat:** add `cfillEqual` and `gtril2triu` to namespace _(by Athan Reines)_
 -   [`2e44e74`](https://github.com/stdlib-js/stdlib/commit/2e44e746a2ba82e39926d773524268fac83142f3) - **feat:** add `blas/ext/base/ndarray/dtriu` [(#14089)](https://github.com/stdlib-js/stdlib/pull/14089) _(by Kaustubh Patange, Athan Reines)_
