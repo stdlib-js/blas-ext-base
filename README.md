@@ -35,20 +35,32 @@ limitations under the License.
 
 > Base (i.e., lower-level) extensions to basic linear algebra subprograms (BLAS).
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/blas-ext-base
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm`][esm-url] branch (see [README][esm-readme]).
+-   If you are using Deno, visit the [`deno`][deno-url] branch (see [README][deno-readme] for usage intructions).
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd`][umd-url] branch (see [README][umd-readme]).
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+To view installation and usage instructions specific to each branch build, be sure to explicitly navigate to the respective README files on each branch, as linked to above.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base@esm/index.mjs';
-```
-
-You can also import the following named exports from the package:
-
-```javascript
-import { capx, caxpb, caxpby, ccopyWithin, cdiff, cfill, cfillEqual, cindexOf, cindexOfColumn, cindexOfFalsy, cindexOfRow, cindexOfTruthy, clastIndexOfRow, clogspace, coneTo, creplicate, csum, csumkbn, ctril, ctriu, cunitspace, cwapx, cwax, cwhere, cwxsa, cwxsy, cxmy, cxpy, cxsa, cxsy, czeroTo, dany, dapx, dapxsum, dapxsumkbn, dapxsumkbn2, dapxsumors, dapxsumpw, dasumpw, daxpb, daxpby, dcartesianPower, dcartesianProduct, dcartesianSquare, dcircshift, dcopyWithin, dcuany, dcuevery, dcunone, dcusome, dcusum, dcusumkbn, dcusumkbn2, dcusumors, dcusumpw, ddiff, dediff, dfill, dfillEqual, dfillLessThan, dfillNaN, dfillNotEqual, dfirstIndexEqual, dfirstIndexGreaterThan, dfirstIndexLessThan, dindexOf, dindexOfColumn, dindexOfFalsy, dindexOfNotEqual, dindexOfRow, dindexOfTruthy, dlastIndexEqual, dlastIndexOf, dlastIndexOfFalsy, dlastIndexOfRow, dlastIndexOfTruthy, dlinspace, dlogspace, dminheapSiftDown, dminheapify, dmskrev, dnanasum, dnanasumors, dnancount, dnancusumkbn, dnannsum, dnannsumkbn, dnannsumkbn2, dnannsumors, dnannsumpw, dnansum, dnansumkbn, dnansumkbn2, dnansumors, dnansumpw, dnone, doneTo, dones, dreplicate, drev, drrss, drss, drssbl, drsskbn, dsapxsum, dsapxsumpw, dsnannsumors, dsnansum, dsnansumors, dsnansumpw, dsome, dsort, dsort2hp, dsort2ins, dsort2sh, dsorthp, dsortins, dsortsh, dssum, dssumors, dssumpw, dsum, dsumkbn, dsumkbn2, dsumors, dsumpw, dtril, dtril2triu, dtriu, dtriu2tril, dunitspace, dvander, dwapx, dwax, dwhere, dwxdy, dwxmy, dwxpy, dwxsa, dwxsy, dxdy, dxmy, dxpy, dxsa, dxsy, dzeroTo, dzeros, gany, gapx, gapxsum, gapxsumkbn, gapxsumkbn2, gapxsumors, gapxsumpw, gasumpw, gaxpb, gaxpby, gcartesianPower, gcartesianProduct, gcartesianSquare, gcircshift, gconjoin, gcopyWithin, gcuany, gcuevery, gcunone, gcusome, gcusum, gcusumkbn, gcusumkbn2, gcusumors, gcusumpw, gdiff, gediff, gevery, gfill, gfillBy, gfillEqual, gfillLessThan, gfillNaN, gfillNotEqual, gfindIndex, gfindLastIndex, gfirstIndexEqual, gfirstIndexGreaterThan, gfirstIndexLessThan, gfirstIndexNotEqual, gindexOf, gindexOfColumn, gindexOfFalsy, gindexOfFalsyRow, gindexOfNotEqual, gindexOfRow, gindexOfSameValue, gindexOfTruthy, gindexOfTruthyRow, gjoin, gjoinBetween, glastIndexEqual, glastIndexOf, glastIndexOfFalsy, glastIndexOfRow, glastIndexOfTruthy, glinspace, glogspace, gminheapSiftDown, gminheapify, gmskrev, gnancount, gnannsumkbn, gnannsumpw, gnansum, gnansumkbn, gnansumkbn2, gnansumors, gnansumpw, gnone, goneTo, greplicate, grev, gsome, gsort, gsort2hp, gsort2ins, gsort2sh, gsorthp, gsorthpBy, gsortins, gsortsh, gsum, gsumkbn, gsumkbn2, gsumors, gsumpw, gtril, gtril2triu, gtriu, gtriu2tril, gunitspace, gvander, gwapx, gwax, gwaxpb, gwhere, gwxdy, gwxmy, gwxpy, gwxsa, gwxsy, gxdy, gxmy, gxpy, gxsa, gxsy, gzeroTo, ndarray, sany, sapx, sapxsum, sapxsumkbn, sapxsumkbn2, sapxsumors, sapxsumpw, sasumpw, saxpb, saxpby, scartesianPower, scartesianProduct, scartesianSquare, scircshift, scopyWithin, scuany, scuevery, scunone, scusome, scusum, scusumkbn, scusumkbn2, scusumors, scusumpw, sdiff, sdsapxsum, sdsapxsumpw, sdsnansum, sdsnansumpw, sdssum, sdssumpw, sediff, sfill, sfillEqual, sfillNaN, sfillNotEqual, sfirstIndexEqual, sfirstIndexLessThan, sindexOf, sindexOfColumn, sindexOfFalsy, sindexOfNotEqual, sindexOfRow, sindexOfTruthy, slastIndexOf, slastIndexOfFalsy, slastIndexOfRow, slastIndexOfTruthy, slinspace, slogspace, sminheapSiftDown, smskrev, snancount, snansum, snansumkbn, snansumkbn2, snansumors, snansumpw, snone, soneTo, sones, sreplicate, srev, ssome, ssort, ssort2hp, ssort2ins, ssort2sh, ssorthp, ssortins, ssortsh, ssum, ssumkbn, ssumkbn2, ssumors, ssumpw, stril, striu, striu2tril, sunitspace, svander, swapx, swax, swhere, swxdy, swxmy, swxpy, swxsa, swxsy, sxdy, sxmy, sxpy, sxsa, sxsy, szeroTo, szeros, wasm, zany, zapx, zaxpb, zaxpby, zcartesianProduct, zcartesianSquare, zcopyWithin, zdiff, zfill, zindexOf, zindexOfColumn, zindexOfFalsy, zindexOfRow, zindexOfTruthy, zlastIndexOfFalsy, zlastIndexOfRow, zlogspace, znancount, zoneTo, zreplicate, zsum, zsumkbn, ztril, ztriu, zunitspace, zwapx, zwax, zwhere, zwxmy, zwxsa, zwxsy, zxdy, zxmy, zxpy, zxsa, zxsy, zzeroTo } from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base@esm/index.mjs';
+var ns = require( '@stdlib/blas-ext-base' );
 ```
 
 #### ns
@@ -67,7 +79,9 @@ var o = ns;
 -   <span class="signature">[`capx( N, alpha, x, strideX )`][@stdlib/blas/ext/base/capx]</span><span class="delimiter">: </span><span class="description">add a scalar constant to each element in a single-precision complex floating-point strided array.</span>
 -   <span class="signature">[`caxpb( N, alpha, beta, x, strideX )`][@stdlib/blas/ext/base/caxpb]</span><span class="delimiter">: </span><span class="description">multiply each element in a single-precision complex floating-point strided array by a scalar constant and add a scalar constant to each result.</span>
 -   <span class="signature">[`caxpby( N, alpha, x, strideX, beta, y, strideY )`][@stdlib/blas/ext/base/caxpby]</span><span class="delimiter">: </span><span class="description">multiply a single-precision complex floating-point strided array `x` by a constant and add the result to a single-precision complex floating-point strided array `y` multiplied by a constant.</span>
+-   <span class="signature">[`ccopyWithin( N, target, start, end, x, strideX, workspace, strideW )`][@stdlib/blas/ext/base/ccopy-within]</span><span class="delimiter">: </span><span class="description">perform an in-place copy of elements within a single-precision complex floating-point strided array.</span>
 -   <span class="signature">[`cdiff( N, k, x, strideX, N1, prepend, strideP, N2, append, strideA, out, strideOut, workspace, strideW )`][@stdlib/blas/ext/base/cdiff]</span><span class="delimiter">: </span><span class="description">calculate the k-th discrete forward difference of a single-precision complex floating-point strided array.</span>
+-   <span class="signature">[`cfillEqual( N, searchElement, alpha, x, strideX )`][@stdlib/blas/ext/base/cfill-equal]</span><span class="delimiter">: </span><span class="description">replace single-precision complex floating-point strided array elements equal to a provided search element with a specified scalar constant.</span>
 -   <span class="signature">[`cfill( N, alpha, x, strideX )`][@stdlib/blas/ext/base/cfill]</span><span class="delimiter">: </span><span class="description">fill a single-precision complex floating-point strided array with a specified scalar constant.</span>
 -   <span class="signature">[`cindexOfColumn( order, M, N, A, LDA, x, strideX, workspace, strideW )`][@stdlib/blas/ext/base/cindex-of-column]</span><span class="delimiter">: </span><span class="description">return the index of the first column in a single-precision complex floating-point input matrix which has the same elements as a provided search vector.</span>
 -   <span class="signature">[`cindexOfFalsy( N, x, strideX )`][@stdlib/blas/ext/base/cindex-of-falsy]</span><span class="delimiter">: </span><span class="description">return the index of the first falsy element in a single-precision complex floating-point strided array.</span>
@@ -297,6 +311,7 @@ var o = ns;
 -   <span class="signature">[`gsumors( N, x, strideX )`][@stdlib/blas/ext/base/gsumors]</span><span class="delimiter">: </span><span class="description">calculate the sum of strided array elements using ordinary recursive summation.</span>
 -   <span class="signature">[`gsumpw( N, x, strideX )`][@stdlib/blas/ext/base/gsumpw]</span><span class="delimiter">: </span><span class="description">calculate the sum of strided array elements using pairwise summation.</span>
 -   <span class="signature">[`gtril( order, M, N, k, A, LDA, B, LDB )`][@stdlib/blas/ext/base/gtril]</span><span class="delimiter">: </span><span class="description">copy the lower triangular part of a matrix `A` to another matrix `B`.</span>
+-   <span class="signature">[`gtril2triu( order, M, N, k, A, LDA, B, LDB )`][@stdlib/blas/ext/base/gtril2triu]</span><span class="delimiter">: </span><span class="description">reflect the lower triangular part of a matrix `A` into the upper triangular part of another matrix `B`.</span>
 -   <span class="signature">[`gtriu( order, M, N, k, A, LDA, B, LDB )`][@stdlib/blas/ext/base/gtriu]</span><span class="delimiter">: </span><span class="description">copy the upper triangular part of a matrix `A` to another matrix `B`.</span>
 -   <span class="signature">[`gtriu2tril( order, M, N, k, A, LDA, B, LDB )`][@stdlib/blas/ext/base/gtriu2tril]</span><span class="delimiter">: </span><span class="description">reflect the upper triangular part of a matrix A into the lower triangular part of another matrix B.</span>
 -   <span class="signature">[`gunitspace( N, start, x, strideX )`][@stdlib/blas/ext/base/gunitspace]</span><span class="delimiter">: </span><span class="description">fill a strided array with linearly spaced numeric elements which increment by `1` starting from a specified value.</span>
@@ -420,6 +435,7 @@ var o = ns;
 -   <span class="signature">[`zaxpby( N, alpha, x, strideX, beta, y, strideY )`][@stdlib/blas/ext/base/zaxpby]</span><span class="delimiter">: </span><span class="description">multiply a double-precision complex floating-point strided array `x` by a constant and add the result to a double-precision complex floating-point strided array `y` multiplied by a constant.</span>
 -   <span class="signature">[`zcartesianProduct( order, M, N, x, strideX, y, strideY, out, LDO )`][@stdlib/blas/ext/base/zcartesian-product]</span><span class="delimiter">: </span><span class="description">compute the Cartesian product for two double-precision complex floating-point strided arrays.</span>
 -   <span class="signature">[`zcartesianSquare( order, N, x, strideX, out, LDO )`][@stdlib/blas/ext/base/zcartesian-square]</span><span class="delimiter">: </span><span class="description">compute the Cartesian square for a double-precision complex floating-point strided array.</span>
+-   <span class="signature">[`zcopyWithin( N, target, start, end, x, strideX, workspace, strideW )`][@stdlib/blas/ext/base/zcopy-within]</span><span class="delimiter">: </span><span class="description">perform an in-place copy of elements within a double-precision complex floating-point strided array.</span>
 -   <span class="signature">[`zdiff( N, k, x, strideX, N1, prepend, strideP, N2, append, strideA, out, strideOut, workspace, strideW )`][@stdlib/blas/ext/base/zdiff]</span><span class="delimiter">: </span><span class="description">calculate the k-th discrete forward difference of a double-precision complex floating-point strided array.</span>
 -   <span class="signature">[`zfill( N, alpha, x, strideX )`][@stdlib/blas/ext/base/zfill]</span><span class="delimiter">: </span><span class="description">fill a double-precision complex floating-point strided array with a specified scalar constant.</span>
 -   <span class="signature">[`zindexOfColumn( order, M, N, A, LDA, x, strideX, workspace, strideW )`][@stdlib/blas/ext/base/zindex-of-column]</span><span class="delimiter">: </span><span class="description">return the index of the first column in a double-precision complex floating-point input matrix which has the same elements as a provided search vector.</span>
@@ -475,20 +491,11 @@ var o = ns;
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="module">
-
-import objectKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-keys@esm/index.mjs';
-import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base@esm/index.mjs';
+```javascript
+var objectKeys = require( '@stdlib/utils-keys' );
+var ns = require( '@stdlib/blas-ext-base' );
 
 console.log( objectKeys( ns ) );
-
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -512,7 +519,7 @@ console.log( objectKeys( ns ) );
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -577,777 +584,785 @@ Copyright &copy; 2016-2026. The Stdlib [Authors][stdlib-authors].
 
 <!-- <toc-links> -->
 
-[@stdlib/blas/ext/base/capx]: https://github.com/stdlib-js/blas-ext-base-capx/tree/esm
+[@stdlib/blas/ext/base/capx]: https://github.com/stdlib-js/blas-ext-base-capx
 
-[@stdlib/blas/ext/base/caxpb]: https://github.com/stdlib-js/blas-ext-base-caxpb/tree/esm
+[@stdlib/blas/ext/base/caxpb]: https://github.com/stdlib-js/blas-ext-base-caxpb
 
-[@stdlib/blas/ext/base/caxpby]: https://github.com/stdlib-js/blas-ext-base-caxpby/tree/esm
+[@stdlib/blas/ext/base/caxpby]: https://github.com/stdlib-js/blas-ext-base-caxpby
 
-[@stdlib/blas/ext/base/cdiff]: https://github.com/stdlib-js/blas-ext-base-cdiff/tree/esm
+[@stdlib/blas/ext/base/ccopy-within]: https://github.com/stdlib-js/blas-ext-base-ccopy-within
 
-[@stdlib/blas/ext/base/cfill]: https://github.com/stdlib-js/blas-ext-base-cfill/tree/esm
+[@stdlib/blas/ext/base/cdiff]: https://github.com/stdlib-js/blas-ext-base-cdiff
 
-[@stdlib/blas/ext/base/cindex-of-column]: https://github.com/stdlib-js/blas-ext-base-cindex-of-column/tree/esm
+[@stdlib/blas/ext/base/cfill-equal]: https://github.com/stdlib-js/blas-ext-base-cfill-equal
 
-[@stdlib/blas/ext/base/cindex-of-falsy]: https://github.com/stdlib-js/blas-ext-base-cindex-of-falsy/tree/esm
+[@stdlib/blas/ext/base/cfill]: https://github.com/stdlib-js/blas-ext-base-cfill
 
-[@stdlib/blas/ext/base/cindex-of-row]: https://github.com/stdlib-js/blas-ext-base-cindex-of-row/tree/esm
+[@stdlib/blas/ext/base/cindex-of-column]: https://github.com/stdlib-js/blas-ext-base-cindex-of-column
 
-[@stdlib/blas/ext/base/cindex-of-truthy]: https://github.com/stdlib-js/blas-ext-base-cindex-of-truthy/tree/esm
+[@stdlib/blas/ext/base/cindex-of-falsy]: https://github.com/stdlib-js/blas-ext-base-cindex-of-falsy
 
-[@stdlib/blas/ext/base/cindex-of]: https://github.com/stdlib-js/blas-ext-base-cindex-of/tree/esm
+[@stdlib/blas/ext/base/cindex-of-row]: https://github.com/stdlib-js/blas-ext-base-cindex-of-row
 
-[@stdlib/blas/ext/base/clast-index-of-row]: https://github.com/stdlib-js/blas-ext-base-clast-index-of-row/tree/esm
+[@stdlib/blas/ext/base/cindex-of-truthy]: https://github.com/stdlib-js/blas-ext-base-cindex-of-truthy
 
-[@stdlib/blas/ext/base/clogspace]: https://github.com/stdlib-js/blas-ext-base-clogspace/tree/esm
+[@stdlib/blas/ext/base/cindex-of]: https://github.com/stdlib-js/blas-ext-base-cindex-of
 
-[@stdlib/blas/ext/base/cone-to]: https://github.com/stdlib-js/blas-ext-base-cone-to/tree/esm
+[@stdlib/blas/ext/base/clast-index-of-row]: https://github.com/stdlib-js/blas-ext-base-clast-index-of-row
 
-[@stdlib/blas/ext/base/creplicate]: https://github.com/stdlib-js/blas-ext-base-creplicate/tree/esm
+[@stdlib/blas/ext/base/clogspace]: https://github.com/stdlib-js/blas-ext-base-clogspace
 
-[@stdlib/blas/ext/base/csum]: https://github.com/stdlib-js/blas-ext-base-csum/tree/esm
+[@stdlib/blas/ext/base/cone-to]: https://github.com/stdlib-js/blas-ext-base-cone-to
 
-[@stdlib/blas/ext/base/csumkbn]: https://github.com/stdlib-js/blas-ext-base-csumkbn/tree/esm
+[@stdlib/blas/ext/base/creplicate]: https://github.com/stdlib-js/blas-ext-base-creplicate
 
-[@stdlib/blas/ext/base/ctril]: https://github.com/stdlib-js/blas-ext-base-ctril/tree/esm
+[@stdlib/blas/ext/base/csum]: https://github.com/stdlib-js/blas-ext-base-csum
 
-[@stdlib/blas/ext/base/ctriu]: https://github.com/stdlib-js/blas-ext-base-ctriu/tree/esm
+[@stdlib/blas/ext/base/csumkbn]: https://github.com/stdlib-js/blas-ext-base-csumkbn
 
-[@stdlib/blas/ext/base/cunitspace]: https://github.com/stdlib-js/blas-ext-base-cunitspace/tree/esm
+[@stdlib/blas/ext/base/ctril]: https://github.com/stdlib-js/blas-ext-base-ctril
 
-[@stdlib/blas/ext/base/cwapx]: https://github.com/stdlib-js/blas-ext-base-cwapx/tree/esm
+[@stdlib/blas/ext/base/ctriu]: https://github.com/stdlib-js/blas-ext-base-ctriu
 
-[@stdlib/blas/ext/base/cwax]: https://github.com/stdlib-js/blas-ext-base-cwax/tree/esm
+[@stdlib/blas/ext/base/cunitspace]: https://github.com/stdlib-js/blas-ext-base-cunitspace
 
-[@stdlib/blas/ext/base/cwhere]: https://github.com/stdlib-js/blas-ext-base-cwhere/tree/esm
+[@stdlib/blas/ext/base/cwapx]: https://github.com/stdlib-js/blas-ext-base-cwapx
 
-[@stdlib/blas/ext/base/cwxsa]: https://github.com/stdlib-js/blas-ext-base-cwxsa/tree/esm
+[@stdlib/blas/ext/base/cwax]: https://github.com/stdlib-js/blas-ext-base-cwax
 
-[@stdlib/blas/ext/base/cwxsy]: https://github.com/stdlib-js/blas-ext-base-cwxsy/tree/esm
+[@stdlib/blas/ext/base/cwhere]: https://github.com/stdlib-js/blas-ext-base-cwhere
 
-[@stdlib/blas/ext/base/cxmy]: https://github.com/stdlib-js/blas-ext-base-cxmy/tree/esm
+[@stdlib/blas/ext/base/cwxsa]: https://github.com/stdlib-js/blas-ext-base-cwxsa
 
-[@stdlib/blas/ext/base/cxpy]: https://github.com/stdlib-js/blas-ext-base-cxpy/tree/esm
+[@stdlib/blas/ext/base/cwxsy]: https://github.com/stdlib-js/blas-ext-base-cwxsy
 
-[@stdlib/blas/ext/base/cxsa]: https://github.com/stdlib-js/blas-ext-base-cxsa/tree/esm
+[@stdlib/blas/ext/base/cxmy]: https://github.com/stdlib-js/blas-ext-base-cxmy
 
-[@stdlib/blas/ext/base/cxsy]: https://github.com/stdlib-js/blas-ext-base-cxsy/tree/esm
+[@stdlib/blas/ext/base/cxpy]: https://github.com/stdlib-js/blas-ext-base-cxpy
 
-[@stdlib/blas/ext/base/czero-to]: https://github.com/stdlib-js/blas-ext-base-czero-to/tree/esm
+[@stdlib/blas/ext/base/cxsa]: https://github.com/stdlib-js/blas-ext-base-cxsa
 
-[@stdlib/blas/ext/base/dany]: https://github.com/stdlib-js/blas-ext-base-dany/tree/esm
+[@stdlib/blas/ext/base/cxsy]: https://github.com/stdlib-js/blas-ext-base-cxsy
 
-[@stdlib/blas/ext/base/dapx]: https://github.com/stdlib-js/blas-ext-base-dapx/tree/esm
+[@stdlib/blas/ext/base/czero-to]: https://github.com/stdlib-js/blas-ext-base-czero-to
 
-[@stdlib/blas/ext/base/dapxsum]: https://github.com/stdlib-js/blas-ext-base-dapxsum/tree/esm
+[@stdlib/blas/ext/base/dany]: https://github.com/stdlib-js/blas-ext-base-dany
 
-[@stdlib/blas/ext/base/dapxsumkbn]: https://github.com/stdlib-js/blas-ext-base-dapxsumkbn/tree/esm
+[@stdlib/blas/ext/base/dapx]: https://github.com/stdlib-js/blas-ext-base-dapx
 
-[@stdlib/blas/ext/base/dapxsumkbn2]: https://github.com/stdlib-js/blas-ext-base-dapxsumkbn2/tree/esm
+[@stdlib/blas/ext/base/dapxsum]: https://github.com/stdlib-js/blas-ext-base-dapxsum
 
-[@stdlib/blas/ext/base/dapxsumors]: https://github.com/stdlib-js/blas-ext-base-dapxsumors/tree/esm
+[@stdlib/blas/ext/base/dapxsumkbn]: https://github.com/stdlib-js/blas-ext-base-dapxsumkbn
 
-[@stdlib/blas/ext/base/dapxsumpw]: https://github.com/stdlib-js/blas-ext-base-dapxsumpw/tree/esm
+[@stdlib/blas/ext/base/dapxsumkbn2]: https://github.com/stdlib-js/blas-ext-base-dapxsumkbn2
 
-[@stdlib/blas/ext/base/dasumpw]: https://github.com/stdlib-js/blas-ext-base-dasumpw/tree/esm
+[@stdlib/blas/ext/base/dapxsumors]: https://github.com/stdlib-js/blas-ext-base-dapxsumors
 
-[@stdlib/blas/ext/base/daxpb]: https://github.com/stdlib-js/blas-ext-base-daxpb/tree/esm
+[@stdlib/blas/ext/base/dapxsumpw]: https://github.com/stdlib-js/blas-ext-base-dapxsumpw
 
-[@stdlib/blas/ext/base/daxpby]: https://github.com/stdlib-js/blas-ext-base-daxpby/tree/esm
+[@stdlib/blas/ext/base/dasumpw]: https://github.com/stdlib-js/blas-ext-base-dasumpw
 
-[@stdlib/blas/ext/base/dcartesian-power]: https://github.com/stdlib-js/blas-ext-base-dcartesian-power/tree/esm
+[@stdlib/blas/ext/base/daxpb]: https://github.com/stdlib-js/blas-ext-base-daxpb
 
-[@stdlib/blas/ext/base/dcartesian-product]: https://github.com/stdlib-js/blas-ext-base-dcartesian-product/tree/esm
+[@stdlib/blas/ext/base/daxpby]: https://github.com/stdlib-js/blas-ext-base-daxpby
 
-[@stdlib/blas/ext/base/dcartesian-square]: https://github.com/stdlib-js/blas-ext-base-dcartesian-square/tree/esm
+[@stdlib/blas/ext/base/dcartesian-power]: https://github.com/stdlib-js/blas-ext-base-dcartesian-power
 
-[@stdlib/blas/ext/base/dcircshift]: https://github.com/stdlib-js/blas-ext-base-dcircshift/tree/esm
+[@stdlib/blas/ext/base/dcartesian-product]: https://github.com/stdlib-js/blas-ext-base-dcartesian-product
 
-[@stdlib/blas/ext/base/dcopy-within]: https://github.com/stdlib-js/blas-ext-base-dcopy-within/tree/esm
+[@stdlib/blas/ext/base/dcartesian-square]: https://github.com/stdlib-js/blas-ext-base-dcartesian-square
 
-[@stdlib/blas/ext/base/dcuany]: https://github.com/stdlib-js/blas-ext-base-dcuany/tree/esm
+[@stdlib/blas/ext/base/dcircshift]: https://github.com/stdlib-js/blas-ext-base-dcircshift
 
-[@stdlib/blas/ext/base/dcuevery]: https://github.com/stdlib-js/blas-ext-base-dcuevery/tree/esm
+[@stdlib/blas/ext/base/dcopy-within]: https://github.com/stdlib-js/blas-ext-base-dcopy-within
 
-[@stdlib/blas/ext/base/dcunone]: https://github.com/stdlib-js/blas-ext-base-dcunone/tree/esm
+[@stdlib/blas/ext/base/dcuany]: https://github.com/stdlib-js/blas-ext-base-dcuany
 
-[@stdlib/blas/ext/base/dcusome]: https://github.com/stdlib-js/blas-ext-base-dcusome/tree/esm
+[@stdlib/blas/ext/base/dcuevery]: https://github.com/stdlib-js/blas-ext-base-dcuevery
 
-[@stdlib/blas/ext/base/dcusum]: https://github.com/stdlib-js/blas-ext-base-dcusum/tree/esm
+[@stdlib/blas/ext/base/dcunone]: https://github.com/stdlib-js/blas-ext-base-dcunone
 
-[@stdlib/blas/ext/base/dcusumkbn]: https://github.com/stdlib-js/blas-ext-base-dcusumkbn/tree/esm
+[@stdlib/blas/ext/base/dcusome]: https://github.com/stdlib-js/blas-ext-base-dcusome
 
-[@stdlib/blas/ext/base/dcusumkbn2]: https://github.com/stdlib-js/blas-ext-base-dcusumkbn2/tree/esm
+[@stdlib/blas/ext/base/dcusum]: https://github.com/stdlib-js/blas-ext-base-dcusum
 
-[@stdlib/blas/ext/base/dcusumors]: https://github.com/stdlib-js/blas-ext-base-dcusumors/tree/esm
+[@stdlib/blas/ext/base/dcusumkbn]: https://github.com/stdlib-js/blas-ext-base-dcusumkbn
 
-[@stdlib/blas/ext/base/dcusumpw]: https://github.com/stdlib-js/blas-ext-base-dcusumpw/tree/esm
+[@stdlib/blas/ext/base/dcusumkbn2]: https://github.com/stdlib-js/blas-ext-base-dcusumkbn2
 
-[@stdlib/blas/ext/base/ddiff]: https://github.com/stdlib-js/blas-ext-base-ddiff/tree/esm
+[@stdlib/blas/ext/base/dcusumors]: https://github.com/stdlib-js/blas-ext-base-dcusumors
 
-[@stdlib/blas/ext/base/dediff]: https://github.com/stdlib-js/blas-ext-base-dediff/tree/esm
+[@stdlib/blas/ext/base/dcusumpw]: https://github.com/stdlib-js/blas-ext-base-dcusumpw
 
-[@stdlib/blas/ext/base/dfill-equal]: https://github.com/stdlib-js/blas-ext-base-dfill-equal/tree/esm
+[@stdlib/blas/ext/base/ddiff]: https://github.com/stdlib-js/blas-ext-base-ddiff
 
-[@stdlib/blas/ext/base/dfill-less-than]: https://github.com/stdlib-js/blas-ext-base-dfill-less-than/tree/esm
+[@stdlib/blas/ext/base/dediff]: https://github.com/stdlib-js/blas-ext-base-dediff
 
-[@stdlib/blas/ext/base/dfill-nan]: https://github.com/stdlib-js/blas-ext-base-dfill-nan/tree/esm
+[@stdlib/blas/ext/base/dfill-equal]: https://github.com/stdlib-js/blas-ext-base-dfill-equal
 
-[@stdlib/blas/ext/base/dfill-not-equal]: https://github.com/stdlib-js/blas-ext-base-dfill-not-equal/tree/esm
+[@stdlib/blas/ext/base/dfill-less-than]: https://github.com/stdlib-js/blas-ext-base-dfill-less-than
 
-[@stdlib/blas/ext/base/dfill]: https://github.com/stdlib-js/blas-ext-base-dfill/tree/esm
+[@stdlib/blas/ext/base/dfill-nan]: https://github.com/stdlib-js/blas-ext-base-dfill-nan
 
-[@stdlib/blas/ext/base/dfirst-index-equal]: https://github.com/stdlib-js/blas-ext-base-dfirst-index-equal/tree/esm
+[@stdlib/blas/ext/base/dfill-not-equal]: https://github.com/stdlib-js/blas-ext-base-dfill-not-equal
 
-[@stdlib/blas/ext/base/dfirst-index-greater-than]: https://github.com/stdlib-js/blas-ext-base-dfirst-index-greater-than/tree/esm
+[@stdlib/blas/ext/base/dfill]: https://github.com/stdlib-js/blas-ext-base-dfill
 
-[@stdlib/blas/ext/base/dfirst-index-less-than]: https://github.com/stdlib-js/blas-ext-base-dfirst-index-less-than/tree/esm
+[@stdlib/blas/ext/base/dfirst-index-equal]: https://github.com/stdlib-js/blas-ext-base-dfirst-index-equal
 
-[@stdlib/blas/ext/base/dindex-of-column]: https://github.com/stdlib-js/blas-ext-base-dindex-of-column/tree/esm
+[@stdlib/blas/ext/base/dfirst-index-greater-than]: https://github.com/stdlib-js/blas-ext-base-dfirst-index-greater-than
 
-[@stdlib/blas/ext/base/dindex-of-falsy]: https://github.com/stdlib-js/blas-ext-base-dindex-of-falsy/tree/esm
+[@stdlib/blas/ext/base/dfirst-index-less-than]: https://github.com/stdlib-js/blas-ext-base-dfirst-index-less-than
 
-[@stdlib/blas/ext/base/dindex-of-not-equal]: https://github.com/stdlib-js/blas-ext-base-dindex-of-not-equal/tree/esm
+[@stdlib/blas/ext/base/dindex-of-column]: https://github.com/stdlib-js/blas-ext-base-dindex-of-column
 
-[@stdlib/blas/ext/base/dindex-of-row]: https://github.com/stdlib-js/blas-ext-base-dindex-of-row/tree/esm
+[@stdlib/blas/ext/base/dindex-of-falsy]: https://github.com/stdlib-js/blas-ext-base-dindex-of-falsy
 
-[@stdlib/blas/ext/base/dindex-of-truthy]: https://github.com/stdlib-js/blas-ext-base-dindex-of-truthy/tree/esm
+[@stdlib/blas/ext/base/dindex-of-not-equal]: https://github.com/stdlib-js/blas-ext-base-dindex-of-not-equal
 
-[@stdlib/blas/ext/base/dindex-of]: https://github.com/stdlib-js/blas-ext-base-dindex-of/tree/esm
+[@stdlib/blas/ext/base/dindex-of-row]: https://github.com/stdlib-js/blas-ext-base-dindex-of-row
 
-[@stdlib/blas/ext/base/dlast-index-equal]: https://github.com/stdlib-js/blas-ext-base-dlast-index-equal/tree/esm
+[@stdlib/blas/ext/base/dindex-of-truthy]: https://github.com/stdlib-js/blas-ext-base-dindex-of-truthy
 
-[@stdlib/blas/ext/base/dlast-index-of-falsy]: https://github.com/stdlib-js/blas-ext-base-dlast-index-of-falsy/tree/esm
+[@stdlib/blas/ext/base/dindex-of]: https://github.com/stdlib-js/blas-ext-base-dindex-of
 
-[@stdlib/blas/ext/base/dlast-index-of-row]: https://github.com/stdlib-js/blas-ext-base-dlast-index-of-row/tree/esm
+[@stdlib/blas/ext/base/dlast-index-equal]: https://github.com/stdlib-js/blas-ext-base-dlast-index-equal
 
-[@stdlib/blas/ext/base/dlast-index-of-truthy]: https://github.com/stdlib-js/blas-ext-base-dlast-index-of-truthy/tree/esm
+[@stdlib/blas/ext/base/dlast-index-of-falsy]: https://github.com/stdlib-js/blas-ext-base-dlast-index-of-falsy
 
-[@stdlib/blas/ext/base/dlast-index-of]: https://github.com/stdlib-js/blas-ext-base-dlast-index-of/tree/esm
+[@stdlib/blas/ext/base/dlast-index-of-row]: https://github.com/stdlib-js/blas-ext-base-dlast-index-of-row
 
-[@stdlib/blas/ext/base/dlinspace]: https://github.com/stdlib-js/blas-ext-base-dlinspace/tree/esm
+[@stdlib/blas/ext/base/dlast-index-of-truthy]: https://github.com/stdlib-js/blas-ext-base-dlast-index-of-truthy
 
-[@stdlib/blas/ext/base/dlogspace]: https://github.com/stdlib-js/blas-ext-base-dlogspace/tree/esm
+[@stdlib/blas/ext/base/dlast-index-of]: https://github.com/stdlib-js/blas-ext-base-dlast-index-of
 
-[@stdlib/blas/ext/base/dminheap-sift-down]: https://github.com/stdlib-js/blas-ext-base-dminheap-sift-down/tree/esm
+[@stdlib/blas/ext/base/dlinspace]: https://github.com/stdlib-js/blas-ext-base-dlinspace
 
-[@stdlib/blas/ext/base/dminheapify]: https://github.com/stdlib-js/blas-ext-base-dminheapify/tree/esm
+[@stdlib/blas/ext/base/dlogspace]: https://github.com/stdlib-js/blas-ext-base-dlogspace
 
-[@stdlib/blas/ext/base/dmskrev]: https://github.com/stdlib-js/blas-ext-base-dmskrev/tree/esm
+[@stdlib/blas/ext/base/dminheap-sift-down]: https://github.com/stdlib-js/blas-ext-base-dminheap-sift-down
 
-[@stdlib/blas/ext/base/dnanasum]: https://github.com/stdlib-js/blas-ext-base-dnanasum/tree/esm
+[@stdlib/blas/ext/base/dminheapify]: https://github.com/stdlib-js/blas-ext-base-dminheapify
 
-[@stdlib/blas/ext/base/dnanasumors]: https://github.com/stdlib-js/blas-ext-base-dnanasumors/tree/esm
+[@stdlib/blas/ext/base/dmskrev]: https://github.com/stdlib-js/blas-ext-base-dmskrev
 
-[@stdlib/blas/ext/base/dnancount]: https://github.com/stdlib-js/blas-ext-base-dnancount/tree/esm
+[@stdlib/blas/ext/base/dnanasum]: https://github.com/stdlib-js/blas-ext-base-dnanasum
 
-[@stdlib/blas/ext/base/dnancusumkbn]: https://github.com/stdlib-js/blas-ext-base-dnancusumkbn/tree/esm
+[@stdlib/blas/ext/base/dnanasumors]: https://github.com/stdlib-js/blas-ext-base-dnanasumors
 
-[@stdlib/blas/ext/base/dnannsum]: https://github.com/stdlib-js/blas-ext-base-dnannsum/tree/esm
+[@stdlib/blas/ext/base/dnancount]: https://github.com/stdlib-js/blas-ext-base-dnancount
 
-[@stdlib/blas/ext/base/dnannsumkbn]: https://github.com/stdlib-js/blas-ext-base-dnannsumkbn/tree/esm
+[@stdlib/blas/ext/base/dnancusumkbn]: https://github.com/stdlib-js/blas-ext-base-dnancusumkbn
 
-[@stdlib/blas/ext/base/dnannsumkbn2]: https://github.com/stdlib-js/blas-ext-base-dnannsumkbn2/tree/esm
+[@stdlib/blas/ext/base/dnannsum]: https://github.com/stdlib-js/blas-ext-base-dnannsum
 
-[@stdlib/blas/ext/base/dnannsumors]: https://github.com/stdlib-js/blas-ext-base-dnannsumors/tree/esm
+[@stdlib/blas/ext/base/dnannsumkbn]: https://github.com/stdlib-js/blas-ext-base-dnannsumkbn
 
-[@stdlib/blas/ext/base/dnannsumpw]: https://github.com/stdlib-js/blas-ext-base-dnannsumpw/tree/esm
+[@stdlib/blas/ext/base/dnannsumkbn2]: https://github.com/stdlib-js/blas-ext-base-dnannsumkbn2
 
-[@stdlib/blas/ext/base/dnansum]: https://github.com/stdlib-js/blas-ext-base-dnansum/tree/esm
+[@stdlib/blas/ext/base/dnannsumors]: https://github.com/stdlib-js/blas-ext-base-dnannsumors
 
-[@stdlib/blas/ext/base/dnansumkbn]: https://github.com/stdlib-js/blas-ext-base-dnansumkbn/tree/esm
+[@stdlib/blas/ext/base/dnannsumpw]: https://github.com/stdlib-js/blas-ext-base-dnannsumpw
 
-[@stdlib/blas/ext/base/dnansumkbn2]: https://github.com/stdlib-js/blas-ext-base-dnansumkbn2/tree/esm
+[@stdlib/blas/ext/base/dnansum]: https://github.com/stdlib-js/blas-ext-base-dnansum
 
-[@stdlib/blas/ext/base/dnansumors]: https://github.com/stdlib-js/blas-ext-base-dnansumors/tree/esm
+[@stdlib/blas/ext/base/dnansumkbn]: https://github.com/stdlib-js/blas-ext-base-dnansumkbn
 
-[@stdlib/blas/ext/base/dnansumpw]: https://github.com/stdlib-js/blas-ext-base-dnansumpw/tree/esm
+[@stdlib/blas/ext/base/dnansumkbn2]: https://github.com/stdlib-js/blas-ext-base-dnansumkbn2
 
-[@stdlib/blas/ext/base/dnone]: https://github.com/stdlib-js/blas-ext-base-dnone/tree/esm
+[@stdlib/blas/ext/base/dnansumors]: https://github.com/stdlib-js/blas-ext-base-dnansumors
 
-[@stdlib/blas/ext/base/done-to]: https://github.com/stdlib-js/blas-ext-base-done-to/tree/esm
+[@stdlib/blas/ext/base/dnansumpw]: https://github.com/stdlib-js/blas-ext-base-dnansumpw
 
-[@stdlib/blas/ext/base/dones]: https://github.com/stdlib-js/blas-ext-base-dones/tree/esm
+[@stdlib/blas/ext/base/dnone]: https://github.com/stdlib-js/blas-ext-base-dnone
 
-[@stdlib/blas/ext/base/dreplicate]: https://github.com/stdlib-js/blas-ext-base-dreplicate/tree/esm
+[@stdlib/blas/ext/base/done-to]: https://github.com/stdlib-js/blas-ext-base-done-to
 
-[@stdlib/blas/ext/base/drev]: https://github.com/stdlib-js/blas-ext-base-drev/tree/esm
+[@stdlib/blas/ext/base/dones]: https://github.com/stdlib-js/blas-ext-base-dones
 
-[@stdlib/blas/ext/base/drrss]: https://github.com/stdlib-js/blas-ext-base-drrss/tree/esm
+[@stdlib/blas/ext/base/dreplicate]: https://github.com/stdlib-js/blas-ext-base-dreplicate
 
-[@stdlib/blas/ext/base/drss]: https://github.com/stdlib-js/blas-ext-base-drss/tree/esm
+[@stdlib/blas/ext/base/drev]: https://github.com/stdlib-js/blas-ext-base-drev
 
-[@stdlib/blas/ext/base/drssbl]: https://github.com/stdlib-js/blas-ext-base-drssbl/tree/esm
+[@stdlib/blas/ext/base/drrss]: https://github.com/stdlib-js/blas-ext-base-drrss
 
-[@stdlib/blas/ext/base/drsskbn]: https://github.com/stdlib-js/blas-ext-base-drsskbn/tree/esm
+[@stdlib/blas/ext/base/drss]: https://github.com/stdlib-js/blas-ext-base-drss
 
-[@stdlib/blas/ext/base/dsapxsum]: https://github.com/stdlib-js/blas-ext-base-dsapxsum/tree/esm
+[@stdlib/blas/ext/base/drssbl]: https://github.com/stdlib-js/blas-ext-base-drssbl
 
-[@stdlib/blas/ext/base/dsapxsumpw]: https://github.com/stdlib-js/blas-ext-base-dsapxsumpw/tree/esm
+[@stdlib/blas/ext/base/drsskbn]: https://github.com/stdlib-js/blas-ext-base-drsskbn
 
-[@stdlib/blas/ext/base/dsnannsumors]: https://github.com/stdlib-js/blas-ext-base-dsnannsumors/tree/esm
+[@stdlib/blas/ext/base/dsapxsum]: https://github.com/stdlib-js/blas-ext-base-dsapxsum
 
-[@stdlib/blas/ext/base/dsnansum]: https://github.com/stdlib-js/blas-ext-base-dsnansum/tree/esm
+[@stdlib/blas/ext/base/dsapxsumpw]: https://github.com/stdlib-js/blas-ext-base-dsapxsumpw
 
-[@stdlib/blas/ext/base/dsnansumors]: https://github.com/stdlib-js/blas-ext-base-dsnansumors/tree/esm
+[@stdlib/blas/ext/base/dsnannsumors]: https://github.com/stdlib-js/blas-ext-base-dsnannsumors
 
-[@stdlib/blas/ext/base/dsnansumpw]: https://github.com/stdlib-js/blas-ext-base-dsnansumpw/tree/esm
+[@stdlib/blas/ext/base/dsnansum]: https://github.com/stdlib-js/blas-ext-base-dsnansum
 
-[@stdlib/blas/ext/base/dsome]: https://github.com/stdlib-js/blas-ext-base-dsome/tree/esm
+[@stdlib/blas/ext/base/dsnansumors]: https://github.com/stdlib-js/blas-ext-base-dsnansumors
 
-[@stdlib/blas/ext/base/dsort]: https://github.com/stdlib-js/blas-ext-base-dsort/tree/esm
+[@stdlib/blas/ext/base/dsnansumpw]: https://github.com/stdlib-js/blas-ext-base-dsnansumpw
 
-[@stdlib/blas/ext/base/dsort2hp]: https://github.com/stdlib-js/blas-ext-base-dsort2hp/tree/esm
+[@stdlib/blas/ext/base/dsome]: https://github.com/stdlib-js/blas-ext-base-dsome
 
-[@stdlib/blas/ext/base/dsort2ins]: https://github.com/stdlib-js/blas-ext-base-dsort2ins/tree/esm
+[@stdlib/blas/ext/base/dsort]: https://github.com/stdlib-js/blas-ext-base-dsort
 
-[@stdlib/blas/ext/base/dsort2sh]: https://github.com/stdlib-js/blas-ext-base-dsort2sh/tree/esm
+[@stdlib/blas/ext/base/dsort2hp]: https://github.com/stdlib-js/blas-ext-base-dsort2hp
 
-[@stdlib/blas/ext/base/dsorthp]: https://github.com/stdlib-js/blas-ext-base-dsorthp/tree/esm
+[@stdlib/blas/ext/base/dsort2ins]: https://github.com/stdlib-js/blas-ext-base-dsort2ins
 
-[@stdlib/blas/ext/base/dsortins]: https://github.com/stdlib-js/blas-ext-base-dsortins/tree/esm
+[@stdlib/blas/ext/base/dsort2sh]: https://github.com/stdlib-js/blas-ext-base-dsort2sh
 
-[@stdlib/blas/ext/base/dsortsh]: https://github.com/stdlib-js/blas-ext-base-dsortsh/tree/esm
+[@stdlib/blas/ext/base/dsorthp]: https://github.com/stdlib-js/blas-ext-base-dsorthp
 
-[@stdlib/blas/ext/base/dssum]: https://github.com/stdlib-js/blas-ext-base-dssum/tree/esm
+[@stdlib/blas/ext/base/dsortins]: https://github.com/stdlib-js/blas-ext-base-dsortins
 
-[@stdlib/blas/ext/base/dssumors]: https://github.com/stdlib-js/blas-ext-base-dssumors/tree/esm
+[@stdlib/blas/ext/base/dsortsh]: https://github.com/stdlib-js/blas-ext-base-dsortsh
 
-[@stdlib/blas/ext/base/dssumpw]: https://github.com/stdlib-js/blas-ext-base-dssumpw/tree/esm
+[@stdlib/blas/ext/base/dssum]: https://github.com/stdlib-js/blas-ext-base-dssum
 
-[@stdlib/blas/ext/base/dsum]: https://github.com/stdlib-js/blas-ext-base-dsum/tree/esm
+[@stdlib/blas/ext/base/dssumors]: https://github.com/stdlib-js/blas-ext-base-dssumors
 
-[@stdlib/blas/ext/base/dsumkbn]: https://github.com/stdlib-js/blas-ext-base-dsumkbn/tree/esm
+[@stdlib/blas/ext/base/dssumpw]: https://github.com/stdlib-js/blas-ext-base-dssumpw
 
-[@stdlib/blas/ext/base/dsumkbn2]: https://github.com/stdlib-js/blas-ext-base-dsumkbn2/tree/esm
+[@stdlib/blas/ext/base/dsum]: https://github.com/stdlib-js/blas-ext-base-dsum
 
-[@stdlib/blas/ext/base/dsumors]: https://github.com/stdlib-js/blas-ext-base-dsumors/tree/esm
+[@stdlib/blas/ext/base/dsumkbn]: https://github.com/stdlib-js/blas-ext-base-dsumkbn
 
-[@stdlib/blas/ext/base/dsumpw]: https://github.com/stdlib-js/blas-ext-base-dsumpw/tree/esm
+[@stdlib/blas/ext/base/dsumkbn2]: https://github.com/stdlib-js/blas-ext-base-dsumkbn2
 
-[@stdlib/blas/ext/base/dtril]: https://github.com/stdlib-js/blas-ext-base-dtril/tree/esm
+[@stdlib/blas/ext/base/dsumors]: https://github.com/stdlib-js/blas-ext-base-dsumors
 
-[@stdlib/blas/ext/base/dtril2triu]: https://github.com/stdlib-js/blas-ext-base-dtril2triu/tree/esm
+[@stdlib/blas/ext/base/dsumpw]: https://github.com/stdlib-js/blas-ext-base-dsumpw
 
-[@stdlib/blas/ext/base/dtriu]: https://github.com/stdlib-js/blas-ext-base-dtriu/tree/esm
+[@stdlib/blas/ext/base/dtril]: https://github.com/stdlib-js/blas-ext-base-dtril
 
-[@stdlib/blas/ext/base/dtriu2tril]: https://github.com/stdlib-js/blas-ext-base-dtriu2tril/tree/esm
+[@stdlib/blas/ext/base/dtril2triu]: https://github.com/stdlib-js/blas-ext-base-dtril2triu
 
-[@stdlib/blas/ext/base/dunitspace]: https://github.com/stdlib-js/blas-ext-base-dunitspace/tree/esm
+[@stdlib/blas/ext/base/dtriu]: https://github.com/stdlib-js/blas-ext-base-dtriu
 
-[@stdlib/blas/ext/base/dvander]: https://github.com/stdlib-js/blas-ext-base-dvander/tree/esm
+[@stdlib/blas/ext/base/dtriu2tril]: https://github.com/stdlib-js/blas-ext-base-dtriu2tril
 
-[@stdlib/blas/ext/base/dwapx]: https://github.com/stdlib-js/blas-ext-base-dwapx/tree/esm
+[@stdlib/blas/ext/base/dunitspace]: https://github.com/stdlib-js/blas-ext-base-dunitspace
 
-[@stdlib/blas/ext/base/dwax]: https://github.com/stdlib-js/blas-ext-base-dwax/tree/esm
+[@stdlib/blas/ext/base/dvander]: https://github.com/stdlib-js/blas-ext-base-dvander
 
-[@stdlib/blas/ext/base/dwhere]: https://github.com/stdlib-js/blas-ext-base-dwhere/tree/esm
+[@stdlib/blas/ext/base/dwapx]: https://github.com/stdlib-js/blas-ext-base-dwapx
 
-[@stdlib/blas/ext/base/dwxdy]: https://github.com/stdlib-js/blas-ext-base-dwxdy/tree/esm
+[@stdlib/blas/ext/base/dwax]: https://github.com/stdlib-js/blas-ext-base-dwax
 
-[@stdlib/blas/ext/base/dwxmy]: https://github.com/stdlib-js/blas-ext-base-dwxmy/tree/esm
+[@stdlib/blas/ext/base/dwhere]: https://github.com/stdlib-js/blas-ext-base-dwhere
 
-[@stdlib/blas/ext/base/dwxpy]: https://github.com/stdlib-js/blas-ext-base-dwxpy/tree/esm
+[@stdlib/blas/ext/base/dwxdy]: https://github.com/stdlib-js/blas-ext-base-dwxdy
 
-[@stdlib/blas/ext/base/dwxsa]: https://github.com/stdlib-js/blas-ext-base-dwxsa/tree/esm
+[@stdlib/blas/ext/base/dwxmy]: https://github.com/stdlib-js/blas-ext-base-dwxmy
 
-[@stdlib/blas/ext/base/dwxsy]: https://github.com/stdlib-js/blas-ext-base-dwxsy/tree/esm
+[@stdlib/blas/ext/base/dwxpy]: https://github.com/stdlib-js/blas-ext-base-dwxpy
 
-[@stdlib/blas/ext/base/dxdy]: https://github.com/stdlib-js/blas-ext-base-dxdy/tree/esm
+[@stdlib/blas/ext/base/dwxsa]: https://github.com/stdlib-js/blas-ext-base-dwxsa
 
-[@stdlib/blas/ext/base/dxmy]: https://github.com/stdlib-js/blas-ext-base-dxmy/tree/esm
+[@stdlib/blas/ext/base/dwxsy]: https://github.com/stdlib-js/blas-ext-base-dwxsy
 
-[@stdlib/blas/ext/base/dxpy]: https://github.com/stdlib-js/blas-ext-base-dxpy/tree/esm
+[@stdlib/blas/ext/base/dxdy]: https://github.com/stdlib-js/blas-ext-base-dxdy
 
-[@stdlib/blas/ext/base/dxsa]: https://github.com/stdlib-js/blas-ext-base-dxsa/tree/esm
+[@stdlib/blas/ext/base/dxmy]: https://github.com/stdlib-js/blas-ext-base-dxmy
 
-[@stdlib/blas/ext/base/dxsy]: https://github.com/stdlib-js/blas-ext-base-dxsy/tree/esm
+[@stdlib/blas/ext/base/dxpy]: https://github.com/stdlib-js/blas-ext-base-dxpy
 
-[@stdlib/blas/ext/base/dzero-to]: https://github.com/stdlib-js/blas-ext-base-dzero-to/tree/esm
+[@stdlib/blas/ext/base/dxsa]: https://github.com/stdlib-js/blas-ext-base-dxsa
 
-[@stdlib/blas/ext/base/dzeros]: https://github.com/stdlib-js/blas-ext-base-dzeros/tree/esm
+[@stdlib/blas/ext/base/dxsy]: https://github.com/stdlib-js/blas-ext-base-dxsy
 
-[@stdlib/blas/ext/base/gany]: https://github.com/stdlib-js/blas-ext-base-gany/tree/esm
+[@stdlib/blas/ext/base/dzero-to]: https://github.com/stdlib-js/blas-ext-base-dzero-to
 
-[@stdlib/blas/ext/base/gapx]: https://github.com/stdlib-js/blas-ext-base-gapx/tree/esm
+[@stdlib/blas/ext/base/dzeros]: https://github.com/stdlib-js/blas-ext-base-dzeros
 
-[@stdlib/blas/ext/base/gapxsum]: https://github.com/stdlib-js/blas-ext-base-gapxsum/tree/esm
+[@stdlib/blas/ext/base/gany]: https://github.com/stdlib-js/blas-ext-base-gany
 
-[@stdlib/blas/ext/base/gapxsumkbn]: https://github.com/stdlib-js/blas-ext-base-gapxsumkbn/tree/esm
+[@stdlib/blas/ext/base/gapx]: https://github.com/stdlib-js/blas-ext-base-gapx
 
-[@stdlib/blas/ext/base/gapxsumkbn2]: https://github.com/stdlib-js/blas-ext-base-gapxsumkbn2/tree/esm
+[@stdlib/blas/ext/base/gapxsum]: https://github.com/stdlib-js/blas-ext-base-gapxsum
 
-[@stdlib/blas/ext/base/gapxsumors]: https://github.com/stdlib-js/blas-ext-base-gapxsumors/tree/esm
+[@stdlib/blas/ext/base/gapxsumkbn]: https://github.com/stdlib-js/blas-ext-base-gapxsumkbn
 
-[@stdlib/blas/ext/base/gapxsumpw]: https://github.com/stdlib-js/blas-ext-base-gapxsumpw/tree/esm
+[@stdlib/blas/ext/base/gapxsumkbn2]: https://github.com/stdlib-js/blas-ext-base-gapxsumkbn2
 
-[@stdlib/blas/ext/base/gasumpw]: https://github.com/stdlib-js/blas-ext-base-gasumpw/tree/esm
+[@stdlib/blas/ext/base/gapxsumors]: https://github.com/stdlib-js/blas-ext-base-gapxsumors
 
-[@stdlib/blas/ext/base/gaxpb]: https://github.com/stdlib-js/blas-ext-base-gaxpb/tree/esm
+[@stdlib/blas/ext/base/gapxsumpw]: https://github.com/stdlib-js/blas-ext-base-gapxsumpw
 
-[@stdlib/blas/ext/base/gaxpby]: https://github.com/stdlib-js/blas-ext-base-gaxpby/tree/esm
+[@stdlib/blas/ext/base/gasumpw]: https://github.com/stdlib-js/blas-ext-base-gasumpw
 
-[@stdlib/blas/ext/base/gcartesian-power]: https://github.com/stdlib-js/blas-ext-base-gcartesian-power/tree/esm
+[@stdlib/blas/ext/base/gaxpb]: https://github.com/stdlib-js/blas-ext-base-gaxpb
 
-[@stdlib/blas/ext/base/gcartesian-product]: https://github.com/stdlib-js/blas-ext-base-gcartesian-product/tree/esm
+[@stdlib/blas/ext/base/gaxpby]: https://github.com/stdlib-js/blas-ext-base-gaxpby
 
-[@stdlib/blas/ext/base/gcartesian-square]: https://github.com/stdlib-js/blas-ext-base-gcartesian-square/tree/esm
+[@stdlib/blas/ext/base/gcartesian-power]: https://github.com/stdlib-js/blas-ext-base-gcartesian-power
 
-[@stdlib/blas/ext/base/gcircshift]: https://github.com/stdlib-js/blas-ext-base-gcircshift/tree/esm
+[@stdlib/blas/ext/base/gcartesian-product]: https://github.com/stdlib-js/blas-ext-base-gcartesian-product
 
-[@stdlib/blas/ext/base/gconjoin]: https://github.com/stdlib-js/blas-ext-base-gconjoin/tree/esm
+[@stdlib/blas/ext/base/gcartesian-square]: https://github.com/stdlib-js/blas-ext-base-gcartesian-square
 
-[@stdlib/blas/ext/base/gcopy-within]: https://github.com/stdlib-js/blas-ext-base-gcopy-within/tree/esm
+[@stdlib/blas/ext/base/gcircshift]: https://github.com/stdlib-js/blas-ext-base-gcircshift
 
-[@stdlib/blas/ext/base/gcuany]: https://github.com/stdlib-js/blas-ext-base-gcuany/tree/esm
+[@stdlib/blas/ext/base/gconjoin]: https://github.com/stdlib-js/blas-ext-base-gconjoin
 
-[@stdlib/blas/ext/base/gcuevery]: https://github.com/stdlib-js/blas-ext-base-gcuevery/tree/esm
+[@stdlib/blas/ext/base/gcopy-within]: https://github.com/stdlib-js/blas-ext-base-gcopy-within
 
-[@stdlib/blas/ext/base/gcunone]: https://github.com/stdlib-js/blas-ext-base-gcunone/tree/esm
+[@stdlib/blas/ext/base/gcuany]: https://github.com/stdlib-js/blas-ext-base-gcuany
 
-[@stdlib/blas/ext/base/gcusome]: https://github.com/stdlib-js/blas-ext-base-gcusome/tree/esm
+[@stdlib/blas/ext/base/gcuevery]: https://github.com/stdlib-js/blas-ext-base-gcuevery
 
-[@stdlib/blas/ext/base/gcusum]: https://github.com/stdlib-js/blas-ext-base-gcusum/tree/esm
+[@stdlib/blas/ext/base/gcunone]: https://github.com/stdlib-js/blas-ext-base-gcunone
 
-[@stdlib/blas/ext/base/gcusumkbn]: https://github.com/stdlib-js/blas-ext-base-gcusumkbn/tree/esm
+[@stdlib/blas/ext/base/gcusome]: https://github.com/stdlib-js/blas-ext-base-gcusome
 
-[@stdlib/blas/ext/base/gcusumkbn2]: https://github.com/stdlib-js/blas-ext-base-gcusumkbn2/tree/esm
+[@stdlib/blas/ext/base/gcusum]: https://github.com/stdlib-js/blas-ext-base-gcusum
 
-[@stdlib/blas/ext/base/gcusumors]: https://github.com/stdlib-js/blas-ext-base-gcusumors/tree/esm
+[@stdlib/blas/ext/base/gcusumkbn]: https://github.com/stdlib-js/blas-ext-base-gcusumkbn
 
-[@stdlib/blas/ext/base/gcusumpw]: https://github.com/stdlib-js/blas-ext-base-gcusumpw/tree/esm
+[@stdlib/blas/ext/base/gcusumkbn2]: https://github.com/stdlib-js/blas-ext-base-gcusumkbn2
 
-[@stdlib/blas/ext/base/gdiff]: https://github.com/stdlib-js/blas-ext-base-gdiff/tree/esm
+[@stdlib/blas/ext/base/gcusumors]: https://github.com/stdlib-js/blas-ext-base-gcusumors
 
-[@stdlib/blas/ext/base/gediff]: https://github.com/stdlib-js/blas-ext-base-gediff/tree/esm
+[@stdlib/blas/ext/base/gcusumpw]: https://github.com/stdlib-js/blas-ext-base-gcusumpw
 
-[@stdlib/blas/ext/base/gevery]: https://github.com/stdlib-js/blas-ext-base-gevery/tree/esm
+[@stdlib/blas/ext/base/gdiff]: https://github.com/stdlib-js/blas-ext-base-gdiff
 
-[@stdlib/blas/ext/base/gfill-by]: https://github.com/stdlib-js/blas-ext-base-gfill-by/tree/esm
+[@stdlib/blas/ext/base/gediff]: https://github.com/stdlib-js/blas-ext-base-gediff
 
-[@stdlib/blas/ext/base/gfill-equal]: https://github.com/stdlib-js/blas-ext-base-gfill-equal/tree/esm
+[@stdlib/blas/ext/base/gevery]: https://github.com/stdlib-js/blas-ext-base-gevery
 
-[@stdlib/blas/ext/base/gfill-less-than]: https://github.com/stdlib-js/blas-ext-base-gfill-less-than/tree/esm
+[@stdlib/blas/ext/base/gfill-by]: https://github.com/stdlib-js/blas-ext-base-gfill-by
 
-[@stdlib/blas/ext/base/gfill-nan]: https://github.com/stdlib-js/blas-ext-base-gfill-nan/tree/esm
+[@stdlib/blas/ext/base/gfill-equal]: https://github.com/stdlib-js/blas-ext-base-gfill-equal
 
-[@stdlib/blas/ext/base/gfill-not-equal]: https://github.com/stdlib-js/blas-ext-base-gfill-not-equal/tree/esm
+[@stdlib/blas/ext/base/gfill-less-than]: https://github.com/stdlib-js/blas-ext-base-gfill-less-than
 
-[@stdlib/blas/ext/base/gfill]: https://github.com/stdlib-js/blas-ext-base-gfill/tree/esm
+[@stdlib/blas/ext/base/gfill-nan]: https://github.com/stdlib-js/blas-ext-base-gfill-nan
 
-[@stdlib/blas/ext/base/gfind-index]: https://github.com/stdlib-js/blas-ext-base-gfind-index/tree/esm
+[@stdlib/blas/ext/base/gfill-not-equal]: https://github.com/stdlib-js/blas-ext-base-gfill-not-equal
 
-[@stdlib/blas/ext/base/gfind-last-index]: https://github.com/stdlib-js/blas-ext-base-gfind-last-index/tree/esm
+[@stdlib/blas/ext/base/gfill]: https://github.com/stdlib-js/blas-ext-base-gfill
 
-[@stdlib/blas/ext/base/gfirst-index-equal]: https://github.com/stdlib-js/blas-ext-base-gfirst-index-equal/tree/esm
+[@stdlib/blas/ext/base/gfind-index]: https://github.com/stdlib-js/blas-ext-base-gfind-index
 
-[@stdlib/blas/ext/base/gfirst-index-greater-than]: https://github.com/stdlib-js/blas-ext-base-gfirst-index-greater-than/tree/esm
+[@stdlib/blas/ext/base/gfind-last-index]: https://github.com/stdlib-js/blas-ext-base-gfind-last-index
 
-[@stdlib/blas/ext/base/gfirst-index-less-than]: https://github.com/stdlib-js/blas-ext-base-gfirst-index-less-than/tree/esm
+[@stdlib/blas/ext/base/gfirst-index-equal]: https://github.com/stdlib-js/blas-ext-base-gfirst-index-equal
 
-[@stdlib/blas/ext/base/gfirst-index-not-equal]: https://github.com/stdlib-js/blas-ext-base-gfirst-index-not-equal/tree/esm
+[@stdlib/blas/ext/base/gfirst-index-greater-than]: https://github.com/stdlib-js/blas-ext-base-gfirst-index-greater-than
 
-[@stdlib/blas/ext/base/gindex-of-column]: https://github.com/stdlib-js/blas-ext-base-gindex-of-column/tree/esm
+[@stdlib/blas/ext/base/gfirst-index-less-than]: https://github.com/stdlib-js/blas-ext-base-gfirst-index-less-than
 
-[@stdlib/blas/ext/base/gindex-of-falsy-row]: https://github.com/stdlib-js/blas-ext-base-gindex-of-falsy-row/tree/esm
+[@stdlib/blas/ext/base/gfirst-index-not-equal]: https://github.com/stdlib-js/blas-ext-base-gfirst-index-not-equal
 
-[@stdlib/blas/ext/base/gindex-of-falsy]: https://github.com/stdlib-js/blas-ext-base-gindex-of-falsy/tree/esm
+[@stdlib/blas/ext/base/gindex-of-column]: https://github.com/stdlib-js/blas-ext-base-gindex-of-column
 
-[@stdlib/blas/ext/base/gindex-of-not-equal]: https://github.com/stdlib-js/blas-ext-base-gindex-of-not-equal/tree/esm
+[@stdlib/blas/ext/base/gindex-of-falsy-row]: https://github.com/stdlib-js/blas-ext-base-gindex-of-falsy-row
 
-[@stdlib/blas/ext/base/gindex-of-row]: https://github.com/stdlib-js/blas-ext-base-gindex-of-row/tree/esm
+[@stdlib/blas/ext/base/gindex-of-falsy]: https://github.com/stdlib-js/blas-ext-base-gindex-of-falsy
 
-[@stdlib/blas/ext/base/gindex-of-same-value]: https://github.com/stdlib-js/blas-ext-base-gindex-of-same-value/tree/esm
+[@stdlib/blas/ext/base/gindex-of-not-equal]: https://github.com/stdlib-js/blas-ext-base-gindex-of-not-equal
 
-[@stdlib/blas/ext/base/gindex-of-truthy-row]: https://github.com/stdlib-js/blas-ext-base-gindex-of-truthy-row/tree/esm
+[@stdlib/blas/ext/base/gindex-of-row]: https://github.com/stdlib-js/blas-ext-base-gindex-of-row
 
-[@stdlib/blas/ext/base/gindex-of-truthy]: https://github.com/stdlib-js/blas-ext-base-gindex-of-truthy/tree/esm
+[@stdlib/blas/ext/base/gindex-of-same-value]: https://github.com/stdlib-js/blas-ext-base-gindex-of-same-value
 
-[@stdlib/blas/ext/base/gindex-of]: https://github.com/stdlib-js/blas-ext-base-gindex-of/tree/esm
+[@stdlib/blas/ext/base/gindex-of-truthy-row]: https://github.com/stdlib-js/blas-ext-base-gindex-of-truthy-row
 
-[@stdlib/blas/ext/base/gjoin-between]: https://github.com/stdlib-js/blas-ext-base-gjoin-between/tree/esm
+[@stdlib/blas/ext/base/gindex-of-truthy]: https://github.com/stdlib-js/blas-ext-base-gindex-of-truthy
 
-[@stdlib/blas/ext/base/gjoin]: https://github.com/stdlib-js/blas-ext-base-gjoin/tree/esm
+[@stdlib/blas/ext/base/gindex-of]: https://github.com/stdlib-js/blas-ext-base-gindex-of
 
-[@stdlib/blas/ext/base/glast-index-equal]: https://github.com/stdlib-js/blas-ext-base-glast-index-equal/tree/esm
+[@stdlib/blas/ext/base/gjoin-between]: https://github.com/stdlib-js/blas-ext-base-gjoin-between
 
-[@stdlib/blas/ext/base/glast-index-of-falsy]: https://github.com/stdlib-js/blas-ext-base-glast-index-of-falsy/tree/esm
+[@stdlib/blas/ext/base/gjoin]: https://github.com/stdlib-js/blas-ext-base-gjoin
 
-[@stdlib/blas/ext/base/glast-index-of-row]: https://github.com/stdlib-js/blas-ext-base-glast-index-of-row/tree/esm
+[@stdlib/blas/ext/base/glast-index-equal]: https://github.com/stdlib-js/blas-ext-base-glast-index-equal
 
-[@stdlib/blas/ext/base/glast-index-of-truthy]: https://github.com/stdlib-js/blas-ext-base-glast-index-of-truthy/tree/esm
+[@stdlib/blas/ext/base/glast-index-of-falsy]: https://github.com/stdlib-js/blas-ext-base-glast-index-of-falsy
 
-[@stdlib/blas/ext/base/glast-index-of]: https://github.com/stdlib-js/blas-ext-base-glast-index-of/tree/esm
+[@stdlib/blas/ext/base/glast-index-of-row]: https://github.com/stdlib-js/blas-ext-base-glast-index-of-row
 
-[@stdlib/blas/ext/base/glinspace]: https://github.com/stdlib-js/blas-ext-base-glinspace/tree/esm
+[@stdlib/blas/ext/base/glast-index-of-truthy]: https://github.com/stdlib-js/blas-ext-base-glast-index-of-truthy
 
-[@stdlib/blas/ext/base/glogspace]: https://github.com/stdlib-js/blas-ext-base-glogspace/tree/esm
+[@stdlib/blas/ext/base/glast-index-of]: https://github.com/stdlib-js/blas-ext-base-glast-index-of
 
-[@stdlib/blas/ext/base/gminheap-sift-down]: https://github.com/stdlib-js/blas-ext-base-gminheap-sift-down/tree/esm
+[@stdlib/blas/ext/base/glinspace]: https://github.com/stdlib-js/blas-ext-base-glinspace
 
-[@stdlib/blas/ext/base/gminheapify]: https://github.com/stdlib-js/blas-ext-base-gminheapify/tree/esm
+[@stdlib/blas/ext/base/glogspace]: https://github.com/stdlib-js/blas-ext-base-glogspace
 
-[@stdlib/blas/ext/base/gmskrev]: https://github.com/stdlib-js/blas-ext-base-gmskrev/tree/esm
+[@stdlib/blas/ext/base/gminheap-sift-down]: https://github.com/stdlib-js/blas-ext-base-gminheap-sift-down
 
-[@stdlib/blas/ext/base/gnancount]: https://github.com/stdlib-js/blas-ext-base-gnancount/tree/esm
+[@stdlib/blas/ext/base/gminheapify]: https://github.com/stdlib-js/blas-ext-base-gminheapify
 
-[@stdlib/blas/ext/base/gnannsumkbn]: https://github.com/stdlib-js/blas-ext-base-gnannsumkbn/tree/esm
+[@stdlib/blas/ext/base/gmskrev]: https://github.com/stdlib-js/blas-ext-base-gmskrev
 
-[@stdlib/blas/ext/base/gnannsumpw]: https://github.com/stdlib-js/blas-ext-base-gnannsumpw/tree/esm
+[@stdlib/blas/ext/base/gnancount]: https://github.com/stdlib-js/blas-ext-base-gnancount
 
-[@stdlib/blas/ext/base/gnansum]: https://github.com/stdlib-js/blas-ext-base-gnansum/tree/esm
+[@stdlib/blas/ext/base/gnannsumkbn]: https://github.com/stdlib-js/blas-ext-base-gnannsumkbn
 
-[@stdlib/blas/ext/base/gnansumkbn]: https://github.com/stdlib-js/blas-ext-base-gnansumkbn/tree/esm
+[@stdlib/blas/ext/base/gnannsumpw]: https://github.com/stdlib-js/blas-ext-base-gnannsumpw
 
-[@stdlib/blas/ext/base/gnansumkbn2]: https://github.com/stdlib-js/blas-ext-base-gnansumkbn2/tree/esm
+[@stdlib/blas/ext/base/gnansum]: https://github.com/stdlib-js/blas-ext-base-gnansum
 
-[@stdlib/blas/ext/base/gnansumors]: https://github.com/stdlib-js/blas-ext-base-gnansumors/tree/esm
+[@stdlib/blas/ext/base/gnansumkbn]: https://github.com/stdlib-js/blas-ext-base-gnansumkbn
 
-[@stdlib/blas/ext/base/gnansumpw]: https://github.com/stdlib-js/blas-ext-base-gnansumpw/tree/esm
+[@stdlib/blas/ext/base/gnansumkbn2]: https://github.com/stdlib-js/blas-ext-base-gnansumkbn2
 
-[@stdlib/blas/ext/base/gnone]: https://github.com/stdlib-js/blas-ext-base-gnone/tree/esm
+[@stdlib/blas/ext/base/gnansumors]: https://github.com/stdlib-js/blas-ext-base-gnansumors
 
-[@stdlib/blas/ext/base/gone-to]: https://github.com/stdlib-js/blas-ext-base-gone-to/tree/esm
+[@stdlib/blas/ext/base/gnansumpw]: https://github.com/stdlib-js/blas-ext-base-gnansumpw
 
-[@stdlib/blas/ext/base/greplicate]: https://github.com/stdlib-js/blas-ext-base-greplicate/tree/esm
+[@stdlib/blas/ext/base/gnone]: https://github.com/stdlib-js/blas-ext-base-gnone
 
-[@stdlib/blas/ext/base/grev]: https://github.com/stdlib-js/blas-ext-base-grev/tree/esm
+[@stdlib/blas/ext/base/gone-to]: https://github.com/stdlib-js/blas-ext-base-gone-to
 
-[@stdlib/blas/ext/base/gsome]: https://github.com/stdlib-js/blas-ext-base-gsome/tree/esm
+[@stdlib/blas/ext/base/greplicate]: https://github.com/stdlib-js/blas-ext-base-greplicate
 
-[@stdlib/blas/ext/base/gsort]: https://github.com/stdlib-js/blas-ext-base-gsort/tree/esm
+[@stdlib/blas/ext/base/grev]: https://github.com/stdlib-js/blas-ext-base-grev
 
-[@stdlib/blas/ext/base/gsort2hp]: https://github.com/stdlib-js/blas-ext-base-gsort2hp/tree/esm
+[@stdlib/blas/ext/base/gsome]: https://github.com/stdlib-js/blas-ext-base-gsome
 
-[@stdlib/blas/ext/base/gsort2ins]: https://github.com/stdlib-js/blas-ext-base-gsort2ins/tree/esm
+[@stdlib/blas/ext/base/gsort]: https://github.com/stdlib-js/blas-ext-base-gsort
 
-[@stdlib/blas/ext/base/gsort2sh]: https://github.com/stdlib-js/blas-ext-base-gsort2sh/tree/esm
+[@stdlib/blas/ext/base/gsort2hp]: https://github.com/stdlib-js/blas-ext-base-gsort2hp
 
-[@stdlib/blas/ext/base/gsorthp-by]: https://github.com/stdlib-js/blas-ext-base-gsorthp-by/tree/esm
+[@stdlib/blas/ext/base/gsort2ins]: https://github.com/stdlib-js/blas-ext-base-gsort2ins
 
-[@stdlib/blas/ext/base/gsorthp]: https://github.com/stdlib-js/blas-ext-base-gsorthp/tree/esm
+[@stdlib/blas/ext/base/gsort2sh]: https://github.com/stdlib-js/blas-ext-base-gsort2sh
 
-[@stdlib/blas/ext/base/gsortins]: https://github.com/stdlib-js/blas-ext-base-gsortins/tree/esm
+[@stdlib/blas/ext/base/gsorthp-by]: https://github.com/stdlib-js/blas-ext-base-gsorthp-by
 
-[@stdlib/blas/ext/base/gsortsh]: https://github.com/stdlib-js/blas-ext-base-gsortsh/tree/esm
+[@stdlib/blas/ext/base/gsorthp]: https://github.com/stdlib-js/blas-ext-base-gsorthp
 
-[@stdlib/blas/ext/base/gsum]: https://github.com/stdlib-js/blas-ext-base-gsum/tree/esm
+[@stdlib/blas/ext/base/gsortins]: https://github.com/stdlib-js/blas-ext-base-gsortins
 
-[@stdlib/blas/ext/base/gsumkbn]: https://github.com/stdlib-js/blas-ext-base-gsumkbn/tree/esm
+[@stdlib/blas/ext/base/gsortsh]: https://github.com/stdlib-js/blas-ext-base-gsortsh
 
-[@stdlib/blas/ext/base/gsumkbn2]: https://github.com/stdlib-js/blas-ext-base-gsumkbn2/tree/esm
+[@stdlib/blas/ext/base/gsum]: https://github.com/stdlib-js/blas-ext-base-gsum
 
-[@stdlib/blas/ext/base/gsumors]: https://github.com/stdlib-js/blas-ext-base-gsumors/tree/esm
+[@stdlib/blas/ext/base/gsumkbn]: https://github.com/stdlib-js/blas-ext-base-gsumkbn
 
-[@stdlib/blas/ext/base/gsumpw]: https://github.com/stdlib-js/blas-ext-base-gsumpw/tree/esm
+[@stdlib/blas/ext/base/gsumkbn2]: https://github.com/stdlib-js/blas-ext-base-gsumkbn2
 
-[@stdlib/blas/ext/base/gtril]: https://github.com/stdlib-js/blas-ext-base-gtril/tree/esm
+[@stdlib/blas/ext/base/gsumors]: https://github.com/stdlib-js/blas-ext-base-gsumors
 
-[@stdlib/blas/ext/base/gtriu]: https://github.com/stdlib-js/blas-ext-base-gtriu/tree/esm
+[@stdlib/blas/ext/base/gsumpw]: https://github.com/stdlib-js/blas-ext-base-gsumpw
 
-[@stdlib/blas/ext/base/gtriu2tril]: https://github.com/stdlib-js/blas-ext-base-gtriu2tril/tree/esm
+[@stdlib/blas/ext/base/gtril]: https://github.com/stdlib-js/blas-ext-base-gtril
 
-[@stdlib/blas/ext/base/gunitspace]: https://github.com/stdlib-js/blas-ext-base-gunitspace/tree/esm
+[@stdlib/blas/ext/base/gtril2triu]: https://github.com/stdlib-js/blas-ext-base-gtril2triu
 
-[@stdlib/blas/ext/base/gvander]: https://github.com/stdlib-js/blas-ext-base-gvander/tree/esm
+[@stdlib/blas/ext/base/gtriu]: https://github.com/stdlib-js/blas-ext-base-gtriu
 
-[@stdlib/blas/ext/base/gwapx]: https://github.com/stdlib-js/blas-ext-base-gwapx/tree/esm
+[@stdlib/blas/ext/base/gtriu2tril]: https://github.com/stdlib-js/blas-ext-base-gtriu2tril
 
-[@stdlib/blas/ext/base/gwax]: https://github.com/stdlib-js/blas-ext-base-gwax/tree/esm
+[@stdlib/blas/ext/base/gunitspace]: https://github.com/stdlib-js/blas-ext-base-gunitspace
 
-[@stdlib/blas/ext/base/gwaxpb]: https://github.com/stdlib-js/blas-ext-base-gwaxpb/tree/esm
+[@stdlib/blas/ext/base/gvander]: https://github.com/stdlib-js/blas-ext-base-gvander
 
-[@stdlib/blas/ext/base/gwhere]: https://github.com/stdlib-js/blas-ext-base-gwhere/tree/esm
+[@stdlib/blas/ext/base/gwapx]: https://github.com/stdlib-js/blas-ext-base-gwapx
 
-[@stdlib/blas/ext/base/gwxdy]: https://github.com/stdlib-js/blas-ext-base-gwxdy/tree/esm
+[@stdlib/blas/ext/base/gwax]: https://github.com/stdlib-js/blas-ext-base-gwax
 
-[@stdlib/blas/ext/base/gwxmy]: https://github.com/stdlib-js/blas-ext-base-gwxmy/tree/esm
+[@stdlib/blas/ext/base/gwaxpb]: https://github.com/stdlib-js/blas-ext-base-gwaxpb
 
-[@stdlib/blas/ext/base/gwxpy]: https://github.com/stdlib-js/blas-ext-base-gwxpy/tree/esm
+[@stdlib/blas/ext/base/gwhere]: https://github.com/stdlib-js/blas-ext-base-gwhere
 
-[@stdlib/blas/ext/base/gwxsa]: https://github.com/stdlib-js/blas-ext-base-gwxsa/tree/esm
+[@stdlib/blas/ext/base/gwxdy]: https://github.com/stdlib-js/blas-ext-base-gwxdy
 
-[@stdlib/blas/ext/base/gwxsy]: https://github.com/stdlib-js/blas-ext-base-gwxsy/tree/esm
+[@stdlib/blas/ext/base/gwxmy]: https://github.com/stdlib-js/blas-ext-base-gwxmy
 
-[@stdlib/blas/ext/base/gxdy]: https://github.com/stdlib-js/blas-ext-base-gxdy/tree/esm
+[@stdlib/blas/ext/base/gwxpy]: https://github.com/stdlib-js/blas-ext-base-gwxpy
 
-[@stdlib/blas/ext/base/gxmy]: https://github.com/stdlib-js/blas-ext-base-gxmy/tree/esm
+[@stdlib/blas/ext/base/gwxsa]: https://github.com/stdlib-js/blas-ext-base-gwxsa
 
-[@stdlib/blas/ext/base/gxpy]: https://github.com/stdlib-js/blas-ext-base-gxpy/tree/esm
+[@stdlib/blas/ext/base/gwxsy]: https://github.com/stdlib-js/blas-ext-base-gwxsy
 
-[@stdlib/blas/ext/base/gxsa]: https://github.com/stdlib-js/blas-ext-base-gxsa/tree/esm
+[@stdlib/blas/ext/base/gxdy]: https://github.com/stdlib-js/blas-ext-base-gxdy
 
-[@stdlib/blas/ext/base/gxsy]: https://github.com/stdlib-js/blas-ext-base-gxsy/tree/esm
+[@stdlib/blas/ext/base/gxmy]: https://github.com/stdlib-js/blas-ext-base-gxmy
 
-[@stdlib/blas/ext/base/gzero-to]: https://github.com/stdlib-js/blas-ext-base-gzero-to/tree/esm
+[@stdlib/blas/ext/base/gxpy]: https://github.com/stdlib-js/blas-ext-base-gxpy
 
-[@stdlib/blas/ext/base/ndarray]: https://github.com/stdlib-js/blas-ext-base-ndarray/tree/esm
+[@stdlib/blas/ext/base/gxsa]: https://github.com/stdlib-js/blas-ext-base-gxsa
 
-[@stdlib/blas/ext/base/sany]: https://github.com/stdlib-js/blas-ext-base-sany/tree/esm
+[@stdlib/blas/ext/base/gxsy]: https://github.com/stdlib-js/blas-ext-base-gxsy
 
-[@stdlib/blas/ext/base/sapx]: https://github.com/stdlib-js/blas-ext-base-sapx/tree/esm
+[@stdlib/blas/ext/base/gzero-to]: https://github.com/stdlib-js/blas-ext-base-gzero-to
 
-[@stdlib/blas/ext/base/sapxsum]: https://github.com/stdlib-js/blas-ext-base-sapxsum/tree/esm
+[@stdlib/blas/ext/base/ndarray]: https://github.com/stdlib-js/blas-ext-base-ndarray
 
-[@stdlib/blas/ext/base/sapxsumkbn]: https://github.com/stdlib-js/blas-ext-base-sapxsumkbn/tree/esm
+[@stdlib/blas/ext/base/sany]: https://github.com/stdlib-js/blas-ext-base-sany
 
-[@stdlib/blas/ext/base/sapxsumkbn2]: https://github.com/stdlib-js/blas-ext-base-sapxsumkbn2/tree/esm
+[@stdlib/blas/ext/base/sapx]: https://github.com/stdlib-js/blas-ext-base-sapx
 
-[@stdlib/blas/ext/base/sapxsumors]: https://github.com/stdlib-js/blas-ext-base-sapxsumors/tree/esm
+[@stdlib/blas/ext/base/sapxsum]: https://github.com/stdlib-js/blas-ext-base-sapxsum
 
-[@stdlib/blas/ext/base/sapxsumpw]: https://github.com/stdlib-js/blas-ext-base-sapxsumpw/tree/esm
+[@stdlib/blas/ext/base/sapxsumkbn]: https://github.com/stdlib-js/blas-ext-base-sapxsumkbn
 
-[@stdlib/blas/ext/base/sasumpw]: https://github.com/stdlib-js/blas-ext-base-sasumpw/tree/esm
+[@stdlib/blas/ext/base/sapxsumkbn2]: https://github.com/stdlib-js/blas-ext-base-sapxsumkbn2
 
-[@stdlib/blas/ext/base/saxpb]: https://github.com/stdlib-js/blas-ext-base-saxpb/tree/esm
+[@stdlib/blas/ext/base/sapxsumors]: https://github.com/stdlib-js/blas-ext-base-sapxsumors
 
-[@stdlib/blas/ext/base/saxpby]: https://github.com/stdlib-js/blas-ext-base-saxpby/tree/esm
+[@stdlib/blas/ext/base/sapxsumpw]: https://github.com/stdlib-js/blas-ext-base-sapxsumpw
 
-[@stdlib/blas/ext/base/scartesian-power]: https://github.com/stdlib-js/blas-ext-base-scartesian-power/tree/esm
+[@stdlib/blas/ext/base/sasumpw]: https://github.com/stdlib-js/blas-ext-base-sasumpw
 
-[@stdlib/blas/ext/base/scartesian-product]: https://github.com/stdlib-js/blas-ext-base-scartesian-product/tree/esm
+[@stdlib/blas/ext/base/saxpb]: https://github.com/stdlib-js/blas-ext-base-saxpb
 
-[@stdlib/blas/ext/base/scartesian-square]: https://github.com/stdlib-js/blas-ext-base-scartesian-square/tree/esm
+[@stdlib/blas/ext/base/saxpby]: https://github.com/stdlib-js/blas-ext-base-saxpby
 
-[@stdlib/blas/ext/base/scircshift]: https://github.com/stdlib-js/blas-ext-base-scircshift/tree/esm
+[@stdlib/blas/ext/base/scartesian-power]: https://github.com/stdlib-js/blas-ext-base-scartesian-power
 
-[@stdlib/blas/ext/base/scopy-within]: https://github.com/stdlib-js/blas-ext-base-scopy-within/tree/esm
+[@stdlib/blas/ext/base/scartesian-product]: https://github.com/stdlib-js/blas-ext-base-scartesian-product
 
-[@stdlib/blas/ext/base/scuany]: https://github.com/stdlib-js/blas-ext-base-scuany/tree/esm
+[@stdlib/blas/ext/base/scartesian-square]: https://github.com/stdlib-js/blas-ext-base-scartesian-square
 
-[@stdlib/blas/ext/base/scuevery]: https://github.com/stdlib-js/blas-ext-base-scuevery/tree/esm
+[@stdlib/blas/ext/base/scircshift]: https://github.com/stdlib-js/blas-ext-base-scircshift
 
-[@stdlib/blas/ext/base/scunone]: https://github.com/stdlib-js/blas-ext-base-scunone/tree/esm
+[@stdlib/blas/ext/base/scopy-within]: https://github.com/stdlib-js/blas-ext-base-scopy-within
 
-[@stdlib/blas/ext/base/scusome]: https://github.com/stdlib-js/blas-ext-base-scusome/tree/esm
+[@stdlib/blas/ext/base/scuany]: https://github.com/stdlib-js/blas-ext-base-scuany
 
-[@stdlib/blas/ext/base/scusum]: https://github.com/stdlib-js/blas-ext-base-scusum/tree/esm
+[@stdlib/blas/ext/base/scuevery]: https://github.com/stdlib-js/blas-ext-base-scuevery
 
-[@stdlib/blas/ext/base/scusumkbn]: https://github.com/stdlib-js/blas-ext-base-scusumkbn/tree/esm
+[@stdlib/blas/ext/base/scunone]: https://github.com/stdlib-js/blas-ext-base-scunone
 
-[@stdlib/blas/ext/base/scusumkbn2]: https://github.com/stdlib-js/blas-ext-base-scusumkbn2/tree/esm
+[@stdlib/blas/ext/base/scusome]: https://github.com/stdlib-js/blas-ext-base-scusome
 
-[@stdlib/blas/ext/base/scusumors]: https://github.com/stdlib-js/blas-ext-base-scusumors/tree/esm
+[@stdlib/blas/ext/base/scusum]: https://github.com/stdlib-js/blas-ext-base-scusum
 
-[@stdlib/blas/ext/base/scusumpw]: https://github.com/stdlib-js/blas-ext-base-scusumpw/tree/esm
+[@stdlib/blas/ext/base/scusumkbn]: https://github.com/stdlib-js/blas-ext-base-scusumkbn
 
-[@stdlib/blas/ext/base/sdiff]: https://github.com/stdlib-js/blas-ext-base-sdiff/tree/esm
+[@stdlib/blas/ext/base/scusumkbn2]: https://github.com/stdlib-js/blas-ext-base-scusumkbn2
 
-[@stdlib/blas/ext/base/sdsapxsum]: https://github.com/stdlib-js/blas-ext-base-sdsapxsum/tree/esm
+[@stdlib/blas/ext/base/scusumors]: https://github.com/stdlib-js/blas-ext-base-scusumors
 
-[@stdlib/blas/ext/base/sdsapxsumpw]: https://github.com/stdlib-js/blas-ext-base-sdsapxsumpw/tree/esm
+[@stdlib/blas/ext/base/scusumpw]: https://github.com/stdlib-js/blas-ext-base-scusumpw
 
-[@stdlib/blas/ext/base/sdsnansum]: https://github.com/stdlib-js/blas-ext-base-sdsnansum/tree/esm
+[@stdlib/blas/ext/base/sdiff]: https://github.com/stdlib-js/blas-ext-base-sdiff
 
-[@stdlib/blas/ext/base/sdsnansumpw]: https://github.com/stdlib-js/blas-ext-base-sdsnansumpw/tree/esm
+[@stdlib/blas/ext/base/sdsapxsum]: https://github.com/stdlib-js/blas-ext-base-sdsapxsum
 
-[@stdlib/blas/ext/base/sdssum]: https://github.com/stdlib-js/blas-ext-base-sdssum/tree/esm
+[@stdlib/blas/ext/base/sdsapxsumpw]: https://github.com/stdlib-js/blas-ext-base-sdsapxsumpw
 
-[@stdlib/blas/ext/base/sdssumpw]: https://github.com/stdlib-js/blas-ext-base-sdssumpw/tree/esm
+[@stdlib/blas/ext/base/sdsnansum]: https://github.com/stdlib-js/blas-ext-base-sdsnansum
 
-[@stdlib/blas/ext/base/sediff]: https://github.com/stdlib-js/blas-ext-base-sediff/tree/esm
+[@stdlib/blas/ext/base/sdsnansumpw]: https://github.com/stdlib-js/blas-ext-base-sdsnansumpw
 
-[@stdlib/blas/ext/base/sfill-equal]: https://github.com/stdlib-js/blas-ext-base-sfill-equal/tree/esm
+[@stdlib/blas/ext/base/sdssum]: https://github.com/stdlib-js/blas-ext-base-sdssum
 
-[@stdlib/blas/ext/base/sfill-nan]: https://github.com/stdlib-js/blas-ext-base-sfill-nan/tree/esm
+[@stdlib/blas/ext/base/sdssumpw]: https://github.com/stdlib-js/blas-ext-base-sdssumpw
 
-[@stdlib/blas/ext/base/sfill-not-equal]: https://github.com/stdlib-js/blas-ext-base-sfill-not-equal/tree/esm
+[@stdlib/blas/ext/base/sediff]: https://github.com/stdlib-js/blas-ext-base-sediff
 
-[@stdlib/blas/ext/base/sfill]: https://github.com/stdlib-js/blas-ext-base-sfill/tree/esm
+[@stdlib/blas/ext/base/sfill-equal]: https://github.com/stdlib-js/blas-ext-base-sfill-equal
 
-[@stdlib/blas/ext/base/sfirst-index-equal]: https://github.com/stdlib-js/blas-ext-base-sfirst-index-equal/tree/esm
+[@stdlib/blas/ext/base/sfill-nan]: https://github.com/stdlib-js/blas-ext-base-sfill-nan
 
-[@stdlib/blas/ext/base/sfirst-index-less-than]: https://github.com/stdlib-js/blas-ext-base-sfirst-index-less-than/tree/esm
+[@stdlib/blas/ext/base/sfill-not-equal]: https://github.com/stdlib-js/blas-ext-base-sfill-not-equal
 
-[@stdlib/blas/ext/base/sindex-of-column]: https://github.com/stdlib-js/blas-ext-base-sindex-of-column/tree/esm
+[@stdlib/blas/ext/base/sfill]: https://github.com/stdlib-js/blas-ext-base-sfill
 
-[@stdlib/blas/ext/base/sindex-of-falsy]: https://github.com/stdlib-js/blas-ext-base-sindex-of-falsy/tree/esm
+[@stdlib/blas/ext/base/sfirst-index-equal]: https://github.com/stdlib-js/blas-ext-base-sfirst-index-equal
 
-[@stdlib/blas/ext/base/sindex-of-not-equal]: https://github.com/stdlib-js/blas-ext-base-sindex-of-not-equal/tree/esm
+[@stdlib/blas/ext/base/sfirst-index-less-than]: https://github.com/stdlib-js/blas-ext-base-sfirst-index-less-than
 
-[@stdlib/blas/ext/base/sindex-of-row]: https://github.com/stdlib-js/blas-ext-base-sindex-of-row/tree/esm
+[@stdlib/blas/ext/base/sindex-of-column]: https://github.com/stdlib-js/blas-ext-base-sindex-of-column
 
-[@stdlib/blas/ext/base/sindex-of-truthy]: https://github.com/stdlib-js/blas-ext-base-sindex-of-truthy/tree/esm
+[@stdlib/blas/ext/base/sindex-of-falsy]: https://github.com/stdlib-js/blas-ext-base-sindex-of-falsy
 
-[@stdlib/blas/ext/base/sindex-of]: https://github.com/stdlib-js/blas-ext-base-sindex-of/tree/esm
+[@stdlib/blas/ext/base/sindex-of-not-equal]: https://github.com/stdlib-js/blas-ext-base-sindex-of-not-equal
 
-[@stdlib/blas/ext/base/slast-index-of-falsy]: https://github.com/stdlib-js/blas-ext-base-slast-index-of-falsy/tree/esm
+[@stdlib/blas/ext/base/sindex-of-row]: https://github.com/stdlib-js/blas-ext-base-sindex-of-row
 
-[@stdlib/blas/ext/base/slast-index-of-row]: https://github.com/stdlib-js/blas-ext-base-slast-index-of-row/tree/esm
+[@stdlib/blas/ext/base/sindex-of-truthy]: https://github.com/stdlib-js/blas-ext-base-sindex-of-truthy
 
-[@stdlib/blas/ext/base/slast-index-of-truthy]: https://github.com/stdlib-js/blas-ext-base-slast-index-of-truthy/tree/esm
+[@stdlib/blas/ext/base/sindex-of]: https://github.com/stdlib-js/blas-ext-base-sindex-of
 
-[@stdlib/blas/ext/base/slast-index-of]: https://github.com/stdlib-js/blas-ext-base-slast-index-of/tree/esm
+[@stdlib/blas/ext/base/slast-index-of-falsy]: https://github.com/stdlib-js/blas-ext-base-slast-index-of-falsy
 
-[@stdlib/blas/ext/base/slinspace]: https://github.com/stdlib-js/blas-ext-base-slinspace/tree/esm
+[@stdlib/blas/ext/base/slast-index-of-row]: https://github.com/stdlib-js/blas-ext-base-slast-index-of-row
 
-[@stdlib/blas/ext/base/slogspace]: https://github.com/stdlib-js/blas-ext-base-slogspace/tree/esm
+[@stdlib/blas/ext/base/slast-index-of-truthy]: https://github.com/stdlib-js/blas-ext-base-slast-index-of-truthy
 
-[@stdlib/blas/ext/base/sminheap-sift-down]: https://github.com/stdlib-js/blas-ext-base-sminheap-sift-down/tree/esm
+[@stdlib/blas/ext/base/slast-index-of]: https://github.com/stdlib-js/blas-ext-base-slast-index-of
 
-[@stdlib/blas/ext/base/smskrev]: https://github.com/stdlib-js/blas-ext-base-smskrev/tree/esm
+[@stdlib/blas/ext/base/slinspace]: https://github.com/stdlib-js/blas-ext-base-slinspace
 
-[@stdlib/blas/ext/base/snancount]: https://github.com/stdlib-js/blas-ext-base-snancount/tree/esm
+[@stdlib/blas/ext/base/slogspace]: https://github.com/stdlib-js/blas-ext-base-slogspace
 
-[@stdlib/blas/ext/base/snansum]: https://github.com/stdlib-js/blas-ext-base-snansum/tree/esm
+[@stdlib/blas/ext/base/sminheap-sift-down]: https://github.com/stdlib-js/blas-ext-base-sminheap-sift-down
 
-[@stdlib/blas/ext/base/snansumkbn]: https://github.com/stdlib-js/blas-ext-base-snansumkbn/tree/esm
+[@stdlib/blas/ext/base/smskrev]: https://github.com/stdlib-js/blas-ext-base-smskrev
 
-[@stdlib/blas/ext/base/snansumkbn2]: https://github.com/stdlib-js/blas-ext-base-snansumkbn2/tree/esm
+[@stdlib/blas/ext/base/snancount]: https://github.com/stdlib-js/blas-ext-base-snancount
 
-[@stdlib/blas/ext/base/snansumors]: https://github.com/stdlib-js/blas-ext-base-snansumors/tree/esm
+[@stdlib/blas/ext/base/snansum]: https://github.com/stdlib-js/blas-ext-base-snansum
 
-[@stdlib/blas/ext/base/snansumpw]: https://github.com/stdlib-js/blas-ext-base-snansumpw/tree/esm
+[@stdlib/blas/ext/base/snansumkbn]: https://github.com/stdlib-js/blas-ext-base-snansumkbn
 
-[@stdlib/blas/ext/base/snone]: https://github.com/stdlib-js/blas-ext-base-snone/tree/esm
+[@stdlib/blas/ext/base/snansumkbn2]: https://github.com/stdlib-js/blas-ext-base-snansumkbn2
 
-[@stdlib/blas/ext/base/sone-to]: https://github.com/stdlib-js/blas-ext-base-sone-to/tree/esm
+[@stdlib/blas/ext/base/snansumors]: https://github.com/stdlib-js/blas-ext-base-snansumors
 
-[@stdlib/blas/ext/base/sones]: https://github.com/stdlib-js/blas-ext-base-sones/tree/esm
+[@stdlib/blas/ext/base/snansumpw]: https://github.com/stdlib-js/blas-ext-base-snansumpw
 
-[@stdlib/blas/ext/base/sreplicate]: https://github.com/stdlib-js/blas-ext-base-sreplicate/tree/esm
+[@stdlib/blas/ext/base/snone]: https://github.com/stdlib-js/blas-ext-base-snone
 
-[@stdlib/blas/ext/base/srev]: https://github.com/stdlib-js/blas-ext-base-srev/tree/esm
+[@stdlib/blas/ext/base/sone-to]: https://github.com/stdlib-js/blas-ext-base-sone-to
 
-[@stdlib/blas/ext/base/ssome]: https://github.com/stdlib-js/blas-ext-base-ssome/tree/esm
+[@stdlib/blas/ext/base/sones]: https://github.com/stdlib-js/blas-ext-base-sones
 
-[@stdlib/blas/ext/base/ssort]: https://github.com/stdlib-js/blas-ext-base-ssort/tree/esm
+[@stdlib/blas/ext/base/sreplicate]: https://github.com/stdlib-js/blas-ext-base-sreplicate
 
-[@stdlib/blas/ext/base/ssort2hp]: https://github.com/stdlib-js/blas-ext-base-ssort2hp/tree/esm
+[@stdlib/blas/ext/base/srev]: https://github.com/stdlib-js/blas-ext-base-srev
 
-[@stdlib/blas/ext/base/ssort2ins]: https://github.com/stdlib-js/blas-ext-base-ssort2ins/tree/esm
+[@stdlib/blas/ext/base/ssome]: https://github.com/stdlib-js/blas-ext-base-ssome
 
-[@stdlib/blas/ext/base/ssort2sh]: https://github.com/stdlib-js/blas-ext-base-ssort2sh/tree/esm
+[@stdlib/blas/ext/base/ssort]: https://github.com/stdlib-js/blas-ext-base-ssort
 
-[@stdlib/blas/ext/base/ssorthp]: https://github.com/stdlib-js/blas-ext-base-ssorthp/tree/esm
+[@stdlib/blas/ext/base/ssort2hp]: https://github.com/stdlib-js/blas-ext-base-ssort2hp
 
-[@stdlib/blas/ext/base/ssortins]: https://github.com/stdlib-js/blas-ext-base-ssortins/tree/esm
+[@stdlib/blas/ext/base/ssort2ins]: https://github.com/stdlib-js/blas-ext-base-ssort2ins
 
-[@stdlib/blas/ext/base/ssortsh]: https://github.com/stdlib-js/blas-ext-base-ssortsh/tree/esm
+[@stdlib/blas/ext/base/ssort2sh]: https://github.com/stdlib-js/blas-ext-base-ssort2sh
 
-[@stdlib/blas/ext/base/ssum]: https://github.com/stdlib-js/blas-ext-base-ssum/tree/esm
+[@stdlib/blas/ext/base/ssorthp]: https://github.com/stdlib-js/blas-ext-base-ssorthp
 
-[@stdlib/blas/ext/base/ssumkbn]: https://github.com/stdlib-js/blas-ext-base-ssumkbn/tree/esm
+[@stdlib/blas/ext/base/ssortins]: https://github.com/stdlib-js/blas-ext-base-ssortins
 
-[@stdlib/blas/ext/base/ssumkbn2]: https://github.com/stdlib-js/blas-ext-base-ssumkbn2/tree/esm
+[@stdlib/blas/ext/base/ssortsh]: https://github.com/stdlib-js/blas-ext-base-ssortsh
 
-[@stdlib/blas/ext/base/ssumors]: https://github.com/stdlib-js/blas-ext-base-ssumors/tree/esm
+[@stdlib/blas/ext/base/ssum]: https://github.com/stdlib-js/blas-ext-base-ssum
 
-[@stdlib/blas/ext/base/ssumpw]: https://github.com/stdlib-js/blas-ext-base-ssumpw/tree/esm
+[@stdlib/blas/ext/base/ssumkbn]: https://github.com/stdlib-js/blas-ext-base-ssumkbn
 
-[@stdlib/blas/ext/base/stril]: https://github.com/stdlib-js/blas-ext-base-stril/tree/esm
+[@stdlib/blas/ext/base/ssumkbn2]: https://github.com/stdlib-js/blas-ext-base-ssumkbn2
 
-[@stdlib/blas/ext/base/striu]: https://github.com/stdlib-js/blas-ext-base-striu/tree/esm
+[@stdlib/blas/ext/base/ssumors]: https://github.com/stdlib-js/blas-ext-base-ssumors
 
-[@stdlib/blas/ext/base/striu2tril]: https://github.com/stdlib-js/blas-ext-base-striu2tril/tree/esm
+[@stdlib/blas/ext/base/ssumpw]: https://github.com/stdlib-js/blas-ext-base-ssumpw
 
-[@stdlib/blas/ext/base/sunitspace]: https://github.com/stdlib-js/blas-ext-base-sunitspace/tree/esm
+[@stdlib/blas/ext/base/stril]: https://github.com/stdlib-js/blas-ext-base-stril
 
-[@stdlib/blas/ext/base/svander]: https://github.com/stdlib-js/blas-ext-base-svander/tree/esm
+[@stdlib/blas/ext/base/striu]: https://github.com/stdlib-js/blas-ext-base-striu
 
-[@stdlib/blas/ext/base/swapx]: https://github.com/stdlib-js/blas-ext-base-swapx/tree/esm
+[@stdlib/blas/ext/base/striu2tril]: https://github.com/stdlib-js/blas-ext-base-striu2tril
 
-[@stdlib/blas/ext/base/swax]: https://github.com/stdlib-js/blas-ext-base-swax/tree/esm
+[@stdlib/blas/ext/base/sunitspace]: https://github.com/stdlib-js/blas-ext-base-sunitspace
 
-[@stdlib/blas/ext/base/swhere]: https://github.com/stdlib-js/blas-ext-base-swhere/tree/esm
+[@stdlib/blas/ext/base/svander]: https://github.com/stdlib-js/blas-ext-base-svander
 
-[@stdlib/blas/ext/base/swxdy]: https://github.com/stdlib-js/blas-ext-base-swxdy/tree/esm
+[@stdlib/blas/ext/base/swapx]: https://github.com/stdlib-js/blas-ext-base-swapx
 
-[@stdlib/blas/ext/base/swxmy]: https://github.com/stdlib-js/blas-ext-base-swxmy/tree/esm
+[@stdlib/blas/ext/base/swax]: https://github.com/stdlib-js/blas-ext-base-swax
 
-[@stdlib/blas/ext/base/swxpy]: https://github.com/stdlib-js/blas-ext-base-swxpy/tree/esm
+[@stdlib/blas/ext/base/swhere]: https://github.com/stdlib-js/blas-ext-base-swhere
 
-[@stdlib/blas/ext/base/swxsa]: https://github.com/stdlib-js/blas-ext-base-swxsa/tree/esm
+[@stdlib/blas/ext/base/swxdy]: https://github.com/stdlib-js/blas-ext-base-swxdy
 
-[@stdlib/blas/ext/base/swxsy]: https://github.com/stdlib-js/blas-ext-base-swxsy/tree/esm
+[@stdlib/blas/ext/base/swxmy]: https://github.com/stdlib-js/blas-ext-base-swxmy
 
-[@stdlib/blas/ext/base/sxdy]: https://github.com/stdlib-js/blas-ext-base-sxdy/tree/esm
+[@stdlib/blas/ext/base/swxpy]: https://github.com/stdlib-js/blas-ext-base-swxpy
 
-[@stdlib/blas/ext/base/sxmy]: https://github.com/stdlib-js/blas-ext-base-sxmy/tree/esm
+[@stdlib/blas/ext/base/swxsa]: https://github.com/stdlib-js/blas-ext-base-swxsa
 
-[@stdlib/blas/ext/base/sxpy]: https://github.com/stdlib-js/blas-ext-base-sxpy/tree/esm
+[@stdlib/blas/ext/base/swxsy]: https://github.com/stdlib-js/blas-ext-base-swxsy
 
-[@stdlib/blas/ext/base/sxsa]: https://github.com/stdlib-js/blas-ext-base-sxsa/tree/esm
+[@stdlib/blas/ext/base/sxdy]: https://github.com/stdlib-js/blas-ext-base-sxdy
 
-[@stdlib/blas/ext/base/sxsy]: https://github.com/stdlib-js/blas-ext-base-sxsy/tree/esm
+[@stdlib/blas/ext/base/sxmy]: https://github.com/stdlib-js/blas-ext-base-sxmy
 
-[@stdlib/blas/ext/base/szero-to]: https://github.com/stdlib-js/blas-ext-base-szero-to/tree/esm
+[@stdlib/blas/ext/base/sxpy]: https://github.com/stdlib-js/blas-ext-base-sxpy
 
-[@stdlib/blas/ext/base/szeros]: https://github.com/stdlib-js/blas-ext-base-szeros/tree/esm
+[@stdlib/blas/ext/base/sxsa]: https://github.com/stdlib-js/blas-ext-base-sxsa
 
-[@stdlib/blas/ext/base/wasm]: https://github.com/stdlib-js/blas-ext-base-wasm/tree/esm
+[@stdlib/blas/ext/base/sxsy]: https://github.com/stdlib-js/blas-ext-base-sxsy
 
-[@stdlib/blas/ext/base/zany]: https://github.com/stdlib-js/blas-ext-base-zany/tree/esm
+[@stdlib/blas/ext/base/szero-to]: https://github.com/stdlib-js/blas-ext-base-szero-to
 
-[@stdlib/blas/ext/base/zapx]: https://github.com/stdlib-js/blas-ext-base-zapx/tree/esm
+[@stdlib/blas/ext/base/szeros]: https://github.com/stdlib-js/blas-ext-base-szeros
 
-[@stdlib/blas/ext/base/zaxpb]: https://github.com/stdlib-js/blas-ext-base-zaxpb/tree/esm
+[@stdlib/blas/ext/base/wasm]: https://github.com/stdlib-js/blas-ext-base-wasm
 
-[@stdlib/blas/ext/base/zaxpby]: https://github.com/stdlib-js/blas-ext-base-zaxpby/tree/esm
+[@stdlib/blas/ext/base/zany]: https://github.com/stdlib-js/blas-ext-base-zany
 
-[@stdlib/blas/ext/base/zcartesian-product]: https://github.com/stdlib-js/blas-ext-base-zcartesian-product/tree/esm
+[@stdlib/blas/ext/base/zapx]: https://github.com/stdlib-js/blas-ext-base-zapx
 
-[@stdlib/blas/ext/base/zcartesian-square]: https://github.com/stdlib-js/blas-ext-base-zcartesian-square/tree/esm
+[@stdlib/blas/ext/base/zaxpb]: https://github.com/stdlib-js/blas-ext-base-zaxpb
 
-[@stdlib/blas/ext/base/zdiff]: https://github.com/stdlib-js/blas-ext-base-zdiff/tree/esm
+[@stdlib/blas/ext/base/zaxpby]: https://github.com/stdlib-js/blas-ext-base-zaxpby
 
-[@stdlib/blas/ext/base/zfill]: https://github.com/stdlib-js/blas-ext-base-zfill/tree/esm
+[@stdlib/blas/ext/base/zcartesian-product]: https://github.com/stdlib-js/blas-ext-base-zcartesian-product
 
-[@stdlib/blas/ext/base/zindex-of-column]: https://github.com/stdlib-js/blas-ext-base-zindex-of-column/tree/esm
+[@stdlib/blas/ext/base/zcartesian-square]: https://github.com/stdlib-js/blas-ext-base-zcartesian-square
 
-[@stdlib/blas/ext/base/zindex-of-falsy]: https://github.com/stdlib-js/blas-ext-base-zindex-of-falsy/tree/esm
+[@stdlib/blas/ext/base/zcopy-within]: https://github.com/stdlib-js/blas-ext-base-zcopy-within
 
-[@stdlib/blas/ext/base/zindex-of-row]: https://github.com/stdlib-js/blas-ext-base-zindex-of-row/tree/esm
+[@stdlib/blas/ext/base/zdiff]: https://github.com/stdlib-js/blas-ext-base-zdiff
 
-[@stdlib/blas/ext/base/zindex-of-truthy]: https://github.com/stdlib-js/blas-ext-base-zindex-of-truthy/tree/esm
+[@stdlib/blas/ext/base/zfill]: https://github.com/stdlib-js/blas-ext-base-zfill
 
-[@stdlib/blas/ext/base/zindex-of]: https://github.com/stdlib-js/blas-ext-base-zindex-of/tree/esm
+[@stdlib/blas/ext/base/zindex-of-column]: https://github.com/stdlib-js/blas-ext-base-zindex-of-column
 
-[@stdlib/blas/ext/base/zlast-index-of-falsy]: https://github.com/stdlib-js/blas-ext-base-zlast-index-of-falsy/tree/esm
+[@stdlib/blas/ext/base/zindex-of-falsy]: https://github.com/stdlib-js/blas-ext-base-zindex-of-falsy
 
-[@stdlib/blas/ext/base/zlast-index-of-row]: https://github.com/stdlib-js/blas-ext-base-zlast-index-of-row/tree/esm
+[@stdlib/blas/ext/base/zindex-of-row]: https://github.com/stdlib-js/blas-ext-base-zindex-of-row
 
-[@stdlib/blas/ext/base/zlogspace]: https://github.com/stdlib-js/blas-ext-base-zlogspace/tree/esm
+[@stdlib/blas/ext/base/zindex-of-truthy]: https://github.com/stdlib-js/blas-ext-base-zindex-of-truthy
 
-[@stdlib/blas/ext/base/znancount]: https://github.com/stdlib-js/blas-ext-base-znancount/tree/esm
+[@stdlib/blas/ext/base/zindex-of]: https://github.com/stdlib-js/blas-ext-base-zindex-of
 
-[@stdlib/blas/ext/base/zone-to]: https://github.com/stdlib-js/blas-ext-base-zone-to/tree/esm
+[@stdlib/blas/ext/base/zlast-index-of-falsy]: https://github.com/stdlib-js/blas-ext-base-zlast-index-of-falsy
 
-[@stdlib/blas/ext/base/zreplicate]: https://github.com/stdlib-js/blas-ext-base-zreplicate/tree/esm
+[@stdlib/blas/ext/base/zlast-index-of-row]: https://github.com/stdlib-js/blas-ext-base-zlast-index-of-row
 
-[@stdlib/blas/ext/base/zsum]: https://github.com/stdlib-js/blas-ext-base-zsum/tree/esm
+[@stdlib/blas/ext/base/zlogspace]: https://github.com/stdlib-js/blas-ext-base-zlogspace
 
-[@stdlib/blas/ext/base/zsumkbn]: https://github.com/stdlib-js/blas-ext-base-zsumkbn/tree/esm
+[@stdlib/blas/ext/base/znancount]: https://github.com/stdlib-js/blas-ext-base-znancount
 
-[@stdlib/blas/ext/base/ztril]: https://github.com/stdlib-js/blas-ext-base-ztril/tree/esm
+[@stdlib/blas/ext/base/zone-to]: https://github.com/stdlib-js/blas-ext-base-zone-to
 
-[@stdlib/blas/ext/base/ztriu]: https://github.com/stdlib-js/blas-ext-base-ztriu/tree/esm
+[@stdlib/blas/ext/base/zreplicate]: https://github.com/stdlib-js/blas-ext-base-zreplicate
 
-[@stdlib/blas/ext/base/zunitspace]: https://github.com/stdlib-js/blas-ext-base-zunitspace/tree/esm
+[@stdlib/blas/ext/base/zsum]: https://github.com/stdlib-js/blas-ext-base-zsum
 
-[@stdlib/blas/ext/base/zwapx]: https://github.com/stdlib-js/blas-ext-base-zwapx/tree/esm
+[@stdlib/blas/ext/base/zsumkbn]: https://github.com/stdlib-js/blas-ext-base-zsumkbn
 
-[@stdlib/blas/ext/base/zwax]: https://github.com/stdlib-js/blas-ext-base-zwax/tree/esm
+[@stdlib/blas/ext/base/ztril]: https://github.com/stdlib-js/blas-ext-base-ztril
 
-[@stdlib/blas/ext/base/zwhere]: https://github.com/stdlib-js/blas-ext-base-zwhere/tree/esm
+[@stdlib/blas/ext/base/ztriu]: https://github.com/stdlib-js/blas-ext-base-ztriu
 
-[@stdlib/blas/ext/base/zwxmy]: https://github.com/stdlib-js/blas-ext-base-zwxmy/tree/esm
+[@stdlib/blas/ext/base/zunitspace]: https://github.com/stdlib-js/blas-ext-base-zunitspace
 
-[@stdlib/blas/ext/base/zwxsa]: https://github.com/stdlib-js/blas-ext-base-zwxsa/tree/esm
+[@stdlib/blas/ext/base/zwapx]: https://github.com/stdlib-js/blas-ext-base-zwapx
 
-[@stdlib/blas/ext/base/zwxsy]: https://github.com/stdlib-js/blas-ext-base-zwxsy/tree/esm
+[@stdlib/blas/ext/base/zwax]: https://github.com/stdlib-js/blas-ext-base-zwax
 
-[@stdlib/blas/ext/base/zxdy]: https://github.com/stdlib-js/blas-ext-base-zxdy/tree/esm
+[@stdlib/blas/ext/base/zwhere]: https://github.com/stdlib-js/blas-ext-base-zwhere
 
-[@stdlib/blas/ext/base/zxmy]: https://github.com/stdlib-js/blas-ext-base-zxmy/tree/esm
+[@stdlib/blas/ext/base/zwxmy]: https://github.com/stdlib-js/blas-ext-base-zwxmy
 
-[@stdlib/blas/ext/base/zxpy]: https://github.com/stdlib-js/blas-ext-base-zxpy/tree/esm
+[@stdlib/blas/ext/base/zwxsa]: https://github.com/stdlib-js/blas-ext-base-zwxsa
 
-[@stdlib/blas/ext/base/zxsa]: https://github.com/stdlib-js/blas-ext-base-zxsa/tree/esm
+[@stdlib/blas/ext/base/zwxsy]: https://github.com/stdlib-js/blas-ext-base-zwxsy
 
-[@stdlib/blas/ext/base/zxsy]: https://github.com/stdlib-js/blas-ext-base-zxsy/tree/esm
+[@stdlib/blas/ext/base/zxdy]: https://github.com/stdlib-js/blas-ext-base-zxdy
 
-[@stdlib/blas/ext/base/zzero-to]: https://github.com/stdlib-js/blas-ext-base-zzero-to/tree/esm
+[@stdlib/blas/ext/base/zxmy]: https://github.com/stdlib-js/blas-ext-base-zxmy
+
+[@stdlib/blas/ext/base/zxpy]: https://github.com/stdlib-js/blas-ext-base-zxpy
+
+[@stdlib/blas/ext/base/zxsa]: https://github.com/stdlib-js/blas-ext-base-zxsa
+
+[@stdlib/blas/ext/base/zxsy]: https://github.com/stdlib-js/blas-ext-base-zxsy
+
+[@stdlib/blas/ext/base/zzero-to]: https://github.com/stdlib-js/blas-ext-base-zzero-to
 
 <!-- </toc-links> -->
 
