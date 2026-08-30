@@ -4,12 +4,20 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-08-29)
+## Unreleased (2026-08-30)
 
 <section class="features">
 
 ### Features
 
+-   [`29c792b`](https://github.com/stdlib-js/stdlib/commit/29c792b831672a77ca6d8b3e7ceb89b020e8db26) - update `blas/ext/base` TypeScript declarations [(#14798)](https://github.com/stdlib-js/stdlib/pull/14798)
+-   [`70afcc0`](https://github.com/stdlib-js/stdlib/commit/70afcc02b8cac36d01fe50347cb49339d26147d7) - add `blas/ext/base/ctriu2tril` [(#13990)](https://github.com/stdlib-js/stdlib/pull/13990)
+-   [`07496a9`](https://github.com/stdlib-js/stdlib/commit/07496a9a29ff7ab590607afff92c541b5d654c63) - add `blas/ext/base/glast-index-less-than` [(#14384)](https://github.com/stdlib-js/stdlib/pull/14384)
+-   [`1e977c6`](https://github.com/stdlib-js/stdlib/commit/1e977c6a85ef6e95c407dd74df415535eacc6f4e) - add `blas/ext/base/ndarray/dcartesian-power` [(#14784)](https://github.com/stdlib-js/stdlib/pull/14784)
+-   [`623963a`](https://github.com/stdlib-js/stdlib/commit/623963abea48b5139bf7ce0c0f4899fc25ee9641) - add `blas/ext/base/gindex-of-greater-than` [(#14435)](https://github.com/stdlib-js/stdlib/pull/14435)
+-   [`e76928e`](https://github.com/stdlib-js/stdlib/commit/e76928e0af776b4ecc1bf6ff7cabbe38e0759a38) - add `blas/ext/base/stril2triu` [(#14048)](https://github.com/stdlib-js/stdlib/pull/14048)
+-   [`51f6765`](https://github.com/stdlib-js/stdlib/commit/51f676591caa017e5fca7a12b67be9962bd560f9) - add `blas/ext/base/slast-index-equal` [(#13897)](https://github.com/stdlib-js/stdlib/pull/13897)
+-   [`ec19839`](https://github.com/stdlib-js/stdlib/commit/ec19839a6ab9183559246bb2051e221cd8612052) - add `blas/ext/base/gindex-of-less-than-equal` [(#14442)](https://github.com/stdlib-js/stdlib/pull/14442)
 -   [`be8a446`](https://github.com/stdlib-js/stdlib/commit/be8a446c7bf5e97ea4248716472a9a6b456269d9) - add `gindexOfAlmostSameValue` and `gindexOfGreaterThanEqual` to namespace
 -   [`f80bd1c`](https://github.com/stdlib-js/stdlib/commit/f80bd1c7609c83e2bcdea7b02894674fc65c0ab1) - add `gindexOfLessThan` and `zlinspace` to namespace
 -   [`515a3f9`](https://github.com/stdlib-js/stdlib/commit/515a3f9503afabd77a7b771c78478467aff0e41f) - add `blas/ext/base/gindex-of-less-than` [(#14433)](https://github.com/stdlib-js/stdlib/pull/14433)
@@ -1059,6 +1067,14 @@ This release closes the following issue:
 
 <details>
 
+-   [`29c792b`](https://github.com/stdlib-js/stdlib/commit/29c792b831672a77ca6d8b3e7ceb89b020e8db26) - **feat:** update `blas/ext/base` TypeScript declarations [(#14798)](https://github.com/stdlib-js/stdlib/pull/14798) _(by stdlib-bot)_
+-   [`70afcc0`](https://github.com/stdlib-js/stdlib/commit/70afcc02b8cac36d01fe50347cb49339d26147d7) - **feat:** add `blas/ext/base/ctriu2tril` [(#13990)](https://github.com/stdlib-js/stdlib/pull/13990) _(by Kaustubh Patange, Athan Reines)_
+-   [`07496a9`](https://github.com/stdlib-js/stdlib/commit/07496a9a29ff7ab590607afff92c541b5d654c63) - **feat:** add `blas/ext/base/glast-index-less-than` [(#14384)](https://github.com/stdlib-js/stdlib/pull/14384) _(by Muhammad Haris)_
+-   [`1e977c6`](https://github.com/stdlib-js/stdlib/commit/1e977c6a85ef6e95c407dd74df415535eacc6f4e) - **feat:** add `blas/ext/base/ndarray/dcartesian-power` [(#14784)](https://github.com/stdlib-js/stdlib/pull/14784) _(by Muhammad Haris, Athan Reines)_
+-   [`623963a`](https://github.com/stdlib-js/stdlib/commit/623963abea48b5139bf7ce0c0f4899fc25ee9641) - **feat:** add `blas/ext/base/gindex-of-greater-than` [(#14435)](https://github.com/stdlib-js/stdlib/pull/14435) _(by Muhammad Haris, Athan Reines)_
+-   [`e76928e`](https://github.com/stdlib-js/stdlib/commit/e76928e0af776b4ecc1bf6ff7cabbe38e0759a38) - **feat:** add `blas/ext/base/stril2triu` [(#14048)](https://github.com/stdlib-js/stdlib/pull/14048) _(by Kaustubh Patange)_
+-   [`51f6765`](https://github.com/stdlib-js/stdlib/commit/51f676591caa017e5fca7a12b67be9962bd560f9) - **feat:** add `blas/ext/base/slast-index-equal` [(#13897)](https://github.com/stdlib-js/stdlib/pull/13897) _(by Muhammad Haris)_
+-   [`ec19839`](https://github.com/stdlib-js/stdlib/commit/ec19839a6ab9183559246bb2051e221cd8612052) - **feat:** add `blas/ext/base/gindex-of-less-than-equal` [(#14442)](https://github.com/stdlib-js/stdlib/pull/14442) _(by Muhammad Haris, Athan Reines)_
 -   [`be8a446`](https://github.com/stdlib-js/stdlib/commit/be8a446c7bf5e97ea4248716472a9a6b456269d9) - **feat:** add `gindexOfAlmostSameValue` and `gindexOfGreaterThanEqual` to namespace _(by Athan Reines)_
 -   [`f80bd1c`](https://github.com/stdlib-js/stdlib/commit/f80bd1c7609c83e2bcdea7b02894674fc65c0ab1) - **feat:** add `gindexOfLessThan` and `zlinspace` to namespace _(by Athan Reines)_
 -   [`515a3f9`](https://github.com/stdlib-js/stdlib/commit/515a3f9503afabd77a7b771c78478467aff0e41f) - **feat:** add `blas/ext/base/gindex-of-less-than` [(#14433)](https://github.com/stdlib-js/stdlib/pull/14433) _(by Muhammad Haris, Athan Reines)_
