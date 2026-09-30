@@ -10,6 +10,12 @@
 
 ### Features
 
+-   [`2fc8fd3`](https://github.com/stdlib-js/stdlib/commit/2fc8fd39e58afe793c9719f4cc0c83a8571f7798) - add `sleftPadCircular` and `sleftPadEdge` to namespace
+-   [`a63a27e`](https://github.com/stdlib-js/stdlib/commit/a63a27e7354aa8aaa43a8bf37b57e47deb532a74) - add `gindexOfAlmostEqual` to namespace
+-   [`aefdffc`](https://github.com/stdlib-js/stdlib/commit/aefdffc5524dd43bc0487cbf0684aa7cd5938a9b) - add `blas/ext/base/gindex-of-almost-equal` [(#14420)](https://github.com/stdlib-js/stdlib/pull/14420)
+-   [`bb95991`](https://github.com/stdlib-js/stdlib/commit/bb959917bec1157648ae871ec7d082797ba351af) - add `blas/ext/base/sleft-pad-circular` [(#15041)](https://github.com/stdlib-js/stdlib/pull/15041)
+-   [`144f892`](https://github.com/stdlib-js/stdlib/commit/144f8928308e744d70237d16796d88b80c26cad8) - add `blas/ext/base/sleft-pad-edge` [(#15047)](https://github.com/stdlib-js/stdlib/pull/15047)
+-   [`75292ed`](https://github.com/stdlib-js/stdlib/commit/75292edb3b998ddcd67e812796f7d383b16be9bb) - add C implementation for `blas/ext/base/ndarray/cxsa` [(#15659)](https://github.com/stdlib-js/stdlib/pull/15659)
 -   [`5f54fc0`](https://github.com/stdlib-js/stdlib/commit/5f54fc0d19f6892e1a29e9e0d2805372fb9e515b) - update `blas/ext/base/ndarray` TypeScript declarations [(#15672)](https://github.com/stdlib-js/stdlib/pull/15672)
 -   [`2c73e54`](https://github.com/stdlib-js/stdlib/commit/2c73e543d3bbd65397dd923999da0d2031680acb) - update `blas/ext/base` TypeScript declarations [(#15673)](https://github.com/stdlib-js/stdlib/pull/15673)
 -   [`784936e`](https://github.com/stdlib-js/stdlib/commit/784936e3db09cf79c13e699a2f8fc9e049c88f7c) - add `blas/ext/base/ndarray/dleft-pad-edge` [(#15664)](https://github.com/stdlib-js/stdlib/pull/15664)
@@ -1171,6 +1177,13 @@ This release closes the following issue:
 
 <details>
 
+-   [`2fc8fd3`](https://github.com/stdlib-js/stdlib/commit/2fc8fd39e58afe793c9719f4cc0c83a8571f7798) - **feat:** add `sleftPadCircular` and `sleftPadEdge` to namespace _(by Athan Reines)_
+-   [`a63a27e`](https://github.com/stdlib-js/stdlib/commit/a63a27e7354aa8aaa43a8bf37b57e47deb532a74) - **feat:** add `gindexOfAlmostEqual` to namespace _(by Athan Reines)_
+-   [`f468ab7`](https://github.com/stdlib-js/stdlib/commit/f468ab744697136e0224ffd4b274823a99df80e2) - **refactor:** add support for descending order [(#15681)](https://github.com/stdlib-js/stdlib/pull/15681) _(by Sachin Pangal, Athan Reines)_
+-   [`aefdffc`](https://github.com/stdlib-js/stdlib/commit/aefdffc5524dd43bc0487cbf0684aa7cd5938a9b) - **feat:** add `blas/ext/base/gindex-of-almost-equal` [(#14420)](https://github.com/stdlib-js/stdlib/pull/14420) _(by Muhammad Haris, Athan Reines)_
+-   [`bb95991`](https://github.com/stdlib-js/stdlib/commit/bb959917bec1157648ae871ec7d082797ba351af) - **feat:** add `blas/ext/base/sleft-pad-circular` [(#15041)](https://github.com/stdlib-js/stdlib/pull/15041) _(by Muhammad Haris)_
+-   [`144f892`](https://github.com/stdlib-js/stdlib/commit/144f8928308e744d70237d16796d88b80c26cad8) - **feat:** add `blas/ext/base/sleft-pad-edge` [(#15047)](https://github.com/stdlib-js/stdlib/pull/15047) _(by Muhammad Haris)_
+-   [`75292ed`](https://github.com/stdlib-js/stdlib/commit/75292edb3b998ddcd67e812796f7d383b16be9bb) - **feat:** add C implementation for `blas/ext/base/ndarray/cxsa` [(#15659)](https://github.com/stdlib-js/stdlib/pull/15659) _(by MJ)_
 -   [`19c183e`](https://github.com/stdlib-js/stdlib/commit/19c183eadbb2dee8366c271d415dd3a082fc2c70) - **docs:** update namespace table of contents [(#15675)](https://github.com/stdlib-js/stdlib/pull/15675) _(by stdlib-bot)_
 -   [`5f54fc0`](https://github.com/stdlib-js/stdlib/commit/5f54fc0d19f6892e1a29e9e0d2805372fb9e515b) - **feat:** update `blas/ext/base/ndarray` TypeScript declarations [(#15672)](https://github.com/stdlib-js/stdlib/pull/15672) _(by stdlib-bot)_
 -   [`2c73e54`](https://github.com/stdlib-js/stdlib/commit/2c73e543d3bbd65397dd923999da0d2031680acb) - **feat:** update `blas/ext/base` TypeScript declarations [(#15673)](https://github.com/stdlib-js/stdlib/pull/15673) _(by stdlib-bot)_
