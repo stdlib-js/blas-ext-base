@@ -4,12 +4,15 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-09-29)
+## Unreleased (2026-09-30)
 
 <section class="features">
 
 ### Features
 
+-   [`2c73e54`](https://github.com/stdlib-js/stdlib/commit/2c73e543d3bbd65397dd923999da0d2031680acb) - update `blas/ext/base` TypeScript declarations [(#15673)](https://github.com/stdlib-js/stdlib/pull/15673)
+-   [`784936e`](https://github.com/stdlib-js/stdlib/commit/784936e3db09cf79c13e699a2f8fc9e049c88f7c) - add `blas/ext/base/ndarray/dleft-pad-edge` [(#15664)](https://github.com/stdlib-js/stdlib/pull/15664)
+-   [`0768604`](https://github.com/stdlib-js/stdlib/commit/076860445e793bdee0010b2e723bf72a5f09b63a) - add `blas/ext/base/ndarray/glast-index-less-than` [(#15661)](https://github.com/stdlib-js/stdlib/pull/15661)
 -   [`8b2839d`](https://github.com/stdlib-js/stdlib/commit/8b2839d8cf63a3bbfcbf7f9dbdac56540e85784c) - add `gindexOfGreaterThanSorted` to namespace
 -   [`7b3fa2e`](https://github.com/stdlib-js/stdlib/commit/7b3fa2ecaae1d495c5bd4e6949def07be350ca85) - add `gcusome` to namespace
 -   [`1ed9d8f`](https://github.com/stdlib-js/stdlib/commit/1ed9d8f54d375bd9ae408098b406f0007b450e85) - add `gfindIndexBetween` to namespace
@@ -1167,6 +1170,12 @@ This release closes the following issue:
 
 <details>
 
+-   [`2c73e54`](https://github.com/stdlib-js/stdlib/commit/2c73e543d3bbd65397dd923999da0d2031680acb) - **feat:** update `blas/ext/base` TypeScript declarations [(#15673)](https://github.com/stdlib-js/stdlib/pull/15673) _(by stdlib-bot)_
+-   [`784936e`](https://github.com/stdlib-js/stdlib/commit/784936e3db09cf79c13e699a2f8fc9e049c88f7c) - **feat:** add `blas/ext/base/ndarray/dleft-pad-edge` [(#15664)](https://github.com/stdlib-js/stdlib/pull/15664) _(by Muhammad Haris)_
+-   [`f12ba0b`](https://github.com/stdlib-js/stdlib/commit/f12ba0b3d5ab71c3abcd65eba81f3d9ab203c1f4) - **refactor:** delegate to `dfill` and `dcopy` [(#15662)](https://github.com/stdlib-js/stdlib/pull/15662) _(by Muhammad Haris)_
+-   [`0768604`](https://github.com/stdlib-js/stdlib/commit/076860445e793bdee0010b2e723bf72a5f09b63a) - **feat:** add `blas/ext/base/ndarray/glast-index-less-than` [(#15661)](https://github.com/stdlib-js/stdlib/pull/15661) _(by Muhammad Haris)_
+-   [`0ee3933`](https://github.com/stdlib-js/stdlib/commit/0ee3933432578899483151dd85a35fc7f4f0e5f9) - **chore:** clean-up [(#15652)](https://github.com/stdlib-js/stdlib/pull/15652) _(by Philipp Burckhardt)_
+-   [`67c1633`](https://github.com/stdlib-js/stdlib/commit/67c1633c999488e1807bb2aa77183662c6eb387b) - **chore:** fix inconsistencies across packages in `blas/ext/base*` [(#15146)](https://github.com/stdlib-js/stdlib/pull/15146) _(by Muhammad Haris, Athan Reines)_
 -   [`8b2839d`](https://github.com/stdlib-js/stdlib/commit/8b2839d8cf63a3bbfcbf7f9dbdac56540e85784c) - **feat:** add `gindexOfGreaterThanSorted` to namespace _(by Athan Reines)_
 -   [`7b3fa2e`](https://github.com/stdlib-js/stdlib/commit/7b3fa2ecaae1d495c5bd4e6949def07be350ca85) - **feat:** add `gcusome` to namespace _(by Athan Reines)_
 -   [`1ed9d8f`](https://github.com/stdlib-js/stdlib/commit/1ed9d8f54d375bd9ae408098b406f0007b450e85) - **feat:** add `gfindIndexBetween` to namespace _(by Athan Reines)_
