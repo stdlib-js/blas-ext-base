@@ -4,12 +4,31 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-09-30)
+## Unreleased (2026-10-01)
 
 <section class="features">
 
 ### Features
 
+-   [`329accc`](https://github.com/stdlib-js/stdlib/commit/329accce09162aceb420921a833245fe1ada53eb) - add `cwxmy` and `zwxpy` to namespace
+-   [`b25bb60`](https://github.com/stdlib-js/stdlib/commit/b25bb6041bfa031e74de312bade22775e228b983) - add `cxdy` to namespace
+-   [`2cfb0d9`](https://github.com/stdlib-js/stdlib/commit/2cfb0d9c76d02e409d5797e79a9450153bc98591) - add `blas/ext/base/cxdy` [(#13909)](https://github.com/stdlib-js/stdlib/pull/13909)
+-   [`b2f0ffd`](https://github.com/stdlib-js/stdlib/commit/b2f0ffdbd8ff6823a4b7ccaccab0c06648606c60) - add `blas/ext/base/cwxmy` [(#13714)](https://github.com/stdlib-js/stdlib/pull/13714)
+-   [`0d6f809`](https://github.com/stdlib-js/stdlib/commit/0d6f8097eb4633ea9d78a7c36b7c832095f73538) - add `blas/ext/base/zwxpy` [(#13794)](https://github.com/stdlib-js/stdlib/pull/13794)
+-   [`106e3b8`](https://github.com/stdlib-js/stdlib/commit/106e3b88b26260b8fe9183513205d23e3a7c754d) - add various symbols to namespace
+-   [`9c54c39`](https://github.com/stdlib-js/stdlib/commit/9c54c39c63cd7ead98d96b1c10bfba5d6263aa68) - add `scusome` to namespace
+-   [`c03fb16`](https://github.com/stdlib-js/stdlib/commit/c03fb16e36c3f9160deaa1685234c515efca5076) - add `blas/ext/base/ndarray/scusome` [(#14567)](https://github.com/stdlib-js/stdlib/pull/14567)
+-   [`dd4b3ee`](https://github.com/stdlib-js/stdlib/commit/dd4b3ee10230dc5104c6dd494cfb2767060eb7e9) - add `blas/ext/base/ndarray/dcusome` [(#14566)](https://github.com/stdlib-js/stdlib/pull/14566)
+-   [`5dfa57f`](https://github.com/stdlib-js/stdlib/commit/5dfa57fef484ca43bf8f045f6cd400fab0d6aa28) - add `blas/ext/base/ndarray/dwapx` [(#15690)](https://github.com/stdlib-js/stdlib/pull/15690)
+-   [`b81de3c`](https://github.com/stdlib-js/stdlib/commit/b81de3c7aaf80f227d6c641f322b35e63c714df7) - add `blas/ext/base/ndarray/swapx` [(#15691)](https://github.com/stdlib-js/stdlib/pull/15691)
+-   [`73fa7e8`](https://github.com/stdlib-js/stdlib/commit/73fa7e8bae4d3da0df4882142d1544a52e54a89d) - add `blas/ext/base/ndarray/dwax` [(#15700)](https://github.com/stdlib-js/stdlib/pull/15700)
+-   [`c18c267`](https://github.com/stdlib-js/stdlib/commit/c18c267410125dcd0dd1067b53adbad709c3b227) - add `blas/ext/base/ndarray/swax` [(#15703)](https://github.com/stdlib-js/stdlib/pull/15703)
+-   [`68a5002`](https://github.com/stdlib-js/stdlib/commit/68a50025bc4feb243e0a82e483a21f580329ae47) - add `blas/ext/base/ndarray/zwax` [(#15710)](https://github.com/stdlib-js/stdlib/pull/15710)
+-   [`f0a9693`](https://github.com/stdlib-js/stdlib/commit/f0a96933f8f63e982664bb6789fc6b20a6c7c6d3) - add `blas/ext/base/ndarray/cwapx` [(#15695)](https://github.com/stdlib-js/stdlib/pull/15695)
+-   [`cdddef9`](https://github.com/stdlib-js/stdlib/commit/cdddef96df6bc67689057965b695ae42e298f8dc) - add `blas/ext/base/ndarray/zwapx` [(#15697)](https://github.com/stdlib-js/stdlib/pull/15697)
+-   [`614b112`](https://github.com/stdlib-js/stdlib/commit/614b112d04911745589049560eaa7817597048c1) - add `blas/ext/base/ndarray/gwax` [(#15705)](https://github.com/stdlib-js/stdlib/pull/15705)
+-   [`d996b66`](https://github.com/stdlib-js/stdlib/commit/d996b66ea3acc8adbc1fc4c32ec7fdf45295e428) - add `blas/ext/base/ndarray/cwax` [(#15709)](https://github.com/stdlib-js/stdlib/pull/15709)
+-   [`9ce4dc4`](https://github.com/stdlib-js/stdlib/commit/9ce4dc4170f7e167a8e6ea0168b08153dae2cdc8) - add `blas/ext/base/ndarray/gwapx` [(#15694)](https://github.com/stdlib-js/stdlib/pull/15694)
 -   [`2fc8fd3`](https://github.com/stdlib-js/stdlib/commit/2fc8fd39e58afe793c9719f4cc0c83a8571f7798) - add `sleftPadCircular` and `sleftPadEdge` to namespace
 -   [`a63a27e`](https://github.com/stdlib-js/stdlib/commit/a63a27e7354aa8aaa43a8bf37b57e47deb532a74) - add `gindexOfAlmostEqual` to namespace
 -   [`aefdffc`](https://github.com/stdlib-js/stdlib/commit/aefdffc5524dd43bc0487cbf0684aa7cd5938a9b) - add `blas/ext/base/gindex-of-almost-equal` [(#14420)](https://github.com/stdlib-js/stdlib/pull/14420)
@@ -1177,6 +1196,26 @@ This release closes the following issue:
 
 <details>
 
+-   [`329accc`](https://github.com/stdlib-js/stdlib/commit/329accce09162aceb420921a833245fe1ada53eb) - **feat:** add `cwxmy` and `zwxpy` to namespace _(by Athan Reines)_
+-   [`b25bb60`](https://github.com/stdlib-js/stdlib/commit/b25bb6041bfa031e74de312bade22775e228b983) - **feat:** add `cxdy` to namespace _(by Athan Reines)_
+-   [`2cfb0d9`](https://github.com/stdlib-js/stdlib/commit/2cfb0d9c76d02e409d5797e79a9450153bc98591) - **feat:** add `blas/ext/base/cxdy` [(#13909)](https://github.com/stdlib-js/stdlib/pull/13909) _(by Karan Anand, Athan Reines)_
+-   [`b2f0ffd`](https://github.com/stdlib-js/stdlib/commit/b2f0ffdbd8ff6823a4b7ccaccab0c06648606c60) - **feat:** add `blas/ext/base/cwxmy` [(#13714)](https://github.com/stdlib-js/stdlib/pull/13714) _(by Karan Anand, Athan Reines)_
+-   [`0d6f809`](https://github.com/stdlib-js/stdlib/commit/0d6f8097eb4633ea9d78a7c36b7c832095f73538) - **feat:** add `blas/ext/base/zwxpy` [(#13794)](https://github.com/stdlib-js/stdlib/pull/13794) _(by Karan Anand, Athan Reines)_
+-   [`106e3b8`](https://github.com/stdlib-js/stdlib/commit/106e3b88b26260b8fe9183513205d23e3a7c754d) - **feat:** add various symbols to namespace _(by Athan Reines)_
+-   [`9c54c39`](https://github.com/stdlib-js/stdlib/commit/9c54c39c63cd7ead98d96b1c10bfba5d6263aa68) - **feat:** add `scusome` to namespace _(by Athan Reines)_
+-   [`c03fb16`](https://github.com/stdlib-js/stdlib/commit/c03fb16e36c3f9160deaa1685234c515efca5076) - **feat:** add `blas/ext/base/ndarray/scusome` [(#14567)](https://github.com/stdlib-js/stdlib/pull/14567) _(by Muhammad Haris)_
+-   [`dd4b3ee`](https://github.com/stdlib-js/stdlib/commit/dd4b3ee10230dc5104c6dd494cfb2767060eb7e9) - **feat:** add `blas/ext/base/ndarray/dcusome` [(#14566)](https://github.com/stdlib-js/stdlib/pull/14566) _(by Muhammad Haris)_
+-   [`5dfa57f`](https://github.com/stdlib-js/stdlib/commit/5dfa57fef484ca43bf8f045f6cd400fab0d6aa28) - **feat:** add `blas/ext/base/ndarray/dwapx` [(#15690)](https://github.com/stdlib-js/stdlib/pull/15690) _(by Karan Anand)_
+-   [`b81de3c`](https://github.com/stdlib-js/stdlib/commit/b81de3c7aaf80f227d6c641f322b35e63c714df7) - **feat:** add `blas/ext/base/ndarray/swapx` [(#15691)](https://github.com/stdlib-js/stdlib/pull/15691) _(by Karan Anand)_
+-   [`73fa7e8`](https://github.com/stdlib-js/stdlib/commit/73fa7e8bae4d3da0df4882142d1544a52e54a89d) - **feat:** add `blas/ext/base/ndarray/dwax` [(#15700)](https://github.com/stdlib-js/stdlib/pull/15700) _(by Karan Anand)_
+-   [`c18c267`](https://github.com/stdlib-js/stdlib/commit/c18c267410125dcd0dd1067b53adbad709c3b227) - **feat:** add `blas/ext/base/ndarray/swax` [(#15703)](https://github.com/stdlib-js/stdlib/pull/15703) _(by Karan Anand)_
+-   [`68a5002`](https://github.com/stdlib-js/stdlib/commit/68a50025bc4feb243e0a82e483a21f580329ae47) - **feat:** add `blas/ext/base/ndarray/zwax` [(#15710)](https://github.com/stdlib-js/stdlib/pull/15710) _(by Karan Anand)_
+-   [`f0a9693`](https://github.com/stdlib-js/stdlib/commit/f0a96933f8f63e982664bb6789fc6b20a6c7c6d3) - **feat:** add `blas/ext/base/ndarray/cwapx` [(#15695)](https://github.com/stdlib-js/stdlib/pull/15695) _(by Karan Anand)_
+-   [`cdddef9`](https://github.com/stdlib-js/stdlib/commit/cdddef96df6bc67689057965b695ae42e298f8dc) - **feat:** add `blas/ext/base/ndarray/zwapx` [(#15697)](https://github.com/stdlib-js/stdlib/pull/15697) _(by Karan Anand)_
+-   [`614b112`](https://github.com/stdlib-js/stdlib/commit/614b112d04911745589049560eaa7817597048c1) - **feat:** add `blas/ext/base/ndarray/gwax` [(#15705)](https://github.com/stdlib-js/stdlib/pull/15705) _(by Karan Anand)_
+-   [`d996b66`](https://github.com/stdlib-js/stdlib/commit/d996b66ea3acc8adbc1fc4c32ec7fdf45295e428) - **feat:** add `blas/ext/base/ndarray/cwax` [(#15709)](https://github.com/stdlib-js/stdlib/pull/15709) _(by Karan Anand)_
+-   [`9ce4dc4`](https://github.com/stdlib-js/stdlib/commit/9ce4dc4170f7e167a8e6ea0168b08153dae2cdc8) - **feat:** add `blas/ext/base/ndarray/gwapx` [(#15694)](https://github.com/stdlib-js/stdlib/pull/15694) _(by Karan Anand)_
+-   [`7728021`](https://github.com/stdlib-js/stdlib/commit/77280218ae986d22d7227326173658e7172db899) - **chore:** clean-up [(#15685)](https://github.com/stdlib-js/stdlib/pull/15685) _(by Philipp Burckhardt)_
 -   [`2fc8fd3`](https://github.com/stdlib-js/stdlib/commit/2fc8fd39e58afe793c9719f4cc0c83a8571f7798) - **feat:** add `sleftPadCircular` and `sleftPadEdge` to namespace _(by Athan Reines)_
 -   [`a63a27e`](https://github.com/stdlib-js/stdlib/commit/a63a27e7354aa8aaa43a8bf37b57e47deb532a74) - **feat:** add `gindexOfAlmostEqual` to namespace _(by Athan Reines)_
 -   [`f468ab7`](https://github.com/stdlib-js/stdlib/commit/f468ab744697136e0224ffd4b274823a99df80e2) - **refactor:** add support for descending order [(#15681)](https://github.com/stdlib-js/stdlib/pull/15681) _(by Sachin Pangal, Athan Reines)_
