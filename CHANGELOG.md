@@ -10,6 +10,14 @@
 
 ### Features
 
+-   [`26a3841`](https://github.com/stdlib-js/stdlib/commit/26a38419fe800d3c0ceaaa7143cb44cba09b72a6) - add `cxdy`, `gwxmy`, and `gwxsy` to namespace
+-   [`2f0bfd9`](https://github.com/stdlib-js/stdlib/commit/2f0bfd9daf5c568fb88b5e7395795524f1eed6be) - add `gindexOfGreaterThanEqualSorted` to namespace
+-   [`49f9331`](https://github.com/stdlib-js/stdlib/commit/49f9331f4b8ef4ae8d6c3c48520bc3c455a4c395) - add `blas/ext/base/ndarray/gwxmy` [(#15722)](https://github.com/stdlib-js/stdlib/pull/15722)
+-   [`b699378`](https://github.com/stdlib-js/stdlib/commit/b6993780efafb65cdda9437ca3089e160070072c) - add `blas/ext/base/ndarray/gwxsy` [(#15721)](https://github.com/stdlib-js/stdlib/pull/15721)
+-   [`5a815ff`](https://github.com/stdlib-js/stdlib/commit/5a815ff598dacd840cf5730b1f09ebf895bf9ed4) - add `blas/ext/base/ndarray/cxdy` [(#15720)](https://github.com/stdlib-js/stdlib/pull/15720)
+-   [`d49d161`](https://github.com/stdlib-js/stdlib/commit/d49d161dba96a625042364aec6e561945ba6a29b) - add `blas/ext/base/gindex-of-greater-than-equal-sorted` [(#15649)](https://github.com/stdlib-js/stdlib/pull/15649)
+-   [`8efc5bf`](https://github.com/stdlib-js/stdlib/commit/8efc5bf4327c5b42ad9b8ae0e9e9a4f29f2c60e0) - update `blas/ext/base/ndarray` TypeScript declarations [(#15715)](https://github.com/stdlib-js/stdlib/pull/15715)
+-   [`4401374`](https://github.com/stdlib-js/stdlib/commit/44013748fd8d2c70b744d1d69c51b92b0c4de407) - update `blas/ext/base` TypeScript declarations [(#15716)](https://github.com/stdlib-js/stdlib/pull/15716)
 -   [`329accc`](https://github.com/stdlib-js/stdlib/commit/329accce09162aceb420921a833245fe1ada53eb) - add `cwxmy` and `zwxpy` to namespace
 -   [`b25bb60`](https://github.com/stdlib-js/stdlib/commit/b25bb6041bfa031e74de312bade22775e228b983) - add `cxdy` to namespace
 -   [`2cfb0d9`](https://github.com/stdlib-js/stdlib/commit/2cfb0d9c76d02e409d5797e79a9450153bc98591) - add `blas/ext/base/cxdy` [(#13909)](https://github.com/stdlib-js/stdlib/pull/13909)
@@ -1196,6 +1204,16 @@ This release closes the following issue:
 
 <details>
 
+-   [`26a3841`](https://github.com/stdlib-js/stdlib/commit/26a38419fe800d3c0ceaaa7143cb44cba09b72a6) - **feat:** add `cxdy`, `gwxmy`, and `gwxsy` to namespace _(by Athan Reines)_
+-   [`2f0bfd9`](https://github.com/stdlib-js/stdlib/commit/2f0bfd9daf5c568fb88b5e7395795524f1eed6be) - **feat:** add `gindexOfGreaterThanEqualSorted` to namespace _(by Athan Reines)_
+-   [`49f9331`](https://github.com/stdlib-js/stdlib/commit/49f9331f4b8ef4ae8d6c3c48520bc3c455a4c395) - **feat:** add `blas/ext/base/ndarray/gwxmy` [(#15722)](https://github.com/stdlib-js/stdlib/pull/15722) _(by Karan Anand)_
+-   [`b699378`](https://github.com/stdlib-js/stdlib/commit/b6993780efafb65cdda9437ca3089e160070072c) - **feat:** add `blas/ext/base/ndarray/gwxsy` [(#15721)](https://github.com/stdlib-js/stdlib/pull/15721) _(by Karan Anand)_
+-   [`5a815ff`](https://github.com/stdlib-js/stdlib/commit/5a815ff598dacd840cf5730b1f09ebf895bf9ed4) - **feat:** add `blas/ext/base/ndarray/cxdy` [(#15720)](https://github.com/stdlib-js/stdlib/pull/15720) _(by Karan Anand)_
+-   [`d49d161`](https://github.com/stdlib-js/stdlib/commit/d49d161dba96a625042364aec6e561945ba6a29b) - **feat:** add `blas/ext/base/gindex-of-greater-than-equal-sorted` [(#15649)](https://github.com/stdlib-js/stdlib/pull/15649) _(by Sachin Pangal, Athan Reines)_
+-   [`4142981`](https://github.com/stdlib-js/stdlib/commit/414298163423cdbd514f26569e7de322d2129104) - **docs:** update Markdown equation elements _(by stdlib-bot)_
+-   [`b41c953`](https://github.com/stdlib-js/stdlib/commit/b41c953b185783768ac50677b4e07eeae0b84cdc) - **docs:** update Markdown equation SVGs _(by stdlib-bot)_
+-   [`8efc5bf`](https://github.com/stdlib-js/stdlib/commit/8efc5bf4327c5b42ad9b8ae0e9e9a4f29f2c60e0) - **feat:** update `blas/ext/base/ndarray` TypeScript declarations [(#15715)](https://github.com/stdlib-js/stdlib/pull/15715) _(by stdlib-bot)_
+-   [`4401374`](https://github.com/stdlib-js/stdlib/commit/44013748fd8d2c70b744d1d69c51b92b0c4de407) - **feat:** update `blas/ext/base` TypeScript declarations [(#15716)](https://github.com/stdlib-js/stdlib/pull/15716) _(by stdlib-bot)_
 -   [`e8bc27a`](https://github.com/stdlib-js/stdlib/commit/e8bc27acdd50c36c07cf45c9b0a72854f8410978) - **docs:** update namespace table of contents [(#15718)](https://github.com/stdlib-js/stdlib/pull/15718) _(by stdlib-bot)_
 -   [`329accc`](https://github.com/stdlib-js/stdlib/commit/329accce09162aceb420921a833245fe1ada53eb) - **feat:** add `cwxmy` and `zwxpy` to namespace _(by Athan Reines)_
 -   [`b25bb60`](https://github.com/stdlib-js/stdlib/commit/b25bb6041bfa031e74de312bade22775e228b983) - **feat:** add `cxdy` to namespace _(by Athan Reines)_
