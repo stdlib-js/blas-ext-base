@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`29d4df1`](https://github.com/stdlib-js/stdlib/commit/29d4df1baef0ff586bdb3e97cb7e92a06359a7a9) - update `blas/ext/base` TypeScript declarations [(#15785)](https://github.com/stdlib-js/stdlib/pull/15785)
 -   [`9eeec88`](https://github.com/stdlib-js/stdlib/commit/9eeec88f99326526ece6c402ebe2925dbc37895e) - add `swxsy` to namespace
 -   [`86b780e`](https://github.com/stdlib-js/stdlib/commit/86b780e2ee068e2c830930161e1e6a860ed8bc9f) - add `blas/ext/base/ndarray/swxsy` [(#15735)](https://github.com/stdlib-js/stdlib/pull/15735)
 -   [`7f13a75`](https://github.com/stdlib-js/stdlib/commit/7f13a756bbe2c18459838b268270799088a93f84) - add C implementation for `blas/ext/base/ndarray/zwxsa` [(#15728)](https://github.com/stdlib-js/stdlib/pull/15728)
@@ -1215,6 +1216,7 @@ This release closes the following issue:
 
 <details>
 
+-   [`29d4df1`](https://github.com/stdlib-js/stdlib/commit/29d4df1baef0ff586bdb3e97cb7e92a06359a7a9) - **feat:** update `blas/ext/base` TypeScript declarations [(#15785)](https://github.com/stdlib-js/stdlib/pull/15785) _(by stdlib-bot)_
 -   [`4bfb02c`](https://github.com/stdlib-js/stdlib/commit/4bfb02ce56992f440db55072676a0c73367b7f50) - **docs:** update namespace table of contents [(#15787)](https://github.com/stdlib-js/stdlib/pull/15787) _(by stdlib-bot)_
 -   [`fdee4d0`](https://github.com/stdlib-js/stdlib/commit/fdee4d0525083b9b56ff5ff7854431a59becd0e0) - **chore:** update keywords [(#15741)](https://github.com/stdlib-js/stdlib/pull/15741) _(by Philipp Burckhardt)_
 -   [`9eeec88`](https://github.com/stdlib-js/stdlib/commit/9eeec88f99326526ece6c402ebe2925dbc37895e) - **feat:** add `swxsy` to namespace _(by Athan Reines)_
