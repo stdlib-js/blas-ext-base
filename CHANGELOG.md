@@ -10,6 +10,12 @@
 
 ### Features
 
+-   [`7eae8dc`](https://github.com/stdlib-js/stdlib/commit/7eae8dcf9963b403f33b0058408d6b8837b2bb71) - add `dleftPadCircular` and `srightPadCircular` to namespace
+-   [`6d2216e`](https://github.com/stdlib-js/stdlib/commit/6d2216eb8cfec6b8ce37eccb704c378f7608a946) - add `dleftPadCircular` and `srightPadCircular` to namespace
+-   [`7430337`](https://github.com/stdlib-js/stdlib/commit/743033728b5e88413842ba104efa99fc2eceb819) - add `blas/ext/base/ndarray/sright-pad-circular` [(#15983)](https://github.com/stdlib-js/stdlib/pull/15983)
+-   [`cec8bc6`](https://github.com/stdlib-js/stdlib/commit/cec8bc6db95bf2cbe8ac5e25105bfee4830922f6) - add `blas/ext/base/sright-pad-circular` [(#15485)](https://github.com/stdlib-js/stdlib/pull/15485)
+-   [`7b13457`](https://github.com/stdlib-js/stdlib/commit/7b134577d1d42ac7e12953822dd8305cc2f598cb) - add `blas/ext/base/ndarray/dleft-pad-circular` [(#15975)](https://github.com/stdlib-js/stdlib/pull/15975)
+-   [`1923cbd`](https://github.com/stdlib-js/stdlib/commit/1923cbd0639d3a52c0d1b4dabca9e46a7d2b9002) - add `blas/ext/base/dleft-pad-circular` [(#15043)](https://github.com/stdlib-js/stdlib/pull/15043)
 -   [`c0fd430`](https://github.com/stdlib-js/stdlib/commit/c0fd430395d92995065dd3fc67d401daeb66aa43) - add various symbols to namespace
 -   [`3a61bdf`](https://github.com/stdlib-js/stdlib/commit/3a61bdf3421a16d3b0e49e4d1491096cca5ff617) - add `zwxdy` to namespace
 -   [`7b218b1`](https://github.com/stdlib-js/stdlib/commit/7b218b1754e6b8be72b20d305e736b1048c3bcd0) - add `blas/ext/base/zwxdy` [(#15729)](https://github.com/stdlib-js/stdlib/pull/15729)
@@ -1252,6 +1258,14 @@ This release closes the following issue:
 
 <details>
 
+-   [`7eae8dc`](https://github.com/stdlib-js/stdlib/commit/7eae8dcf9963b403f33b0058408d6b8837b2bb71) - **feat:** add `dleftPadCircular` and `srightPadCircular` to namespace _(by Athan Reines)_
+-   [`6d2216e`](https://github.com/stdlib-js/stdlib/commit/6d2216eb8cfec6b8ce37eccb704c378f7608a946) - **feat:** add `dleftPadCircular` and `srightPadCircular` to namespace _(by Athan Reines)_
+-   [`9461887`](https://github.com/stdlib-js/stdlib/commit/9461887b62bc66c1bb88d6d019d8e421306a3daf) - **docs:** fix notes _(by Athan Reines)_
+-   [`a800ae0`](https://github.com/stdlib-js/stdlib/commit/a800ae09acaf3af1ddc728ed50228189181795a7) - **docs:** fix examples and notes [(#16144)](https://github.com/stdlib-js/stdlib/pull/16144) _(by Philipp Burckhardt)_
+-   [`7430337`](https://github.com/stdlib-js/stdlib/commit/743033728b5e88413842ba104efa99fc2eceb819) - **feat:** add `blas/ext/base/ndarray/sright-pad-circular` [(#15983)](https://github.com/stdlib-js/stdlib/pull/15983) _(by Muhammad Haris)_
+-   [`cec8bc6`](https://github.com/stdlib-js/stdlib/commit/cec8bc6db95bf2cbe8ac5e25105bfee4830922f6) - **feat:** add `blas/ext/base/sright-pad-circular` [(#15485)](https://github.com/stdlib-js/stdlib/pull/15485) _(by Muhammad Haris)_
+-   [`7b13457`](https://github.com/stdlib-js/stdlib/commit/7b134577d1d42ac7e12953822dd8305cc2f598cb) - **feat:** add `blas/ext/base/ndarray/dleft-pad-circular` [(#15975)](https://github.com/stdlib-js/stdlib/pull/15975) _(by Muhammad Haris)_
+-   [`1923cbd`](https://github.com/stdlib-js/stdlib/commit/1923cbd0639d3a52c0d1b4dabca9e46a7d2b9002) - **feat:** add `blas/ext/base/dleft-pad-circular` [(#15043)](https://github.com/stdlib-js/stdlib/pull/15043) _(by Muhammad Haris)_
 -   [`c0fd430`](https://github.com/stdlib-js/stdlib/commit/c0fd430395d92995065dd3fc67d401daeb66aa43) - **feat:** add various symbols to namespace _(by Athan Reines)_
 -   [`3a61bdf`](https://github.com/stdlib-js/stdlib/commit/3a61bdf3421a16d3b0e49e4d1491096cca5ff617) - **feat:** add `zwxdy` to namespace _(by Athan Reines)_
 -   [`7b218b1`](https://github.com/stdlib-js/stdlib/commit/7b218b1754e6b8be72b20d305e736b1048c3bcd0) - **feat:** add `blas/ext/base/zwxdy` [(#15729)](https://github.com/stdlib-js/stdlib/pull/15729) _(by Karan Anand)_
