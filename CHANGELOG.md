@@ -10,6 +10,16 @@
 
 ### Features
 
+-   [`a31e89e`](https://github.com/stdlib-js/stdlib/commit/a31e89edbb5d68187735a224af5e2277f68784ba) - add `sindexOfLessThanEqual` and `dindexOfLessThanEqual` to namespace
+-   [`5026d4a`](https://github.com/stdlib-js/stdlib/commit/5026d4a536db17983e22fb6630eb004e3ffa4e5a) - add `sindexOfLessThanEqual` and `dindexOfLessThanEqual` to namespace
+-   [`564d0dd`](https://github.com/stdlib-js/stdlib/commit/564d0ddbe48ff22f9ef7ac8890d020f9cefcea60) - add `blas/ext/base/ndarray/sindex-of-less-than-equal` [(#15889)](https://github.com/stdlib-js/stdlib/pull/15889)
+-   [`0c5980c`](https://github.com/stdlib-js/stdlib/commit/0c5980c1d2d6a5bfb07df03b974665868a50751b) - add `blas/ext/base/sindex-of-less-than-equal` [(#14954)](https://github.com/stdlib-js/stdlib/pull/14954)
+-   [`4867aca`](https://github.com/stdlib-js/stdlib/commit/4867acae4dc5160de3c29b4d20f21bc360863dfb) - add `blas/ext/base/ndarray/dindex-of-less-than-equal` [(#15888)](https://github.com/stdlib-js/stdlib/pull/15888)
+-   [`ba23e07`](https://github.com/stdlib-js/stdlib/commit/ba23e079c7978562ce4cbc85a02e44d637ecc19f) - add `blas/ext/base/dindex-of-less-than-equal` [(#14956)](https://github.com/stdlib-js/stdlib/pull/14956)
+-   [`eee8997`](https://github.com/stdlib-js/stdlib/commit/eee8997d3ced6c8e3a8efcf4b21e00af6cd40642) - add C implementation for `blas/ext/base/ndarray/zwxsy` [(#16156)](https://github.com/stdlib-js/stdlib/pull/16156)
+-   [`9dc69d4`](https://github.com/stdlib-js/stdlib/commit/9dc69d49015e3cf152f08f687b4cf3e9c290aa5b) - add C implementation for `blas/ext/base/ndarray/dwxdy` [(#16151)](https://github.com/stdlib-js/stdlib/pull/16151)
+-   [`953b5e3`](https://github.com/stdlib-js/stdlib/commit/953b5e365b999a4d825b02ee8a9981f4b0d0bfad) - add C implementation for `blas/ext/base/ndarray/cwxsy` [(#16154)](https://github.com/stdlib-js/stdlib/pull/16154)
+-   [`f7adc11`](https://github.com/stdlib-js/stdlib/commit/f7adc11992e93e0e99a098c0a53a0057c61be783) - add C implementation for `blas/ext/base/ndarray/zwxpy` [(#16153)](https://github.com/stdlib-js/stdlib/pull/16153)
 -   [`7eae8dc`](https://github.com/stdlib-js/stdlib/commit/7eae8dcf9963b403f33b0058408d6b8837b2bb71) - add `dleftPadCircular` and `srightPadCircular` to namespace
 -   [`6d2216e`](https://github.com/stdlib-js/stdlib/commit/6d2216eb8cfec6b8ce37eccb704c378f7608a946) - add `dleftPadCircular` and `srightPadCircular` to namespace
 -   [`7430337`](https://github.com/stdlib-js/stdlib/commit/743033728b5e88413842ba104efa99fc2eceb819) - add `blas/ext/base/ndarray/sright-pad-circular` [(#15983)](https://github.com/stdlib-js/stdlib/pull/15983)
@@ -1258,6 +1268,16 @@ This release closes the following issue:
 
 <details>
 
+-   [`a31e89e`](https://github.com/stdlib-js/stdlib/commit/a31e89edbb5d68187735a224af5e2277f68784ba) - **feat:** add `sindexOfLessThanEqual` and `dindexOfLessThanEqual` to namespace _(by Athan Reines)_
+-   [`5026d4a`](https://github.com/stdlib-js/stdlib/commit/5026d4a536db17983e22fb6630eb004e3ffa4e5a) - **feat:** add `sindexOfLessThanEqual` and `dindexOfLessThanEqual` to namespace _(by Athan Reines)_
+-   [`564d0dd`](https://github.com/stdlib-js/stdlib/commit/564d0ddbe48ff22f9ef7ac8890d020f9cefcea60) - **feat:** add `blas/ext/base/ndarray/sindex-of-less-than-equal` [(#15889)](https://github.com/stdlib-js/stdlib/pull/15889) _(by Muhammad Haris)_
+-   [`0c5980c`](https://github.com/stdlib-js/stdlib/commit/0c5980c1d2d6a5bfb07df03b974665868a50751b) - **feat:** add `blas/ext/base/sindex-of-less-than-equal` [(#14954)](https://github.com/stdlib-js/stdlib/pull/14954) _(by Muhammad Haris, Athan Reines)_
+-   [`4867aca`](https://github.com/stdlib-js/stdlib/commit/4867acae4dc5160de3c29b4d20f21bc360863dfb) - **feat:** add `blas/ext/base/ndarray/dindex-of-less-than-equal` [(#15888)](https://github.com/stdlib-js/stdlib/pull/15888) _(by Muhammad Haris)_
+-   [`ba23e07`](https://github.com/stdlib-js/stdlib/commit/ba23e079c7978562ce4cbc85a02e44d637ecc19f) - **feat:** add `blas/ext/base/dindex-of-less-than-equal` [(#14956)](https://github.com/stdlib-js/stdlib/pull/14956) _(by Muhammad Haris, Athan Reines)_
+-   [`eee8997`](https://github.com/stdlib-js/stdlib/commit/eee8997d3ced6c8e3a8efcf4b21e00af6cd40642) - **feat:** add C implementation for `blas/ext/base/ndarray/zwxsy` [(#16156)](https://github.com/stdlib-js/stdlib/pull/16156) _(by Samarth Kolarkar)_
+-   [`9dc69d4`](https://github.com/stdlib-js/stdlib/commit/9dc69d49015e3cf152f08f687b4cf3e9c290aa5b) - **feat:** add C implementation for `blas/ext/base/ndarray/dwxdy` [(#16151)](https://github.com/stdlib-js/stdlib/pull/16151) _(by MJ)_
+-   [`953b5e3`](https://github.com/stdlib-js/stdlib/commit/953b5e365b999a4d825b02ee8a9981f4b0d0bfad) - **feat:** add C implementation for `blas/ext/base/ndarray/cwxsy` [(#16154)](https://github.com/stdlib-js/stdlib/pull/16154) _(by Samarth Kolarkar, Athan Reines)_
+-   [`f7adc11`](https://github.com/stdlib-js/stdlib/commit/f7adc11992e93e0e99a098c0a53a0057c61be783) - **feat:** add C implementation for `blas/ext/base/ndarray/zwxpy` [(#16153)](https://github.com/stdlib-js/stdlib/pull/16153) _(by MJ)_
 -   [`7eae8dc`](https://github.com/stdlib-js/stdlib/commit/7eae8dcf9963b403f33b0058408d6b8837b2bb71) - **feat:** add `dleftPadCircular` and `srightPadCircular` to namespace _(by Athan Reines)_
 -   [`6d2216e`](https://github.com/stdlib-js/stdlib/commit/6d2216eb8cfec6b8ce37eccb704c378f7608a946) - **feat:** add `dleftPadCircular` and `srightPadCircular` to namespace _(by Athan Reines)_
 -   [`9461887`](https://github.com/stdlib-js/stdlib/commit/9461887b62bc66c1bb88d6d019d8e421306a3daf) - **docs:** fix notes _(by Athan Reines)_
